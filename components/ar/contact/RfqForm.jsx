@@ -5,6 +5,7 @@
 // Layout is already right-to-left. Keep links starting with /ar.
 
 import { useState } from "react";
+import FormGuard, { useFormGuard } from "@/components/common/FormGuard";
 import { motion } from "framer-motion";
 import { Loader2, CheckCircle2, ArrowLeft } from "lucide-react";
 
@@ -53,6 +54,7 @@ export default function RfqForm() {
   });
   const [status, setStatus] = useState("idle"); // idle | submitting | success | error
   const [error, setError] = useState("");
+  const guard = useFormGuard(); // spam / bot protection
 
   const update = (field) => (e) =>
     setForm((f) => ({ ...f, [field]: e.target.value }));
@@ -74,7 +76,7 @@ export default function RfqForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, ...guard.fields() }),
       });
       const data = await res.json();
       if (!res.ok || !data.ok) {
@@ -82,8 +84,10 @@ export default function RfqForm() {
           data.error || "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
         );
       }
+      guard.reset();
       setStatus("success");
     } catch (err) {
+      guard.reset();
       setStatus("error");
       setError(err.message);
     }
@@ -279,6 +283,8 @@ export default function RfqForm() {
       {status === "error" && (
         <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
       )}
+
+      <FormGuard guard={guard} />
 
       <button
         type="submit"

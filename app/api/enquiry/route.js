@@ -1,44 +1,81 @@
 import { NextResponse } from "next/server";
+import { emailConfig } from "@/lib/email/config";
+import { deliver } from "@/lib/email/send";
+import { screen } from "@/lib/email/spam";
+import { teamEmail, customerEmail } from "@/lib/email/templates";
+import {
+  localeFrom, t, clientIp, clean, oneLine, isEmail, rateLimited,
+} from "@/lib/email/request";
 
-// General enquiry endpoint — kept separate from /api/contact (RFQ) since the
-// two forms serve different purposes and require different fields. Wire
-// this up to Resend (or your provider of choice) to actually deliver
-// messages — this stub validates the payload and logs it so the form is
-// fully functional end-to-end during development.
+// General enquiry — Contact Us page (English and Arabic).
 export async function POST(request) {
+  const locale = localeFrom(request);
+  const fail = (key, status = 400) =>
+    NextResponse.json({ ok: false, error: t(locale, key) }, { status });
+
+  let body;
   try {
-    const data = await request.json();
-
-    const required = ["name", "email", "message"];
-    const missing = required.filter((field) => !data?.[field]);
-    if (missing.length) {
-      return NextResponse.json(
-        { ok: false, error: `Missing required field(s): ${missing.join(", ")}` },
-        { status: 400 },
-      );
-    }
-
-    // Basic honeypot check — the form includes a hidden "company_website"
-    // field that real users never fill in.
-    if (data.company_website) {
-      return NextResponse.json({ ok: true });
-    }
-
-    console.log("[GENERAL ENQUIRY]", JSON.stringify(data, null, 2));
-
-    // TODO: send via Resend, e.g.:
-    // await resend.emails.send({
-    //   from: "enquiries@falcontechksa.com",
-    //   to: "info@falcontecksa.com",
-    //   subject: `New Enquiry — ${data.subject || "General"}`,
-    //   html: renderEnquiryEmail(data),
-    // });
-
-    return NextResponse.json({ ok: true });
-  } catch (err) {
-    return NextResponse.json(
-      { ok: false, error: "Invalid request" },
-      { status: 400 },
-    );
+    body = await request.json();
+  } catch {
+    return fail("invalid");
   }
+  if (!body || typeof body !== "object") return fail("invalid");
+
+  const data = {
+    name: oneLine(clean(body.name, 120)),
+    company: oneLine(clean(body.company, 160)),
+    email: clean(body.email, 200),
+    phone: clean(body.phone, 40),
+    subject: oneLine(clean(body.subject, 120)),
+    message: clean(body.message, 5000),
+  };
+
+  if (!data.name || !data.email || !data.message) return fail("missing");
+  if (!isEmail(data.email)) return fail("email");
+  if (String(body.message || "").length > 5000) return fail("tooLong");
+
+  const ip = clientIp(request);
+  if (rateLimited(ip)) return fail("rate", 429);
+
+  // Spam / bot checks — see lib/email/spam.js
+  const spam = await screen(request, body, {
+    name: data.name,
+    text: data.message,
+    email: data.email || data.mobile || "",
+    ip,
+  });
+  if (spam.block) {
+    console.info(`[spam] blocked (${spam.reason}) from ${ip}`);
+    if (spam.block === "silent") return NextResponse.json({ ok: true });
+    return fail(spam.reason.startsWith("turnstile") ? "verify" : "invalid");
+  }
+
+  const team = teamEmail({
+    heading: "New website enquiry",
+    rows: [
+      ["Name", data.name],
+      ["Company", data.company],
+      ["Email", data.email],
+      ["Phone", data.phone],
+      ["Subject", data.subject],
+    ],
+    message: { label: "Message", value: data.message },
+  });
+
+  const confirmation = customerEmail({
+    locale,
+    kind: "enquiry",
+    name: data.name,
+  });
+
+  const sent = await deliver({
+    to: emailConfig.enquiryTo,
+    subject: `Website enquiry: ${data.subject || "General"} — ${data.name}`,
+    replyTo: data.email,
+    team,
+    customer: { to: data.email, ...confirmation },
+    tag: "enquiry",
+  });
+
+  return sent ? NextResponse.json({ ok: true }) : fail("failed", 502);
 }
