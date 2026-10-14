@@ -1,0 +1,103 @@
+"use client";
+
+// ARABIC (RTL) VERSION — generated from the English file of the same path.
+// Text is still the English placeholder: replace each English string with Arabic.
+// Layout is already right-to-left. Keep links starting with /ar.
+
+import { motion } from "framer-motion";
+import {
+  Factory,
+  Flame,
+  ShieldCheck,
+  Wrench,
+  Snowflake,
+  ClipboardCheck,
+} from "lucide-react";
+
+const capabilities = [
+  {
+    icon: Factory,
+    title: "الهندسة والتصنيع والتوريد",
+    body: "أنظمة خزانات الألياف الزجاجية FRP/GRP والبولي إيثيلين والفولاذ، مصمّمة ومصنّعة وفقًا للسائل المخزَّن وظروف الموقع لديك.",
+  },
+  {
+    icon: Flame,
+    title: "العزل الحراري",
+    body: "عزل خزانات التخزين والأنابيب والمباني وغرف المعدات، بما في ذلك أنظمة الأيروجيل حيث تكون المساحة أو الوزن محدودين.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "الترميم وإعادة التأهيل",
+    body: "إصلاح التشققات والتدعيم الإنشائي وأنظمة التبطين التي تطيل العمر التشغيلي للخزانات والمنشآت القائمة.",
+  },
+  {
+    icon: Snowflake,
+    title: "تركيب وصيانة المبردات",
+    body: "تركيب المبردات الجديدة والتشغيل التجريبي والصيانة الوقائية وتشخيص الأعطال ضمن نطاقنا الفني المعتمد.",
+  },
+  {
+    icon: Wrench,
+    title: "الخدمات الصناعية",
+    body: "فحص الخزانات والصيانة الميكانيكية والطلاء الصناعي ودعم المعدات للمصانع والمنشآت.",
+  },
+  {
+    icon: ClipboardCheck,
+    title: "الفحص وضمان الجودة / ضبط الجودة (QA/QC)",
+    body: "فحص واختبار موثّقان في كل مرحلة — الاستلام، وأثناء التنفيذ، والإفراج النهائي، والتسليم.",
+  },
+];
+
+export default function CapabilitiesOverview() {
+  return (
+    <section className="w-full overflow-hidden bg-white dark:bg-neutral-950">
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
+        <div className="max-w-2xl">
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="inline-flex h-7 items-center rounded-full border border-neutral-300 px-4 dark:border-white/15"
+          >
+            <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
+              ماذا نقدّم
+            </span>
+          </motion.div>
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.08 }}
+            className="mt-5 text-[34px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[42px]"
+          >
+            قدرات صناعية متكاملة النطاق
+          </motion.h2>
+        </div>
+
+        <div className="mt-14 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
+          {capabilities.map((c, i) => {
+            const Icon = c.icon;
+            return (
+              <motion.div
+                key={c.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.5, delay: i * 0.05 }}
+                className="bg-white p-8 dark:bg-neutral-950"
+              >
+                <Icon size={30} strokeWidth={1.4} className="text-brand" />
+                <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
+                  {c.title}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
+                  {c.body}
+                </p>
+              </motion.div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}

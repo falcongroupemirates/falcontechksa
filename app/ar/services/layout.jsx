@@ -1,0 +1,35 @@
+// ARABIC (RTL) VERSION — generated from the English file of the same path.
+// Text is still the English placeholder: replace each English string with Arabic.
+// Layout is already right-to-left. Keep links starting with /ar.
+
+/*
+  SEO layout for every /services page.
+
+  The title template means each service or product page only needs to export
+  its own short `title` (and `description`) — this layout appends the brand
+  suffix and supplies shared Open Graph / Twitter defaults. Any site-wide
+  service SEO change (suffix, OG image, locale) is made here once.
+
+  Per-page metadata still wins for anything it sets explicitly, so a page can
+  override title, description, canonical, robots, etc. on its own.
+*/
+export const metadata = {
+  title: {
+    template: "%s | فالكون تكنولوجيز",
+    default: "حلول الخزانات والخدمات الصناعية | فالكون تكنولوجيز",
+  },
+  description:
+    "خزانات مصممة هندسيًا، وعزل حراري، وترميم وتبطين، وخدمات صناعية في المملكة العربية السعودية ودول الخليج.",
+  openGraph: {
+    siteName: "فالكون تكنولوجيز",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+};
+
+export default function ServicesLayout({ children }) {
+  return children;
+}
