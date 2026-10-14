@@ -10,23 +10,23 @@ import { Eye, Target, Compass, HeartHandshake } from "lucide-react";
 const cards = [
   {
     icon: Eye,
-    title: "Vision",
-    body: "To be the trusted industrial partner of choice across Saudi Arabia and the GCC for engineered tank systems, insulation, and industrial support services.",
+    title: "الرؤية",
+    body: "أن نكون الشريك الصناعي الموثوق والمفضّل في المملكة العربية السعودية ودول الخليج في أنظمة الخزانات الهندسية والعزل وخدمات الدعم الصناعي.",
   },
   {
     icon: Target,
-    title: "Mission",
-    body: "To deliver engineered, documented and reliable solutions — from material selection through manufacturing, installation and maintenance — for every project we take on.",
+    title: "الرسالة",
+    body: "تقديم حلول هندسية موثّقة وموثوقة — من اختيار المواد مرورًا بالتصنيع والتركيب ووصولًا إلى الصيانة — في كل مشروع نتولّاه.",
   },
   {
     icon: Compass,
-    title: "Values",
-    body: "Engineering integrity, documented quality, safety, and straightforward customer support, whether the client is a plant manager or an EPC contractor.",
+    title: "القيم",
+    body: "النزاهة الهندسية، والجودة الموثّقة، والسلامة، ودعم العملاء بوضوح ومباشرة، سواء كان العميل مدير مصنع أو مقاول EPC.",
   },
   {
     icon: HeartHandshake,
-    title: "HSE Commitment",
-    body: "Health, safety and environmental practice is built into every stage of our work, from site survey to final handover.",
+    title: "الالتزام بالصحة والسلامة والبيئة",
+    body: "ممارسات الصحة والسلامة والبيئة جزء أساسي من كل مرحلة من مراحل عملنا، من المسح الميداني وحتى التسليم النهائي.",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function ValuesSection() {
             className="inline-flex h-7 items-center rounded-full border border-neutral-300 px-4 dark:border-white/15"
           >
             <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-              Who We Are
+              من نحن
             </span>
           </motion.div>
           <motion.h2
@@ -62,7 +62,7 @@ export default function ValuesSection() {
             transition={{ duration: 0.7, delay: 0.08 }}
             className="mt-5 text-[34px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[42px]"
           >
-            Vision, Mission & Values
+            الرؤية والرسالة والقيم
           </motion.h2>
         </div>
 

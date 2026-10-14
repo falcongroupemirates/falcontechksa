@@ -98,14 +98,14 @@ export default function ShowcaseSlider() {
       {/* ---------- Prev / next arrows ---------- */}
       <button
         onClick={prev}
-        aria-label="Previous slide"
+        aria-label="الشريحة السابقة"
         className="absolute start-0 top-1/2 z-30 flex h-16 w-8 -translate-y-1/2 items-center justify-center bg-black/20 text-white transition-colors hover:bg-red-600/70"
       >
         <ChevronRight size={20} />
       </button>
       <button
         onClick={next}
-        aria-label="Next slide"
+        aria-label="الشريحة التالية"
         className="absolute end-0 top-1/2 z-30 flex h-16 w-8 -translate-y-1/2 items-center justify-center bg-black/20 text-white transition-colors hover:bg-red-600/70"
       >
         <ChevronLeft size={20} />
@@ -224,7 +224,7 @@ export default function ShowcaseSlider() {
             <button
               key={s.id}
               onClick={() => goTo(i)}
-              aria-label={`Go to slide ${i + 1}`}
+              aria-label={`الانتقال إلى الشريحة ${i + 1}`}
               className={`relative h-14 w-20 overflow-hidden border-2 transition-colors ${
                 i === index ? "border-red-600" : "border-transparent"
               }`}

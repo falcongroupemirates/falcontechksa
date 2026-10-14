@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/ar/services/industrial-services/equipment-support",
     languages: { en: "/services/industrial-services/equipment-support", ar: "/ar/services/industrial-services/equipment-support", "x-default": "/services/industrial-services/equipment-support" },
   },
-  "title": "Industrial Equipment Support Services in Saudi Arabia",
-  "description": "On-site industrial equipment support in Saudi Arabia — installation assistance, servicing and technical help within Falcon's approved scope. Falcon Technologies."
+  "title": "خدمات دعم المعدات الصناعية في المملكة العربية السعودية",
+  "description": "دعم ميداني للمعدات الصناعية في المملكة العربية السعودية — المساعدة في التركيب والخدمة والدعم الفني ضمن النطاق المعتمد لفالكون. فالكون تكنولوجيز."
 };
 
 export default function Page() {
@@ -27,12 +27,12 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Industrial Services"
-        title="Equipment Support"
-        description="On-site support for industrial equipment — installation assistance, servicing and technical help within Falcon's approved scope."
-        breadcrumb="Equipment Support"
+        eyebrow="الخدمات الصناعية"
+        title="دعم المعدات"
+        description="دعم ميداني للمعدات الصناعية — المساعدة في التركيب والخدمة والدعم الفني ضمن النطاق المعتمد لفالكون."
+        breadcrumb="دعم المعدات"
         image="/assets/images/services/equipment-support.png"
-        imageAlt="Equipment Support by Falcon Technologies in Saudi Arabia"
+        imageAlt="دعم المعدات من فالكون تكنولوجيز في المملكة العربية السعودية"
       />
 
       <section className="w-full bg-white dark:bg-neutral-950">
@@ -44,17 +44,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Industrial Services
+                الخدمات الصناعية
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Industrial Equipment Support
+                دعم المعدات الصناعية
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Equipment projects and operations often need extra hands and know-how. Falcon provides equipment support to help install, service and keep industrial equipment operating, working alongside your team and contractors.
+                كثيرًا ما تحتاج مشاريع المعدات وعملياتها إلى أيدٍ إضافية وخبرة. تقدم فالكون دعم المعدات للمساعدة في تركيب المعدات الصناعية وخدمتها والحفاظ على تشغيلها، بالعمل جنبًا إلى جنب مع فريقك ومقاوليك.
               </p>
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Support is provided only within the scope Falcon is technically equipped, licensed and authorized to execute, and is defined with you before work starts.
+                يُقدم الدعم فقط ضمن النطاق الذي تمتلك فالكون التجهيزات الفنية والترخيص والتفويض لتنفيذه، ويُحدد معك قبل بدء العمل.
               </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -62,21 +62,21 @@ export default function Page() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Request a Quote
+                اطلب عرض سعر
               </a>
               <a
                 href="/ar/technical-library"
                 className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
               >
-                Browse the Technical Library
+                تصفح المكتبة الفنية
               </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
-              <Image loading="eager" src="/assets/images/services/equipment-support.png" alt="Equipment Support by Falcon Technologies in Saudi Arabia" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <Image loading="eager" src="/assets/images/services/equipment-support.png" alt="دعم المعدات من فالكون تكنولوجيز في المملكة العربية السعودية" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Industrial Services
+                الخدمات الصناعية
               </span>
             </div>
           </div>
@@ -85,37 +85,37 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">What We Offer</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">ما نقدمه</h2>
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Installation support</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Assistance positioning and connecting equipment.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">دعم التركيب</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">المساعدة في تموضع المعدات وتوصيلها.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Servicing support</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Help with routine servicing and inspections.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">دعم الخدمة</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">المساعدة في الخدمة الدورية والفحوصات.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Technical assistance</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Experienced people on site to troubleshoot.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">المساعدة الفنية</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">كوادر ذات خبرة في الموقع لتشخيص الأعطال.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Project support</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Support for installation and shutdown work.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">دعم المشاريع</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">دعم أعمال التركيب والإيقاف.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Clear scope</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Responsibilities and limits agreed before we start.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">نطاق واضح</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">الاتفاق على المسؤوليات والحدود قبل البدء.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Records</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Work carried out documented as agreed.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">السجلات</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">توثيق الأعمال المنفذة حسب الاتفاق.</p>
             </div>
           </div>
         </div>
@@ -125,42 +125,42 @@ export default function Page() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
-              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Support Scope</h2>
+              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">نطاق الدعم</h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Installation assistance</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Positioning, connection and installation support</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">المساعدة في التركيب</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">دعم التموضع والتوصيل والتركيب</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Servicing</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Routine servicing and inspection support</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الخدمة</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">دعم الخدمة الدورية والفحص</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Technical support</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">On-site technical help and troubleshooting</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الدعم الفني</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">مساعدة فنية وتشخيص الأعطال في الموقع</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Coordination</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Working with your team, consultants and contractors</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التنسيق</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">العمل مع فريقك والاستشاريين والمقاولين</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Scope control</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Defined in advance and limited to approved capability</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">ضبط النطاق</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">محدد مسبقًا ومقتصر على القدرات المعتمدة</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Documentation</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Work records and reports as agreed</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التوثيق</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">سجلات العمل والتقارير حسب الاتفاق</dd>
               </div>
               </dl>
             </div>
             <div>
-              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">Where It&rsquo;s Used</h2>
+              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">مجالات الاستخدام</h2>
               <div className="mt-5 flex flex-wrap gap-2">
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Manufacturing</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Commercial &amp; industrial buildings</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Oil &amp; gas</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Power &amp; utilities</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Construction &amp; infrastructure</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">التصنيع</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">المباني التجارية والصناعية</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">النفط والغاز</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">الطاقة والمرافق</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">الإنشاءات والبنية التحتية</span>
               </div>
             </div>
           </div>
@@ -169,27 +169,27 @@ export default function Page() {
 
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">How We Provide Support</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">كيف نقدم الدعم</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">01</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Understand the requirement</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Equipment, task and site conditions.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">فهم المتطلبات</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">المعدات والمهمة وظروف الموقع.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">02</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Agree the scope</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Support defined within approved capability.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الاتفاق على النطاق</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تحديد الدعم ضمن القدرات المعتمدة.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">03</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Provide support</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Work carried out on site.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تقديم الدعم</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تنفيذ العمل في الموقع.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">04</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Record and hand over</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Records issued as agreed.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">التوثيق والتسليم</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">إصدار السجلات حسب الاتفاق.</p>
             </li>
           </ol>
         </div>
@@ -197,28 +197,28 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Frequently Asked Questions</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">الأسئلة الشائعة</h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                What kind of equipment support do you provide?
+                ما نوع دعم المعدات الذي تقدمونه؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Installation assistance, servicing support and on-site technical help, within Falcon's approved scope. Send the details and we confirm what we can support.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">المساعدة في التركيب، ودعم الخدمة، والمساعدة الفنية في الموقع، ضمن النطاق المعتمد لفالكون. أرسل لنا التفاصيل وسنؤكد ما يمكننا دعمه.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Do you work with other contractors?
+                هل تعملون مع مقاولين آخرين؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Yes. Support is coordinated with your team, consultants and other contractors on site.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">نعم. يُنسق الدعم مع فريقك والاستشاريين والمقاولين الآخرين في الموقع.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                How is the scope defined?
+                كيف يُحدد النطاق؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">The scope, responsibilities and limits are agreed in writing before work begins.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">يُتفق كتابيًا على النطاق والمسؤوليات والحدود قبل بدء العمل.</p>
             </details>
           </div>
         </div>

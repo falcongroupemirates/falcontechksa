@@ -17,33 +17,33 @@ import {
 const capabilities = [
   {
     icon: Factory,
-    title: "Engineering, Manufacturing & Supply",
-    body: "FRP/GRP, polyethylene and steel tank systems designed and fabricated around your stored liquid and site conditions.",
+    title: "الهندسة والتصنيع والتوريد",
+    body: "أنظمة خزانات الألياف الزجاجية FRP/GRP والبولي إيثيلين والفولاذ، مصمّمة ومصنّعة وفقًا للسائل المخزَّن وظروف الموقع لديك.",
   },
   {
     icon: Flame,
-    title: "Thermal Insulation",
-    body: "Storage tank, pipe, building and equipment room insulation, including aerogel systems where space or weight is constrained.",
+    title: "العزل الحراري",
+    body: "عزل خزانات التخزين والأنابيب والمباني وغرف المعدات، بما في ذلك أنظمة الأيروجيل حيث تكون المساحة أو الوزن محدودين.",
   },
   {
     icon: ShieldCheck,
-    title: "Restoration & Rehabilitation",
-    body: "Crack repair, structural reinforcement, and lining systems that extend the service life of existing tanks and structures.",
+    title: "الترميم وإعادة التأهيل",
+    body: "إصلاح التشققات والتدعيم الإنشائي وأنظمة التبطين التي تطيل العمر التشغيلي للخزانات والمنشآت القائمة.",
   },
   {
     icon: Snowflake,
-    title: "Chiller Installation & Maintenance",
-    body: "New chiller installation, commissioning, preventive maintenance and troubleshooting within our approved technical scope.",
+    title: "تركيب وصيانة المبردات",
+    body: "تركيب المبردات الجديدة والتشغيل التجريبي والصيانة الوقائية وتشخيص الأعطال ضمن نطاقنا الفني المعتمد.",
   },
   {
     icon: Wrench,
-    title: "Industrial Services",
-    body: "Tank inspection, mechanical maintenance, industrial coating, and equipment support for plants and facilities.",
+    title: "الخدمات الصناعية",
+    body: "فحص الخزانات والصيانة الميكانيكية والطلاء الصناعي ودعم المعدات للمصانع والمنشآت.",
   },
   {
     icon: ClipboardCheck,
-    title: "Inspection & QA/QC",
-    body: "Documented inspection and testing at every stage — receiving, in-process, final release and handover.",
+    title: "الفحص وضمان الجودة / ضبط الجودة (QA/QC)",
+    body: "فحص واختبار موثّقان في كل مرحلة — الاستلام، وأثناء التنفيذ، والإفراج النهائي، والتسليم.",
   },
 ];
 
@@ -60,7 +60,7 @@ export default function CapabilitiesOverview() {
             className="inline-flex h-7 items-center rounded-full border border-neutral-300 px-4 dark:border-white/15"
           >
             <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-              What We Do
+              ماذا نقدّم
             </span>
           </motion.div>
           <motion.h2
@@ -70,7 +70,7 @@ export default function CapabilitiesOverview() {
             transition={{ duration: 0.7, delay: 0.08 }}
             className="mt-5 text-[34px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[42px]"
           >
-            Full-Scope Industrial Capability
+            قدرات صناعية متكاملة النطاق
           </motion.h2>
         </div>
 

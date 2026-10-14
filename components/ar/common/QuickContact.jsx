@@ -45,13 +45,13 @@ export default function QuickContact() {
     <div className="fixed bottom-5 start-4 z-50 flex flex-col gap-3 sm:bottom-7 sm:start-6">
       <Bubble
         href={WHATSAPP_URL}
-        label="Chat on WhatsApp"
+        label="تواصل عبر واتساب"
         external
         bg="bg-[#25D366] hover:bg-[#1ebe5a]"
       >
         <FaWhatsapp size={26} />
       </Bubble>
-      <Bubble href={PHONE_URL} label="Call us" bg="bg-brand hover:bg-brand-dark">
+      <Bubble href={PHONE_URL} label="اتصل بنا" bg="bg-brand hover:bg-brand-dark">
         <Phone size={22} strokeWidth={2} />
       </Bubble>
     </div>

@@ -21,9 +21,9 @@ export const metadata = {
     canonical: "/ar/services/survey-scanning",
     languages: { en: "/services/survey-scanning", ar: "/ar/services/survey-scanning", "x-default": "/services/survey-scanning" },
   },
-  title: "Surveying & 3D Scanning Services in Saudi Arabia",
+  title: "خدمات المساحة والمسح ثلاثي الأبعاد في المملكة العربية السعودية",
   description:
-    "3D laser scanning, as-built surveys, Scan to BIM, BIM modelling and reverse engineering in Saudi Arabia \u2014 existing plants, buildings and components captured once and delivered as drawings, BIM models or CAD.",
+    "المسح الليزري ثلاثي الأبعاد، ومسح الوضع القائم، والتحويل من المسح إلى BIM، ونمذجة BIM، والهندسة العكسية في المملكة العربية السعودية — التقاط المحطات والمباني والمكونات القائمة مرة واحدة وتسليمها كمخططات أو نماذج BIM أو CAD.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -38,137 +38,137 @@ const heroImage = "/assets/images/services/survey-scanning.png";
 // First item is the large feature tile.
 const ranges = [
   {
-    name: "3D Laser Scanning",
+    name: "المسح الليزري ثلاثي الأبعاد",
     href: "/ar/services/survey-scanning/3d-laser-scanning",
     image: "/assets/images/services/3d-laser-scanning.jpg",
-    alt: "3D laser scanner capturing an industrial plant in Saudi Arabia",
-    meta: "The capture",
-    desc: "Millions of measured points per setup — the whole space recorded, not just the dimensions someone remembered to take.",
+    alt: "ماسح ليزري ثلاثي الأبعاد يلتقط محطة صناعية في المملكة العربية السعودية",
+    meta: "الالتقاط",
+    desc: "ملايين النقاط المقاسة في كل موضع — تسجيل المساحة بالكامل، لا مجرد الأبعاد التي تذكّر أحدهم أخذها.",
   },
   {
-    name: "As-Built Survey",
+    name: "مسح الوضع القائم (As-Built)",
     href: "/ar/services/survey-scanning/as-built-survey",
     image: "/assets/images/services/as-built-survey.jpg",
-    alt: "As-built survey drawings produced from a 3D scan",
-    meta: "2D drawings",
-    desc: "Plans, sections and elevations of what is actually there — including modifications nobody recorded.",
+    alt: "مخططات مسح الوضع القائم المُنتجة من مسح ثلاثي الأبعاد",
+    meta: "مخططات ثنائية الأبعاد",
+    desc: "مساقط أفقية وقطاعات وواجهات لما هو موجود فعليًا — بما في ذلك التعديلات التي لم يوثقها أحد.",
   },
   {
-    name: "Scan to BIM",
+    name: "التحويل من المسح إلى BIM",
     href: "/ar/services/survey-scanning/scan-to-bim",
     image: "/assets/images/services/scan-to-bim.jpg",
-    alt: "Point cloud converted into a parametric BIM model",
-    meta: "BIM model from the scan",
-    desc: "Point cloud converted into a parametric model, at a level of detail agreed element by element.",
+    alt: "سحابة نقاط محوّلة إلى نموذج BIM بارامتري",
+    meta: "نموذج BIM من المسح",
+    desc: "سحابة نقاط محوّلة إلى نموذج بارامتري، بمستوى تفصيل متفق عليه لكل عنصر.",
   },
   {
-    name: "BIM Modelling",
+    name: "نمذجة BIM",
     href: "/ar/services/survey-scanning/bim-modelling",
     image: "/assets/images/services/bim-modelling.jpg",
-    alt: "Coordinated BIM model with architectural, structural and MEP disciplines",
-    meta: "Coordinated models",
-    desc: "Models from drawings, design intent, vendor data or scans — coordinated so clashes surface in the model, not on site.",
+    alt: "نموذج BIM منسّق يشمل التخصصات المعمارية والإنشائية وMEP",
+    meta: "نماذج منسّقة",
+    desc: "نماذج من المخططات أو مفهوم التصميم أو بيانات الموردين أو المسوحات — منسّقة لتظهر التعارضات في النموذج لا في الموقع.",
   },
   {
-    name: "Reverse Engineering",
+    name: "الهندسة العكسية",
     href: "/ar/services/survey-scanning/reverse-engineering",
     image: "/assets/images/services/reverse-engineering-scanning.jpg",
-    alt: "Industrial component scanned and rebuilt as an editable CAD model",
-    meta: "Editable CAD",
-    desc: "Obsolete or undocumented components scanned and rebuilt as editable CAD.",
+    alt: "مكوّن صناعي ممسوح أُعيد بناؤه كنموذج CAD قابل للتعديل",
+    meta: "CAD قابل للتعديل",
+    desc: "مسح المكونات المتقادمة أو غير الموثقة وإعادة بنائها كنماذج CAD قابلة للتعديل.",
   },
 ];
 
 // Comparison table: one column per option, one row per question.
 const compareColumns = [
   {
-    name: "As-built drawings",
+    name: "مخططات الوضع القائم",
     href: "/ar/services/survey-scanning/as-built-survey",
   },
   {
-    name: "BIM model",
+    name: "نموذج BIM",
     href: "/ar/services/survey-scanning/scan-to-bim",
   },
   {
-    name: "CAD solids",
+    name: "مجسمات CAD",
     href: "/ar/services/survey-scanning/reverse-engineering",
   },
 ];
 
 const comparison = [
   [
-    "Best for",
-    "Permits, maintenance records and 2D design work",
-    "Design, coordination and facility management",
-    "Replacement parts, modifications and manufacturing",
+    "الأنسب لـ",
+    "التصاريح وسجلات الصيانة وأعمال التصميم ثنائية الأبعاد",
+    "التصميم والتنسيق وإدارة المرافق",
+    "قطع الغيار والتعديلات والتصنيع",
   ],
   [
-    "You receive",
-    "Coordinated 2D drawing set to your CAD standard",
-    "Parametric BIM model, deviation-checked to the cloud",
-    "Editable parametric CAD, drawings and deviation report",
+    "ما تحصل عليه",
+    "مجموعة مخططات ثنائية الأبعاد منسّقة وفق معيار CAD الخاص بكم",
+    "نموذج BIM بارامتري مع فحص الانحراف مقابل السحابة",
+    "CAD بارامتري قابل للتعديل ومخططات وتقرير انحراف",
   ],
-  ["Typical formats", "DWG, DXF, PDF", "RVT, IFC, NWC", "STEP, IGES, STL, DWG"],
-  ["Service", "As-Built Survey", "Scan to BIM or BIM Modelling", "Reverse Engineering"],
+  ["الصيغ المعتادة", "DWG، DXF، PDF", "RVT، IFC، NWC", "STEP، IGES، STL، DWG"],
+  ["الخدمة", "مسح الوضع القائم (As-Built)", "التحويل من المسح إلى BIM أو نمذجة BIM", "الهندسة العكسية"],
 ];
 
 const process = [
   {
-    title: "Scope and scan plan",
-    desc: "Area, purpose, accuracy and deliverables agreed before anyone goes to site.",
+    title: "النطاق وخطة المسح",
+    desc: "الاتفاق على المنطقة والغرض والدقة والمخرجات قبل التوجه إلى الموقع.",
   },
   {
-    title: "Site capture",
-    desc: "Scanning carried out under your permits, with minimal disruption to operations.",
+    title: "الالتقاط في الموقع",
+    desc: "تنفيذ المسح وفق تصاريحكم، بأقل قدر من التعطيل للعمليات.",
   },
   {
-    title: "Registration and QA",
-    desc: "Setups registered into one point cloud and checked against the agreed tolerance.",
+    title: "التسجيل وضمان الجودة",
+    desc: "تسجيل المواضع في سحابة نقاط واحدة والتحقق منها وفق التفاوت المتفق عليه.",
   },
   {
-    title: "Drafting or modelling",
-    desc: "Drawings, BIM models or CAD built directly from the measured geometry.",
+    title: "الرسم أو النمذجة",
+    desc: "مخططات أو نماذج BIM أو CAD تُبنى مباشرةً من البيانات الهندسية المقاسة.",
   },
   {
-    title: "Delivery and support",
-    desc: "Files issued in the agreed formats, with the cloud kept for later questions.",
+    title: "التسليم والدعم",
+    desc: "إصدار الملفات بالصيغ المتفق عليها، مع الاحتفاظ بالسحابة للاستفسارات اللاحقة.",
   },
 ];
 
 const industries = [
-  "Process plants and piping",
-  "Tanks, vessels and equipment",
-  "Buildings and facilities",
-  "Plant modifications and retrofits",
-  "Shutdown and turnaround planning",
-  "Obsolete spare parts",
+  "محطات العمليات والأنابيب",
+  "الخزانات والأوعية والمعدات",
+  "المباني والمنشآت",
+  "تعديلات المحطات وتحديثها",
+  "تخطيط فترات الإيقاف والصيانة الشاملة",
+  "قطع الغيار المتقادمة",
 ];
 
 const tags = ["E57", "RCP / RCS", "DWG", "DXF", "PDF", "RVT", "IFC", "NWC / NWD", "STEP", "IGES", "STL"];
 
 const related = [
-  { label: "Tank Solutions", icon: Factory, href: "/ar/services/tank-solutions" },
-  { label: "Thermal Insulation", icon: Flame, href: "/ar/services/thermal-insulation" },
-  { label: "Tank Restoration & Lining", icon: ShieldCheck, href: "/ar/services/tank-restoration-lining" },
-  { label: "Industrial Services", icon: Wrench, href: "/ar/services/industrial-services" },
+  { label: "حلول الخزانات", icon: Factory, href: "/ar/services/tank-solutions" },
+  { label: "العزل الحراري", icon: Flame, href: "/ar/services/thermal-insulation" },
+  { label: "ترميم وتبطين الخزانات", icon: ShieldCheck, href: "/ar/services/tank-restoration-lining" },
+  { label: "الخدمات الصناعية", icon: Wrench, href: "/ar/services/industrial-services" },
 ];
 
 const faqs = [
   {
-    q: "Which surveying service do I need?",
-    a: "Tell us what the information is for. If you need drawings, an as-built survey; a model for design or coordination, Scan to BIM or BIM modelling; a replacement part, reverse engineering. All of them start from a 3D laser scan of the existing asset.",
+    q: "ما خدمة المساحة التي أحتاجها؟",
+    a: "أخبرونا بالغرض من المعلومات. إذا كنتم بحاجة إلى مخططات، فمسح الوضع القائم؛ وإذا احتجتم نموذجًا للتصميم أو التنسيق، فالتحويل من المسح إلى BIM أو نمذجة BIM؛ وإذا احتجتم قطعة بديلة، فالهندسة العكسية. وجميعها تبدأ بمسح ليزري ثلاثي الأبعاد للأصل القائم.",
   },
   {
-    q: "Can one scan be used for more than one deliverable?",
-    a: "Yes. The registered point cloud is kept, so drawings, a BIM model or CAD can be produced from the same capture — often without returning to site, provided the original scan covered the area.",
+    q: "هل يمكن استخدام مسح واحد لأكثر من مُخرَج؟",
+    a: "نعم. يتم الاحتفاظ بسحابة النقاط المسجّلة، لذا يمكن إنتاج المخططات أو نموذج BIM أو CAD من الالتقاط نفسه — غالبًا دون العودة إلى الموقع، بشرط أن يكون المسح الأصلي قد غطى المنطقة.",
   },
   {
-    q: "Can you scan while the facility is operating?",
-    a: "Usually, yes. Laser scanning is non-contact, so most areas can be captured while the site runs, subject to your permits, safety rules and access.",
+    q: "هل يمكنكم المسح أثناء تشغيل المنشأة؟",
+    a: "نعم، في الغالب. المسح الليزري لا يتطلب التلامس، لذا يمكن التقاط معظم المناطق أثناء تشغيل الموقع، وفقًا لتصاريحكم وقواعد السلامة وإمكانية الوصول.",
   },
   {
-    q: "How accurate are the results?",
-    a: "The accuracy the project needs is agreed in the scan plan and confirmed in the registration report and, for models, a deviation check against the cloud. We don't quote one figure for every site.",
+    q: "ما مدى دقة النتائج؟",
+    a: "يتم الاتفاق على الدقة التي يحتاجها المشروع في خطة المسح، وتأكيدها في تقرير التسجيل، وفي حالة النماذج عبر فحص الانحراف مقابل السحابة. فنحن لا نعطي رقمًا واحدًا لكل المواقع.",
   },
 ];
 
@@ -177,15 +177,15 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      serviceType: "Surveying & 3D Scanning",
-      name: "Surveying & 3D Scanning Services",
+      serviceType: "المساحة والمسح ثلاثي الأبعاد",
+      name: "خدمات المساحة والمسح ثلاثي الأبعاد",
       description:
-        "3D laser scanning, as-built surveys, Scan to BIM, BIM modelling and reverse engineering.",
-      areaServed: "Saudi Arabia",
-      provider: { "@type": "Organization", name: "Falcon Technologies" },
+        "المسح الليزري ثلاثي الأبعاد، ومسح الوضع القائم، والتحويل من المسح إلى BIM، ونمذجة BIM، والهندسة العكسية.",
+      areaServed: "المملكة العربية السعودية",
+      provider: { "@type": "Organization", name: "فالكون تكنولوجيز" },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Surveying services",
+        name: "خدمات المساحة",
         itemListElement: ranges.map((r) => ({
           "@type": "Offer",
           itemOffered: { "@type": "Service", name: r.name, description: r.desc },
@@ -216,12 +216,12 @@ export default function SurveyScanningPage() {
       />
 
       <PageHero
-        eyebrow="Services"
-        title="Surveying & 3D Scanning Services"
-        description="Retrofit work fails on bad dimensions. We scan existing plants, buildings and components, then deliver as-built drawings, BIM models or CAD solids from the same captured reality."
-        breadcrumb="Surveying & 3D Scanning"
+        eyebrow="الخدمات"
+        title="خدمات المساحة والمسح ثلاثي الأبعاد"
+        description="تفشل أعمال التحديث بسبب الأبعاد الخاطئة. لذلك نمسح المحطات والمباني والمكونات القائمة، ثم نسلّم مخططات الوضع القائم أو نماذج BIM أو مجسمات CAD من نفس الواقع الملتقط."
+        breadcrumb="المساحة والمسح ثلاثي الأبعاد"
         image={heroImage}
-        imageAlt="Surveying and 3D laser scanning of an existing industrial facility"
+        imageAlt="المساحة والمسح الليزري ثلاثي الأبعاد لمنشأة صناعية قائمة"
       />
 
       {/* ============ SERVICES — image-led index ============ */}
@@ -229,10 +229,10 @@ export default function SurveyScanningPage() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:items-end lg:gap-16">
             <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-              Captured once, delivered as drawings, BIM or CAD
+              التقاط واحد، وتسليم كمخططات أو BIM أو CAD
             </h2>
             <p className="max-w-xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-              Every project starts with a 3D laser scan of what is actually there. From that one registered point cloud we produce the deliverable the work needs — and another can be added later without going back to site, provided the scan covered the area.
+              يبدأ كل مشروع بمسح ليزري ثلاثي الأبعاد لما هو موجود فعليًا. ومن سحابة النقاط المسجّلة الواحدة ننتج المُخرَج الذي يحتاجه العمل — ويمكن إضافة مُخرَج آخر لاحقًا دون العودة إلى الموقع، بشرط أن يكون المسح قد غطى المنطقة.
             </p>
           </div>
 
@@ -260,7 +260,7 @@ export default function SurveyScanningPage() {
                   {feature.desc}
                 </p>
                 <span className="mt-6 inline-flex items-center gap-1.5 border-b border-white/60 pb-0.5 text-sm font-semibold text-white transition-colors group-hover:border-brand group-hover:text-white">
-                  View {feature.name}
+                  عرض {feature.name}
                   <ArrowUpLeft
                     size={15}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -305,10 +305,10 @@ export default function SurveyScanningPage() {
             <div className="flex flex-col justify-between rounded-sm bg-mist p-6 dark:bg-neutral-900 sm:p-8 md:col-span-2 lg:col-span-1">
               <div>
                 <h3 className="text-2xl font-normal tracking-tight text-ink dark:text-white">
-                  Not sure which deliverable you need?
+                  لست متأكدًا من المُخرَج الذي تحتاجه؟
                 </h3>
                 <p className="mt-3 max-w-lg text-base leading-relaxed text-steel dark:text-white/60">
-                  Tell us what the information is for and roughly how big the area is. We&rsquo;ll scope the scan and the deliverable together.
+                  أخبرنا بالغرض من المعلومات والحجم التقريبي للمنطقة، وسنحدد نطاق المسح والمُخرَج معًا.
                 </p>
               </div>
               <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -316,13 +316,13 @@ export default function SurveyScanningPage() {
                   href="/ar/request-a-quote"
                   className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
                 >
-                  Request a Quote
+                  اطلب عرض سعر
                 </Link>
                 <Link
                   href="/ar/contact-us"
                   className="border-b border-ink/30 pb-0.5 text-sm font-semibold text-ink transition-colors hover:border-brand hover:text-brand dark:border-white/30 dark:text-white"
                 >
-                  Talk to an engineer
+                  تحدث إلى مهندس
                 </Link>
               </div>
             </div>
@@ -334,10 +334,10 @@ export default function SurveyScanningPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Drawings, BIM model or CAD?
+            مخططات أم نموذج BIM أم CAD؟
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-            All three come from the same scan. Choose by what the information is for; final formats are agreed in the scope.
+            الثلاثة تأتي من المسح نفسه. اختر حسب الغرض من المعلومات؛ ويتم الاتفاق على الصيغ النهائية ضمن النطاق.
           </p>
 
           {/* Phones: one stacked block per option */}
@@ -379,7 +379,7 @@ export default function SurveyScanningPage() {
               <thead>
                 <tr className="border-b-2 border-ink dark:border-white/40">
                   <th scope="col" className="w-1/4 py-4 pe-6 text-sm font-medium text-steel dark:text-white/50">
-                    <span className="sr-only">Question</span>
+                    <span className="sr-only">السؤال</span>
                   </th>
                   {compareColumns.map((m) => (
                     <th key={m.name} scope="col" className="py-4 pe-6 align-bottom">
@@ -426,7 +426,7 @@ export default function SurveyScanningPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            From site to deliverable
+            من الموقع إلى المُخرَج
           </h2>
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
             {process.map((s, i) => (
@@ -451,7 +451,7 @@ export default function SurveyScanningPage() {
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-14 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Where it&rsquo;s used
+              مجالات الاستخدام
             </h2>
             <ul className="mt-6 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2">
               {industries.map((a) => (
@@ -463,7 +463,7 @@ export default function SurveyScanningPage() {
           </div>
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Typical file formats
+              صيغ الملفات المعتادة
             </h2>
             <div className="mt-6 flex flex-wrap gap-2">
               {tags.map((s) => (
@@ -473,7 +473,7 @@ export default function SurveyScanningPage() {
               ))}
             </div>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/45">
-              Final formats are agreed in the scope to suit your software and standards.
+              يتم الاتفاق على الصيغ النهائية ضمن النطاق بما يناسب برامجكم ومعاييركم.
             </p>
           </div>
         </div>
@@ -483,7 +483,7 @@ export default function SurveyScanningPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Frequently asked questions
+            الأسئلة الشائعة
           </h2>
           <div className="border-t border-neutral-200 dark:border-white/10 lg:col-span-2">
             {faqs.map((f) => (
@@ -508,7 +508,7 @@ export default function SurveyScanningPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0">
           <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-            Related services
+            خدمات ذات صلة
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {related.map((r) => {

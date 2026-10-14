@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/ar/services/industrial-services/chiller-installation-maintenance/new-installation",
     languages: { en: "/services/industrial-services/chiller-installation-maintenance/new-installation", ar: "/ar/services/industrial-services/chiller-installation-maintenance/new-installation", "x-default": "/services/industrial-services/chiller-installation-maintenance/new-installation" },
   },
-  "title": "New Chiller Installation | Chiller Installation & Maintenance",
-  "description": "Positioning, piping, commissioning and start-up for new or replacement chillers."
+  "title": "تركيب مبردات جديدة | تركيب وصيانة المبردات",
+  "description": "التموضع ومد الأنابيب والتشغيل التجريبي وبدء التشغيل للمبردات الجديدة أو البديلة."
 };
 
 export default function Page() {
@@ -27,12 +27,12 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Industrial Services — Chiller Installation & Maintenance"
-        title="New Chiller Installation"
-        description="Positioning, piping, commissioning and start-up for new or replacement chillers."
-        breadcrumb="New Chiller Installation"
+        eyebrow="الخدمات الصناعية — تركيب وصيانة المبردات"
+        title="تركيب مبردات جديدة"
+        description="التموضع ومد الأنابيب والتشغيل التجريبي وبدء التشغيل للمبردات الجديدة أو البديلة."
+        breadcrumb="تركيب مبردات جديدة"
         image="/assets/images/services/chiller-installation.png"
-        imageAlt="New Chiller Installation by Falcon Technologies in Saudi Arabia"
+        imageAlt="تركيب مبردات جديدة من فالكون تكنولوجيز في المملكة العربية السعودية"
       />
 
       <section className="w-full bg-white dark:bg-neutral-950">
@@ -44,17 +44,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Chiller Installation &amp; Maintenance
+                تركيب وصيانة المبردات
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                New Chiller Installation
+                تركيب مبردات جديدة
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Covers new chiller installation, positioning, replacement and upgrade support, along with the mechanical piping and connection work associated with installation, within Falcon's approved scope.
+                يشمل تركيب المبردات الجديدة وتموضعها ودعم الاستبدال والتحديث، إلى جانب أعمال الأنابيب الميكانيكية والتوصيلات المرتبطة بالتركيب، ضمن النطاق المعتمد لفالكون.
               </p>
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Commissioning and start-up assistance follows, confirming the unit is running to manufacturer specification before handover.
+                يلي ذلك المساعدة في التشغيل التجريبي وبدء التشغيل، للتأكد من أن الوحدة تعمل وفق مواصفات الشركة المصنعة قبل التسليم.
               </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -62,21 +62,21 @@ export default function Page() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Request a Quote
+                اطلب عرض سعر
               </a>
               <a
                 href="/ar/services/industrial-services/chiller-installation-maintenance"
                 className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
               >
-                See all Chiller Installation &amp; Maintenance
+                عرض كل خدمات تركيب وصيانة المبردات
               </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
-              <Image loading="eager" src="/assets/images/services/chiller-installation.png" alt="New Chiller Installation by Falcon Technologies in Saudi Arabia" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <Image loading="eager" src="/assets/images/services/chiller-installation.png" alt="تركيب مبردات جديدة من فالكون تكنولوجيز في المملكة العربية السعودية" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Chiller Installation &amp; Maintenance
+                تركيب وصيانة المبردات
               </span>
             </div>
           </div>
@@ -87,32 +87,32 @@ export default function Page() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
-              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Specification</h2>
+              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">المواصفات</h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Scope</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Positioning, piping/connection support, commissioning, start-up</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">النطاق</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">التموضع، ودعم الأنابيب/التوصيلات، والتشغيل التجريبي، وبدء التشغيل</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Coverage</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">New installation, replacement and upgrades</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التغطية</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">التركيب الجديد والاستبدال والتحديث</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Authorization</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Within Falcon's approved and authorized scope</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التفويض</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">ضمن النطاق المعتمد والمصرح به لفالكون</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Handover</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Commissioning records and start-up confirmation</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التسليم</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">سجلات التشغيل التجريبي وتأكيد بدء التشغيل</dd>
               </div>
               </dl>
             </div>
             <div>
-              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">Where It&rsquo;s Used</h2>
+              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">مجالات الاستخدام</h2>
               <div className="mt-5 flex flex-wrap gap-2">
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Manufacturing</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Commercial &amp; industrial buildings</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Power &amp; utilities</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">التصنيع</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">المباني التجارية والصناعية</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">الطاقة والمرافق</span>
               </div>
             </div>
           </div>
@@ -121,21 +121,21 @@ export default function Page() {
 
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Frequently Asked Questions</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">الأسئلة الشائعة</h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Do you install chillers from any manufacturer?
+                هل تقومون بتركيب مبردات من أي شركة مصنعة؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Scope depends on the make/model and Falcon's approved and authorized scope — share the details and we confirm.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">يعتمد النطاق على الطراز/الموديل وعلى النطاق المعتمد والمصرح به لفالكون — شاركنا التفاصيل وسنؤكد لك.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Is commissioning included?
+                هل التشغيل التجريبي مشمول؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Yes, commissioning and start-up assistance are part of new installation and replacement work.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">نعم، المساعدة في التشغيل التجريبي وبدء التشغيل جزء من أعمال التركيب الجديد والاستبدال.</p>
             </details>
           </div>
         </div>
@@ -143,14 +143,14 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Other Chiller Installation &amp; Maintenance Types</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">أنواع أخرى من تركيب وصيانة المبردات</h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             <a href="/ar/services/industrial-services/chiller-installation-maintenance/preventive-maintenance" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Preventive Maintenance</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">الصيانة الوقائية</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
             <a href="/ar/services/industrial-services/chiller-installation-maintenance/troubleshooting-repair" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Troubleshooting &amp; Repair</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">تشخيص الأعطال والإصلاح</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
           </div>

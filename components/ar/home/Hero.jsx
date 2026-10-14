@@ -151,14 +151,14 @@ export default function Hero() {
       >
         <button
           onClick={prev}
-          aria-label="Previous slide"
+          aria-label="الشريحة السابقة"
           className="flex h-11 w-11 skew-x-12 items-center justify-center rounded-sm bg-red-600 text-white transition-colors hover:bg-red-700"
         >
           <ArrowDownLeft size={18} className="-rotate-90" />
         </button>
         <button
           onClick={next}
-          aria-label="Next slide"
+          aria-label="الشريحة التالية"
           className="flex h-11 w-11 skew-x-12 items-center justify-center rounded-sm bg-white text-neutral-900 transition-colors hover:bg-red-600 hover:text-white"
         >
           <ArrowDownLeft size={18} />
@@ -168,14 +168,14 @@ export default function Hero() {
       <div className="absolute bottom-6 start-6 z-30 flex gap-2 lg:hidden">
         <button
           onClick={prev}
-          aria-label="Previous slide"
+          aria-label="الشريحة السابقة"
           className="flex h-10 w-10 items-center justify-center rounded-sm bg-red-600 text-white"
         >
           <ArrowDownLeft size={16} className="-rotate-90" />
         </button>
         <button
           onClick={next}
-          aria-label="Next slide"
+          aria-label="الشريحة التالية"
           className="flex h-10 w-10 items-center justify-center rounded-sm bg-white text-neutral-900"
         >
           <ArrowDownLeft size={16} />
@@ -188,7 +188,7 @@ export default function Hero() {
           <button
             key={s.id}
             onClick={() => goTo(i)}
-            aria-label={`Go to slide ${i + 1}`}
+            aria-label={`الانتقال إلى الشريحة ${i + 1}`}
             className={`h-2 rounded-full transition-all ${
               i === index ? "w-6 bg-red-600" : "w-2 bg-white/50"
             }`}

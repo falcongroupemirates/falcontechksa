@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/ar/services/tank-restoration-lining/steel-tank-lining",
     languages: { en: "/services/tank-restoration-lining/steel-tank-lining", ar: "/ar/services/tank-restoration-lining/steel-tank-lining", "x-default": "/services/tank-restoration-lining/steel-tank-lining" },
   },
-  "title": "Steel Tank Lining & Corrosion Protection in Saudi Arabia",
-  "description": "Internal lining for steel tanks in Saudi Arabia — corrosion protection and product-quality protection with surface preparation and testing. Falcon Technologies."
+  "title": "تبطين الخزانات الفولاذية والحماية من التآكل في المملكة العربية السعودية",
+  "description": "تبطين داخلي للخزانات الفولاذية في المملكة العربية السعودية — حماية من التآكل وحفاظ على جودة المنتج مع تجهيز الأسطح والاختبار. فالكون تكنولوجيز."
 };
 
 export default function Page() {
@@ -27,12 +27,12 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Tank Restoration & Lining"
-        title="Steel Tank Lining"
-        description="Internal lining that stops corrosion and protects stored product in steel tanks."
-        breadcrumb="Steel Tank Lining"
+        eyebrow="ترميم وتبطين الخزانات"
+        title="تبطين الخزانات الفولاذية"
+        description="تبطين داخلي يوقف التآكل ويحمي المنتج المخزّن في الخزانات الفولاذية."
+        breadcrumb="تبطين الخزانات الفولاذية"
         image="/assets/images/services/steel-tank-lining.png"
-        imageAlt="Steel Tank Lining by Falcon Technologies in Saudi Arabia"
+        imageAlt="تبطين الخزانات الفولاذية من فالكون تكنولوجيز في المملكة العربية السعودية"
       />
 
       <section className="w-full bg-white dark:bg-neutral-950">
@@ -44,17 +44,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Tank Restoration &amp; Lining
+                ترميم وتبطين الخزانات
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Steel Tank Lining and Corrosion Protection
+                تبطين الخزانات الفولاذية والحماية من التآكل
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Steel tanks corrode from the inside when exposed to water, fuels and chemicals. An internal lining isolates the steel from the stored liquid, extending tank life and protecting product quality.
+                تتآكل الخزانات الفولاذية من الداخل عند تعرضها للمياه والوقود والمواد الكيميائية. ويعزل التبطين الداخلي الفولاذ عن السائل المخزّن، مما يُطيل عمر الخزان ويحافظ على جودة المنتج.
               </p>
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Falcon prepares the steel surface to the required standard and applies a lining system suited to the stored liquid and temperature.
+                تجهّز فالكون سطح الفولاذ وفق المعيار المطلوب وتطبّق نظام تبطين يتناسب مع السائل المخزّن ودرجة الحرارة.
               </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -62,21 +62,21 @@ export default function Page() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Request a Quote
+                اطلب عرض سعر
               </a>
               <a
                 href="/ar/technical-library"
                 className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
               >
-                Browse the Technical Library
+                تصفح المكتبة الفنية
               </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
-              <Image loading="eager" src="/assets/images/services/steel-tank-lining.png" alt="Steel Tank Lining by Falcon Technologies in Saudi Arabia" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <Image loading="eager" src="/assets/images/services/steel-tank-lining.png" alt="تبطين الخزانات الفولاذية من فالكون تكنولوجيز في المملكة العربية السعودية" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Tank Restoration &amp; Lining
+                ترميم وتبطين الخزانات
               </span>
             </div>
           </div>
@@ -85,37 +85,37 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">What We Offer</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">ما نقدمه</h2>
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Corrosion protection</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">A barrier between the steel and the stored liquid.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">الحماية من التآكل</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">حاجز بين الفولاذ والسائل المخزّن.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Product quality protection</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Reduces contamination from tank corrosion products.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">الحفاظ على جودة المنتج</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">يقلل التلوث الناتج عن نواتج تآكل الخزان.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Existing-tank restoration</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Lining of corroded steel tanks where structure allows.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">ترميم الخزانات القائمة</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تبطين الخزانات الفولاذية المتآكلة حيثما تسمح حالة المنشأ.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Surface preparation</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Blasting and cleaning to the specified standard.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">تجهيز الأسطح</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">السفع والتنظيف وفق المعيار المحدد.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Lining system selection</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">System matched to liquid and temperature.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">اختيار نظام التبطين</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">نظام يتلاءم مع السائل ودرجة الحرارة.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Inspection and testing</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Holiday and thickness testing recorded at handover.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">الفحص والاختبار</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تسجيل نتائج اختبار الثقوب والسماكة عند التسليم.</p>
             </div>
           </div>
         </div>
@@ -125,42 +125,42 @@ export default function Page() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
-              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Lining Scope</h2>
+              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">نطاق التبطين</h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Application</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Internal lining of steel storage and process tanks</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التطبيق</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">التبطين الداخلي لخزانات التخزين والعمليات الفولاذية</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Substrate</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Carbon steel, prepared to the required cleanliness and profile</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">سطح الأساس</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">فولاذ كربوني، مُجهّز وفق درجة النظافة والخشونة المطلوبتين</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Chemical / service requirement</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Stored liquid, temperature and any product-purity requirement</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">المادة الكيميائية / متطلبات التشغيل</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">السائل المخزّن ودرجة الحرارة وأي متطلبات لنقاء المنتج</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Surface preparation</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Cleaning and abrasive blasting to the specified standard, with repair of defects</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">تجهيز الأسطح</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">التنظيف والسفع الكاشط وفق المعيار المحدد، مع إصلاح العيوب</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Lining system</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">FRP, chemical-resistant or waterproof lining, selected per service</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">نظام التبطين</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">تبطين FRP أو مقاوم للمواد الكيميائية أو عازل للماء، يُختار حسب ظروف التشغيل</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Inspection &amp; testing</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Visual inspection, thickness checks, DFT and adhesion testing and holiday testing where applicable</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الفحص والاختبار</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">الفحص البصري وقياس السماكة واختبار سماكة الطبقة الجافة (DFT) والالتصاق واختبار الثقوب حيثما ينطبق ذلك</dd>
               </div>
               </dl>
             </div>
             <div>
-              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">Where It&rsquo;s Used</h2>
+              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">مجالات الاستخدام</h2>
               <div className="mt-5 flex flex-wrap gap-2">
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Oil &amp; gas</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Petrochemical &amp; chemical</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Power &amp; utilities</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Water storage</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Manufacturing</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">النفط والغاز</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">البتروكيماويات والكيماويات</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">الطاقة والمرافق</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">تخزين المياه</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">التصنيع</span>
               </div>
             </div>
           </div>
@@ -169,27 +169,27 @@ export default function Page() {
 
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">How We Line a Steel Tank</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">كيف نبطّن الخزان الفولاذي</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">01</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Inspect the steel</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Thickness, corrosion extent and internal condition.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">فحص الفولاذ</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">السماكة ومدى التآكل والحالة الداخلية.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">02</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Prepare the surface</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Blasting and cleaning to the specified standard.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تجهيز السطح</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">السفع والتنظيف وفق المعيار المحدد.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">03</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Apply the lining</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Lining applied to the required build.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تطبيق التبطين</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تطبيق التبطين بالسماكة المطلوبة.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">04</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Inspect and test</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Holiday and thickness testing, then records.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الفحص والاختبار</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">اختبار الثقوب والسماكة، ثم إصدار السجلات.</p>
             </li>
           </ol>
         </div>
@@ -197,28 +197,28 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Frequently Asked Questions</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">الأسئلة الشائعة</h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Can a corroded steel tank be lined?
+                هل يمكن تبطين خزان فولاذي متآكل؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">If the remaining steel thickness and structural condition allow, yes. Thickness inspection determines whether lining or another route is appropriate.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">نعم، إذا سمحت السماكة المتبقية للفولاذ وحالته الإنشائية بذلك. ويحدد فحص السماكة ما إذا كان التبطين أو خيار آخر هو الأنسب.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                What surface preparation is needed?
+                ما تجهيز السطح المطلوب؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Steel is cleaned and profiled, usually by abrasive blasting to the specified cleanliness and profile, because lining adhesion depends on it.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">يُنظَّف الفولاذ وتُهيّأ خشونته، عادةً بالسفع الكاشط وفق درجة النظافة والخشونة المحددتين، لأن التصاق التبطين يعتمد على ذلك.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Do you line fuel tanks?
+                هل تبطّنون خزانات الوقود؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Lining suitability depends on the fuel type and requirements, and we confirm compatibility first.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">تعتمد ملاءمة التبطين على نوع الوقود ومتطلباته، ونتحقق من التوافق أولاً.</p>
             </details>
           </div>
         </div>

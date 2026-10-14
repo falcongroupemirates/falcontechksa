@@ -14,8 +14,8 @@ export const metadata = {
     canonical: "/ar/services/survey-scanning/as-built-survey",
     languages: { en: "/services/survey-scanning/as-built-survey", ar: "/ar/services/survey-scanning/as-built-survey", "x-default": "/services/survey-scanning/as-built-survey" },
   },
-  title: "As-Built Survey & Drawings in Saudi Arabia",
-  description: "As-built surveys in Saudi Arabia — plans, sections and elevations of plants, buildings and structures drafted from a registered 3D scan, including every unrecorded modification.",
+  title: "مسح ومخططات الوضع القائم في المملكة العربية السعودية",
+  description: "مسح الوضع القائم في المملكة العربية السعودية — مساقط أفقية وقطاعات وواجهات للمحطات والمباني والمنشآت تُرسم من مسح ثلاثي الأبعاد مسجّل، بما في ذلك كل تعديل غير موثق.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -26,108 +26,108 @@ const HUB = "/ar/services/survey-scanning";
 
 const page = {
   "num": "02",
-  "name": "As-Built Survey",
-  "heading": "As-built drawings of what is actually there",
-  "tagline": "Plans, sections and elevations of what is actually there — including every modification nobody recorded.",
+  "name": "مسح الوضع القائم (As-Built)",
+  "heading": "مخططات الوضع القائم لما هو موجود فعليًا",
+  "tagline": "مساقط أفقية وقطاعات وواجهات لما هو موجود فعليًا — بما في ذلك كل تعديل لم يوثقه أحد.",
   "image": "/assets/images/services/as-built-survey.jpg",
-  "alt": "As-built survey drawings produced from a 3D scan of an existing facility"
+  "alt": "مخططات مسح الوضع القائم المُنتجة من مسح ثلاثي الأبعاد لمنشأة قائمة"
 };
 
 const intro = [
-  "Existing drawings rarely match the site. Equipment gets moved, pipework rerouted and walls changed, and none of it makes it back onto paper. An as-built survey records the facility as it stands today.",
-  "We draft plans, sections and elevations directly from the registered point cloud, so every dimension is measured rather than assumed — and deliver them in your CAD standard and title block."
+  "نادرًا ما تتطابق المخططات القائمة مع الموقع. فالمعدات تُنقل والأنابيب يُعاد توجيهها والجدران تتغير، ولا يُوثَّق شيء من ذلك على الورق. ويسجّل مسح الوضع القائم المنشأة كما هي اليوم.",
+  "نرسم المساقط الأفقية والقطاعات والواجهات مباشرةً من سحابة النقاط المسجّلة، فيكون كل بُعد مقاسًا لا مفترضًا — ونسلّمها وفق معيار CAD وإطار العنوان الخاص بكم."
 ];
 
 const offerings = [
   [
-    "Plans, sections and elevations",
-    "A coordinated 2D drawing set of buildings, structures and plant areas."
+    "المساقط الأفقية والقطاعات والواجهات",
+    "مجموعة مخططات ثنائية الأبعاد منسّقة للمباني والمنشآت ومناطق المحطات."
   ],
   [
-    "Equipment and piping layouts",
-    "General arrangements showing equipment positions, routing and clearances as built."
+    "مخططات توزيع المعدات والأنابيب",
+    "مخططات ترتيب عام توضح مواضع المعدات ومسارات الأنابيب والخلوصات كما هي منفذة."
   ],
   [
-    "Field modifications captured",
-    "Changes made on site but never recorded are picked up from the scan."
+    "توثيق التعديلات الميدانية",
+    "يتم رصد التغييرات التي نُفذت في الموقع ولم تُوثَّق من خلال المسح."
   ],
   [
-    "Your CAD standard",
-    "Layers, line types, title block and naming to your standard."
+    "معيار CAD الخاص بكم",
+    "الطبقات وأنواع الخطوط وإطار العنوان والتسمية وفق معاييركم."
   ],
   [
-    "Update existing drawings",
-    "Legacy drawings checked and corrected against the cloud instead of redrawn from scratch."
+    "تحديث المخططات القائمة",
+    "التحقق من المخططات القديمة وتصحيحها مقابل السحابة بدلًا من إعادة رسمها من البداية."
   ],
   [
-    "Traceable to the scan",
-    "Every dimension comes from measured geometry you can go back and verify."
+    "قابلة للتتبع إلى المسح",
+    "كل بُعد مأخوذ من بيانات هندسية مقاسة يمكنكم الرجوع إليها والتحقق منها."
   ]
 ];
 
 const steps = [
   [
-    "Agree the drawing list",
-    "Areas, drawing types, scale and CAD standard confirmed."
+    "الاتفاق على قائمة المخططات",
+    "تأكيد المناطق وأنواع المخططات والمقياس ومعيار CAD."
   ],
   [
-    "Scan the site",
-    "A registered point cloud captured to the accuracy the drawings need."
+    "مسح الموقع",
+    "التقاط سحابة نقاط مسجّلة بالدقة التي تحتاجها المخططات."
   ],
   [
-    "Draft from the cloud",
-    "Drawings produced directly from the measured geometry."
+    "الرسم من السحابة",
+    "إنتاج المخططات مباشرةً من البيانات الهندسية المقاسة."
   ],
   [
-    "Check and issue",
-    "Drawings checked against the cloud and issued in your formats."
+    "المراجعة والإصدار",
+    "مراجعة المخططات مقابل السحابة وإصدارها بالصيغ الخاصة بكم."
   ]
 ];
 
 const formats = [
   [
-    "Drawings",
-    "DWG, DXF"
+    "المخططات",
+    "DWG، DXF"
   ],
   [
-    "Issue set",
+    "مجموعة الإصدار",
     "PDF"
   ],
   [
-    "Source data",
-    "Point cloud on request (E57, RCP)"
+    "البيانات المصدرية",
+    "سحابة النقاط عند الطلب (E57، RCP)"
   ],
   [
-    "Standard",
-    "Your CAD standard and title block"
+    "المعيار",
+    "معيار CAD وإطار العنوان الخاص بكم"
   ]
 ];
 
 const uses = [
-  "Plant modifications",
-  "Building refurbishment",
-  "Facility management records",
-  "Permit and authority submissions",
-  "Tank and equipment replacement",
-  "Design basis for new work"
+  "تعديلات المحطات",
+  "تجديد المباني",
+  "سجلات إدارة المرافق",
+  "طلبات التصاريح والتقديم للجهات الرسمية",
+  "استبدال الخزانات والمعدات",
+  "أساس التصميم للأعمال الجديدة"
 ];
 
 const faqs = [
   {
-    "q": "Do you work to our CAD standard?",
-    "a": "Yes. Send us your CAD standard, template and title block and the drawings are produced to it."
+    "q": "هل تعملون وفق معيار CAD الخاص بنا؟",
+    "a": "نعم. أرسلوا لنا معيار CAD والقالب وإطار العنوان الخاص بكم، وسيتم إنتاج المخططات وفقًا لها."
   },
   {
-    "q": "Can you update our existing drawings instead of redrawing them?",
-    "a": "Yes. Existing drawings can be checked against the point cloud and corrected, which is often faster than starting from scratch."
+    "q": "هل يمكنكم تحديث مخططاتنا القائمة بدلًا من إعادة رسمها؟",
+    "a": "نعم. يمكن التحقق من المخططات القائمة مقابل سحابة النقاط وتصحيحها، وهو غالبًا أسرع من البدء من الصفر."
   },
   {
-    "q": "Why not measure by hand?",
-    "a": "Hand measurement captures only the dimensions someone thinks to take, and missed ones mean revisits. A scan records everything once, so later questions are answered from the cloud."
+    "q": "لماذا لا يتم القياس يدويًا؟",
+    "a": "القياس اليدوي يلتقط فقط الأبعاد التي يفكر أحدهم في أخذها، وأي بُعد مفقود يعني زيارة أخرى. أما المسح فيسجّل كل شيء مرة واحدة، فتُجاب الأسئلة اللاحقة من السحابة."
   },
   {
-    "q": "Can we also get a 3D model later?",
-    "a": "Yes. The same point cloud can be used for Scan to BIM or BIM modelling later, often without returning to site."
+    "q": "هل يمكننا الحصول على نموذج ثلاثي الأبعاد لاحقًا؟",
+    "a": "نعم. يمكن استخدام سحابة النقاط نفسها لاحقًا للتحويل من المسح إلى BIM أو لنمذجة BIM، غالبًا دون العودة إلى الموقع."
   }
 ];
 
@@ -135,31 +135,31 @@ const faqs = [
 const otherServices = [
   {
     "num": "01",
-    "name": "3D Laser Scanning",
+    "name": "المسح الليزري ثلاثي الأبعاد",
     "href": "/ar/services/survey-scanning/3d-laser-scanning",
     "image": "/assets/images/services/3d-laser-scanning.jpg",
-    "alt": "3D laser scanner capturing an industrial plant in Saudi Arabia"
+    "alt": "ماسح ليزري ثلاثي الأبعاد يلتقط محطة صناعية في المملكة العربية السعودية"
   },
   {
     "num": "03",
-    "name": "Scan to BIM",
+    "name": "التحويل من المسح إلى BIM",
     "href": "/ar/services/survey-scanning/scan-to-bim",
     "image": "/assets/images/services/scan-to-bim.jpg",
-    "alt": "Point cloud converted into a parametric BIM model"
+    "alt": "سحابة نقاط محوّلة إلى نموذج BIM بارامتري"
   },
   {
     "num": "04",
-    "name": "BIM Modelling",
+    "name": "نمذجة BIM",
     "href": "/ar/services/survey-scanning/bim-modelling",
     "image": "/assets/images/services/bim-modelling.jpg",
-    "alt": "Coordinated BIM model with architectural, structural and MEP disciplines"
+    "alt": "نموذج BIM منسّق يشمل التخصصات المعمارية والإنشائية وMEP"
   },
   {
     "num": "05",
-    "name": "Reverse Engineering",
+    "name": "الهندسة العكسية",
     "href": "/ar/services/survey-scanning/reverse-engineering",
     "image": "/assets/images/services/reverse-engineering-scanning.jpg",
-    "alt": "Industrial component scanned and rebuilt as an editable CAD model"
+    "alt": "مكوّن صناعي ممسوح أُعيد بناؤه كنموذج CAD قابل للتعديل"
   }
 ];
 
@@ -170,9 +170,9 @@ const jsonLd = {
       "@type": "Service",
       name: page.name,
       description: page.tagline,
-      serviceType: "Surveying & 3D Scanning",
-      areaServed: "Saudi Arabia",
-      provider: { "@type": "Organization", name: "Falcon Technologies" },
+      serviceType: "المساحة والمسح ثلاثي الأبعاد",
+      areaServed: "المملكة العربية السعودية",
+      provider: { "@type": "Organization", name: "فالكون تكنولوجيز" },
     },
     {
       "@type": "FAQPage",
@@ -196,7 +196,7 @@ export default function AsBuiltSurveyPage() {
       />
 
       <PageHero
-        eyebrow="Surveying & 3D Scanning"
+        eyebrow="المساحة والمسح ثلاثي الأبعاد"
         title={page.name}
         description={page.tagline}
         breadcrumb={page.name}
@@ -213,7 +213,7 @@ export default function AsBuiltSurveyPage() {
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
             >
               <ArrowRight size={14} />
-              All surveying services
+              جميع خدمات المساحة
             </Link>
 
             <h2 className="mt-6 max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
@@ -233,13 +233,13 @@ export default function AsBuiltSurveyPage() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
               >
-                Request a Quote
+                اطلب عرض سعر
               </Link>
               <Link
                 href="/ar/contact-us"
                 className="border-b border-neutral-300 pb-0.5 text-sm font-semibold text-neutral-800 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/80"
               >
-                Talk to a survey engineer
+                تحدث إلى مهندس مساحة
               </Link>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function AsBuiltSurveyPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            What you get
+            ما تحصل عليه
           </h2>
           <div className="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
             {offerings.map(([title, desc]) => (
@@ -288,7 +288,7 @@ export default function AsBuiltSurveyPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            How it works
+            كيف تعمل الخدمة
           </h2>
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             {steps.map(([title, desc], i) => (
@@ -306,7 +306,7 @@ export default function AsBuiltSurveyPage() {
       <section className="w-full bg-ink">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-white sm:text-4xl">
-            Where it&rsquo;s used
+            مجالات الاستخدام
           </h2>
           <ul className="grid grid-cols-1 gap-x-10 sm:grid-cols-2 lg:col-span-2">
             {uses.map((u) => (
@@ -322,7 +322,7 @@ export default function AsBuiltSurveyPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Frequently asked questions
+            الأسئلة الشائعة
           </h2>
           <div className="border-t border-neutral-200 dark:border-white/10 lg:col-span-2">
             {faqs.map((f) => (
@@ -342,7 +342,7 @@ export default function AsBuiltSurveyPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0">
           <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-            Other surveying services
+            خدمات مساحة أخرى
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {otherServices.map((s) => (

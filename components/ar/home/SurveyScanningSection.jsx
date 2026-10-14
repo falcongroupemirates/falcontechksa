@@ -21,65 +21,65 @@ const capabilities = [
   {
     slug: "3d-laser-scanning",
     icon: ScanLine,
-    label: "3D Laser Scanning",
-    line: "Millions of measured points per setup — the whole space recorded, not just the dimensions someone remembered to take.",
+    label: "المسح الليزري ثلاثي الأبعاد",
+    line: "ملايين النقاط المقاسة في كل موضع — تسجيل المساحة بالكامل، لا مجرد الأبعاد التي تذكّر أحدهم أخذها.",
     points: [
-      "Full-coverage scan planning",
-      "Registered point cloud",
-      "Non-intrusive, live-site capture",
-      "RCP, E57, DWG handover",
+      "تخطيط مسح بتغطية كاملة",
+      "سحابة نقاط مسجّلة",
+      "التقاط دون تدخّل في موقع قيد التشغيل",
+      "تسليم بصيغ RCP وE57 وDWG",
     ],
     image: "/assets/images/services/3d-laser-scanning.jpg",
   },
   {
     slug: "as-built-survey",
     icon: Building2,
-    label: "As-Built Survey",
-    line: "Plans, sections and elevations of buildings and structures as they stand today — including every modification nobody recorded.",
+    label: "مسح الوضع القائم (As-Built)",
+    line: "مساقط وقطاعات وواجهات للمباني والمنشآت كما هي اليوم — بما في ذلك كل تعديل لم يُوثَّق.",
     points: [
-      "Coordinated 2D drawing set",
-      "Field modifications captured",
-      "Your CAD standard and title block",
-      "DWG, DXF, PDF",
+      "مجموعة مخططات ثنائية الأبعاد منسّقة",
+      "توثيق التعديلات الميدانية",
+      "معيار CAD وإطار العنوان الخاص بكم",
+      "DWG، DXF، PDF",
     ],
     image: "/assets/images/services/as-built-survey.jpg",
   },
   {
     slug: "scan-to-bim",
     icon: Boxes,
-    label: "Scan to BIM",
-    line: "Point cloud converted into an intelligent parametric model at an LOD agreed element by element, not applied across the board.",
+    label: "التحويل من المسح إلى BIM",
+    line: "تحويل سحابة النقاط إلى نموذج بارامتري ذكي بمستوى LOD يُتّفق عليه لكل عنصر على حدة، لا بمستوى موحّد للجميع.",
     points: [
-      "Defined LOD per discipline",
-      "Real parametric objects",
-      "Deviation checked to the cloud",
-      "RVT, IFC, NWC",
+      "مستوى LOD محدد لكل تخصص",
+      "عناصر بارامترية حقيقية",
+      "التحقق من الانحرافات مقارنةً بسحابة النقاط",
+      "RVT، IFC، NWC",
     ],
     image: "/assets/images/services/scan-to-bim.jpg",
   },
   {
     slug: "bim-modelling",
     icon: Layers3,
-    label: "BIM Modelling",
-    line: "Models built from drawings, design intent, vendor data or scan data — then coordinated so clashes surface in the model, not on site.",
+    label: "نمذجة BIM",
+    line: "نماذج تُبنى من المخططات أو نية التصميم أو بيانات الموردين أو بيانات المسح — ثم تُنسَّق لتظهر التعارضات في النموذج لا في الموقع.",
     points: [
-      "Architectural, structural, MEP",
-      "Federated clash detection",
-      "Built to your BEP",
-      "Schedules and drawings from the model",
+      "معماري، إنشائي، MEP",
+      "كشف التعارضات في النموذج المدمج",
+      "وفقًا لخطة تنفيذ BIM (BEP) الخاصة بك",
+      "جداول ومخططات مستخرجة من النموذج",
     ],
     image: "/assets/images/services/bim-modelling.jpg",
   },
   {
     slug: "reverse-engineering",
     icon: Cog,
-    label: "Reverse Engineering",
-    line: "Obsolete or undocumented components scanned and rebuilt as editable CAD — the fastest route back to a manufacturable replacement.",
+    label: "الهندسة العكسية",
+    line: "مسح المكونات المتقادمة أو غير الموثّقة وإعادة بنائها بصيغة CAD قابلة للتعديل — أسرع طريق للوصول إلى بديل قابل للتصنيع.",
     points: [
-      "Obsolete spare recovery",
-      "Parametric solid, not a mesh",
-      "Modification-ready geometry",
-      "STEP, IGES, STL, DWG",
+      "استعادة قطع الغيار المتقادمة",
+      "مجسم بارامتري لا شبكة مضلعات",
+      "هندسة جاهزة للتعديل",
+      "STEP، IGES، STL، DWG",
     ],
     image: "/assets/images/services/reverse-engineering-scanning.jpg",
   },
@@ -122,7 +122,7 @@ export default function SurveyScanningSection() {
             className="inline-flex h-7.5 items-center rounded-full border border-white/20 px-4.25"
           >
             <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-white">
-              Survey Services
+              خدمات المساحة
             </span>
           </motion.div>
 
@@ -133,7 +133,7 @@ export default function SurveyScanningSection() {
             transition={{ duration: 0.6, delay: 0.06 }}
             className="mt-5 max-w-2xl text-[28px] font-normal leading-[1.15] tracking-[-0.03em] text-white sm:text-[34px]"
           >
-            Surveying & 3D Scanning Services
+            خدمات المساحة والمسح ثلاثي الأبعاد
           </motion.h2>
 
           <motion.p
@@ -143,16 +143,14 @@ export default function SurveyScanningSection() {
             transition={{ duration: 0.6, delay: 0.12 }}
             className="mt-3 max-w-xl text-sm leading-relaxed text-white/60"
           >
-            Retrofit work fails on bad dimensions. We scan existing plants,
-            buildings and components, then deliver as-built drawings, BIM models
-            or CAD solids from the same captured reality.
+            تفشل أعمال التحديث بسبب الأبعاد الخاطئة. لذلك نمسح المحطات والمباني والمكونات القائمة، ثم نسلّم مخططات الوضع القائم أو نماذج BIM أو مجسمات CAD من نفس الواقع الملتقط.
           </motion.p>
 
           <Link
             href="/ar/services/survey-scanning"
             className="mt-6 inline-flex items-center gap-1.5 border-b border-brand pb-0.5 text-sm font-semibold text-white transition-colors hover:border-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
           >
-            Explore surveying services
+            استكشف خدمات المساحة
             <ArrowUpLeft size={15} aria-hidden="true" />
           </Link>
         </div>
@@ -226,12 +224,12 @@ export default function SurveyScanningSection() {
             >
               <Link
                 href={`/ar/services/survey-scanning/${current.slug}`}
-                aria-label={`${current.label} — view service details`}
+                aria-label={`${current.label} — عرض تفاصيل الخدمة`}
                 className="group relative block aspect-16/10 bg-white/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
               >
                 <Image
                   src={current.image}
-                  alt={`${current.label} — Falcon Technologies Saudi Arabia`}
+                  alt={`${current.label} — فالكون تكنولوجيز السعودية`}
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"

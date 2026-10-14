@@ -9,10 +9,10 @@ import { useInView } from "framer-motion";
 import { Award, Users, Briefcase, Building2 } from "lucide-react";
 
 const stats = [
-  { icon: Building2, value: 15, suffix: "+", label: "Years of Experience" },
-  { icon: Briefcase, value: 480, suffix: "+", label: "Projects Completed" },
-  { icon: Users, value: 120, suffix: "+", label: "Certified Engineers" },
-  { icon: Award, value: 30, suffix: "+", label: "Industry Awards" },
+  { icon: Building2, value: 15, suffix: "+", label: "سنوات الخبرة" },
+  { icon: Briefcase, value: 480, suffix: "+", label: "مشروع منجز" },
+  { icon: Users, value: 120, suffix: "+", label: "مهندس معتمد" },
+  { icon: Award, value: 30, suffix: "+", label: "جائزة في القطاع" },
 ];
 
 function Counter({ value, suffix, inView }) {

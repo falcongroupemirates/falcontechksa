@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/ar/services/tank-solutions/diesel-fuel-tanks/underground-diesel-tank",
     languages: { en: "/services/tank-solutions/diesel-fuel-tanks/underground-diesel-tank", ar: "/ar/services/tank-solutions/diesel-fuel-tanks/underground-diesel-tank", "x-default": "/services/tank-solutions/diesel-fuel-tanks/underground-diesel-tank" },
   },
-  "title": "Underground Diesel Tank | Diesel / Fuel Tanks",
-  "description": "Buried fuel storage engineered for soil and groundwater conditions."
+  "title": "خزان ديزل تحت الأرض | خزانات الديزل والوقود",
+  "description": "تخزين وقود مدفون مُصمَّم هندسيًا وفق ظروف التربة والمياه الجوفية."
 };
 
 export default function Page() {
@@ -27,12 +27,12 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Tank Solutions — Diesel / Fuel Tanks"
-        title="Underground Diesel Tank"
-        description="Purpose-designed buried fuel tank, engineered for soil, groundwater and traffic."
-        breadcrumb="Underground Diesel Tank"
+        eyebrow="حلول الخزانات — خزانات الديزل والوقود"
+        title="خزان ديزل تحت الأرض"
+        description="خزان وقود مدفون مصمم خصيصًا، ومُهندَس وفق ظروف التربة والمياه الجوفية وحركة المرور."
+        breadcrumb="خزان ديزل تحت الأرض"
         image="/assets/images/tank-solutions/forest_green_underground_diesel_tank.png"
-        imageAlt="Underground Diesel Tank by Falcon Technologies in Saudi Arabia"
+        imageAlt="خزان ديزل أرضي من فالكون تكنولوجيز في المملكة العربية السعودية"
       />
 
       <section className="w-full bg-white dark:bg-neutral-950">
@@ -44,17 +44,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Diesel / Fuel Tanks
+                خزانات الديزل والوقود
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Underground Diesel Tank
+                خزان ديزل تحت الأرض
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                A purpose-designed buried tank system — burial is a structural and installation condition, not just an orientation. A general-purpose tank must never be buried for fuel.
+                نظام خزان مدفون مصمم لهذا الغرض تحديدًا — فالدفن شرط إنشائي وشرط تركيب، وليس مجرد اتجاه للخزان. ولا يجوز أبدًا دفن خزان متعدد الأغراض لتخزين الوقود.
               </p>
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                The applicable listing or code basis, corrosion protection or material compatibility, double-wall and interstitial monitoring where specified, groundwater, traffic, anchorage, fill/vent risers and leak detection are all confirmed for the installation.
+                يتم التأكد من أساس الاعتماد أو الكود المطبق، والحماية من التآكل أو توافق المواد، والجدار المزدوج ومراقبة الفراغ البيني حيثما نُص عليها، والمياه الجوفية، وأحمال المرور، والتثبيت، وأنابيب التعبئة والتهوية، وكشف التسرب، وذلك لكل عملية تركيب.
               </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -62,21 +62,21 @@ export default function Page() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Request a Quote
+                اطلب عرض سعر
               </a>
               <a
                 href="/ar/services/tank-solutions/diesel-fuel-tanks"
                 className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
               >
-                See all Diesel / Fuel Tanks
+                عرض كل خزانات الديزل والوقود
               </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
-              <Image loading="eager" src="/assets/images/tank-solutions/forest_green_underground_diesel_tank.png" alt="Underground Diesel Tank by Falcon Technologies in Saudi Arabia" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <Image loading="eager" src="/assets/images/tank-solutions/forest_green_underground_diesel_tank.png" alt="خزان ديزل أرضي من فالكون تكنولوجيز في المملكة العربية السعودية" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Diesel / Fuel Tanks
+                خزانات الديزل والوقود
               </span>
             </div>
           </div>
@@ -87,37 +87,37 @@ export default function Page() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
-              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Specification</h2>
+              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">المواصفات</h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Construction</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Purpose-designed buried tank system, single- or double-wall as specified</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التصنيع</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">نظام خزان مدفون مصمم لهذا الغرض، بجدار مفرد أو مزدوج حسب المواصفات</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Confirm</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Listing/code basis, corrosion protection or material compatibility, anchorage, fill/vent risers</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">يُؤكَّد</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">أساس الاعتماد/الكود، الحماية من التآكل أو توافق المواد، التثبيت، أنابيب التعبئة/التهوية</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Monitoring</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Double-wall / interstitial monitoring and leak detection where specified</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">المراقبة</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">جدار مزدوج / مراقبة الفراغ البيني وكشف التسرب حيثما نُص عليها</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Site checks</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Groundwater, traffic, bedding, cover</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الفحوصات الميدانية</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">المياه الجوفية، أحمال المرور، الفرشة، الغطاء الترابي</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">To confirm per project</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Approved drawings, listing/approval scope, fabrication QA, delivery record</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">يُؤكَّد لكل مشروع</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">المخططات المعتمدة، نطاق الاعتماد/الموافقة، ضمان الجودة في التصنيع، سجل التوريد</dd>
               </div>
               </dl>
             </div>
             <div>
-              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">Where It&rsquo;s Used</h2>
+              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">مجالات الاستخدام</h2>
               <div className="mt-5 flex flex-wrap gap-2">
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Commercial &amp; industrial buildings</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Power &amp; utilities</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Construction sites</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Fleet refuelling</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">المباني التجارية والصناعية</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">الطاقة والمرافق</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">مواقع البناء</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">تزويد الأساطيل بالوقود</span>
               </div>
             </div>
           </div>
@@ -126,21 +126,21 @@ export default function Page() {
 
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Frequently Asked Questions</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">الأسئلة الشائعة</h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Can any diesel tank be buried?
+                هل يمكن دفن أي خزان ديزل؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">No — underground fuel storage uses a purpose-designed buried tank system with its listing, corrosion protection and monitoring confirmed; a general-purpose tank must never be buried.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">لا — يعتمد تخزين الوقود تحت الأرض على نظام خزان مدفون مصمم لهذا الغرض مع التأكد من اعتماده وحمايته من التآكل ومراقبته؛ ولا يجوز أبدًا دفن خزان متعدد الأغراض.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                What monitoring do underground fuel tanks need?
+                ما نوع المراقبة التي تحتاجها خزانات الوقود الأرضية؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Double-wall / interstitial monitoring and leak detection are provided where specified, along with the anchorage and groundwater checks for the site.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">يتم توفير الجدار المزدوج / مراقبة الفراغ البيني وكشف التسرب حيثما نُص عليها، إلى جانب فحوصات التثبيت والمياه الجوفية الخاصة بالموقع.</p>
             </details>
           </div>
         </div>
@@ -148,18 +148,18 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Other Diesel / Fuel Tanks Types</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">أنواع أخرى من خزانات الديزل والوقود</h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             <a href="/ar/services/tank-solutions/diesel-fuel-tanks/generator-diesel-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Generator Diesel Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان ديزل للمولدات</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
             <a href="/ar/services/tank-solutions/diesel-fuel-tanks/aboveground-fuel-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Aboveground Fuel Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان وقود فوق الأرض</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
             <a href="/ar/services/tank-solutions/diesel-fuel-tanks/industrial-fuel-storage-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Industrial Fuel Storage Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان تخزين وقود صناعي</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
           </div>

@@ -5,43 +5,43 @@
 const heroSlides = [
   {
     id: 1,
-    eyebrow: "FRP Tanks",
-    heading: ["Corrosion Resistant.", "Built to Perform."],
+    eyebrow: "خزانات FRP",
+    heading: ["مقاومة للتآكل.", "مصمَّمة للأداء."],
     description:
-      "FRP tanks manufactured for water, chemical and industrial storage, combining strong construction with excellent corrosion resistance and dependable long-term performance.",
-    ctaLabel: "Shop FRP Tanks",
+      "خزانات FRP مصنّعة لتخزين المياه والمواد الكيميائية والتطبيقات الصناعية، تجمع بين البنية القوية ومقاومة ممتازة للتآكل وأداء موثوق على المدى الطويل.",
+    ctaLabel: "تسوّق خزانات FRP",
     ctaHref: "/ar/services/tank-solutions/frp-grp-tanks",
     image: "/assets/images/home/hero-slide-4.webp",
   },
 
   {
     id: 2,
-    eyebrow: "Underground Tanks",
-    heading: ["Smart Storage.", "Built Below Ground."],
+    eyebrow: "الخزانات الأرضية",
+    heading: ["تخزين ذكي.", "مصمَّم تحت الأرض."],
     description:
-      "Durable underground storage tanks manufactured for secure, space-efficient installation and reliable performance in demanding site conditions.",
-    ctaLabel: "Shop Underground Tanks",
+      "خزانات تخزين أرضية متينة مصنّعة لتركيب آمن وموفّر للمساحة وأداء موثوق في ظروف المواقع الصعبة.",
+    ctaLabel: "تسوّق الخزانات الأرضية",
     ctaHref: "/ar/services/tank-solutions/underground-tanks",
     image: "/assets/images/home/hero-slide-7.webp",
   },
 
   {
     id: 3,
-    eyebrow: "Fire Retardant Tanks",
-    heading: ["Built For Safety.", "Designed For Protection."],
+    eyebrow: "خزانات مقاومة للحريق",
+    heading: ["مصمَّمة للسلامة.", "مصمَّمة للحماية."],
     description:
-      "Fire-retardant tanks manufactured for applications where enhanced fire resistance, structural durability and dependable storage performance are essential.",
-    ctaLabel: "Shop Fire Retardant Tanks",
+      "خزانات مقاومة للحريق مصنّعة للتطبيقات التي تتطلب مقاومة معزّزة للحريق ومتانة إنشائية وأداء تخزين موثوقًا.",
+    ctaLabel: "تسوّق الخزانات المقاومة للحريق",
     ctaHref: "/ar/services/tank-solutions/frp-grp-tanks",
     image: "/assets/images/home/hero-slide-5.webp",
   },
   {
     id: 4,
-    eyebrow: "Chemical Tanks",
-    heading: ["Engineered for", "Chemical Storage."],
+    eyebrow: "خزانات المواد الكيميائية",
+    heading: ["مصمَّمة لـ", "تخزين المواد الكيميائية."],
     description:
-      "Chemical storage tanks manufactured with durable, corrosion-resistant materials to safely handle demanding chemical storage applications and provide reliable long-term performance.",
-    ctaLabel: "Shop Chemical Tanks",
+      "خزانات تخزين مواد كيميائية مصنّعة من مواد متينة ومقاومة للتآكل للتعامل بأمان مع تطبيقات تخزين المواد الكيميائية المتطلبة وتوفير أداء موثوق على المدى الطويل.",
+    ctaLabel: "تسوّق خزانات المواد الكيميائية",
     ctaHref: "/ar/services/tank-solutions/chemical-tanks",
     image: "/assets/images/home/hero-slide-6.webp",
   },

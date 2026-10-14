@@ -14,231 +14,231 @@ const divisions = [
   {
     id: "tank-solutions",
     href: "/ar/services/tank-solutions",
-    label: "Tank Solutions",
+    label: "حلول الخزانات",
     children: [
       {
-        title: "FRP / GRP Tanks",
+        title: "خزانات FRP / GRP",
         href: "/ar/services/tank-solutions/frp-grp-tanks",
-        desc: "Fiberglass tanks for potable water, wastewater, chemicals and diesel — built vertical, horizontal, underground or custom, using hand lay-up and filament winding.",
+        desc: "خزانات ألياف زجاجية لمياه الشرب ومياه الصرف والمواد الكيميائية والديزل — رأسية أو أفقية أو أرضية أو حسب الطلب، بتقنيتي التصفيح اليدوي واللف الخيطي.",
         image: "/assets/images/services/frp-grp-tanks.png",
-        alt: "FRP GRP fiberglass storage tank manufactured by Falcon Technologies in Saudi Arabia",
+        alt: "خزان تخزين من الألياف الزجاجية FRP GRP من تصنيع فالكون تكنولوجيز في المملكة العربية السعودية",
       },
       {
-        title: "Polyethylene Tanks",
+        title: "خزانات البولي إيثيلين",
         href: "/ar/services/tank-solutions/polyethylene-tanks",
-        desc: "Rotomolded LLDPE/HDPE tanks for water and chemical storage, available vertical, horizontal or underground.",
+        desc: "خزانات LLDPE/HDPE مصبوبة بالقولبة الدورانية لتخزين المياه والمواد الكيميائية، متوفرة رأسية أو أفقية أو أرضية.",
         image: "/assets/images/services/polyethylene-tanks.png",
-        alt: "Polyethylene LLDPE HDPE water storage tank",
+        alt: "خزان تخزين مياه من البولي إيثيلين LLDPE HDPE",
       },
       {
-        title: "Steel Tank Systems",
+        title: "أنظمة الخزانات الفولاذية",
         href: "/ar/services/tank-solutions/steel-tank-systems",
-        desc: "Fabricated steel tanks with supports and skids, engineered for diesel, fuel and general industrial storage.",
+        desc: "خزانات فولاذية مصنّعة مع الدعامات والقواعد (السكيد)، مصمّمة لتخزين الديزل والوقود والتخزين الصناعي العام.",
         image: "/assets/images/services/steel-tank-systems.png",
-        alt: "Fabricated steel storage tank system with support skids",
+        alt: "نظام خزان تخزين فولاذي مصنّع مع قواعد دعم (سكيد)",
       },
     ],
   },
   {
     id: "thermal-insulation",
     href: "/ar/services/thermal-insulation",
-    label: "Thermal Insulation Division",
+    label: "قسم العزل الحراري",
     children: [
       {
-        title: "Storage Tank Insulation",
+        title: "عزل خزانات التخزين",
         href: "/ar/services/thermal-insulation/storage-tank-insulation",
-        desc: "Insulation for steel and FRP tanks that cuts solar heat gain and stabilizes stored product temperature.",
+        desc: "عزل للخزانات الفولاذية وخزانات FRP يحدّ من اكتساب الحرارة الشمسية ويثبّت درجة حرارة المنتج المخزَّن.",
         image: "/assets/images/services/storage-tank-insulation.png",
-        alt: "Thermal insulation applied to an industrial storage tank",
+        alt: "عزل حراري مطبّق على خزان تخزين صناعي",
       },
       {
-        title: "Pipe & Equipment Insulation",
+        title: "عزل الأنابيب والمعدات",
         href: "/ar/services/thermal-insulation/pipe-equipment-insulation",
-        desc: "Insulation for pipes, ducts and process equipment across the plant.",
+        desc: "عزل للأنابيب ومجاري الهواء ومعدات العمليات في أنحاء المصنع.",
         image: "/assets/images/services/pipe-equipment-insulation.png",
-        alt: "Insulated industrial pipework and process equipment",
+        alt: "أنابيب صناعية ومعدات عمليات معزولة",
       },
       {
-        title: "Building & Roof Insulation",
+        title: "عزل المباني والأسطح",
         href: "/ar/services/thermal-insulation/building-roof-insulation",
-        desc: "Insulation for factory roofs, warehouses and industrial buildings.",
+        desc: "عزل لأسطح المصانع والمستودعات والمباني الصناعية.",
         image: "/assets/images/services/building-roof-insulation.png",
-        alt: "Industrial factory roof insulation installation",
+        alt: "تركيب عزل لسطح مصنع صناعي",
       },
       {
-        title: "Equipment Room Insulation",
+        title: "عزل غرف المعدات",
         href: "/ar/services/thermal-insulation/equipment-room-insulation",
-        desc: "Insulation for electrical rooms, control rooms and enclosed machinery areas.",
+        desc: "عزل لغرف الكهرباء وغرف التحكم ومناطق الآلات المغلقة.",
         image: "/assets/images/services/equipment-room-insulation.png",
-        alt: "Insulated electrical and control equipment room",
+        alt: "غرفة معدات كهربائية وتحكم معزولة",
       },
     ],
   },
   {
     id: "aerogel",
     href: "/ar/services/thermal-insulation/aerogel-thermal-insulation",
-    label: "Aerogel Thermal Insulation",
+    label: "العزل الحراري بالأيروجيل",
     single: {
       image: "/assets/images/services/aerogel-insulation.png",
-      alt: "Aerogel thermal insulation blanket installed on industrial equipment",
+      alt: "بطانية عزل حراري من الأيروجيل مركّبة على معدات صناعية",
       paragraph:
-        "Aerogel is a highly porous insulation material that delivers low thermal conductivity in a comparatively thin, lightweight system — a strong fit where space or weight is limited.",
+        "الأيروجيل مادة عزل عالية المسامية توفّر موصلية حرارية منخفضة في نظام رقيق وخفيف الوزن نسبيًا — خيار مثالي حيث تكون المساحة أو الوزن محدودين.",
       features: [
-        "Low thermal conductivity",
-        "Lightweight construction",
-        "Moisture resistance",
-        "Fire-retardant formulations",
-        "Noise reduction",
-        "Space saving",
+        "موصلية حرارية منخفضة",
+        "بنية خفيفة الوزن",
+        "مقاومة الرطوبة",
+        "تركيبات مثبطة للهب",
+        "الحدّ من الضوضاء",
+        "توفير المساحة",
       ],
       applications: [
-        "Storage tanks",
-        "Industrial buildings",
-        "Equipment cabinets",
-        "Roofs",
-        "Selected process equipment",
+        "خزانات التخزين",
+        "المباني الصناعية",
+        "خزائن المعدات",
+        "الأسطح",
+        "معدات عمليات مختارة",
       ],
       disclaimer:
-        "Actual insulation performance depends on product grade, substrate, thickness, ambient conditions, surface preparation and application conditions. Final performance is confirmed against approved technical data and project requirements.",
+        "يعتمد أداء العزل الفعلي على درجة المنتج، والسطح، والسماكة، والظروف المحيطة، وتجهيز السطح، وظروف التطبيق. ويتم تأكيد الأداء النهائي وفقًا للبيانات الفنية المعتمدة ومتطلبات المشروع.",
     },
   },
   {
     id: "tank-restoration",
     href: "/ar/services/tank-restoration-lining",
-    label: "Tank Restoration & Rehabilitation",
+    label: "ترميم وإعادة تأهيل الخزانات",
     children: [
       {
-        title: "FRP Tank Restoration",
+        title: "ترميم خزانات FRP",
         href: "/ar/services/tank-restoration-lining/tank-restoration/frp-restoration",
-        desc: "Crack and leak repair, structural reinforcement and nozzle or manhole restoration for FRP tanks.",
+        desc: "إصلاح التشققات والتسربات، والتدعيم الإنشائي، وترميم الفوهات وفتحات الدخول لخزانات FRP.",
         image: "/assets/images/services/frp-tank-restoration.png",
-        alt: "FRP tank crack and leak restoration work",
+        alt: "أعمال ترميم التشققات والتسربات في خزان FRP",
       },
       {
-        title: "Other Restoration & Rehabilitation",
+        title: "أعمال ترميم وإعادة تأهيل أخرى",
         href: "/ar/services/tank-restoration-lining/tank-rehabilitation",
-        desc: "Restoration support for polyethylene and steel tanks, plus concrete tank rehabilitation including waterproofing and lining.",
+        desc: "دعم ترميم خزانات البولي إيثيلين والفولاذ، إضافة إلى إعادة تأهيل الخزانات الخرسانية بما يشمل العزل المائي والتبطين.",
         image: "/assets/images/services/tank-rehabilitation.png",
-        alt: "Concrete tank rehabilitation and waterproofing",
+        alt: "إعادة تأهيل الخزانات الخرسانية وعزلها مائيًا",
       },
     ],
   },
   {
     id: "tank-lining",
     href: "/ar/services/tank-restoration-lining",
-    label: "Tank Lining",
+    label: "تبطين الخزانات",
     children: [
       {
-        title: "FRP / GRP Lining",
+        title: "تبطين FRP / GRP",
         href: "/ar/services/tank-restoration-lining/frp-grp-lining",
-        desc: "Fiberglass lining for corrosion and chemical resistance in tanks and vessels.",
+        desc: "تبطين بالألياف الزجاجية لمقاومة التآكل والمواد الكيميائية في الخزانات والأوعية.",
         image: "/assets/images/services/frp-lining.png",
-        alt: "FRP GRP tank lining application",
+        alt: "تطبيق تبطين خزانات FRP GRP",
       },
       {
-        title: "Chemical-Resistant Lining",
+        title: "تبطين مقاوم للمواد الكيميائية",
         href: "/ar/services/tank-restoration-lining/chemical-resistant-lining",
-        desc: "Resin systems matched to the specific chemical, concentration and operating temperature.",
+        desc: "أنظمة راتنجات تتوافق مع المادة الكيميائية المحددة وتركيزها ودرجة حرارة التشغيل.",
         image: "/assets/images/services/chemical-resistant-lining.png",
-        alt: "Chemical-resistant tank lining system",
+        alt: "نظام تبطين خزانات مقاوم للمواد الكيميائية",
       },
       {
-        title: "Concrete Tank Lining",
+        title: "تبطين الخزانات الخرسانية",
         href: "/ar/services/tank-restoration-lining/concrete-tank-lining",
-        desc: "Lining for concrete tanks and reservoirs, including crack sealing and waterproofing.",
+        desc: "تبطين للخزانات الخرسانية والخزانات الأرضية الكبيرة، بما يشمل سدّ التشققات والعزل المائي.",
         image: "/assets/images/services/concrete-tank-lining.png",
-        alt: "Concrete water tank lining and waterproofing",
+        alt: "تبطين وعزل مائي لخزان مياه خرساني",
       },
       {
-        title: "Steel Tank Lining",
+        title: "تبطين الخزانات الفولاذية",
         href: "/ar/services/tank-restoration-lining/steel-tank-lining",
-        desc: "Internal lining that protects steel tanks from corrosion and preserves product quality.",
+        desc: "تبطين داخلي يحمي الخزانات الفولاذية من التآكل ويحافظ على جودة المنتج.",
         image: "/assets/images/services/steel-tank-lining.png",
-        alt: "Steel tank internal lining application",
+        alt: "تطبيق تبطين داخلي لخزان فولاذي",
       },
       {
-        title: "Waterproof Lining",
+        title: "تبطين عازل للماء",
         href: "/ar/services/tank-restoration-lining/waterproof-lining",
-        desc: "Membrane and coating systems that stop leaks and moisture ingress.",
+        desc: "أنظمة أغشية وطلاءات توقف التسربات وتسرّب الرطوبة.",
         image: "/assets/images/services/waterproof-lining.png",
-        alt: "Waterproof lining membrane installation",
+        alt: "تركيب غشاء تبطين عازل للماء",
       },
       {
-        title: "Corrosion Protection",
+        title: "الحماية من التآكل",
         href: "/ar/services/tank-restoration-lining/corrosion-protection",
-        desc: "Surface preparation and protective coating for long-term asset protection.",
+        desc: "تجهيز الأسطح وطلاء واقٍ لحماية الأصول على المدى الطويل.",
         image: "/assets/images/services/corrosion-protection.png",
-        alt: "Industrial corrosion protection coating",
+        alt: "طلاء صناعي للحماية من التآكل",
       },
     ],
   },
   {
     id: "industrial-services",
     href: "/ar/services/industrial-services",
-    label: "Industrial Services",
+    label: "الخدمات الصناعية",
     children: [
       {
-        title: "Tank Inspection",
+        title: "فحص الخزانات",
         href: "/ar/services/industrial-services/tank-inspection",
-        desc: "Visual, dimensional and thickness inspection to assess tank condition.",
+        desc: "فحص بصري وبُعدي وفحص للسماكة لتقييم حالة الخزان.",
         image: "/assets/images/services/tank-inspection.png",
-        alt: "Industrial tank inspection in progress",
+        alt: "فحص خزان صناعي قيد التنفيذ",
       },
       {
-        title: "Tank Restoration & Rehabilitation",
+        title: "ترميم وإعادة تأهيل الخزانات",
         href: "/ar/services/tank-restoration-lining/tank-restoration",
-        desc: "Repair and reinforcement support for ageing tank assets.",
+        desc: "دعم الإصلاح والتدعيم للخزانات المتقادمة.",
         image: "/assets/images/services/industrial-tank-restoration.png",
-        alt: "Tank restoration and rehabilitation work",
+        alt: "أعمال ترميم وإعادة تأهيل الخزانات",
       },
       {
-        title: "Thermal Insulation",
+        title: "العزل الحراري",
         href: "/ar/services/thermal-insulation",
-        desc: "Insulation support delivered alongside other industrial site work.",
+        desc: "دعم أعمال العزل بالتوازي مع الأعمال الصناعية الأخرى في الموقع.",
         image: "/assets/images/services/industrial-insulation.png",
-        alt: "Industrial thermal insulation support",
+        alt: "دعم العزل الحراري الصناعي",
       },
       {
-        title: "FRP Lining & Waterproofing",
+        title: "تبطين FRP والعزل المائي",
         href: "/ar/services/tank-restoration-lining/frp-grp-lining",
-        desc: "Protective lining for tanks and containment structures.",
+        desc: "تبطين واقٍ للخزانات ومنشآت الاحتواء.",
         image: "/assets/images/services/frp-lining-waterproofing.png",
-        alt: "FRP lining and waterproofing service",
+        alt: "خدمة تبطين FRP والعزل المائي",
       },
       {
-        title: "Industrial Coating",
+        title: "الطلاء الصناعي",
         href: "/ar/services/industrial-services/industrial-coating",
-        desc: "Corrosion-resistant coating for industrial equipment and structures.",
+        desc: "طلاء مقاوم للتآكل للمعدات والمنشآت الصناعية.",
         image: "/assets/images/services/industrial-coating.png",
-        alt: "Industrial protective coating application",
+        alt: "تطبيق طلاء صناعي واقٍ",
       },
       {
-        title: "Survey & Scanning",
+        title: "المساحة والمسح",
         href: "/ar/services/survey-scanning",
-        desc: "3D scanning and survey support for existing assets and sites.",
+        desc: "دعم المسح ثلاثي الأبعاد والمساحة للأصول والمواقع القائمة.",
         image: "/assets/images/services/survey-scanning.png",
-        alt: "3D survey and scanning of industrial site",
+        alt: "مسح ثلاثي الأبعاد وأعمال مساحة لموقع صناعي",
       },
       {
-        title: "Mechanical Maintenance",
+        title: "الصيانة الميكانيكية",
         href: "/ar/services/industrial-services/mechanical-maintenance",
-        desc: "Mechanical maintenance and equipment support across site utilities.",
+        desc: "الصيانة الميكانيكية ودعم المعدات لمرافق الموقع.",
         image: "/assets/images/services/mechanical-maintenance.png",
-        alt: "Mechanical maintenance of industrial equipment",
+        alt: "الصيانة الميكانيكية للمعدات الصناعية",
       },
       {
-        title: "Equipment Support",
+        title: "دعم المعدات",
         href: "/ar/services/industrial-services/equipment-support",
-        desc: "General equipment support for ongoing industrial operations.",
+        desc: "دعم عام للمعدات في العمليات الصناعية المستمرة.",
         image: "/assets/images/services/equipment-support.png",
-        alt: "Industrial equipment support service",
+        alt: "خدمة دعم المعدات الصناعية",
       },
       {
-        title: "Chiller Installation & Maintenance",
+        title: "تركيب وصيانة المبردات",
         href: "/ar/services/industrial-services/chiller-installation-maintenance",
-        desc: "New installation, commissioning and preventive maintenance for chillers.",
+        desc: "تركيب جديد وتشغيل تجريبي وصيانة وقائية للمبردات.",
         image: "/assets/images/services/chiller-installation.png",
-        alt: "Chiller installation and maintenance in Saudi Arabia",
+        alt: "تركيب وصيانة المبردات في المملكة العربية السعودية",
       },
     ],
   },
@@ -329,7 +329,7 @@ export default function ServicesSection() {
     <section className="w-full overflow-hidden bg-white dark:bg-neutral-950">
       <div className="mx-auto w-full max-w-7xl px-5 py-17.5 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-23">
         <h2 className="max-w-lg text-[28px] font-normal leading-[1.15] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[34px]">
-          Our Tank Solutions
+          حلول الخزانات لدينا
         </h2>
         {/* <p className="mt-3 max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/55">
           Tank manufacturing, thermal insulation, restoration and lining, and
@@ -425,7 +425,7 @@ export default function ServicesSection() {
                     href={division.href}
                     className="mt-8 inline-flex items-center gap-1.5 border-b border-neutral-900 pb-0.5 text-sm font-semibold text-neutral-900 transition-colors hover:border-brand hover:text-brand dark:border-white dark:text-white"
                   >
-                    View all {division.label}
+                    عرض الكل {division.label}
                     <ArrowUpLeft size={15} aria-hidden="true" />
                   </Link>
                 </>
@@ -451,7 +451,7 @@ export default function ServicesSection() {
                     <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
                       <div>
                         <span className="text-xs font-semibold uppercase tracking-[0.08em] text-neutral-400 dark:text-white/40">
-                          Feature Areas
+                          مجالات التميّز
                         </span>
                         <div className="mt-3 flex flex-wrap gap-2">
                           {division.single.features.map((f) => (
@@ -466,7 +466,7 @@ export default function ServicesSection() {
                       </div>
                       <div>
                         <span className="text-xs font-semibold uppercase tracking-[0.08em] text-neutral-400 dark:text-white/40">
-                          Applications
+                          التطبيقات
                         </span>
                         <div className="mt-3 flex flex-wrap gap-2">
                           {division.single.applications.map((a) => (
@@ -489,7 +489,7 @@ export default function ServicesSection() {
                       href={division.href}
                       className="mt-6 inline-flex items-center gap-1.5 border-b border-neutral-900 pb-0.5 text-sm font-semibold text-neutral-900 transition-colors hover:border-brand hover:text-brand dark:border-white dark:text-white"
                     >
-                      View {division.label}
+                      عرض {division.label}
                       <ArrowUpLeft size={15} aria-hidden="true" />
                     </Link>
                   </div>

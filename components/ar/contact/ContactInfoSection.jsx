@@ -11,25 +11,25 @@ import { MapPin, Phone, Mail, Clock3, MessageCircle } from "lucide-react";
 const items = [
   {
     icon: MapPin,
-    label: "Address",
-    value: "Building 7850/3308, Street 9, Al Sinaiyyah, Zip Code 32624, Dammam, Saudi Arabia",
+    label: "العنوان",
+    value: "مبنى 7850/3308، شارع 9، الصناعية، الرمز البريدي 32624، الدمام، المملكة العربية السعودية",
   },
   {
     icon: Phone,
-    label: "Call Us",
+    label: "اتصل بنا",
     value: "+966 59 276 7326",
     href: "tel:+966592767326",
   },
   {
     icon: Mail,
-    label: "Email Us",
+    label: "راسلنا عبر البريد الإلكتروني",
     value: "info@falcontecksa.com",
     href: "mailto:info@falcontecksa.com",
   },
   {
     icon: Clock3,
-    label: "Working Hours",
-    value: "Monday – Friday, 08:00 AM – 06:00 PM",
+    label: "ساعات العمل",
+    value: "الاثنين – الجمعة، 08:00 ص – 06:00 م",
   },
 ];
 
@@ -78,7 +78,7 @@ export default function ContactInfoSection() {
         className="flex items-center justify-center gap-2 rounded-sm bg-[#25D366] py-4 text-sm font-semibold uppercase tracking-[0.02em] text-white transition-opacity hover:opacity-90"
       >
         <MessageCircle size={18} />
-        Chat on WhatsApp
+        تواصل عبر واتساب
       </motion.a>
     </div>
   );

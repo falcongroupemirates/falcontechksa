@@ -21,9 +21,9 @@ export const metadata = {
     canonical: "/ar/services/industrial-services",
     languages: { en: "/services/industrial-services", ar: "/ar/services/industrial-services", "x-default": "/services/industrial-services" },
   },
-  title: "Industrial Services & Chiller Installation in Saudi Arabia",
+  title: "الخدمات الصناعية وتركيب المبردات في المملكة العربية السعودية",
   description:
-    "Falcon Technologies provides tank inspection, industrial coating, mechanical maintenance, equipment support and chiller installation and maintenance across Saudi Arabia, including Dammam.",
+    "تقدم فالكون تكنولوجيز خدمات فحص الخزانات والطلاء الصناعي والصيانة الميكانيكية ودعم المعدات وتركيب وصيانة المبردات في جميع أنحاء المملكة العربية السعودية، بما في ذلك الدمام.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -38,152 +38,152 @@ const heroImage = "/assets/images/services/tank-inspection.png";
 // First item is the large feature tile.
 const ranges = [
   {
-    name: "Chiller Installation & Maintenance",
+    name: "تركيب وصيانة المبردات",
     href: "/ar/services/industrial-services/chiller-installation-maintenance",
     image: "/assets/images/services/chiller-installation.png",
-    alt: "Industrial chiller being installed and commissioned on site",
-    meta: "3 service types",
-    desc: "New installation and commissioning, preventive maintenance, and troubleshooting and repair — with a service report after every visit.",
+    alt: "مبرد صناعي أثناء تركيبه وتشغيله التجريبي في الموقع",
+    meta: "3 أنواع من الخدمات",
+    desc: "التركيب الجديد والتشغيل التجريبي، والصيانة الوقائية، وتشخيص الأعطال والإصلاح — مع تقرير خدمة بعد كل زيارة.",
   },
   {
-    name: "Tank Inspection",
+    name: "فحص الخزانات",
     href: "/ar/services/industrial-services/tank-inspection",
     image: "/assets/images/services/tank-inspection.png",
-    alt: "Technician inspecting an industrial storage tank",
-    meta: "Visual, dimensional and thickness",
-    desc: "Condition checks that show what a tank needs before repair, lining or a change of duty.",
+    alt: "فني يفحص خزان تخزين صناعي",
+    meta: "الفحص البصري والأبعاد والسماكة",
+    desc: "فحوصات للحالة تبيّن ما يحتاجه الخزان قبل الإصلاح أو التبطين أو تغيير الاستخدام.",
   },
   {
-    name: "Industrial Coating",
+    name: "الطلاء الصناعي",
     href: "/ar/services/industrial-services/industrial-coating",
     image: "/assets/images/services/industrial-coating.png",
-    alt: "Protective industrial coating being applied",
-    meta: "Coating and waterproofing",
-    desc: "Protective coatings for tanks, steelwork and plant.",
+    alt: "تطبيق طلاء صناعي واقٍ",
+    meta: "الطلاء والعزل المائي",
+    desc: "طلاءات واقية للخزانات والهياكل الفولاذية والمصانع.",
   },
   {
-    name: "Mechanical Maintenance",
+    name: "الصيانة الميكانيكية",
     href: "/ar/services/industrial-services/mechanical-maintenance",
     image: "/assets/images/services/mechanical-maintenance.png",
-    alt: "Mechanical maintenance on industrial equipment",
-    meta: "Site utilities and equipment",
-    desc: "Mechanical maintenance that keeps site utilities and equipment running.",
+    alt: "صيانة ميكانيكية لمعدات صناعية",
+    meta: "مرافق الموقع والمعدات",
+    desc: "صيانة ميكانيكية تحافظ على تشغيل مرافق الموقع والمعدات.",
   },
   {
-    name: "Equipment Support",
+    name: "دعم المعدات",
     href: "/ar/services/industrial-services/equipment-support",
     image: "/assets/images/services/equipment-support.png",
-    alt: "Engineer supporting industrial equipment on site",
-    meta: "Plant equipment",
-    desc: "Support for plant equipment, from installation to ongoing service.",
+    alt: "مهندس يدعم معدات صناعية في الموقع",
+    meta: "معدات المصانع",
+    desc: "دعم معدات المصانع، من التركيب إلى الخدمة المستمرة.",
   },
 ];
 
 // Comparison table: one column per option, one row per question.
 const compareColumns = [
   {
-    name: "Tank inspection",
+    name: "فحص الخزانات",
     href: "/ar/services/industrial-services/tank-inspection",
   },
   {
-    name: "Coating & maintenance",
+    name: "الطلاء والصيانة",
     href: "/ar/services/industrial-services/mechanical-maintenance",
   },
   {
-    name: "Chiller services",
+    name: "خدمات المبردات",
     href: "/ar/services/industrial-services/chiller-installation-maintenance",
   },
 ];
 
 const comparison = [
   [
-    "Call us when",
-    "You need to know a tank's condition before repair, lining or a change of duty",
-    "Steelwork, tanks or equipment need protecting or keeping in service",
-    "You're installing a new chiller, or an existing one needs servicing or repair",
+    "اتصل بنا عندما",
+    "تحتاج إلى معرفة حالة الخزان قبل الإصلاح أو التبطين أو تغيير الاستخدام",
+    "تحتاج الهياكل الفولاذية أو الخزانات أو المعدات إلى حماية أو إبقاء في الخدمة",
+    "تقوم بتركيب مبرد جديد، أو يحتاج مبرد قائم إلى خدمة أو إصلاح",
   ],
   [
-    "What we do",
-    "Visual, dimensional and thickness inspection",
-    "Industrial coating, waterproofing, mechanical maintenance and equipment support",
-    "Installation, commissioning, preventive maintenance and troubleshooting",
+    "ما نقوم به",
+    "الفحص البصري وفحص الأبعاد والسماكة",
+    "الطلاء الصناعي والعزل المائي والصيانة الميكانيكية ودعم المعدات",
+    "التركيب والتشغيل التجريبي والصيانة الوقائية وتشخيص الأعطال",
   ],
   [
-    "Worked to",
-    "Approved procedures and project specifications",
-    "Approved method statements and project specifications",
-    "Manufacturer service manuals and procedures",
+    "وفق",
+    "الإجراءات المعتمدة ومواصفات المشروع",
+    "بيانات طريقة العمل المعتمدة ومواصفات المشروع",
+    "أدلة الخدمة وإجراءات الشركة المصنعة",
   ],
   [
-    "You receive",
-    "An inspection report",
-    "A documented handover",
-    "A service report after each visit",
+    "ما تحصل عليه",
+    "تقرير فحص",
+    "تسليم موثق",
+    "تقرير خدمة بعد كل زيارة",
   ],
 ];
 
 const process = [
   {
-    title: "Scope review",
-    desc: "Equipment make and model, capacity, operating condition and service history are reviewed first.",
+    title: "مراجعة النطاق",
+    desc: "تُراجع أولًا العلامة التجارية للمعدات وموديلها وسعتها وحالة تشغيلها وسجل خدمتها.",
   },
   {
-    title: "Service plan",
-    desc: "Installation, maintenance or inspection scope is confirmed against manufacturer requirements.",
+    title: "خطة الخدمة",
+    desc: "يُؤكد نطاق التركيب أو الصيانة أو الفحص وفق متطلبات الشركة المصنعة.",
   },
   {
-    title: "Execution",
-    desc: "Work is carried out within Falcon's approved and authorised scope.",
+    title: "التنفيذ",
+    desc: "يُنفذ العمل ضمن النطاق المعتمد والمصرح به لفالكون.",
   },
   {
-    title: "Inspection and testing",
-    desc: "Operating parameters and performance are checked against requirements.",
+    title: "الفحص والاختبار",
+    desc: "تُفحص معايير التشغيل والأداء مقارنة بالمتطلبات.",
   },
   {
-    title: "Report and handover",
-    desc: "A service or inspection report is issued, with after-service support available.",
+    title: "التقرير والتسليم",
+    desc: "يُصدر تقرير خدمة أو فحص، مع توفر دعم ما بعد الخدمة.",
   },
 ];
 
 const industries = [
-  "Manufacturing",
-  "Commercial & Industrial Buildings",
-  "Oil & Gas",
-  "Power & Utilities",
-  "Construction & Infrastructure",
-  "Food & Beverage",
+  "التصنيع",
+  "المباني التجارية والصناعية",
+  "النفط والغاز",
+  "الطاقة والمرافق",
+  "الإنشاءات والبنية التحتية",
+  "الأغذية والمشروبات",
 ];
 
 const tags = [
-  "Manufacturer service manuals",
-  "Approved service procedures",
-  "Project specifications",
-  "Relevant regulatory requirements",
+  "أدلة خدمة الشركة المصنعة",
+  "إجراءات الخدمة المعتمدة",
+  "مواصفات المشروع",
+  "المتطلبات التنظيمية ذات الصلة",
 ];
 
 const related = [
-  { label: "Tank Solutions", icon: Factory, href: "/ar/services/tank-solutions" },
-  { label: "Thermal Insulation", icon: Flame, href: "/ar/services/thermal-insulation" },
-  { label: "Tank Restoration & Lining", icon: ShieldCheck, href: "/ar/services/tank-restoration-lining" },
-  { label: "Surveying & 3D Scanning", icon: ScanLine, href: "/ar/services/survey-scanning" },
+  { label: "حلول الخزانات", icon: Factory, href: "/ar/services/tank-solutions" },
+  { label: "العزل الحراري", icon: Flame, href: "/ar/services/thermal-insulation" },
+  { label: "ترميم وتبطين الخزانات", icon: ShieldCheck, href: "/ar/services/tank-restoration-lining" },
+  { label: "المساحة والمسح ثلاثي الأبعاد", icon: ScanLine, href: "/ar/services/survey-scanning" },
 ];
 
 const faqs = [
   {
-    q: "Do you handle chiller maintenance in Dammam and the Eastern Province?",
-    a: "Yes — Falcon provides chiller installation, commissioning and preventive maintenance across the Eastern Province, including Dammam, within our approved and authorized scope.",
+    q: "هل تقدمون صيانة المبردات في الدمام والمنطقة الشرقية؟",
+    a: "نعم — تقدم فالكون خدمات تركيب المبردات وتشغيلها التجريبي وصيانتها الوقائية في جميع أنحاء المنطقة الشرقية، بما في ذلك الدمام، ضمن نطاقنا المعتمد والمصرح به.",
   },
   {
-    q: "What's included in a preventive maintenance visit?",
-    a: "A typical visit covers inspection of operating condition and key parameters, oil, filter and consumable checks, leak inspection, and a documented service report — scope varies by chiller model and manufacturer requirements.",
+    q: "ماذا تشمل زيارة الصيانة الوقائية؟",
+    a: "تشمل الزيارة المعتادة فحص حالة التشغيل والمعايير الرئيسية، وفحص الزيت والفلاتر والمواد الاستهلاكية، وفحص التسربات، وتقرير خدمة موثق — ويختلف النطاق حسب موديل المبرد ومتطلبات الشركة المصنعة.",
   },
   {
-    q: "Can you inspect tanks without taking them out of service?",
-    a: "Many inspection methods — visual, dimensional and thickness checks — can be carried out with minimal disruption. Where a tank must be taken offline, we plan the scope to minimize downtime.",
+    q: "هل يمكنكم فحص الخزانات دون إخراجها من الخدمة؟",
+    a: "يمكن تنفيذ كثير من طرق الفحص — البصري وفحص الأبعاد والسماكة — بأقل قدر من التعطيل. وحيثما يلزم إيقاف الخزان، نخطط النطاق لتقليل فترة التوقف.",
   },
   {
-    q: "Do you only service equipment you're authorized to work on?",
-    a: "Yes — Falcon only advertises and performs industrial and chiller services it is technically equipped, licensed and authorized to execute, and works to manufacturer procedures where applicable.",
+    q: "هل تقومون بخدمة المعدات المصرح لكم بالعمل عليها فقط؟",
+    a: "نعم — لا تعلن فالكون إلا عن الخدمات الصناعية وخدمات المبردات التي تمتلك التجهيزات الفنية والترخيص والتفويض لتنفيذها، ولا تنفذ سواها، وتعمل وفق إجراءات الشركة المصنعة حيثما ينطبق.",
   },
 ];
 
@@ -192,15 +192,15 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      serviceType: "Industrial Services",
-      name: "Industrial Services",
+      serviceType: "الخدمات الصناعية",
+      name: "الخدمات الصناعية",
       description:
-        "Tank inspection, industrial coating, mechanical maintenance, equipment support and chiller installation and maintenance.",
-      areaServed: "Saudi Arabia",
-      provider: { "@type": "Organization", name: "Falcon Technologies" },
+        "فحص الخزانات، والطلاء الصناعي، والصيانة الميكانيكية، ودعم المعدات، وتركيب وصيانة المبردات.",
+      areaServed: "المملكة العربية السعودية",
+      provider: { "@type": "Organization", name: "فالكون تكنولوجيز" },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Industrial services",
+        name: "الخدمات الصناعية",
         itemListElement: ranges.map((r) => ({
           "@type": "Offer",
           itemOffered: { "@type": "Service", name: r.name, description: r.desc },
@@ -231,12 +231,12 @@ export default function IndustrialServicesPage() {
       />
 
       <PageHero
-        eyebrow="Services"
-        title="Industrial Services"
-        description="Inspection, mechanical maintenance and chiller installation & maintenance delivered by a single accountable team."
-        breadcrumb="Industrial Services"
+        eyebrow="الخدمات"
+        title="الخدمات الصناعية"
+        description="الفحص والصيانة الميكانيكية وتركيب وصيانة المبردات، يقدمها فريق واحد مسؤول."
+        breadcrumb="الخدمات الصناعية"
         image={heroImage}
-        imageAlt="Industrial storage tank inspection by Falcon Technologies site team"
+        imageAlt="فحص خزان تخزين صناعي من قبل فريق موقع فالكون تكنولوجيز"
       />
 
       {/* ============ SERVICES — image-led index ============ */}
@@ -244,10 +244,10 @@ export default function IndustrialServicesPage() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:items-end lg:gap-16">
             <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-              Inspection, maintenance and chiller services from one site team
+              خدمات الفحص والصيانة والمبردات من فريق موقع واحد
             </h2>
             <p className="max-w-xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-              Falcon reviews the equipment, its condition and service history first, then plans inspection, coating, maintenance or chiller work within its approved and authorised scope — with a report at the end of every job.
+              تراجع فالكون أولًا المعدات وحالتها وسجل خدمتها، ثم تخطط لأعمال الفحص أو الطلاء أو الصيانة أو المبردات ضمن نطاقها المعتمد والمصرح به — مع تقرير في نهاية كل عمل.
             </p>
           </div>
 
@@ -275,7 +275,7 @@ export default function IndustrialServicesPage() {
                   {feature.desc}
                 </p>
                 <span className="mt-6 inline-flex items-center gap-1.5 border-b border-white/60 pb-0.5 text-sm font-semibold text-white transition-colors group-hover:border-brand group-hover:text-white">
-                  View {feature.name}
+                  عرض {feature.name}
                   <ArrowUpLeft
                     size={15}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -320,10 +320,10 @@ export default function IndustrialServicesPage() {
             <div className="flex flex-col justify-between rounded-sm bg-mist p-6 dark:bg-neutral-900 sm:p-8 md:col-span-2 lg:col-span-1">
               <div>
                 <h3 className="text-2xl font-normal tracking-tight text-ink dark:text-white">
-                  Not sure what your equipment needs?
+                  لست متأكدًا مما تحتاجه معداتك؟
                 </h3>
                 <p className="mt-3 max-w-lg text-base leading-relaxed text-steel dark:text-white/60">
-                  Send the make, model and the problem you&rsquo;re seeing. We confirm the scope before anyone comes to site.
+                  أرسل لنا العلامة التجارية والموديل والمشكلة التي تلاحظها. نؤكد النطاق قبل أن يحضر أي شخص إلى الموقع.
                 </p>
               </div>
               <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -331,13 +331,13 @@ export default function IndustrialServicesPage() {
                   href="/ar/request-a-quote"
                   className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
                 >
-                  Request a Quote
+                  اطلب عرض سعر
                 </Link>
                 <Link
                   href="/ar/contact-us"
                   className="border-b border-ink/30 pb-0.5 text-sm font-semibold text-ink transition-colors hover:border-brand hover:text-brand dark:border-white/30 dark:text-white"
                 >
-                  Talk to an engineer
+                  تحدث إلى مهندس
                 </Link>
               </div>
             </div>
@@ -349,10 +349,10 @@ export default function IndustrialServicesPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Which service do you need?
+            ما الخدمة التي تحتاجها؟
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-            A quick guide. We confirm the scope after reviewing the equipment and its service history.
+            دليل سريع. نؤكد النطاق بعد مراجعة المعدات وسجل خدمتها.
           </p>
 
           {/* Phones: one stacked block per option */}
@@ -394,7 +394,7 @@ export default function IndustrialServicesPage() {
               <thead>
                 <tr className="border-b-2 border-ink dark:border-white/40">
                   <th scope="col" className="w-1/4 py-4 pe-6 text-sm font-medium text-steel dark:text-white/50">
-                    <span className="sr-only">Question</span>
+                    <span className="sr-only">السؤال</span>
                   </th>
                   {compareColumns.map((m) => (
                     <th key={m.name} scope="col" className="py-4 pe-6 align-bottom">
@@ -441,7 +441,7 @@ export default function IndustrialServicesPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            From scope review to report
+            من مراجعة النطاق إلى التقرير
           </h2>
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
             {process.map((s, i) => (
@@ -466,7 +466,7 @@ export default function IndustrialServicesPage() {
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-14 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Industries we support
+              القطاعات التي ندعمها
             </h2>
             <ul className="mt-6 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2">
               {industries.map((a) => (
@@ -478,7 +478,7 @@ export default function IndustrialServicesPage() {
           </div>
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Work carried out to
+              تُنفذ الأعمال وفق
             </h2>
             <div className="mt-6 flex flex-wrap gap-2">
               {tags.map((s) => (
@@ -488,7 +488,7 @@ export default function IndustrialServicesPage() {
               ))}
             </div>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/45">
-              Falcon only performs services it is technically equipped, licensed and authorised to carry out, working to manufacturer procedures where applicable.
+              لا تنفذ فالكون إلا الخدمات التي تمتلك التجهيزات الفنية والترخيص والتفويض لتنفيذها، وتعمل وفق إجراءات الشركة المصنعة حيثما ينطبق.
             </p>
           </div>
         </div>
@@ -498,7 +498,7 @@ export default function IndustrialServicesPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Frequently asked questions
+            الأسئلة الشائعة
           </h2>
           <div className="border-t border-neutral-200 dark:border-white/10 lg:col-span-2">
             {faqs.map((f) => (
@@ -523,7 +523,7 @@ export default function IndustrialServicesPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0">
           <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-            Related services
+            خدمات ذات صلة
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {related.map((r) => {

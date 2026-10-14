@@ -1,4 +1,6 @@
 // Write the translator's Arabic text into the Arabic site files.
+// Also applies corrections: if a row's Arabic changed since the last import,
+// the old Arabic in the files is replaced with the new one.
 //   Run:  node scripts/i18n/import-ar.mjs [translations/ar-strings.csv]
 // Every occurrence of an English string (in text positions only — never class
 // names, links or ids) is replaced with its Arabic translation. Rows with an
@@ -7,16 +9,24 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ROOT, arFiles, parseFile, textNodes, fromCsv, norm } from "./strings.mjs";
+import { loadApplied, saveApplied } from "./applied.mjs";
 
 const csvPath = path.resolve(ROOT, process.argv[2] || "translations/ar-strings.csv");
 const [head, ...rows] = fromCsv(fs.readFileSync(csvPath, "utf8"));
 const en = head.indexOf("english"), ar = head.indexOf("arabic");
 if (en < 0 || ar < 0) throw new Error('CSV needs "english" and "arabic" columns');
 
-const map = new Map();
+const applied = loadApplied();
+const map = new Map(); // text currently in the files -> new Arabic
+let loaded = 0;
 for (const r of rows) {
   const from = norm(r[en] || ""), to = (r[ar] || "").trim();
-  if (from && to) map.set(from, to);
+  if (!from || !to) continue;
+  loaded++;
+  map.set(from, to); // still English in the files
+  const prev = applied.get(from);
+  if (prev && norm(prev) !== norm(to)) map.set(norm(prev), to); // correction
+  applied.set(from, to);
 }
 
 const quoteFor = (raw) => (raw.startsWith("'") ? "'" : '"');
@@ -61,4 +71,5 @@ for (const file of arFiles()) {
   fs.writeFileSync(file, out);
   files++; replaced += hits.length;
 }
-console.log(`Replaced ${replaced} strings in ${files} files (${map.size} translations loaded).`);
+saveApplied(applied);
+console.log(`Replaced ${replaced} strings in ${files} files (${loaded} translations loaded).`);

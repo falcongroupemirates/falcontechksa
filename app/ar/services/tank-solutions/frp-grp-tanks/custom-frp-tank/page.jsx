@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/ar/services/tank-solutions/frp-grp-tanks/custom-frp-tank",
     languages: { en: "/services/tank-solutions/frp-grp-tanks/custom-frp-tank", ar: "/ar/services/tank-solutions/frp-grp-tanks/custom-frp-tank", "x-default": "/services/tank-solutions/frp-grp-tanks/custom-frp-tank" },
   },
-  "title": "Custom-Shape FRP Tank | FRP / GRP Tanks",
-  "description": "Project-specific fabrication for tanks that don't fit a standard shape or footprint."
+  "title": "خزان FRP بشكل مخصص | خزانات FRP / GRP",
+  "description": "تصنيع مخصص لكل مشروع للخزانات التي لا تناسب شكلًا أو مساحة قياسية."
 };
 
 export default function Page() {
@@ -27,12 +27,12 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Tank Solutions — FRP / GRP Tanks"
-        title="Custom-Shape FRP Tank"
-        description="Project-specific fabrication for tanks that don't fit a standard shape or footprint."
-        breadcrumb="Custom-Shape FRP Tank"
+        eyebrow="حلول الخزانات — خزانات FRP / GRP"
+        title="خزان FRP بشكل مخصص"
+        description="تصنيع مخصص لكل مشروع للخزانات التي لا تناسب شكلًا أو مساحة قياسية."
+        breadcrumb="خزان FRP بشكل مخصص"
         image="/assets/images/tank-solutions/industrial_frp_hopper_tank_in_saudi_plant.png"
-        imageAlt="Custom-Shape FRP Tank by Falcon Technologies in Saudi Arabia"
+        imageAlt="خزان FRP بشكل مخصص من فالكون تكنولوجيز في المملكة العربية السعودية"
       />
 
       <section className="w-full bg-white dark:bg-neutral-950">
@@ -44,17 +44,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                FRP / GRP Tanks
+                خزانات FRP / GRP
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Custom-Shape FRP Tank
+                خزان FRP بشكل مخصص
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Purpose-built hoppers, sumps, compartments or process vessels fabricated to suit plant layout and liquid handling.
+                قواديس وأحواض تجميع وحجرات وأوعية عمليات مصنعة خصيصًا لتلائم مخطط المصنع ومناولة السوائل.
               </p>
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Before design, the duty is defined in full: liquid and concentration, temperature, pressure/vacuum, batch or continuous operation, agitation, cleaning method, support and interface loads, inspection access and required design life.
+                قبل التصميم، يتم تحديد ظروف التشغيل بالكامل: السائل وتركيزه، ودرجة الحرارة، والضغط/التفريغ، والتشغيل الدفعي أو المستمر، والتقليب، وطريقة التنظيف، وأحمال الدعم والوصلات، ومنافذ الفحص، والعمر التصميمي المطلوب.
               </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -62,21 +62,21 @@ export default function Page() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Request a Quote
+                اطلب عرض سعر
               </a>
               <a
                 href="/ar/services/tank-solutions/frp-grp-tanks"
                 className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
               >
-                See all FRP / GRP Tanks
+                عرض كل خزانات FRP / GRP
               </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
-              <Image loading="eager" src="/assets/images/tank-solutions/industrial_frp_hopper_tank_in_saudi_plant.png" alt="Custom-Shape FRP Tank by Falcon Technologies in Saudi Arabia" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <Image loading="eager" src="/assets/images/tank-solutions/industrial_frp_hopper_tank_in_saudi_plant.png" alt="خزان FRP بشكل مخصص من فالكون تكنولوجيز في المملكة العربية السعودية" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                FRP / GRP Tanks
+                خزانات FRP / GRP
               </span>
             </div>
           </div>
@@ -87,37 +87,37 @@ export default function Page() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
-              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Specification</h2>
+              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">المواصفات</h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Construction</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Project-specific — hoppers, sumps, compartments, process vessels</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التصنيع</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">مخصص لكل مشروع — قواديس، أحواض تجميع، حجرات، أوعية عمليات</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Define before design</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Liquid &amp; concentration, temperature, pressure/vacuum, batch/continuous duty, agitation, cleaning method</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التحديد قبل التصميم</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">السائل والتركيز، درجة الحرارة، الضغط/التفريغ، التشغيل الدفعي/المستمر، التقليب، طريقة التنظيف</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Also required</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Support/interface loads, inspection access, required design life</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">مطلوب أيضًا</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">أحمال الدعم/الوصلات، منافذ الفحص، العمر التصميمي المطلوب</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Resin systems</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Selected for the confirmed duty</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">أنظمة الراتنج</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">يتم اختيارها وفق ظروف التشغيل المؤكدة</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">To confirm per project</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Fabrication route and quality records for the specific shape</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">يُؤكَّد لكل مشروع</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">طريقة التصنيع وسجلات الجودة الخاصة بالشكل المحدد</dd>
               </div>
               </dl>
             </div>
             <div>
-              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">Where It&rsquo;s Used</h2>
+              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">مجالات الاستخدام</h2>
               <div className="mt-5 flex flex-wrap gap-2">
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Retrofit &amp; layout-constrained projects</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Process vessels</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Hoppers &amp; sumps</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Special liquid handling</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">مشاريع التحديث والمواقع محدودة المساحة</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">أوعية العمليات</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">القواديس وأحواض التجميع</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">مناولة السوائل الخاصة</span>
               </div>
             </div>
           </div>
@@ -126,21 +126,21 @@ export default function Page() {
 
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Frequently Asked Questions</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">الأسئلة الشائعة</h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                What do you need to quote a custom tank?
+                ما الذي تحتاجونه لتقديم عرض سعر لخزان مخصص؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">The full duty: liquid and concentration, temperature, pressure/vacuum, operation mode, agitation, cleaning, support loads, access and design life.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">ظروف التشغيل كاملة: السائل وتركيزه، ودرجة الحرارة، والضغط/التفريغ، ونمط التشغيل، والتقليب، والتنظيف، وأحمال الدعم، ومنافذ الوصول، والعمر التصميمي.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Does a custom shape affect quality records?
+                هل يؤثر الشكل المخصص على سجلات الجودة؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">The fabrication route and QA records are confirmed for the specific shape, since custom geometry isn't covered by a standard tank's records.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">يتم تأكيد طريقة التصنيع وسجلات ضمان الجودة للشكل المحدد، لأن الأشكال المخصصة لا تغطيها سجلات الخزانات القياسية.</p>
             </details>
           </div>
         </div>
@@ -148,18 +148,18 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Other FRP / GRP Tanks Types</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">أنواع أخرى من خزانات FRP / GRP</h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             <a href="/ar/services/tank-solutions/frp-grp-tanks/vertical-frp-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Vertical FRP Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان FRP رأسي</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
             <a href="/ar/services/tank-solutions/frp-grp-tanks/horizontal-frp-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Horizontal FRP Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان FRP أفقي</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
             <a href="/ar/services/tank-solutions/frp-grp-tanks/underground-frp-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Underground FRP Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان FRP أرضي</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
           </div>

@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/ar/services/tank-solutions/steel-tank-systems/fabricated-storage-tank",
     languages: { en: "/services/tank-solutions/steel-tank-systems/fabricated-storage-tank", ar: "/ar/services/tank-solutions/steel-tank-systems/fabricated-storage-tank", "x-default": "/services/tank-solutions/steel-tank-systems/fabricated-storage-tank" },
   },
-  "title": "Fabricated Storage Tank | Steel Tank Systems",
-  "description": "Custom-fabricated steel storage built to project drawings."
+  "title": "خزان تخزين مُصنَّع | أنظمة الخزانات الفولاذية",
+  "description": "خزانات تخزين فولاذية مُصنَّعة حسب الطلب وفق مخططات المشروع."
 };
 
 export default function Page() {
@@ -27,12 +27,12 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Tank Solutions — Steel Tank Systems"
-        title="Fabricated Storage Tank"
-        description="Custom-fabricated steel storage built to project drawings."
-        breadcrumb="Fabricated Storage Tank"
+        eyebrow="حلول الخزانات — أنظمة الخزانات الفولاذية"
+        title="خزان تخزين مُصنَّع"
+        description="خزانات تخزين فولاذية مُصنَّعة حسب الطلب وفق مخططات المشروع."
+        breadcrumb="خزان تخزين مُصنَّع"
         image="/assets/images/tank-solutions/engineered_atmospheric_storage_tank.png"
-        imageAlt="Fabricated Storage Tank by Falcon Technologies in Saudi Arabia"
+        imageAlt="خزان تخزين مُصنَّع من فالكون تكنولوجيز في المملكة العربية السعودية"
       />
 
       <section className="w-full bg-white dark:bg-neutral-950">
@@ -44,17 +44,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Steel Tank Systems
+                أنظمة الخزانات الفولاذية
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Fabricated Storage Tank
+                خزان تخزين مُصنَّع
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                A welded atmospheric storage tank built to a defined code or specification and inspection plan.
+                خزان تخزين جوي ملحوم يُصنَّع وفق كود أو مواصفة محددة وخطة فحص.
               </p>
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Steel grade, corrosion allowance, roof and bottom type, venting, coating or lining, weld procedures, NDE and test requirements are all selected for the service — corrosion allowance and coating are part of the design, not optional extras.
+                تُختار درجة الفولاذ، وسماحية التآكل، ونوع السقف والقاع، والتهوية، والطلاء أو التبطين، وإجراءات اللحام، والفحص غير الإتلافي (NDE)، ومتطلبات الاختبار جميعها وفق الخدمة — فسماحية التآكل والطلاء جزء من التصميم، وليسا إضافات اختيارية.
               </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -62,21 +62,21 @@ export default function Page() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Request a Quote
+                اطلب عرض سعر
               </a>
               <a
                 href="/ar/services/tank-solutions/steel-tank-systems"
                 className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
               >
-                See all Steel Tank Systems
+                عرض كل أنظمة الخزانات الفولاذية
               </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
-              <Image loading="eager" src="/assets/images/tank-solutions/engineered_atmospheric_storage_tank.png" alt="Fabricated Storage Tank by Falcon Technologies in Saudi Arabia" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <Image loading="eager" src="/assets/images/tank-solutions/engineered_atmospheric_storage_tank.png" alt="خزان تخزين مُصنَّع من فالكون تكنولوجيز في المملكة العربية السعودية" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Steel Tank Systems
+                أنظمة الخزانات الفولاذية
               </span>
             </div>
           </div>
@@ -87,37 +87,37 @@ export default function Page() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
-              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Specification</h2>
+              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">المواصفات</h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Construction</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Welded atmospheric tank to a defined code/specification and inspection plan</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التصنيع</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">خزان جوي ملحوم وفق كود/مواصفة محددة وخطة فحص</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Select for service</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Steel grade, corrosion allowance, roof/bottom, venting, coating/lining</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الاختيار وفق الخدمة</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">درجة الفولاذ، وسماحية التآكل، والسقف/القاع، والتهوية، والطلاء/التبطين</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Quality</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Weld procedures, NDE and test requirements per the service</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الجودة</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">إجراءات اللحام، والفحص غير الإتلافي (NDE)، ومتطلبات الاختبار وفق الخدمة</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Materials</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Carbon steel for many bulk-liquid duties; stainless/alloy where the corrosion review supports it</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">المواد</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">الفولاذ الكربوني لكثير من تطبيقات السوائل السائبة؛ والفولاذ المقاوم للصدأ/السبائك حيثما تدعمها مراجعة التآكل</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">To confirm per project</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Code basis, workshop capability, QA records</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">يُؤكَّد لكل مشروع</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">أساس الكود، وقدرات الورشة، وسجلات ضمان الجودة</dd>
               </div>
               </dl>
             </div>
             <div>
-              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">Where It&rsquo;s Used</h2>
+              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">مجالات الاستخدام</h2>
               <div className="mt-5 flex flex-wrap gap-2">
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Bulk liquid storage</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Industrial plants</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Process facilities</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Water storage</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">تخزين السوائل السائبة</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">المصانع الصناعية</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">منشآت المعالجة</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">تخزين المياه</span>
               </div>
             </div>
           </div>
@@ -126,21 +126,21 @@ export default function Page() {
 
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Frequently Asked Questions</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">الأسئلة الشائعة</h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Is corrosion protection optional on a steel tank?
+                هل الحماية من التآكل اختيارية في الخزان الفولاذي؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">No — corrosion allowance, coating or lining and inspection details are part of the design, selected for the service, not optional marketing features.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">لا — سماحية التآكل والطلاء أو التبطين وتفاصيل الفحص جزء من التصميم، وتُختار وفق الخدمة، وليست ميزات تسويقية اختيارية.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                What code is a fabricated tank built to?
+                وفق أي كود يُصنَّع الخزان؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">To a defined code/specification agreed for the project — the code basis and inspection plan are confirmed before fabrication.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">وفق كود/مواصفة محددة يُتفق عليها للمشروع — ويُؤكَّد أساس الكود وخطة الفحص قبل التصنيع.</p>
             </details>
           </div>
         </div>
@@ -148,18 +148,18 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Other Steel Tank Systems Types</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">أنواع أخرى من أنظمة الخزانات الفولاذية</h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             <a href="/ar/services/tank-solutions/steel-tank-systems/diesel-fuel-steel-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Diesel / Fuel Steel Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان فولاذي للديزل / الوقود</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
             <a href="/ar/services/tank-solutions/steel-tank-systems/skid-mounted-tank-system" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Skid-Mounted Tank System</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">نظام خزان مثبت على قاعدة (سكيد)</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
             <a href="/ar/services/tank-solutions/steel-tank-systems/industrial-process-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Industrial Process Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان عمليات صناعية</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
           </div>

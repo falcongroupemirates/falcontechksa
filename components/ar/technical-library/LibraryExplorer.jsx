@@ -37,10 +37,10 @@ export default function LibraryExplorer({ initialCategory = "all" }) {
         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.15em] text-brand">
-              Documents & Downloads
+              الوثائق والتحميلات
             </span>
             <h2 className="mt-3 max-w-lg text-[28px] font-normal leading-[1.15] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[34px]">
-              Browse the Library
+              تصفّح المكتبة
             </h2>
           </div>
 
@@ -53,7 +53,7 @@ export default function LibraryExplorer({ initialCategory = "all" }) {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search documents…"
+              placeholder="ابحث في الوثائق…"
               className="h-11 w-full rounded-full border border-neutral-200 bg-white ps-10 pe-9 text-sm text-neutral-800 
               outline-none transition-colors placeholder:text-neutral-400 focus:border-brand dark:border-white/15 dark:bg-neutral-900 
               dark:text-white dark:placeholder:text-white/35"
@@ -61,7 +61,7 @@ export default function LibraryExplorer({ initialCategory = "all" }) {
             {query && (
               <button
                 onClick={() => setQuery("")}
-                aria-label="Clear search"
+                aria-label="مسح البحث"
                 className="absolute end-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600 dark:text-white/35 dark:hover:text-white/70"
               >
                 <X size={15} />
@@ -80,7 +80,7 @@ export default function LibraryExplorer({ initialCategory = "all" }) {
                 : "border-neutral-300 text-neutral-600 hover:border-brand hover:text-brand dark:border-white/15 dark:text-white/60"
             }`}
           >
-            All Documents
+            جميع الوثائق
           </button>
           {libraryCategories.map((cat) => (
             <button
@@ -123,8 +123,7 @@ export default function LibraryExplorer({ initialCategory = "all" }) {
 
         {filtered.length === 0 && (
           <p className="mt-16 text-center text-sm text-neutral-500 dark:text-white/50">
-            No documents match &ldquo;{query}&rdquo;. Try another term or browse
-            a different category.
+            لا توجد وثائق تطابق “{query}”. جرّب مصطلحًا آخر أو تصفّح فئة مختلفة.
           </p>
         )}
       </div>

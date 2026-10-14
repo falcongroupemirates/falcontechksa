@@ -26,7 +26,7 @@ export default function LocationMap() {
               className="inline-flex h-8 items-center rounded-full border border-neutral-300 px-5 dark:border-white/15"
             >
               <span className="text-[12px] font-medium uppercase tracking-[0.02em] text-neutral-900 dark:text-white">
-                Find Us
+                موقعنا
               </span>
             </motion.div>
 
@@ -41,8 +41,8 @@ export default function LocationMap() {
               }}
               className="mt-5 text-[38px] font-normal leading-[1.08] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[46px] lg:text-[52px]"
             >
-              Visit Falcon
-              <span className="block">Technologies</span>
+              زُر فالكون
+              <span className="block">تكنولوجيز</span>
             </motion.h2>
           </div>
 
@@ -57,8 +57,7 @@ export default function LocationMap() {
             }}
             className="max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/50 sm:text-base"
           >
-            Based in Dammam, we support clients across Saudi Arabia and the GCC
-            with reliable engineering, industrial and technical solutions.
+            من مقرّنا في الدمام، ندعم العملاء في جميع أنحاء المملكة العربية السعودية ودول الخليج بحلول هندسية وصناعية وفنية موثوقة.
           </motion.p>
         </div>
 
@@ -82,7 +81,7 @@ export default function LocationMap() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Falcon Technologies location in Dammam, Saudi Arabia"
+              title="موقع فالكون تكنولوجيز في الدمام، المملكة العربية السعودية"
               className="absolute inset-0 h-full w-full"
             />
           </motion.div>
@@ -101,20 +100,18 @@ export default function LocationMap() {
             <div>
               {/* Small label */}
               <p className="text-xs font-medium uppercase tracking-[0.14em] text-brand">
-                Falcon Technologies
+                فالكون تكنولوجيز
               </p>
 
               {/* Heading */}
               <h3 className="mt-4 text-2xl font-normal leading-[1.15] tracking-tight text-neutral-900 dark:text-white sm:text-3xl">
-                Let's talk about
-                <span className="block">your next project.</span>
+                لنتحدث عن
+                <span className="block">مشروعك القادم.</span>
               </h3>
 
               {/* Description */}
               <p className="mt-5 text-sm leading-relaxed text-neutral-500 dark:text-white/50">
-                Have a project in mind? Get in touch with our team to discuss
-                your requirements and find the right solution for your
-                application.
+                هل لديك مشروع في ذهنك؟ تواصل مع فريقنا لمناقشة متطلباتك وإيجاد الحل المناسب لتطبيقك.
               </p>
             </div>
 
@@ -128,12 +125,12 @@ export default function LocationMap() {
 
                 <div>
                   <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-400">
-                    Location
+                    الموقع
                   </p>
 
                   <p className="mt-1.5 text-sm leading-relaxed text-neutral-700 dark:text-white/70">
-                    Falcon Technologies
-                    <span className="block">Dammam, Saudi Arabia</span>
+                    فالكون تكنولوجيز
+                    <span className="block">الدمام، المملكة العربية السعودية</span>
                   </p>
                 </div>
               </div>
@@ -146,11 +143,11 @@ export default function LocationMap() {
 
                 <div>
                   <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-400">
-                    Coverage
+                    التغطية
                   </p>
 
                   <p className="mt-1.5 text-sm leading-relaxed text-neutral-700 dark:text-white/70">
-                    Saudi Arabia and GCC
+                    المملكة العربية السعودية ودول الخليج
                   </p>
                 </div>
               </div>
@@ -163,7 +160,7 @@ export default function LocationMap() {
 
                 <div>
                   <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-400">
-                    Phone
+                    الهاتف
                   </p>
 
                   <a
@@ -183,7 +180,7 @@ export default function LocationMap() {
 
                 <div>
                   <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-400">
-                    Email
+                    البريد الإلكتروني
                   </p>
 
                   <a
@@ -201,7 +198,7 @@ export default function LocationMap() {
               href="/ar/contact-us"
               className="group mt-10 inline-flex w-fit items-center gap-2 border-b border-neutral-900 pb-1.5 text-sm font-medium text-neutral-900 transition-colors duration-300 hover:border-brand hover:text-brand dark:border-white dark:text-white"
             >
-              Contact Our Team
+              تواصل مع فريقنا
               <ArrowUpLeft
                 size={17}
                 strokeWidth={1.7}

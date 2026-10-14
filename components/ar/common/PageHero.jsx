@@ -26,7 +26,7 @@ export default function PageHero({
     <section className="relative flex h-[60vh] min-h-90 w-full items-end overflow-hidden bg-neutral-950 pt-24">
       <Image
         src={image}
-        alt={imageAlt || `${title} — Falcon Technologies`}
+        alt={imageAlt || `${title} — فالكون تكنولوجيز`}
         fill
         preload
         sizes="100vw"
@@ -44,7 +44,7 @@ export default function PageHero({
             className="mb-4 flex items-center gap-1.5 text-xs text-white/60"
           >
             <Link href="/ar" className="transition-colors hover:text-white">
-              Home
+              الرئيسية
             </Link>
             <ChevronLeft size={13} />
             <span className="text-white/85">{breadcrumb}</span>

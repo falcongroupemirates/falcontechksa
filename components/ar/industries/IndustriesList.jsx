@@ -52,7 +52,7 @@ export default function IndustriesList() {
             className="inline-flex h-7.5 items-center rounded-full border border-neutral-300 px-4.25 dark:border-white/15"
           >
             <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-              Sectors We Serve
+              القطاعات التي نخدمها
             </span>
           </motion.div>
           <motion.h2
@@ -62,7 +62,7 @@ export default function IndustriesList() {
             transition={{ duration: 0.7, delay: 0.08 }}
             className="mt-5 text-[32px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[40px]"
           >
-            Solutions Engineered Per Sector
+            حلول مصمّمة لكل قطاع
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 16 }}
@@ -71,9 +71,7 @@ export default function IndustriesList() {
             transition={{ duration: 0.6, delay: 0.14 }}
             className="mt-4 text-sm leading-relaxed text-neutral-500 dark:text-white/55"
           >
-            Every sector has different storage, temperature and operating
-            requirements. Our engineering team selects materials and design
-            around what your facility actually needs.
+            لكل قطاع متطلبات مختلفة في التخزين ودرجات الحرارة والتشغيل. يختار فريقنا الهندسي المواد والتصميم وفقًا لما تحتاجه منشأتك فعليًا.
           </motion.p>
         </div>
 

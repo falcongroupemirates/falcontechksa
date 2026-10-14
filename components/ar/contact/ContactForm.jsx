@@ -9,12 +9,12 @@ import { motion } from "framer-motion";
 import { Loader2, CheckCircle2, ArrowLeft } from "lucide-react";
 
 const SUBJECTS = [
-  "General Enquiry",
-  "Sales",
-  "Technical Support",
-  "Careers",
-  "Partnership / Vendor",
-  "Other",
+  "استفسار عام",
+  "المبيعات",
+  "الدعم الفني",
+  "الوظائف",
+  "الشراكات / الموردون",
+  "أخرى",
 ];
 
 const inputClass =
@@ -28,7 +28,7 @@ const initialState = {
   company: "",
   email: "",
   phone: "",
-  subject: "General Enquiry",
+  subject: "استفسار عام",
   message: "",
   company_website: "", // honeypot
 };
@@ -45,7 +45,7 @@ export default function ContactForm() {
     e.preventDefault();
     if (!form.name || !form.email || !form.message) {
       setStatus("error");
-      setError("Please share your name, email and a short message.");
+      setError("يرجى إدخال اسمك وبريدك الإلكتروني ورسالة قصيرة.");
       return;
     }
 
@@ -61,7 +61,7 @@ export default function ContactForm() {
       const data = await res.json();
       if (!res.ok || !data.ok) {
         throw new Error(
-          data.error || "Something went wrong. Please try again.",
+          data.error || "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
         );
       }
       setStatus("success");
@@ -76,10 +76,10 @@ export default function ContactForm() {
       <div className="flex flex-col items-center justify-center rounded-sm border border-neutral-200 bg-white p-12 text-center dark:border-white/10 dark:bg-neutral-900">
         <CheckCircle2 size={44} className="text-brand" />
         <h3 className="mt-5 text-xl font-semibold text-neutral-900 dark:text-white">
-          Message Sent
+          تم إرسال الرسالة
         </h3>
         <p className="mt-2 max-w-sm text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-          Thank you for reaching out — our team will get back to you shortly.
+          شكرًا لتواصلك معنا — سيرد عليك فريقنا قريبًا.
         </p>
         <button
           onClick={() => {
@@ -88,7 +88,7 @@ export default function ContactForm() {
           }}
           className="mt-6 text-sm font-semibold text-brand hover:text-brand-dark"
         >
-          Send another message
+          إرسال رسالة أخرى
         </button>
       </div>
     );
@@ -118,7 +118,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div>
           <label htmlFor="cf-name" className={labelClass}>
-            Full Name *
+            الاسم الكامل *
           </label>
           <input
             id="cf-name"
@@ -130,7 +130,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label htmlFor="cf-company" className={labelClass}>
-            Company
+            الشركة
           </label>
           <input
             id="cf-company"
@@ -142,7 +142,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label htmlFor="cf-phone" className={labelClass}>
-            Phone / WhatsApp
+            الهاتف / واتساب
           </label>
           <input
             id="cf-phone"
@@ -153,7 +153,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label htmlFor="cf-email" className={labelClass}>
-            Email *
+            البريد الإلكتروني *
           </label>
           <input
             id="cf-email"
@@ -167,7 +167,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label className={labelClass}>Subject</label>
+        <label className={labelClass}>الموضوع</label>
         <div className="flex flex-wrap gap-2">
           {SUBJECTS.map((s) => (
             <button
@@ -188,14 +188,14 @@ export default function ContactForm() {
 
       <div>
         <label htmlFor="cf-message" className={labelClass}>
-          Message *
+          الرسالة *
         </label>
         <textarea
           id="cf-message"
           value={form.message}
           onChange={update("message")}
           rows={5}
-          placeholder="How can we help?"
+          placeholder="كيف يمكننا مساعدتك؟"
           className={inputClass}
           required
         />
@@ -213,11 +213,11 @@ export default function ContactForm() {
         {status === "submitting" ? (
           <>
             <Loader2 size={16} className="animate-spin" />
-            Sending...
+            جارٍ الإرسال...
           </>
         ) : (
           <>
-            Send Message
+            إرسال الرسالة
             <ArrowLeft
               size={16}
               className="transition-transform group-hover:-translate-x-0.5"

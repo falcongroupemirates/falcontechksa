@@ -15,19 +15,19 @@ export const metadata = {
     canonical: "/ar/about-us",
     languages: { en: "/about-us", ar: "/ar/about-us", "x-default": "/about-us" },
   },
-  title: "About Falcon Technologies | Industrial Solutions – Saudi Arabia",
+  title: "عن فالكون تكنولوجيز | حلول صناعية – المملكة العربية السعودية",
   description:
-    "Falcon Technologies is an engineering, manufacturing and industrial services company based in Dammam, Saudi Arabia, delivering tank systems, thermal insulation, restoration, lining and chiller services.",
+    "فالكون تكنولوجيز شركة هندسة وتصنيع وخدمات صناعية مقرها الدمام، المملكة العربية السعودية، تقدم أنظمة الخزانات والعزل الحراري والترميم والتبطين وخدمات المبردات.",
 };
 
 export default function AboutUs() {
   return (
     <div className="w-full overflow-hidden">
       <PageHero
-        eyebrow="About Falcon Technologies"
-        title="Industrial Solutions Built Around Engineering, Quality & Trust"
-        description="Engineering, manufacturing, supply, installation, inspection, restoration, thermal insulation, tank lining and chiller services for demanding industrial clients across the Kingdom."
-        breadcrumb="About Falcon"
+        eyebrow="عن فالكون تكنولوجيز"
+        title="حلول صناعية قائمة على الهندسة والجودة والثقة"
+        description="الهندسة والتصنيع والتوريد والتركيب والفحص والترميم والعزل الحراري وتبطين الخزانات وخدمات المبردات لعملاء القطاع الصناعي ذوي المتطلبات العالية في جميع أنحاء المملكة."
+        breadcrumb="عن فالكون"
       />
       <AboutSection eager />
       <ValuesSection />

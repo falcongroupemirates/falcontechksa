@@ -11,19 +11,19 @@ export const metadata = {
     canonical: "/ar/gallery",
     languages: { en: "/gallery", ar: "/ar/gallery", "x-default": "/gallery" },
   },
-  title: "Gallery | Falcon Technologies - Saudi Arabia",
+  title: "معرض الصور | فالكون تكنولوجيز - المملكة العربية السعودية",
   description:
-    "Photo gallery of Falcon Technologies tank manufacturing, thermal insulation, restoration and lining, industrial services and chiller work across Saudi Arabia — filter by category.",
+    "معرض صور لأعمال فالكون تكنولوجيز في تصنيع الخزانات والعزل الحراري والترميم والتبطين والخدمات الصناعية والمبردات في جميع أنحاء المملكة العربية السعودية — صنّفها حسب الفئة.",
 };
 
 export default function GalleryPage() {
   return (
     <div className="w-full overflow-hidden">
       <PageHero
-        eyebrow="Our Work"
-        title="Gallery"
-        description="Tanks, insulation, restoration, lining and industrial services — browse our work by category."
-        breadcrumb="Gallery"
+        eyebrow="أعمالنا"
+        title="معرض الصور"
+        description="الخزانات والعزل والترميم والتبطين والخدمات الصناعية — تصفح أعمالنا حسب الفئة."
+        breadcrumb="معرض الصور"
         image="/assets/images/home/hero-slide-1.png"
       />
       <GalleryExplorer />

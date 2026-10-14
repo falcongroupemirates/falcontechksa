@@ -9,27 +9,27 @@ import { motion } from "framer-motion";
 import { Loader2, CheckCircle2, ArrowLeft } from "lucide-react";
 
 const NEEDS = [
-  "Water Tank",
-  "Diesel Tank",
-  "Chemical Tank",
-  "FRP / Polyethylene Tank",
-  "Thermal Insulation",
-  "Tank Restoration",
-  "Tank Lining",
-  "Industrial Service",
-  "Chiller Installation",
-  "Chiller Maintenance",
-  "Other",
+  "خزان مياه",
+  "خزان ديزل",
+  "خزان مواد كيميائية",
+  "خزان FRP / بولي إيثيلين",
+  "العزل الحراري",
+  "ترميم الخزانات",
+  "تبطين الخزانات",
+  "خدمة صناعية",
+  "تركيب المبردات",
+  "صيانة المبردات",
+  "أخرى",
 ];
 
 const SITES = [
-  "Aboveground",
-  "Underground",
-  "Rooftop",
-  "Inside Building",
-  "Outdoor",
-  "Plant Room",
-  "Not Sure",
+  "فوق الأرض",
+  "تحت الأرض",
+  "على السطح",
+  "داخل المبنى",
+  "في الهواء الطلق",
+  "غرفة المعدات",
+  "غير متأكد",
 ];
 
 const inputClass =
@@ -62,7 +62,7 @@ export default function RfqForm() {
     if (!form.need || !form.name || !form.mobile) {
       setStatus("error");
       setError(
-        "Please select what you need and share your name and mobile number.",
+        "يرجى اختيار ما تحتاجه وإدخال اسمك ورقم جوالك.",
       );
       return;
     }
@@ -79,7 +79,7 @@ export default function RfqForm() {
       const data = await res.json();
       if (!res.ok || !data.ok) {
         throw new Error(
-          data.error || "Something went wrong. Please try again.",
+          data.error || "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
         );
       }
       setStatus("success");
@@ -94,11 +94,10 @@ export default function RfqForm() {
       <div className="flex flex-col items-center justify-center rounded-sm border border-neutral-200 bg-white p-12 text-center dark:border-white/10 dark:bg-neutral-900">
         <CheckCircle2 size={44} className="text-brand" />
         <h3 className="mt-5 text-xl font-semibold text-neutral-900 dark:text-white">
-          Request Received
+          تم استلام الطلب
         </h3>
         <p className="mt-2 max-w-sm text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-          Thank you — our engineering team will review your requirement and get
-          back to you shortly.
+          شكرًا لك — سيراجع فريقنا الهندسي متطلباتك ويتواصل معك قريبًا.
         </p>
         <button
           onClick={() => {
@@ -118,7 +117,7 @@ export default function RfqForm() {
           }}
           className="mt-6 text-sm font-semibold text-brand hover:text-brand-dark"
         >
-          Submit another request
+          إرسال طلب آخر
         </button>
       </div>
     );
@@ -147,7 +146,7 @@ export default function RfqForm() {
 
       {/* Step 1 — What do you need */}
       <div>
-        <label className={labelClass}>What Do You Need?</label>
+        <label className={labelClass}>ما الذي تحتاجه؟</label>
         <div className="flex flex-wrap gap-2">
           {NEEDS.map((n) => (
             <button
@@ -169,20 +168,20 @@ export default function RfqForm() {
       {/* Step 2 — Basic requirement */}
       <div>
         <label htmlFor="requirement" className={labelClass}>
-          Basic Requirement
+          المتطلب الأساسي
         </label>
         <input
           id="requirement"
           value={form.requirement}
           onChange={update("requirement")}
-          placeholder="e.g. 20,000 L FRP tank, or chiller make/model & issue"
+          placeholder="مثال: خزان FRP سعة 20,000 L، أو نوع/طراز المبرد والمشكلة"
           className={inputClass}
         />
       </div>
 
       {/* Step 3 — Installation / site */}
       <div>
-        <label className={labelClass}>Installation / Site</label>
+        <label className={labelClass}>التركيب / الموقع</label>
         <div className="flex flex-wrap gap-2">
           {SITES.map((s) => (
             <button
@@ -205,7 +204,7 @@ export default function RfqForm() {
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div>
           <label htmlFor="name" className={labelClass}>
-            Full Name *
+            الاسم الكامل *
           </label>
           <input
             id="name"
@@ -217,7 +216,7 @@ export default function RfqForm() {
         </div>
         <div>
           <label htmlFor="company" className={labelClass}>
-            Company
+            الشركة
           </label>
           <input
             id="company"
@@ -228,7 +227,7 @@ export default function RfqForm() {
         </div>
         <div>
           <label htmlFor="mobile" className={labelClass}>
-            Mobile / WhatsApp *
+            الجوال / واتساب *
           </label>
           <input
             id="mobile"
@@ -240,7 +239,7 @@ export default function RfqForm() {
         </div>
         <div>
           <label htmlFor="email" className={labelClass}>
-            Email
+            البريد الإلكتروني
           </label>
           <input
             id="email"
@@ -252,26 +251,26 @@ export default function RfqForm() {
         </div>
         <div className="sm:col-span-2">
           <label htmlFor="project_location" className={labelClass}>
-            Project Location
+            موقع المشروع
           </label>
           <input
             id="project_location"
             value={form.project_location}
             onChange={update("project_location")}
-            placeholder="City / Region"
+            placeholder="المدينة / المنطقة"
             className={inputClass}
           />
         </div>
         <div className="sm:col-span-2">
           <label htmlFor="details" className={labelClass}>
-            Additional Details
+            تفاصيل إضافية
           </label>
           <textarea
             id="details"
             value={form.details}
             onChange={update("details")}
             rows={4}
-            placeholder="Stored liquid, concentration, temperature, capacity, dimensions, standards, or chiller manufacturer/model/serial number"
+            placeholder="السائل المخزَّن، التركيز، درجة الحرارة، السعة، الأبعاد، المعايير، أو الشركة المصنّعة للمبرد/الطراز/الرقم التسلسلي"
             className={inputClass}
           />
         </div>
@@ -289,11 +288,11 @@ export default function RfqForm() {
         {status === "submitting" ? (
           <>
             <Loader2 size={16} className="animate-spin" />
-            Sending...
+            جارٍ الإرسال...
           </>
         ) : (
           <>
-            Request Quotation
+            طلب عرض سعر
             <ArrowLeft
               size={16}
               className="transition-transform group-hover:-translate-x-0.5"

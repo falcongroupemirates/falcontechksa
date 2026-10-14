@@ -11,27 +11,27 @@ import { ShieldCheck, Gauge, Globe2, HeadphonesIcon } from "lucide-react";
 const points = [
   {
     icon: ShieldCheck,
-    title: "Documented Quality",
+    title: "جودة موثّقة",
     description:
-      "Material and equipment inspection, in-process checks and testing carried out to applicable ASTM, ISO and SASO standards.",
+      "فحص المواد والمعدات، والفحوصات أثناء التنفيذ، والاختبارات وفقًا لمعايير ASTM وISO وSASO المعمول بها.",
   },
   {
     icon: Gauge,
-    title: "Application Engineering",
+    title: "هندسة التطبيقات",
     description:
-      "Material and design selection reviewed against your stored liquid, capacity, temperature and site conditions before we build.",
+      "مراجعة اختيار المواد والتصميم وفقًا للسائل المخزَّن والسعة ودرجة الحرارة وظروف الموقع قبل البدء في التصنيع.",
   },
   {
     icon: Globe2,
-    title: "Saudi & GCC Coverage",
+    title: "تغطية في المملكة ودول الخليج",
     description:
-      "Manufacturing, installation, restoration and chiller service support delivered across the Kingdom and wider GCC region.",
+      "دعم التصنيع والتركيب والترميم وخدمة المبردات في جميع أنحاء المملكة ومنطقة الخليج.",
   },
   {
     icon: HeadphonesIcon,
-    title: "Single-Point Support",
+    title: "دعم من جهة واحدة",
     description:
-      "One point of contact across engineering, manufacturing, installation, restoration and maintenance — no runaround.",
+      "جهة اتصال واحدة للهندسة والتصنيع والتركيب والترميم والصيانة — دون تعقيد.",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
         >
           <Image
             src="/assets/images/home/falcon-tech-ksa-about.webp"
-            alt="Industrial tank fabrication in progress"
+            alt="تصنيع خزان صناعي قيد التنفيذ"
             fill
             sizes="(min-width: 1024px) 50vw, 100vw"
             className="object-cover"
@@ -77,10 +77,10 @@ export default function WhyChooseUs() {
             </div>
             <div>
               <p className="text-sm font-semibold text-neutral-900 dark:text-white">
-                Documented Quality
+                جودة موثّقة
               </p>
               <p className="text-xs text-neutral-500 dark:text-white/50">
-                Traceable to ASTM, ISO & SASO standards
+                قابل للتتبّع وفق معايير ASTM وISO وSASO
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function WhyChooseUs() {
             className="inline-flex h-8 items-center rounded-full border border-neutral-300 px-5 dark:border-white/15"
           >
             <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-              Why Choose Falcon
+              لماذا تختار فالكون
             </span>
           </motion.div>
 
@@ -107,7 +107,7 @@ export default function WhyChooseUs() {
             transition={{ duration: 0.7, delay: 0.08 }}
             className="mt-5 max-w-lg text-[38px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[44px]"
           >
-            Engineering Precision You Can Rely On
+            دقة هندسية يمكنك الاعتماد عليها
           </motion.h2>
 
           <motion.div

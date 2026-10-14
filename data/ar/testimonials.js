@@ -6,25 +6,25 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "Falcon Technologies fabricated and installed our FRP storage tanks on schedule. Their engineering team reviewed our stored liquid and site conditions before recommending the right material and design.",
-    name: "Mohammed Al-Hassan",
-    role: "Project Manager, Industrial Facilities",
+      "قامت فالكون تكنولوجيز بتصنيع وتركيب خزانات التخزين FRP الخاصة بنا في الموعد المحدد. وقد راجع فريقها الهندسي السائل المخزَّن وظروف الموقع لدينا قبل التوصية بالمادة والتصميم المناسبين.",
+    name: "محمد الحسن",
+    role: "مدير مشروع، المنشآت الصناعية",
     avatar: "/assets/images/testimonials/mohammed-al-hassan.png",
   },
   {
     id: 2,
     quote:
-      "We engaged Falcon Technologies for industrial lining and corrosion protection. Their team was professional, well-organized, and focused on delivering a durable solution suitable for our operating environment.",
-    name: "Ahmed Rahman",
-    role: "Plant Engineer, Industrial Operations",
+      "تعاقدنا مع فالكون تكنولوجيز لأعمال التبطين الصناعي والحماية من التآكل. كان فريقها محترفًا ومنظمًا، وركّز على تقديم حل متين يناسب بيئة التشغيل لدينا.",
+    name: "أحمد رحمن",
+    role: "مهندس مصنع، العمليات الصناعية",
     avatar: "/assets/images/testimonials/ahmed-rahman.png",
   },
   {
     id: 3,
     quote:
-      "Falcon Technologies provided dependable inspection and integrity support for our assets. Their technical reporting was clear and helped our team make informed maintenance decisions.",
-    name: "Khalid Mansoor",
-    role: "Asset Integrity Engineer, Energy Sector",
+      "قدّمت فالكون تكنولوجيز دعمًا موثوقًا في الفحص وسلامة الأصول. وكانت تقاريرها الفنية واضحة وساعدت فريقنا على اتخاذ قرارات صيانة مدروسة.",
+    name: "خالد منصور",
+    role: "مهندس سلامة الأصول، قطاع الطاقة",
     avatar: "/assets/images/testimonials/khalid-mansoor.png",
   },
 ];

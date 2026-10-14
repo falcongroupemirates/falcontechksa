@@ -14,8 +14,8 @@ export const metadata = {
     canonical: "/ar/services/survey-scanning/reverse-engineering",
     languages: { en: "/services/survey-scanning/reverse-engineering", ar: "/ar/services/survey-scanning/reverse-engineering", "x-default": "/services/survey-scanning/reverse-engineering" },
   },
-  title: "Reverse Engineering & 3D Scanning to CAD in Saudi Arabia",
-  description: "Reverse engineering in Saudi Arabia — obsolete or undocumented components 3D scanned and rebuilt as editable parametric CAD, the fastest route back to a manufacturable replacement.",
+  title: "الهندسة العكسية والمسح ثلاثي الأبعاد إلى CAD في المملكة العربية السعودية",
+  description: "الهندسة العكسية في المملكة العربية السعودية — مسح المكونات المتقادمة أو غير الموثقة بتقنية ثلاثية الأبعاد وإعادة بنائها كنماذج CAD بارامترية قابلة للتعديل، وهو أسرع طريق للحصول على بديل قابل للتصنيع.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -26,108 +26,108 @@ const HUB = "/ar/services/survey-scanning";
 
 const page = {
   "num": "05",
-  "name": "Reverse Engineering",
-  "heading": "Scan a part, get an editable CAD model",
-  "tagline": "Obsolete or undocumented components scanned and rebuilt as editable CAD — the fastest route back to a replacement part.",
+  "name": "الهندسة العكسية",
+  "heading": "امسح القطعة واحصل على نموذج CAD قابل للتعديل",
+  "tagline": "مسح المكونات المتقادمة أو غير الموثقة وإعادة بنائها كنماذج CAD قابلة للتعديل — أسرع طريق للحصول على قطعة بديلة.",
   "image": "/assets/images/services/reverse-engineering-scanning.jpg",
-  "alt": "Industrial component scanned and rebuilt as an editable CAD model"
+  "alt": "مكوّن صناعي ممسوح أُعيد بناؤه كنموذج CAD قابل للتعديل"
 };
 
 const intro = [
-  "When a component is obsolete, undocumented or the original supplier is gone, reverse engineering recovers it. The part is 3D scanned and rebuilt as an editable parametric CAD model.",
-  "You receive a parametric solid, not just a mesh — geometry you can modify, dimension and send for manufacture, with a deviation report comparing the model to the scan."
+  "عندما يكون المكوّن متقادمًا أو غير موثق أو لم يعد المورد الأصلي موجودًا، تتيح الهندسة العكسية استعادته. إذ يتم مسح القطعة بتقنية ثلاثية الأبعاد وإعادة بنائها كنموذج CAD بارامتري قابل للتعديل.",
+  "تحصل على مجسم بارامتري، لا مجرد شبكة مضلعات — بيانات هندسية يمكنك تعديلها وتحديد أبعادها وإرسالها للتصنيع، مع تقرير انحراف يقارن النموذج بالمسح."
 ];
 
 const offerings = [
   [
-    "Obsolete spare recovery",
-    "Replacement geometry for parts that can no longer be bought or have no drawings."
+    "استعادة قطع الغيار المتقادمة",
+    "بيانات هندسية بديلة لقطع لم يعد بالإمكان شراؤها أو لا تتوفر لها مخططات."
   ],
   [
-    "Parametric solid, not a mesh",
-    "An editable CAD model with features and dimensions you can work with."
+    "مجسم بارامتري لا شبكة مضلعات",
+    "نموذج CAD قابل للتعديل بخصائص وأبعاد يمكنك العمل عليها."
   ],
   [
-    "Ready to modify",
-    "Geometry that can be improved or adapted, not just copied."
+    "جاهز للتعديل",
+    "بيانات هندسية يمكن تحسينها أو تكييفها، لا مجرد نسخها."
   ],
   [
-    "Deviation report",
-    "The CAD model compared against the scan so you know how closely it matches."
+    "تقرير الانحراف",
+    "مقارنة نموذج CAD بالمسح لتعرف مدى تطابقه."
   ],
   [
-    "Manufacturing drawings",
-    "Dimensioned 2D drawings produced from the model where scoped."
+    "مخططات التصنيع",
+    "مخططات ثنائية الأبعاد بالأبعاد تُنتج من النموذج حسب النطاق."
   ],
   [
-    "Worn parts handled",
-    "Where a part is worn, the approach to recovering its design intent is agreed with you."
+    "معالجة القطع البالية",
+    "عندما تكون القطعة بالية، يتم الاتفاق معك على طريقة استعادة مفهوم تصميمها الأصلي."
   ]
 ];
 
 const steps = [
   [
-    "Review the part",
-    "Purpose, condition, critical features and the deliverable agreed."
+    "مراجعة القطعة",
+    "الاتفاق على الغرض والحالة والخصائص الحرجة والمُخرَج."
   ],
   [
-    "Scan the part",
-    "The component captured on site or at our facility."
+    "مسح القطعة",
+    "التقاط المكوّن في الموقع أو في منشأتنا."
   ],
   [
-    "Rebuild in CAD",
-    "A parametric model created from the scan data."
+    "إعادة البناء بصيغة CAD",
+    "إنشاء نموذج بارامتري من بيانات المسح."
   ],
   [
-    "Compare and deliver",
-    "Model checked against the scan; CAD, drawings and report issued."
+    "المقارنة والتسليم",
+    "مطابقة النموذج مع المسح، ثم إصدار ملفات CAD والمخططات والتقرير."
   ]
 ];
 
 const formats = [
   [
-    "CAD solid",
-    "STEP, IGES"
+    "مجسم CAD صلب",
+    "STEP، IGES"
   ],
   [
-    "Mesh",
+    "شبكة مضلعات (Mesh)",
     "STL"
   ],
   [
-    "Drawings",
-    "DWG, PDF"
+    "المخططات",
+    "DWG، PDF"
   ],
   [
-    "Quality record",
-    "Deviation report against the scan"
+    "سجل الجودة",
+    "تقرير الانحرافات مقارنةً بالمسح"
   ]
 ];
 
 const uses = [
-  "Obsolete spare parts",
-  "Pumps, impellers and valves",
-  "Flanges, brackets and fittings",
-  "Legacy equipment with no drawings",
-  "Part improvement and redesign",
-  "Fit-up of new to existing"
+  "قطع الغيار المتقادمة",
+  "المضخات والدفاعات والصمامات",
+  "الفلنجات والدعامات والتجهيزات",
+  "المعدات القديمة التي لا تتوفر لها مخططات",
+  "تحسين القطع وإعادة تصميمها",
+  "مواءمة الجديد مع القائم"
 ];
 
 const faqs = [
   {
-    "q": "What is the difference between a mesh and a parametric model?",
-    "a": "A mesh (such as STL) is a surface of triangles — good for visualising or 3D printing but hard to edit. A parametric model is built from features and dimensions, so it can be changed and used for manufacturing drawings."
+    "q": "ما الفرق بين شبكة المضلعات (Mesh) والنموذج البارامتري؟",
+    "a": "شبكة المضلعات (مثل STL) سطح مكوّن من مثلثات — مناسبة للعرض المرئي أو الطباعة ثلاثية الأبعاد لكن يصعب تعديلها. أما النموذج البارامتري فيُبنى من خصائص وأبعاد، لذا يمكن تعديله واستخدامه في مخططات التصنيع."
   },
   {
-    "q": "Can you reproduce a worn or damaged part?",
-    "a": "Yes. Where a part is worn, we agree with you how to recover the original design intent rather than copying the wear."
+    "q": "هل يمكنكم إعادة إنتاج قطعة متآكلة أو تالفة؟",
+    "a": "نعم. عندما تكون القطعة متآكلة، نتفق معكم على كيفية استعادة نية التصميم الأصلية بدلاً من نسخ التآكل."
   },
   {
-    "q": "Which formats will I receive?",
-    "a": "Typically STEP and IGES for the CAD solid, STL for the mesh, and DWG / PDF for drawings. Native formats can be agreed in the scope."
+    "q": "ما الصيغ التي سأستلمها؟",
+    "a": "عادةً STEP وIGES للمجسم الصلب في CAD، وSTL لشبكة المضلعات، وDWG / PDF للمخططات. ويمكن الاتفاق على الصيغ الأصلية ضمن نطاق العمل."
   },
   {
-    "q": "Do you manufacture the replacement part?",
-    "a": "The deliverable is the CAD model, drawings and deviation report. Manufacturing can be arranged separately as your project requires."
+    "q": "هل تقومون بتصنيع القطعة البديلة؟",
+    "a": "المُخرجات هي نموذج CAD والمخططات وتقرير الانحرافات. ويمكن ترتيب التصنيع بشكل منفصل حسب متطلبات مشروعكم."
   }
 ];
 
@@ -135,31 +135,31 @@ const faqs = [
 const otherServices = [
   {
     "num": "01",
-    "name": "3D Laser Scanning",
+    "name": "المسح الليزري ثلاثي الأبعاد",
     "href": "/ar/services/survey-scanning/3d-laser-scanning",
     "image": "/assets/images/services/3d-laser-scanning.jpg",
-    "alt": "3D laser scanner capturing an industrial plant in Saudi Arabia"
+    "alt": "ماسح ليزري ثلاثي الأبعاد يلتقط محطة صناعية في المملكة العربية السعودية"
   },
   {
     "num": "02",
-    "name": "As-Built Survey",
+    "name": "مسح الوضع القائم (As-Built)",
     "href": "/ar/services/survey-scanning/as-built-survey",
     "image": "/assets/images/services/as-built-survey.jpg",
-    "alt": "As-built survey drawings produced from a 3D scan of an existing facility"
+    "alt": "مخططات مسح الوضع القائم المُنتجة من مسح ثلاثي الأبعاد لمنشأة قائمة"
   },
   {
     "num": "03",
-    "name": "Scan to BIM",
+    "name": "التحويل من المسح إلى BIM",
     "href": "/ar/services/survey-scanning/scan-to-bim",
     "image": "/assets/images/services/scan-to-bim.jpg",
-    "alt": "Point cloud converted into a parametric BIM model"
+    "alt": "سحابة نقاط محوّلة إلى نموذج BIM بارامتري"
   },
   {
     "num": "04",
-    "name": "BIM Modelling",
+    "name": "نمذجة BIM",
     "href": "/ar/services/survey-scanning/bim-modelling",
     "image": "/assets/images/services/bim-modelling.jpg",
-    "alt": "Coordinated BIM model with architectural, structural and MEP disciplines"
+    "alt": "نموذج BIM منسّق يشمل التخصصات المعمارية والإنشائية وMEP"
   }
 ];
 
@@ -170,9 +170,9 @@ const jsonLd = {
       "@type": "Service",
       name: page.name,
       description: page.tagline,
-      serviceType: "Surveying & 3D Scanning",
-      areaServed: "Saudi Arabia",
-      provider: { "@type": "Organization", name: "Falcon Technologies" },
+      serviceType: "المساحة والمسح ثلاثي الأبعاد",
+      areaServed: "المملكة العربية السعودية",
+      provider: { "@type": "Organization", name: "فالكون تكنولوجيز" },
     },
     {
       "@type": "FAQPage",
@@ -196,7 +196,7 @@ export default function ReverseEngineeringPage() {
       />
 
       <PageHero
-        eyebrow="Surveying & 3D Scanning"
+        eyebrow="المساحة والمسح ثلاثي الأبعاد"
         title={page.name}
         description={page.tagline}
         breadcrumb={page.name}
@@ -213,7 +213,7 @@ export default function ReverseEngineeringPage() {
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
             >
               <ArrowRight size={14} />
-              All surveying services
+              جميع خدمات المساحة
             </Link>
 
             <h2 className="mt-6 max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
@@ -233,13 +233,13 @@ export default function ReverseEngineeringPage() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
               >
-                Request a Quote
+                اطلب عرض سعر
               </Link>
               <Link
                 href="/ar/contact-us"
                 className="border-b border-neutral-300 pb-0.5 text-sm font-semibold text-neutral-800 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/80"
               >
-                Talk to a survey engineer
+                تحدث إلى مهندس مساحة
               </Link>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function ReverseEngineeringPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            What you get
+            ما تحصل عليه
           </h2>
           <div className="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
             {offerings.map(([title, desc]) => (
@@ -288,7 +288,7 @@ export default function ReverseEngineeringPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            How it works
+            كيف تعمل الخدمة
           </h2>
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             {steps.map(([title, desc], i) => (
@@ -306,7 +306,7 @@ export default function ReverseEngineeringPage() {
       <section className="w-full bg-ink">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-white sm:text-4xl">
-            Where it&rsquo;s used
+            مجالات الاستخدام
           </h2>
           <ul className="grid grid-cols-1 gap-x-10 sm:grid-cols-2 lg:col-span-2">
             {uses.map((u) => (
@@ -322,7 +322,7 @@ export default function ReverseEngineeringPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Frequently asked questions
+            الأسئلة الشائعة
           </h2>
           <div className="border-t border-neutral-200 dark:border-white/10 lg:col-span-2">
             {faqs.map((f) => (
@@ -342,7 +342,7 @@ export default function ReverseEngineeringPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0">
           <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-            Other surveying services
+            خدمات مساحة أخرى
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {otherServices.map((s) => (

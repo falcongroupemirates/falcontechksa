@@ -17,14 +17,14 @@ import {
 } from "lucide-react";
 
 const industries = [
-  { icon: Fuel, title: "Oil & Gas" },
-  { icon: FlaskConical, title: "Petrochemical & Chemical" },
-  { icon: Droplets, title: "Water & Wastewater" },
-  { icon: Zap, title: "Power & Utilities" },
-  { icon: Factory, title: "Manufacturing" },
-  { icon: Building2, title: "Commercial & Industrial Buildings" },
-  { icon: HardHat, title: "Construction & Infrastructure" },
-  { icon: UtensilsCrossed, title: "Food & Beverage" },
+  { icon: Fuel, title: "النفط والغاز" },
+  { icon: FlaskConical, title: "البتروكيماويات والكيماويات" },
+  { icon: Droplets, title: "المياه والصرف الصحي" },
+  { icon: Zap, title: "الطاقة والمرافق" },
+  { icon: Factory, title: "التصنيع" },
+  { icon: Building2, title: "المباني التجارية والصناعية" },
+  { icon: HardHat, title: "الإنشاءات والبنية التحتية" },
+  { icon: UtensilsCrossed, title: "الأغذية والمشروبات" },
 ];
 
 export default function IndustriesGrid() {
@@ -40,7 +40,7 @@ export default function IndustriesGrid() {
             className="mx-auto inline-flex h-8 items-center rounded-full border border-neutral-300 px-4 dark:border-white/15"
           >
             <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-              Industries Served
+              القطاعات التي نخدمها
             </span>
           </motion.div>
           <motion.h2
@@ -50,7 +50,7 @@ export default function IndustriesGrid() {
             transition={{ duration: 0.7, delay: 0.08 }}
             className="mt-5 text-[32px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[40px]"
           >
-            Built for Demanding Industrial Sectors
+            مصمَّمة للقطاعات الصناعية المتطلبة
           </motion.h2>
         </div>
 

@@ -12,9 +12,9 @@ export const metadata = {
     canonical: "/ar/services/tank-solutions/chemical-tanks",
     languages: { en: "/services/tank-solutions/chemical-tanks", ar: "/ar/services/tank-solutions/chemical-tanks", "x-default": "/services/tank-solutions/chemical-tanks" },
   },
-  title: "Chemical Storage Tanks in Saudi Arabia",
+  title: "خزانات تخزين المواد الكيميائية في المملكة العربية السعودية",
   description:
-    "Chemical-resistant storage tanks in FRP, PE/XLPE or lined/alloy steel, with construction selected from your exact chemical, concentration and operating conditions. Falcon Technologies, Saudi Arabia.",
+    "خزانات تخزين مقاومة للمواد الكيميائية من FRP أو PE/XLPE أو الفولاذ المبطَّن/السبائكي، مع اختيار طريقة التصنيع بناءً على المادة الكيميائية وتركيزها وظروف التشغيل الدقيقة. فالكون تكنولوجيز، المملكة العربية السعودية.",
 };
 
 export default function Page() {
@@ -81,10 +81,10 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Tank Solutions"
-        title="Chemical Tanks"
-        description="Chemical-resistant storage with construction selected from your exact chemical, concentration and operating conditions — not from the product name."
-        breadcrumb="Chemical Tanks"
+        eyebrow="حلول الخزانات"
+        title="خزانات المواد الكيميائية"
+        description="تخزين مقاوم للمواد الكيميائية مع اختيار طريقة التصنيع بناءً على المادة الكيميائية وتركيزها وظروف التشغيل الدقيقة — لا بناءً على اسم المنتج."
+        breadcrumb="خزانات المواد الكيميائية"
         image="/assets/images/tank-solutions/chemical_tanks_category.png"
       />
 
@@ -97,58 +97,48 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Tank Solutions
+                حلول الخزانات
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Chemical Storage Tanks, Matched to the Chemical
+                خزانات تخزين المواد الكيميائية، مطابقة للمادة الكيميائية
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
                 <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  No single resin or polymer is universally chemical-resistant,
-                  so Falcon keeps one chemical-tank category and selects the
-                  construction from the exact chemical and operating conditions
-                  rather than implying one tank suits every chemical.
+                  لا يوجد راتنج أو بوليمر واحد مقاوم لجميع المواد الكيميائية، لذا تعتمد فالكون فئة واحدة لخزانات المواد الكيميائية وتختار طريقة التصنيع بناءً على المادة الكيميائية وظروف التشغيل الدقيقة، بدلًا من الإيحاء بأن خزانًا واحدًا يناسب كل المواد الكيميائية.
                 </p>
                 <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Candidate systems include FRP with a selected resin and
-                  corrosion barrier, PE / XLPE, or lined and alloy steel.
-                  Compatibility is assessed across the whole system — the shell,
-                  vapour space, nozzles, seals, gaskets, vents and cleaning
-                  process — because any one of these can be the weak point.
+                  تشمل الأنظمة المرشحة FRP براتنج وحاجز تآكل مختارَين، أو PE / XLPE، أو الفولاذ المبطَّن والسبائكي. ويُقيَّم التوافق على مستوى النظام بأكمله — الهيكل وحيّز الأبخرة والفوهات وموانع التسرب والحشوات وفتحات التهوية وعملية التنظيف — لأن أيًّا منها قد يكون نقطة الضعف.
                 </p>
               </div>
               <p className="mt-6 max-w-xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
-                Chemical suitability is service-specific and must be confirmed
-                with written supplier or manufacturer evidence for the exact
-                tank system and duty before any tank is ordered or installed.
-                Prior enquiry records are not compatibility approvals.
+                ملاءمة المواد الكيميائية خاصة بكل خدمة، ويجب تأكيدها بأدلة مكتوبة من المورد أو الشركة المصنّعة لنظام الخزان والاستخدام المحددين قبل طلب أي خزان أو تركيبه. ولا تُعد سجلات الاستفسارات السابقة اعتمادات للتوافق.
               </p>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
                 <a
                   href="/ar/request-a-quote"
                   className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
                 >
-                  Request a Quote
+                  اطلب عرض سعر
                 </a>
                 <a
                   href="/ar/technical-library"
                   className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
                 >
-                  Browse the Technical Library
+                  تصفح المكتبة الفنية
                 </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
               <Image loading="eager"
                 src="/assets/images/tank-solutions/chemical_tanks_category.png"
-                alt="Chemical Tanks by Falcon Technologies in Saudi Arabia"
+                alt="خزانات المواد الكيميائية من فالكون تكنولوجيز في المملكة العربية السعودية"
                 fill
                 sizes="(min-width: 1024px) 45vw, 100vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Tank Solutions
+                حلول الخزانات
               </span>
             </div>
           </div>
@@ -158,67 +148,61 @@ export default function Page() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            What We Offer
+            ما نقدمه
           </h2>
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Material recommendation
+                التوصية بالمادة
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                FRP, PE/XLPE or lined/alloy steel proposed from your exact
-                chemical and operating conditions, not a default.
+                يُقترح FRP أو PE/XLPE أو الفولاذ المبطَّن/السبائكي بناءً على المادة الكيميائية وظروف التشغيل الدقيقة، لا كخيار افتراضي.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Full-system compatibility
+                توافق النظام بالكامل
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Compatibility checked across shell, vapour space, nozzles,
-                seals, gaskets, vents and the cleaning process.
+                يُفحص التوافق عبر الهيكل وحيّز الأبخرة والفوهات وموانع التسرب والحشوات وفتحات التهوية وعملية التنظيف.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Chemical-resistant FRP
+                FRP مقاوم للمواد الكيميائية
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Selected resin and corrosion barrier over a structural laminate,
-                with resin family, barrier and cure specified.
+                راتنج وحاجز تآكل مختاران فوق طبقة إنشائية، مع تحديد عائلة الراتنج والحاجز والمعالجة.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                PE / XLPE where suitable
+                PE / XLPE حيثما كان مناسبًا
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Considered where chemical, temperature, density and stress data
-                confirm it, accounting for permeation and stress cracking.
+                يُنظر فيه عندما تؤكد بيانات المادة الكيميائية ودرجة الحرارة والكثافة والإجهاد ملاءمته، مع مراعاة النفاذية والتشقق الإجهادي.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Lined or alloy steel
+                فولاذ مبطَّن أو سبائكي
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Qualified internal lining or corrosion-resistant alloy with an
-                inspection and repair plan for welds and fittings.
+                تبطين داخلي معتمد أو سبيكة مقاومة للتآكل مع خطة فحص وإصلاح للحامات والتجهيزات.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Compatibility schedule
+                جدول التوافق
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                A documented record of chemical, concentration, temperature,
-                cycles and cleaning that drives the material choice.
+                سجل موثق للمادة الكيميائية والتركيز ودرجة الحرارة والدورات والتنظيف يُبنى عليه اختيار المادة.
               </p>
             </div>
           </div>
@@ -228,18 +212,17 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Construction Options
+            خيارات التصنيع
           </h2>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-            Candidate constructions for this category — the right one is
-            selected per project from the service conditions.
+            طرق التصنيع المرشحة لهذه الفئة — ويُختار الأنسب لكل مشروع بناءً على ظروف الخدمة.
           </p>
           <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <div className="relative overflow-hidden rounded-sm border border-neutral-200 bg-white dark:border-white/10 dark:bg-neutral-900">
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/modern_uae_frp_chemical_storage_tank.png"
-                  alt="Chemical-resistant FRP"
+                  alt="FRP مقاوم للمواد الكيميائية"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover"
@@ -248,13 +231,10 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  Chemical-resistant FRP
+                  FRP مقاوم للمواد الكيميائية
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  A selected thermoset resin and corrosion barrier over a
-                  structural laminate, suited to some chemical duties —
-                  resistance depends on concentration, temperature, impurities,
-                  vapour exposure and cleaning.
+                  راتنج حراري التصلد وحاجز تآكل مختاران فوق طبقة إنشائية، مناسب لبعض استخدامات المواد الكيميائية — وتعتمد المقاومة على التركيز ودرجة الحرارة والشوائب والتعرض للأبخرة والتنظيف.
                 </p>
               </div>
             </div>
@@ -262,7 +242,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/industrial_hdpe_chemical_tank_in_uae.png"
-                  alt="PE / XLPE options"
+                  alt="خيارات PE / XLPE"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover"
@@ -271,13 +251,10 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  PE / XLPE options
+                  خيارات PE / XLPE
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  LLDPE / HDPE / XLPE may be candidates only where chemical,
-                  temperature, density, stress and tank-model data confirm
-                  compatibility, considering permeation, swelling and stress
-                  cracking.
+                  قد تكون LLDPE / HDPE / XLPE خيارات مرشحة فقط عندما تؤكد بيانات المادة الكيميائية ودرجة الحرارة والكثافة والإجهاد وطراز الخزان التوافق، مع مراعاة النفاذية والانتفاخ والتشقق الإجهادي.
                 </p>
               </div>
             </div>
@@ -285,7 +262,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/premium_corrosion-resistant_chemical_storage_tank.png"
-                  alt="Lined or alloy steel"
+                  alt="فولاذ مبطَّن أو سبائكي"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover"
@@ -294,13 +271,10 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  Lined or alloy steel
+                  فولاذ مبطَّن أو سبائكي
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Steel with a qualified internal lining or a
-                  corrosion-resistant alloy for selected duties — the lining,
-                  welds, joints, edges and fittings all need compatible
-                  materials and an inspection/repair plan.
+                  فولاذ بتبطين داخلي معتمد أو سبيكة مقاومة للتآكل لاستخدامات محددة — ويتطلب التبطين واللحامات والوصلات والحواف والتجهيزات جميعها مواد متوافقة وخطة فحص/إصلاح.
                 </p>
               </div>
             </div>
@@ -313,79 +287,78 @@ export default function Page() {
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
               <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Compatibility Schedule — What We Review
+                جدول التوافق — ما الذي نراجعه
               </h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Chemical
+                    المادة الكيميائية
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Name / CAS, concentration range and impurities
+                    الاسم / رقم CAS، ونطاق التركيز والشوائب
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Temperature
+                    درجة الحرارة
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Continuous and intermittent operating temperature
+                    درجة حرارة التشغيل المستمرة والمتقطعة
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Pressure
+                    الضغط
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Pressure / vacuum and exposure cycle
+                    الضغط / التفريغ ودورة التعرض
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Operation
+                    التشغيل
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Agitation, fill/empty rate and cleaning chemicals
+                    التقليب، ومعدل الملء/التفريغ، ومواد التنظيف الكيميائية
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Containment
+                    الاحتواء
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Vent handling, design life and secondary containment
+                    معالجة التهوية، والعمر التصميمي، والاحتواء الثانوي
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Whole system
+                    النظام بالكامل
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Shell, vapour space, nozzles, seals, gaskets and vents
-                    assessed together
+                    تقييم الهيكل وحيّز الأبخرة والفوهات وموانع التسرب والحشوات وفتحات التهوية معًا
                   </dd>
                 </div>
               </dl>
             </div>
             <div>
               <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">
-                Where It&rsquo;s Used
+                مجالات الاستخدام
               </h2>
               <div className="mt-5 flex flex-wrap gap-2">
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Petrochemical &amp; chemical plants
+                  مصانع البتروكيماويات والكيماويات
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Oil &amp; gas
+                  النفط والغاز
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Water treatment &amp; dosing
+                  معالجة المياه والحقن الكيميائي
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Manufacturing &amp; process facilities
+                  منشآت التصنيع والعمليات
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Power &amp; utilities
+                  الطاقة والمرافق
                 </span>
               </div>
             </div>
@@ -396,58 +369,52 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            How We Specify a Chemical Tank
+            كيف نحدد مواصفات خزان المواد الكيميائية
           </h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Collect the duty data
+                جمع بيانات الاستخدام
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Chemical name/CAS, concentration, temperature, pressure, cycles,
-                cleaning and containment.
+                اسم المادة الكيميائية/رقم CAS، والتركيز، ودرجة الحرارة، والضغط، والدورات، والتنظيف، والاحتواء.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Confirm compatibility
+                تأكيد التوافق
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                The exact tank system and duty checked against
-                supplier/manufacturer evidence — the whole system, not just the
-                shell.
+                مطابقة نظام الخزان والاستخدام المحددين مع أدلة المورد/الشركة المصنّعة — النظام بالكامل، لا الهيكل فقط.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Select construction
+                اختيار طريقة التصنيع
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                FRP, PE/XLPE or lined/alloy steel chosen for the confirmed
-                service.
+                اختيار FRP أو PE/XLPE أو الفولاذ المبطَّن/السبائكي وفق الخدمة المؤكدة.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Fabricate and inspect
+                التصنيع والفحص
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Built with material traceability and inspection to the agreed QA
-                plan.
+                تصنيع مع تتبع المواد وفحص وفق خطة ضمان الجودة المتفق عليها.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">05</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Document and hand over
+                التوثيق والتسليم
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Compatibility statements, QA records and maintenance guidance
-                issued at handover.
+                إصدار بيانات التوافق وسجلات ضمان الجودة وإرشادات الصيانة عند التسليم.
               </p>
             </li>
           </ol>
@@ -457,12 +424,10 @@ export default function Page() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Sizing
+            تحديد الأحجام
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-            Capacity and suitability are confirmed per project. The resin or
-            material, concentration, temperature and the full compatibility
-            schedule determine the construction before any size is committed.
+            تُؤكَّد السعة والملاءمة لكل مشروع. ويحدد الراتنج أو المادة والتركيز ودرجة الحرارة وجدول التوافق الكامل طريقة التصنيع قبل الالتزام بأي حجم.
           </p>
         </div>
       </section>
@@ -470,7 +435,7 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Standards &amp; Compliance
+            المعايير والامتثال
           </h2>
           <dl className="mt-8 max-w-3xl divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
@@ -478,8 +443,7 @@ export default function Page() {
                 ASTM D3299-26
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Filament-wound FRP corrosion-resistant tanks within its scope —
-                does not certify a resin for every chemical.
+                خزانات FRP المقاومة للتآكل المصنّعة بلف الألياف ضمن نطاقه — ولا يعتمد راتنجًا لكل مادة كيميائية.
               </dd>
             </div>
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
@@ -487,19 +451,12 @@ export default function Page() {
                 ASTM D4097-19
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Contact-molded FRP tanks; the 2019 edition is marked withdrawn
-                by ASTM in 2026 — confirm the current project-approved basis.
+                خزانات FRP المصنّعة بالقولبة التلامسية؛ وقد صنّفت ASTM إصدار 2019 كإصدار مسحوب في 2026 — يُرجى تأكيد الأساس المعتمد حاليًا للمشروع.
               </dd>
             </div>
           </dl>
           <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
-            A standard reference is not proof of third-party certification.
-            Falcon states “designed and manufactured to” a standard only when it
-            is backed by the controlled design and QA file; chemical,
-            potable-water and underground suitability require separate
-            product-specific evidence. Saudi/GCC approvals (SASO/SABER, Civil
-            Defense, environmental, municipal, utility and owner approvals) are
-            project- and product-specific.
+            الإشارة إلى معيار ما ليست دليلًا على اعتماد من طرف ثالث. لا تذكر فالكون عبارة “مصمم ومصنّع وفق” معيار ما إلا عندما يدعمها ملف تصميم وضمان جودة مضبوط؛ وتتطلب الملاءمة للمواد الكيميائية ومياه الشرب والتركيب تحت الأرض أدلة منفصلة خاصة بالمنتج. أما الاعتمادات في المملكة العربية السعودية ودول الخليج (SASO/SABER، والدفاع المدني، والبيئة، والبلديات، وشركات المرافق، والمالك) فهي خاصة بكل مشروع ومنتج.
           </p>
         </div>
       </section>
@@ -507,62 +464,60 @@ export default function Page() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Accessories &amp; Fittings
+            الملحقات والتجهيزات
           </h2>
           <div className="mt-6 flex flex-wrap gap-2">
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Access / manway
+              فتحة الوصول / فتحة الدخول
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Inlet / outlet
+              المدخل / المخرج
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Overflow
+              الفائض
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Vent
+              فتحة التهوية
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Drain
+              التصريف
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Level gauge / transmitter
+              مقياس / مرسل المستوى
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Ladder, platform &amp; handrails
+              سلم ومنصة ودرابزين
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Lifting lugs
+              عُرى الرفع
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Hold-downs / anchors
+              مثبتات / مراسي
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Baffles
+              حواجز داخلية
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Sample point
+              نقطة أخذ العينات
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Instrument ports
+              منافذ الأجهزة
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Pump / filter / skid
+              مضخة / فلتر / قاعدة (سكيد)
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Leak monitoring
+              مراقبة التسرب
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Grounding / instrumentation
+              التأريض / الأجهزة
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Interstitial monitoring (double-wall)
+              مراقبة الفراغ البيني (الجدار المزدوج)
             </span>
           </div>
           <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">
-            Nozzle size, material, reinforcement and orientation are set in the
-            nozzle schedule for each tank. Accessories are fitted as the service
-            requires.
+            يُحدَّد مقاس الفوهة ومادتها وتدعيمها واتجاهها في جدول الفوهات لكل خزان. وتُركَّب الملحقات وفق متطلبات الخدمة.
           </p>
         </div>
       </section>
@@ -570,67 +525,55 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Frequently Asked Questions
+            الأسئلة الشائعة
           </h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Which material is best for my chemical?
+                ما أفضل مادة للمادة الكيميائية لديّ؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                No single resin or polymer is universally chemical-resistant.
-                The right construction — FRP with a selected resin, PE/XLPE, or
-                lined/alloy steel — is chosen from your exact chemical,
-                concentration, temperature and operating conditions, confirmed
-                against supplier evidence.
+                لا يوجد راتنج أو بوليمر واحد مقاوم لجميع المواد الكيميائية. ويُختار التصنيع المناسب — FRP براتنج مختار، أو PE/XLPE، أو الفولاذ المبطَّن/السبائكي — بناءً على المادة الكيميائية وتركيزها ودرجة حرارتها وظروف التشغيل الدقيقة، مع التأكيد بأدلة المورد.
               </p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Why do you need so much detail about the chemical?
+                لماذا تحتاجون كل هذه التفاصيل عن المادة الكيميائية؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Resistance depends on concentration, temperature, impurities,
-                vapour exposure and cleaning — and on every wetted part, not
-                just the shell. The nozzles, seals, gaskets and vents are
-                assessed too, since any one can be the weak point.
+                تعتمد المقاومة على التركيز ودرجة الحرارة والشوائب والتعرض للأبخرة والتنظيف — وعلى كل جزء ملامس للسائل، لا الهيكل فقط. لذا تُقيَّم الفوهات وموانع التسرب والحشوات وفتحات التهوية أيضًا، إذ قد يكون أيٌّ منها نقطة الضعف.
               </p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Can you confirm suitability from the chemical name alone?
+                هل يمكنكم تأكيد الملاءمة من اسم المادة الكيميائية وحده؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                No. Suitability is service-specific and is only stated once the
-                exact tank system and duty have written supplier or manufacturer
-                confirmation. A chemical name or a past enquiry is not a
-                compatibility approval.
+                لا. الملاءمة خاصة بكل خدمة، ولا نذكرها إلا بعد الحصول على تأكيد مكتوب من المورد أو الشركة المصنّعة لنظام الخزان والاستخدام المحددين. ولا يُعد اسم المادة الكيميائية أو استفسار سابق اعتمادًا للتوافق.
               </p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Do you provide a compatibility record?
+                هل تقدمون سجلًا للتوافق؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Yes — a compatibility schedule capturing the chemical,
-                concentration, temperature, cycles, cleaning and containment is
-                documented and drives the material selection.
+                نعم — يُوثَّق جدول توافق يتضمن المادة الكيميائية والتركيز ودرجة الحرارة والدورات والتنظيف والاحتواء، ويُبنى عليه اختيار المادة.
               </p>
             </details>
           </div>

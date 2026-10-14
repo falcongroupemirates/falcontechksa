@@ -12,9 +12,9 @@ export const metadata = {
     canonical: "/ar/services/tank-solutions/water-tanks",
     languages: { en: "/services/tank-solutions/water-tanks", ar: "/ar/services/tank-solutions/water-tanks", "x-default": "/services/tank-solutions/water-tanks" },
   },
-  title: "Water Storage Tanks in Saudi Arabia — Potable, Process & Fire Water",
+  title: "خزانات تخزين المياه في المملكة العربية السعودية — مياه الشرب ومياه العمليات ومياه الحريق",
   description:
-    "Water storage tanks for drinking, utility, process, fire and irrigation water in FRP/GRP, polyethylene or steel — engineered and supplied by Falcon Technologies in Saudi Arabia.",
+    "خزانات تخزين المياه لمياه الشرب والخدمات والعمليات والحريق والري من FRP/GRP أو البولي إيثيلين أو الفولاذ — تصميم وتوريد فالكون تكنولوجيز في المملكة العربية السعودية.",
 };
 
 export default function Page() {
@@ -73,10 +73,10 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Tank Solutions"
-        title="Water Tanks"
-        description="Storage tanks for drinking, utility, process, fire and irrigation water — in FRP/GRP, polyethylene or steel."
-        breadcrumb="Water Tanks"
+        eyebrow="حلول الخزانات"
+        title="خزانات المياه"
+        description="خزانات تخزين لمياه الشرب والخدمات والعمليات والحريق والري — من FRP/GRP أو البولي إيثيلين أو الفولاذ."
+        breadcrumb="خزانات المياه"
         image="/assets/images/tank-solutions/modern_uae_water_storage_facility.png"
       />
 
@@ -89,23 +89,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Tank Solutions
+                حلول الخزانات
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Water Storage Tanks for Every Application
+                خزانات تخزين المياه لكل التطبيقات
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
                 <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Whether you need drinking water storage for a building or
-                  process and fire water for an industrial plant, the right tank
-                  depends on capacity, location and water quality. Falcon
-                  supplies water tanks in FRP/GRP, polyethylene and steel and
-                  helps you choose between them.
+                  سواء كنت بحاجة إلى تخزين مياه الشرب لمبنى أو مياه العمليات والحريق لمصنع صناعي، فإن الخزان المناسب يعتمد على السعة والموقع وجودة المياه. توفر فالكون خزانات المياه من FRP/GRP والبولي إيثيلين والفولاذ وتساعدك على الاختيار بينها.
                 </p>
                 <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Tanks come with the nozzles, manholes, supports and
-                  installation guidance your site needs, and can be configured
-                  aboveground, on a rooftop, inside a plant room or underground.
+                  تأتي الخزانات مع الفوهات وفتحات التفتيش والدعامات وإرشادات التركيب التي يحتاجها موقعك، ويمكن تكوينها فوق الأرض أو على السطح أو داخل غرفة المعدات أو تحت الأرض.
                 </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -113,27 +107,27 @@ export default function Page() {
                   href="/ar/request-a-quote"
                   className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
                 >
-                  Request a Quote
+                  اطلب عرض سعر
                 </a>
                 <a
                   href="/ar/technical-library"
                   className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
                 >
-                  Browse the Technical Library
+                  تصفح المكتبة الفنية
                 </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
               <Image loading="eager"
                 src="/assets/images/tank-solutions/modern_uae_water_storage_facility.png"
-                alt="Water Tanks by Falcon Technologies in Saudi Arabia"
+                alt="خزانات المياه من فالكون تكنولوجيز في المملكة العربية السعودية"
                 fill
                 sizes="(min-width: 1024px) 45vw, 100vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Tank Solutions
+                حلول الخزانات
               </span>
             </div>
           </div>
@@ -143,65 +137,61 @@ export default function Page() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            What We Offer
+            ما نقدمه
           </h2>
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Drinking water storage
+                تخزين مياه الشرب
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Tanks for buildings and facilities, with materials confirmed for
-                potable use.
+                خزانات للمباني والمنشآت، بمواد مؤكدة الملاءمة لمياه الشرب.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Process and utility water
+                مياه العمليات ومياه الخدمات
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Storage for industrial process, cooling-related and utility
-                supplies.
+                تخزين لإمدادات العمليات الصناعية والتبريد ومياه الخدمات.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Fire water storage
+                تخزين مياه الحريق
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Dedicated tanks sized and fitted to the fire protection
-                requirement.
+                خزانات مخصصة يتم تحديد سعتها وتجهيزها وفق متطلبات الحماية من الحريق.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Wastewater tanks
+                خزانات مياه الصرف
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Corrosion-resistant tanks for wastewater and effluent handling.
+                خزانات مقاومة للتآكل لمعالجة مياه الصرف والمياه العادمة.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Irrigation water
+                مياه الري
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Storage for landscape and agricultural irrigation supplies.
+                تخزين لإمدادات ري المسطحات الخضراء والري الزراعي.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Insulated water tanks
+                خزانات مياه معزولة
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Insulation to reduce solar heat gain on exposed tanks in a hot
-                climate.
+                عزل يقلل اكتساب الحرارة الشمسية للخزانات المكشوفة في المناخ الحار.
               </p>
             </div>
           </div>
@@ -211,11 +201,10 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Types of Water Tanks
+            أنواع خزانات المياه
           </h2>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-            Each configuration has its own page with the detail relevant to that
-            type.
+            لكل نوع صفحة خاصة تتضمن التفاصيل المتعلقة به.
           </p>
           <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <a
@@ -225,7 +214,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/hygienic_potable_water_storage_system.png"
-                  alt="Drinking / Potable Water Tank"
+                  alt="خزان مياه الشرب"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -234,13 +223,13 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  Drinking / Potable Water Tank
+                  خزان مياه الشرب
                 </h3>
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Storage built with materials suitable for potable contact.
+                  تخزين مصنوع من مواد مناسبة للتلامس مع مياه الشرب.
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
-                  View type
+                  عرض النوع
                   <ArrowUpLeft
                     size={14}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -255,7 +244,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/modern_uae_utility_water_tank.png"
-                  alt="Utility Water Tank"
+                  alt="خزان مياه الخدمات"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -264,13 +253,13 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  Utility Water Tank
+                  خزان مياه الخدمات
                 </h3>
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Storage for non-potable utility and general-purpose water use.
+                  تخزين لمياه الخدمات غير الصالحة للشرب والاستخدامات العامة.
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
-                  View type
+                  عرض النوع
                   <ArrowUpLeft
                     size={14}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -285,7 +274,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/modular_grp_process_water_tank_installation.png"
-                  alt="Process Water Tank"
+                  alt="خزان مياه العمليات"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -294,13 +283,13 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  Process Water Tank
+                  خزان مياه العمليات
                 </h3>
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Storage sized and fitted for industrial process water supply.
+                  تخزين بسعة وتجهيزات مناسبة لإمداد مياه العمليات الصناعية.
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
-                  View type
+                  عرض النوع
                   <ArrowUpLeft
                     size={14}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -315,7 +304,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/industrial_fire-water_tank_and_pump.png"
-                  alt="Fire Water Tank"
+                  alt="خزان مياه الحريق"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -324,14 +313,13 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  Fire Water Tank
+                  خزان مياه الحريق
                 </h3>
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Dedicated storage sized and fitted for fire protection
-                  systems.
+                  تخزين مخصص بسعة وتجهيزات مناسبة لأنظمة الحماية من الحريق.
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
-                  View type
+                  عرض النوع
                   <ArrowUpLeft
                     size={14}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -346,7 +334,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/saudi_irrigation_tank_and_pump_system.png"
-                  alt="Irrigation Water Tank"
+                  alt="خزان مياه الري"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -355,13 +343,13 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  Irrigation Water Tank
+                  خزان مياه الري
                 </h3>
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Storage for landscape and agricultural irrigation supply.
+                  تخزين لإمدادات ري المسطحات الخضراء والزراعة.
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
-                  View type
+                  عرض النوع
                   <ArrowUpLeft
                     size={14}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -378,85 +366,81 @@ export default function Page() {
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
               <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Technical Snapshot
+                لمحة فنية
               </h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Water types
+                    أنواع المياه
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Drinking, utility, process, wastewater, fire and irrigation
-                    water
+                    مياه الشرب والخدمات والعمليات والصرف والحريق والري
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Materials
+                    المواد
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    FRP/GRP, polyethylene or steel — chosen per application
+                    FRP/GRP أو البولي إيثيلين أو الفولاذ — حسب كل تطبيق
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Placement
+                    موقع التركيب
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Aboveground, underground, rooftop, inside building or plant
-                    room
+                    فوق الأرض، تحت الأرض، على السطح، داخل المبنى أو غرفة المعدات
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Shapes
+                    الأشكال
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Vertical, horizontal, cylindrical, rectangular and custom
+                    عمودية، أفقية، أسطوانية، مستطيلة ومخصصة
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Potable duty
+                    الاستخدام لمياه الشرب
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Materials suitable for potable contact, confirmed per
-                    project
+                    مواد مناسبة للتلامس مع مياه الشرب، يتم تأكيدها لكل مشروع
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Add-ons
+                    إضافات
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Thermal insulation to limit solar heat gain; lining and
-                    restoration for existing tanks
+                    عزل حراري للحد من اكتساب الحرارة الشمسية؛ وتبطين وترميم للخزانات القائمة
                   </dd>
                 </div>
               </dl>
             </div>
             <div>
               <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">
-                Where It&rsquo;s Used
+                مجالات الاستخدام
               </h2>
               <div className="mt-5 flex flex-wrap gap-2">
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Commercial &amp; industrial buildings
+                  المباني التجارية والصناعية
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Water &amp; wastewater plants
+                  محطات المياه والصرف الصحي
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Manufacturing
+                  التصنيع
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Power &amp; utilities
+                  الطاقة والمرافق
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Construction &amp; infrastructure
+                  الإنشاءات والبنية التحتية
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Irrigation
+                  الري
                 </span>
               </div>
             </div>
@@ -467,44 +451,43 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            From Requirement to Installation
+            من تحديد المتطلبات إلى التركيب
           </h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Confirm volume and water type
+                تأكيد السعة ونوع المياه
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Capacity, duty and any potable or fire-water requirement.
+                السعة وظروف التشغيل وأي متطلبات خاصة بمياه الشرب أو مياه الحريق.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Choose material and layout
+                اختيار المادة والتصميم
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                FRP/GRP, polyethylene or steel, and aboveground, rooftop or
-                underground.
+                FRP/GRP أو البولي إيثيلين أو الفولاذ، فوق الأرض أو على السطح أو تحت الأرض.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Fabricate and inspect
+                التصنيع والفحص
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Built and inspected to the approved drawing.
+                التصنيع والفحص وفق المخطط المعتمد.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Support and hand over
+                الدعم والتسليم
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Installation guidance and documented handover.
+                إرشادات التركيب وتسليم موثق.
               </p>
             </li>
           </ol>
@@ -514,13 +497,10 @@ export default function Page() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Sizing
+            تحديد الأحجام
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-            No single capacity range covers all five water services. Material
-            and geometry (FRP, PE, steel or another approved system) are
-            selected per project from required volume, location, water
-            chemistry, site loads and purchaser specification.
+            لا يوجد نطاق سعة واحد يغطي جميع خدمات المياه الخمس. يتم اختيار المادة والشكل الهندسي (FRP أو PE أو الفولاذ أو أي نظام معتمد آخر) لكل مشروع بناءً على الحجم المطلوب والموقع وكيمياء المياه وأحمال الموقع ومواصفات المشتري.
           </p>
         </div>
       </section>
@@ -528,7 +508,7 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Standards &amp; Compliance
+            المعايير والامتثال
           </h2>
           <dl className="mt-8 max-w-3xl divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
@@ -536,8 +516,7 @@ export default function Page() {
                 NSF/ANSI/CAN 61
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Health-effects criteria for drinking-water-contact materials —
-                product-specific certification/listing confirmed separately.
+                معايير التأثيرات الصحية للمواد الملامسة لمياه الشرب — يتم تأكيد الشهادة/الإدراج الخاص بكل منتج بشكل منفصل.
               </dd>
             </div>
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
@@ -545,7 +524,7 @@ export default function Page() {
                 AWWA D100-21
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Welded carbon-steel tanks for water storage.
+                خزانات ملحومة من الفولاذ الكربوني لتخزين المياه.
               </dd>
             </div>
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
@@ -553,8 +532,7 @@ export default function Page() {
                 AWWA D120-19(R25) / D121-24
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                FRP water tanks; D121 is specifically bolted aboveground FRP
-                panel-type tanks.
+                خزانات مياه FRP؛ ويختص D121 بخزانات FRP اللوحية المثبتة بالمسامير فوق الأرض.
               </dd>
             </div>
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
@@ -562,19 +540,12 @@ export default function Page() {
                 NFPA 22
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Water tanks for private fire protection, where adopted by the
-                project.
+                خزانات المياه للحماية الخاصة من الحريق، حيثما يعتمدها المشروع.
               </dd>
             </div>
           </dl>
           <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
-            A standard reference is not proof of third-party certification.
-            Falcon states “designed and manufactured to” a standard only when it
-            is backed by the controlled design and QA file; chemical,
-            potable-water and underground suitability require separate
-            product-specific evidence. Saudi/GCC approvals (SASO/SABER, Civil
-            Defense, environmental, municipal, utility and owner approvals) are
-            project- and product-specific.
+            الإشارة إلى معيار ما ليست دليلًا على اعتماد من طرف ثالث. لا تذكر فالكون عبارة “مصمم ومصنّع وفق” معيار ما إلا عندما يدعمها ملف تصميم وضمان جودة مضبوط؛ وتتطلب الملاءمة للمواد الكيميائية ومياه الشرب والتركيب تحت الأرض أدلة منفصلة خاصة بالمنتج. أما الاعتمادات في المملكة العربية السعودية ودول الخليج (SASO/SABER، والدفاع المدني، والبيئة، والبلديات، وشركات المرافق، والمالك) فهي خاصة بكل مشروع ومنتج.
           </p>
         </div>
       </section>
@@ -582,62 +553,60 @@ export default function Page() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Accessories &amp; Fittings
+            الملحقات والتجهيزات
           </h2>
           <div className="mt-6 flex flex-wrap gap-2">
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Access / manway
+              فتحة الوصول / فتحة الدخول
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Inlet / outlet
+              المدخل / المخرج
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Overflow
+              الفائض
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Vent
+              فتحة التهوية
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Drain
+              التصريف
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Level gauge / transmitter
+              مقياس / مرسل المستوى
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Ladder, platform &amp; handrails
+              سلم ومنصة ودرابزين
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Lifting lugs
+              عُرى الرفع
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Hold-downs / anchors
+              مثبتات / مراسي
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Baffles
+              حواجز داخلية
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Sample point
+              نقطة أخذ العينات
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Instrument ports
+              منافذ الأجهزة
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Pump / filter / skid
+              مضخة / فلتر / قاعدة (سكيد)
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Leak monitoring
+              مراقبة التسرب
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Grounding / instrumentation
+              التأريض / الأجهزة
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Interstitial monitoring (double-wall)
+              مراقبة الفراغ البيني (الجدار المزدوج)
             </span>
           </div>
           <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">
-            Nozzle size, material, reinforcement and orientation are set in the
-            nozzle schedule for each tank. Accessories are fitted as the service
-            requires.
+            يُحدَّد مقاس الفوهة ومادتها وتدعيمها واتجاهها في جدول الفوهات لكل خزان. وتُركَّب الملحقات وفق متطلبات الخدمة.
           </p>
         </div>
       </section>
@@ -645,51 +614,43 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Frequently Asked Questions
+            الأسئلة الشائعة
           </h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                What material is best for a potable water tank?
+                ما أفضل مادة لخزان مياه الشرب؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                FRP/GRP and polyethylene are both widely used for potable water
-                when the materials and construction suit potable contact. We
-                confirm suitability and any required approvals against your
-                project specification.
+                تُستخدم خزانات الألياف الزجاجية FRP/GRP والبولي إيثيلين على نطاق واسع لمياه الشرب عندما تكون المواد وطريقة التصنيع مناسبة للتلامس مع مياه الشرب. ونحن نتحقق من الملاءمة وأي موافقات مطلوبة وفق مواصفات مشروعك.
               </p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Can water tanks be insulated?
+                هل يمكن عزل خزانات المياه؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Yes. Thermal insulation reduces solar heat gain and temperature
-                swings, which is especially useful for aboveground and rooftop
-                tanks in Saudi Arabia's climate. See our Thermal Insulation
-                services.
+                نعم. يقلل العزل الحراري من اكتساب الحرارة الشمسية وتقلبات درجات الحرارة، وهو مفيد بشكل خاص للخزانات فوق الأرض وعلى الأسطح في مناخ المملكة العربية السعودية. اطلع على خدمات العزل الحراري لدينا.
               </p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Can you supply underground water tanks?
+                هل توفرون خزانات مياه أرضية؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Yes. Underground water tanks are available in FRP/GRP,
-                polyethylene and steel, with foundation and anchoring details
-                provided as part of the design.
+                نعم. تتوفر خزانات المياه الأرضية من FRP/GRP والبولي إيثيلين والفولاذ، مع تقديم تفاصيل الأساسات والتثبيت ضمن التصميم.
               </p>
             </details>
           </div>

@@ -11,45 +11,45 @@ import { motion } from "framer-motion";
 const products = [
   {
     id: 1,
-    title: "FRP / GRP Tanks",
+    title: "خزانات FRP / GRP",
     href: "/ar/services/tank-solutions/frp-grp-tanks",
     image: "/assets/images/home/frp-grp-tanks.webp",
-    alt: "FRP GRP fiberglass tank",
+    alt: "خزان ألياف زجاجية FRP GRP",
   },
   {
     id: 2,
-    title: "Polyethylene Tanks",
+    title: "خزانات البولي إيثيلين",
     href: "/ar/services/tank-solutions/polyethylene-tanks",
     image: "/assets/images/home/polyethylene-tanks.webp",
-    alt: "Polyethylene LLDPE HDPE tank",
+    alt: "خزان بولي إيثيلين LLDPE HDPE",
   },
   {
     id: 3,
-    title: "Underground Tanks",
+    title: "الخزانات الأرضية",
     href: "/ar/services/tank-solutions/underground-tanks",
     image: "/assets/images/home/underground-tanks.webp",
-    alt: "Underground storage tank",
+    alt: "خزان تخزين أرضي",
   },
   {
     id: 4,
-    title: "Steel Tank Systems",
+    title: "أنظمة الخزانات الفولاذية",
     href: "/ar/services/tank-solutions/steel-tank-systems",
     image: "/assets/images/home/steel-tank-systems.webp",
-    alt: "Fabricated steel tank system",
+    alt: "نظام خزان فولاذي مصنّع",
   },
   {
     id: 5,
-    title: "Chemical Tanks",
+    title: "خزانات المواد الكيميائية",
     href: "/ar/services/tank-solutions/chemical-tanks",
     image: "/assets/images/home/chemical-tanks.webp",
-    alt: "Chemical storage tank",
+    alt: "خزان تخزين مواد كيميائية",
   },
   {
     id: 6,
-    title: "Diesel / Fuel Tanks",
+    title: "خزانات الديزل والوقود",
     href: "/ar/services/tank-solutions/diesel-fuel-tanks",
     image: "/assets/images/home/diesel-fuel-tanks.webp",
-    alt: "Diesel and fuel storage tank",
+    alt: "خزان تخزين الديزل والوقود",
   },
 ];
 
@@ -74,18 +74,17 @@ export default function ProductsSection() {
         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <h2 className="max-w-lg text-[28px] font-normal leading-[1.15] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[34px]">
-              Our Product Range
+              مجموعة منتجاتنا
             </h2>
             <p className="mt-3 max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-              Storage tanks for water, fuel and chemicals, engineered by
-              application rather than picked off a fixed size chart.
+              خزانات تخزين للمياه والوقود والمواد الكيميائية، مصمّمة هندسيًا حسب التطبيق بدلًا من اختيارها من جدول مقاسات ثابت.
             </p>
           </div>
           <Link
             href="/ar/services/tank-solutions"
             className="inline-block border-b border-brand text-sm font-semibold text-brand transition-colors hover:border-brand-dark hover:text-brand-dark"
           >
-            View all tank solutions
+            عرض كل حلول الخزانات
           </Link>
         </div>
 

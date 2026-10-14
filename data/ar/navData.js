@@ -6,199 +6,199 @@
 
 const navData = [
   {
-    label: "Home",
+    label: "الرئيسية",
     href: "/ar",
   },
 
   {
-    label: "About Us",
+    label: "من نحن",
     href: "/ar/about-us",
   },
 
   {
-    label: "Services",
+    label: "الخدمات",
     href: "/ar/services",
     variant: "cards",
     submenu: [
       {
-        label: "Tank Solutions",
+        label: "حلول الخزانات",
         href: "/ar/services/tank-solutions",
         image: "/assets/images/tank-solutions/engineered_frp_tanks_in_saudi_facility.png",
         children: [
           {
-            label: "FRP / GRP Tanks",
+            label: "خزانات FRP / GRP",
             href: "/ar/services/tank-solutions/frp-grp-tanks",
           },
           {
-            label: "Polyethylene Tanks",
+            label: "خزانات البولي إيثيلين",
             href: "/ar/services/tank-solutions/polyethylene-tanks",
           },
           {
-            label: "Steel Tank Systems",
+            label: "أنظمة الخزانات الفولاذية",
             href: "/ar/services/tank-solutions/steel-tank-systems",
           },
           {
-            label: "Water Tanks",
+            label: "خزانات المياه",
             href: "/ar/services/tank-solutions/water-tanks",
           },
           {
-            label: "Chemical Tanks",
+            label: "خزانات المواد الكيميائية",
             href: "/ar/services/tank-solutions/chemical-tanks",
           },
           {
-            label: "Diesel / Fuel Tanks",
+            label: "خزانات الديزل والوقود",
             href: "/ar/services/tank-solutions/diesel-fuel-tanks",
           },
           {
-            label: "Underground Tanks",
+            label: "الخزانات الأرضية",
             href: "/ar/services/tank-solutions/underground-tanks",
           },
         ],
       },
 
       {
-        label: "Thermal Insulation",
+        label: "العزل الحراري",
         href: "/ar/services/thermal-insulation",
         image: "/assets/images/services/industrial-insulation.png",
         children: [
           {
-            label: "Storage Tank Insulation",
+            label: "عزل خزانات التخزين",
             href: "/ar/services/thermal-insulation/storage-tank-insulation",
           },
           {
-            label: "Pipe & Equipment Insulation",
+            label: "عزل الأنابيب والمعدات",
             href: "/ar/services/thermal-insulation/pipe-equipment-insulation",
           },
           {
-            label: "Building & Roof Insulation",
+            label: "عزل المباني والأسطح",
             href: "/ar/services/thermal-insulation/building-roof-insulation",
           },
           {
-            label: "Equipment Room Insulation",
+            label: "عزل غرف المعدات",
             href: "/ar/services/thermal-insulation/equipment-room-insulation",
           },
           {
-            label: "Aerogel Thermal Insulation",
+            label: "العزل الحراري بالأيروجيل",
             href: "/ar/services/thermal-insulation/aerogel-thermal-insulation",
           },
         ],
       },
 
       {
-        label: "Tank Restoration & Lining",
+        label: "ترميم وتبطين الخزانات",
         href: "/ar/services/tank-restoration-lining",
         image: "/assets/images/services/frp-tank-restoration.png",
         children: [
           {
-            label: "Tank Restoration",
+            label: "ترميم الخزانات",
             href: "/ar/services/tank-restoration-lining/tank-restoration",
           },
           {
-            label: "Tank Rehabilitation",
+            label: "إعادة تأهيل الخزانات",
             href: "/ar/services/tank-restoration-lining/tank-rehabilitation",
           },
           {
-            label: "FRP / GRP Lining",
+            label: "تبطين FRP / GRP",
             href: "/ar/services/tank-restoration-lining/frp-grp-lining",
           },
           {
-            label: "Chemical-Resistant Lining",
+            label: "تبطين مقاوم للمواد الكيميائية",
             href: "/ar/services/tank-restoration-lining/chemical-resistant-lining",
           },
           {
-            label: "Waterproof Lining",
+            label: "تبطين عازل للماء",
             href: "/ar/services/tank-restoration-lining/waterproof-lining",
           },
           {
-            label: "Steel Tank Lining",
+            label: "تبطين الخزانات الفولاذية",
             href: "/ar/services/tank-restoration-lining/steel-tank-lining",
           },
           {
-            label: "Concrete Tank Lining",
+            label: "تبطين الخزانات الخرسانية",
             href: "/ar/services/tank-restoration-lining/concrete-tank-lining",
           },
           {
-            label: "Corrosion Protection",
+            label: "الحماية من التآكل",
             href: "/ar/services/tank-restoration-lining/corrosion-protection",
           },
         ],
       },
 
       {
-        label: "Industrial Services",
+        label: "الخدمات الصناعية",
         href: "/ar/services/industrial-services",
         image: "/assets/images/services/mechanical-maintenance.png",
         children: [
           {
-            label: "Tank Inspection",
+            label: "فحص الخزانات",
             href: "/ar/services/industrial-services/tank-inspection",
           },
           {
-            label: "Industrial Coating",
+            label: "الطلاء الصناعي",
             href: "/ar/services/industrial-services/industrial-coating",
           },
           {
-            label: "Mechanical Maintenance",
+            label: "الصيانة الميكانيكية",
             href: "/ar/services/industrial-services/mechanical-maintenance",
           },
           {
-            label: "Equipment Support",
+            label: "دعم المعدات",
             href: "/ar/services/industrial-services/equipment-support",
           },
           {
-            label: "Chiller Installation & Maintenance",
+            label: "تركيب وصيانة المبردات",
             href: "/ar/services/industrial-services/chiller-installation-maintenance",
           },
         ],
       },
 
       {
-        label: "Surveying & 3D Scanning",
+        label: "المساحة والمسح ثلاثي الأبعاد",
         href: "/ar/services/survey-scanning",
         image: "/assets/images/services/survey-scanning.png",
         children: [
-          { label: "3D Laser Scanning", href: "/ar/services/survey-scanning/3d-laser-scanning" },
-          { label: "As-Built Survey", href: "/ar/services/survey-scanning/as-built-survey" },
-          { label: "Scan to BIM", href: "/ar/services/survey-scanning/scan-to-bim" },
-          { label: "BIM Modelling", href: "/ar/services/survey-scanning/bim-modelling" },
-          { label: "Reverse Engineering", href: "/ar/services/survey-scanning/reverse-engineering" },
+          { label: "المسح الليزري ثلاثي الأبعاد", href: "/ar/services/survey-scanning/3d-laser-scanning" },
+          { label: "مسح الوضع القائم (As-Built)", href: "/ar/services/survey-scanning/as-built-survey" },
+          { label: "التحويل من المسح إلى BIM", href: "/ar/services/survey-scanning/scan-to-bim" },
+          { label: "نمذجة BIM", href: "/ar/services/survey-scanning/bim-modelling" },
+          { label: "الهندسة العكسية", href: "/ar/services/survey-scanning/reverse-engineering" },
         ],
       },
     ],
   },
 
   {
-    label: "Surveying",
+    label: "المساحة",
     href: "/ar/services/survey-scanning",
     variant: "cards",
     submenu: [
       {
-        label: "All Surveying Services",
+        label: "جميع خدمات المساحة",
         href: "/ar/services/survey-scanning",
         image: "/assets/images/services/survey-scanning.png",
       },
       {
-        label: "3D Laser Scanning",
+        label: "المسح الليزري ثلاثي الأبعاد",
         href: "/ar/services/survey-scanning/3d-laser-scanning",
         image: "/assets/images/services/3d-laser-scanning.jpg",
       },
       {
-        label: "As-Built Survey",
+        label: "مسح الوضع القائم (As-Built)",
         href: "/ar/services/survey-scanning/as-built-survey",
         image: "/assets/images/services/as-built-survey.jpg",
       },
       {
-        label: "Scan to BIM",
+        label: "التحويل من المسح إلى BIM",
         href: "/ar/services/survey-scanning/scan-to-bim",
         image: "/assets/images/services/scan-to-bim.jpg",
       },
       {
-        label: "BIM Modelling",
+        label: "نمذجة BIM",
         href: "/ar/services/survey-scanning/bim-modelling",
         image: "/assets/images/services/bim-modelling.jpg",
       },
       {
-        label: "Reverse Engineering",
+        label: "الهندسة العكسية",
         href: "/ar/services/survey-scanning/reverse-engineering",
         image: "/assets/images/services/reverse-engineering-scanning.jpg",
       },
@@ -206,48 +206,48 @@ const navData = [
   },
 
   {
-    label: "Industries",
+    label: "القطاعات",
     href: "/ar/industries",
     variant: "cards",
     submenu: [
       {
-        label: "Oil & Gas",
+        label: "النفط والغاز",
         href: "/ar/industries/oil-gas",
         image: "/assets/images/industries/oil-and-gas.webp",
       },
       {
-        label: "Petrochemical & Chemical",
+        label: "البتروكيماويات والكيماويات",
         href: "/ar/industries/petrochemical-chemical",
         image: "/assets/images/industries/petrochemical-and-chemical.webp",
       },
       {
-        label: "Water & Wastewater",
+        label: "المياه والصرف الصحي",
         href: "/ar/industries/water-wastewater",
         image: "/assets/images/industries/water-and-wastewater.webp",
       },
       {
-        label: "Power & Utilities",
+        label: "الطاقة والمرافق",
         href: "/ar/industries/power-utilities",
         image: "/assets/images/industries/power-and-utilities.webp",
       },
       {
-        label: "Manufacturing",
+        label: "التصنيع",
         href: "/ar/industries/manufacturing",
         image: "/assets/images/industries/manufacturing.webp",
       },
       {
-        label: "Construction & Infrastructure",
+        label: "الإنشاءات والبنية التحتية",
         href: "/ar/industries/construction-infrastructure",
         image: "/assets/images/industries/construction-and-infrastructure.webp",
       },
       {
-        label: "Commercial & Industrial",
+        label: "المباني التجارية والصناعية",
         href: "/ar/industries/commercial-industrial",
         image:
           "/assets/images/industries/commercial-and-industrial-buildings.webp",
       },
       {
-        label: "Food & Beverage",
+        label: "الأغذية والمشروبات",
         href: "/ar/industries/food-beverage",
         image: "/assets/images/industries/food-and-beverage.webp",
       },
@@ -298,57 +298,57 @@ const navData = [
   // },
 
   {
-    label: "Projects",
+    label: "المشاريع",
     href: "/ar/projects",
   },
 
   {
-    label: "Gallery",
+    label: "معرض الصور",
     href: "/ar/gallery",
   },
 
   {
-    label: "Technical Library",
+    label: "المكتبة الفنية",
     href: "/ar/technical-library",
     submenu: [
       {
-        label: "Company Documents",
+        label: "وثائق الشركة",
         href: "/ar/technical-library/company-documents",
       },
       {
-        label: "Product Datasheets",
+        label: "نشرات البيانات الفنية للمنتجات",
         href: "/ar/technical-library/product-datasheets",
       },
       {
-        label: "Thermal Insulation Documents",
+        label: "وثائق العزل الحراري",
         href: "/ar/technical-library/thermal-insulation",
       },
       {
-        label: "Chiller Service Documents",
+        label: "وثائق خدمة المبردات",
         href: "/ar/technical-library/chiller-services",
       },
       {
-        label: "Engineering Documents",
+        label: "الوثائق الهندسية",
         href: "/ar/technical-library/engineering",
       },
       {
-        label: "QA / QC Documents",
+        label: "وثائق QA / QC",
         href: "/ar/technical-library/qa-qc",
       },
       {
-        label: "Chemical Compatibility",
+        label: "التوافق الكيميائي",
         href: "/ar/technical-library/chemical-compatibility",
       },
     ],
   },
 
   {
-    label: "Contact Us",
+    label: "اتصل بنا",
     href: "/ar/contact-us",
   },
 
   {
-    label: "Request a Quote",
+    label: "اطلب عرض سعر",
     href: "/ar/request-a-quote",
     variant: "cta",
   },

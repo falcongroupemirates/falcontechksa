@@ -15,7 +15,7 @@ export default function CTASection() {
       <div className="absolute inset-0">
         <Image
           src="/assets/images/home/cta-background.png"
-          alt="Falcon Technologies industrial tank and service facility"
+          alt="منشأة فالكون تكنولوجيز للخزانات والخدمات الصناعية"
           fill
           sizes="100vw"
           className="object-cover opacity-40"
@@ -34,14 +34,13 @@ export default function CTASection() {
           className="max-w-xl"
         >
           <span className="text-xs font-semibold uppercase tracking-[0.15em] text-brand">
-            Let&apos;s Work Together
+            لنعمل معًا
           </span>
           <h2 className="mt-4 text-[32px] font-normal leading-[1.15] tracking-[-0.03em] text-white sm:text-[42px]">
-            Ready to Start Your Next Project?
+            هل أنت مستعد لبدء مشروعك القادم؟
           </h2>
           <p className="mt-4 max-w-md text-base leading-relaxed text-white/60">
-            Get in touch with our engineering team for a free consultation and a
-            tailored proposal for your site.
+            تواصل مع فريقنا الهندسي للحصول على استشارة مجانية وعرض مخصّص لموقعك.
           </p>
         </motion.div>
 
@@ -56,7 +55,7 @@ export default function CTASection() {
             href="/ar/contact-us"
             className="group inline-flex h-14 items-center rounded-full bg-brand ps-8 pe-2 text-sm font-semibold uppercase tracking-[0.02em] text-white transition-colors duration-300 hover:bg-brand-dark"
           >
-            <span>Get a Quote</span>
+            <span>اطلب عرض سعر</span>
             <span className="ms-6 flex h-11 w-11 items-center justify-center rounded-full bg-white/15 transition-transform duration-300 group-hover:rotate-45">
               <ArrowUpLeft size={20} strokeWidth={1.7} />
             </span>
@@ -65,7 +64,7 @@ export default function CTASection() {
             dir="ltr" href="tel:+966"
             className="inline-flex h-14 items-center rounded-full border border-white/20 px-8 text-sm font-semibold uppercase tracking-[0.02em] text-white transition-colors duration-300 hover:border-white/40 hover:bg-white/5"
           >
-            Call Us Now
+            اتصل بنا الآن
           </Link>
         </motion.div>
       </div>

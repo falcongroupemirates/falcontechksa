@@ -22,9 +22,9 @@ export const metadata = {
     canonical: "/ar/services/tank-restoration-lining",
     languages: { en: "/services/tank-restoration-lining", ar: "/ar/services/tank-restoration-lining", "x-default": "/services/tank-restoration-lining" },
   },
-  title: "Tank Restoration & FRP Lining Services in Saudi Arabia",
+  title: "خدمات ترميم الخزانات وتبطين FRP في المملكة العربية السعودية",
   description:
-    "Falcon Technologies restores damaged tanks and applies FRP, chemical-resistant and waterproof lining systems that extend asset life across Saudi Arabia and the GCC.",
+    "ترمّم فالكون تكنولوجيز الخزانات التالفة وتطبّق أنظمة تبطين FRP والتبطين المقاوم للمواد الكيميائية والعازل للماء التي تُطيل عمر الأصول في أنحاء المملكة العربية السعودية ودول الخليج.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -39,177 +39,177 @@ const heroImage = "/assets/images/services/frp-tank-restoration.png";
 // First item is the large feature tile.
 const ranges = [
   {
-    name: "Tank Restoration",
+    name: "ترميم الخزانات",
     href: "/ar/services/tank-restoration-lining/tank-restoration",
     image: "/assets/images/services/industrial-tank-restoration.png",
-    alt: "Industrial storage tank under restoration",
-    meta: "FRP, steel and polyethylene tanks",
-    desc: "Crack repair, leak rectification, delamination, nozzle and manhole repair to return damaged tanks to service.",
+    alt: "خزان تخزين صناعي قيد الترميم",
+    meta: "خزانات FRP والفولاذ والبولي إيثيلين",
+    desc: "إصلاح الشقوق ومعالجة التسربات والانفصال الطبقي وإصلاح الفوهات وفتحات الدخول لإعادة الخزانات التالفة إلى الخدمة.",
   },
   {
-    name: "Tank Rehabilitation",
+    name: "إعادة تأهيل الخزانات",
     href: "/ar/services/tank-restoration-lining/tank-rehabilitation",
     image: "/assets/images/services/tank-rehabilitation.png",
-    alt: "Structural rehabilitation of an ageing storage tank",
-    meta: "Ageing and concrete tanks",
-    desc: "Structural reinforcement and crack treatment for ageing tanks and concrete structures.",
+    alt: "إعادة التأهيل الإنشائي لخزان تخزين قديم",
+    meta: "الخزانات القديمة والخرسانية",
+    desc: "تقوية إنشائية ومعالجة للشقوق في الخزانات القديمة والمنشآت الخرسانية.",
   },
   {
-    name: "FRP / GRP Lining",
+    name: "تبطين FRP / GRP",
     href: "/ar/services/tank-restoration-lining/frp-grp-lining",
     image: "/assets/images/services/frp-lining.png",
-    alt: "FRP lining applied inside a storage tank",
-    meta: "Lining system",
-    desc: "A new fibreglass barrier inside the existing tank shell.",
+    alt: "تبطين FRP مطبّق داخل خزان تخزين",
+    meta: "نظام التبطين",
+    desc: "حاجز جديد من الألياف الزجاجية داخل جسم الخزان القائم.",
   },
   {
-    name: "Chemical-Resistant Lining",
+    name: "تبطين مقاوم للمواد الكيميائية",
     href: "/ar/services/tank-restoration-lining/chemical-resistant-lining",
     image: "/assets/images/services/chemical-resistant-lining.png",
-    alt: "Chemical-resistant lining inside a process tank",
-    meta: "Lining system",
-    desc: "Lining selected for the stored chemical, concentration and temperature.",
+    alt: "تبطين مقاوم للمواد الكيميائية داخل خزان عمليات",
+    meta: "نظام التبطين",
+    desc: "تبطين يُختار وفق المادة الكيميائية المخزّنة وتركيزها ودرجة حرارتها.",
   },
   {
-    name: "Waterproof Lining",
+    name: "تبطين عازل للماء",
     href: "/ar/services/tank-restoration-lining/waterproof-lining",
     image: "/assets/images/services/waterproof-lining.png",
-    alt: "Waterproof lining applied to a water tank",
-    meta: "Water tanks and reservoirs",
-    desc: "Stops leaks and seepage in water tanks and reservoirs.",
+    alt: "تبطين عازل للماء مطبّق على خزان مياه",
+    meta: "خزانات وأحواض المياه",
+    desc: "يوقف التسربات والرشح في خزانات وأحواض المياه.",
   },
   {
-    name: "Steel Tank Lining",
+    name: "تبطين الخزانات الفولاذية",
     href: "/ar/services/tank-restoration-lining/steel-tank-lining",
     image: "/assets/images/services/steel-tank-lining.png",
-    alt: "Internal lining of a steel storage tank",
-    meta: "Steel tanks",
-    desc: "Internal lining that protects steel shells from corrosion.",
+    alt: "التبطين الداخلي لخزان تخزين فولاذي",
+    meta: "الخزانات الفولاذية",
+    desc: "تبطين داخلي يحمي أجسام الخزانات الفولاذية من التآكل.",
   },
   {
-    name: "Concrete Tank Lining",
+    name: "تبطين الخزانات الخرسانية",
     href: "/ar/services/tank-restoration-lining/concrete-tank-lining",
     image: "/assets/images/services/concrete-tank-lining.png",
-    alt: "Lining and waterproofing of a concrete tank",
-    meta: "Concrete tanks",
-    desc: "Crack treatment, lining and waterproofing for concrete tanks and reservoirs.",
+    alt: "تبطين وعزل مائي لخزان خرساني",
+    meta: "الخزانات الخرسانية",
+    desc: "معالجة الشقوق والتبطين والعزل المائي للخزانات والأحواض الخرسانية.",
   },
   {
-    name: "Corrosion Protection",
+    name: "الحماية من التآكل",
     href: "/ar/services/tank-restoration-lining/corrosion-protection",
     image: "/assets/images/services/corrosion-protection.png",
-    alt: "Corrosion protection coating on a steel tank",
-    meta: "Coatings and linings",
-    desc: "Surface preparation and protective coatings that extend asset life.",
+    alt: "طلاء للحماية من التآكل على خزان فولاذي",
+    meta: "الطلاءات والتبطينات",
+    desc: "تجهيز الأسطح وطلاءات واقية تُطيل عمر الأصول.",
   },
 ];
 
 // Comparison table: one column per option, one row per question.
 const compareColumns = [
   {
-    name: "Restoration",
+    name: "الترميم",
     href: "/ar/services/tank-restoration-lining/tank-restoration",
   },
   {
-    name: "Lining",
+    name: "التبطين",
     href: "/ar/services/tank-restoration-lining/frp-grp-lining",
   },
   {
-    name: "Replacement",
+    name: "الاستبدال",
     href: "/ar/services/tank-solutions",
   },
 ];
 
 const comparison = [
   [
-    "When it fits",
-    "Local damage — cracks, leaks, delamination, failed nozzles or manholes",
-    "Sound structure, but the inner surface is worn, leaking or attacked by the product",
-    "The structure is no longer sound, or the tank no longer suits the duty",
+    "متى يكون مناسباً",
+    "تلف موضعي — شقوق أو تسربات أو انفصال طبقي أو تلف في الفوهات أو فتحات الدخول",
+    "المنشأ سليم، لكن السطح الداخلي متآكل أو يتسرب أو تعرّض لهجوم المنتج المخزّن",
+    "المنشأ لم يعد سليماً، أو الخزان لم يعد مناسباً لظروف التشغيل",
   ],
   [
-    "What's done",
-    "Damaged areas repaired and reinforced",
-    "A new FRP, chemical-resistant or waterproof barrier applied inside",
-    "A new tank designed and fabricated for the application",
+    "ما يتم تنفيذه",
+    "إصلاح المناطق التالفة وتقويتها",
+    "تطبيق حاجز جديد من FRP أو مقاوم للمواد الكيميائية أو عازل للماء من الداخل",
+    "خزان جديد مُصمَّم ومُصنَّع خصيصاً للتطبيق",
   ],
   [
-    "Downtime",
-    "Usually the shortest of the three",
-    "Tank emptied, cleaned and prepared before lining",
-    "Old tank removed and the new one installed",
+    "مدة التوقف",
+    "عادةً الأقصر بين الخيارات الثلاثة",
+    "تفريغ الخزان وتنظيفه وتجهيزه قبل التبطين",
+    "إزالة الخزان القديم وتركيب الخزان الجديد",
   ],
   [
-    "Cost",
-    "Usually well below replacement",
-    "Usually well below replacement",
-    "The highest of the three",
+    "التكلفة",
+    "عادةً أقل بكثير من الاستبدال",
+    "عادةً أقل بكثير من الاستبدال",
+    "الأعلى بين الخيارات الثلاثة",
   ],
   [
-    "Checks",
-    "Inspection after repair",
-    "Hardness, holiday or leak testing as applicable",
-    "Testing and documented handover",
+    "الفحوصات",
+    "الفحص بعد الإصلاح",
+    "اختبار الصلابة أو الثقوب أو التسرب حسب الاقتضاء",
+    "الاختبار والتسليم الموثق",
   ],
 ];
 
 const process = [
   {
-    title: "Condition assessment",
-    desc: "Visual and dimensional inspection establishes the extent of damage before any work begins.",
+    title: "تقييم الحالة",
+    desc: "يحدد الفحص البصري والبُعدي مدى التلف قبل بدء أي عمل.",
   },
   {
-    title: "Repair method selection",
-    desc: "Restoration, rehabilitation or lining is matched to the substrate and service conditions.",
+    title: "اختيار طريقة الإصلاح",
+    desc: "تُختار طريقة الترميم أو إعادة التأهيل أو التبطين بما يتلاءم مع سطح الأساس وظروف التشغيل.",
   },
   {
-    title: "Surface preparation",
-    desc: "The substrate is cleaned and prepared ahead of repair or lining application.",
+    title: "تجهيز الأسطح",
+    desc: "يُنظَّف سطح الأساس ويُجهَّز قبل الإصلاح أو تطبيق التبطين.",
   },
   {
-    title: "Repair or lining",
-    desc: "Crack repair, reinforcement or lining is applied per the approved method statement.",
+    title: "الإصلاح أو التبطين",
+    desc: "يُطبَّق إصلاح الشقوق أو التقوية أو التبطين وفق بيان طريقة العمل المعتمد.",
   },
   {
-    title: "Inspection and testing",
-    desc: "Barcol hardness, holiday or leak testing as applicable, followed by handover.",
+    title: "الفحص والاختبار",
+    desc: "اختبار صلابة باركول أو الثقوب أو التسرب حسب الاقتضاء، يليه التسليم.",
   },
 ];
 
 const industries = [
-  "Oil & Gas",
-  "Petrochemical & Chemical",
-  "Water & Wastewater",
-  "Power & Utilities",
-  "Manufacturing",
-  "Construction & Infrastructure",
+  "النفط والغاز",
+  "البتروكيماويات والكيماويات",
+  "المياه والصرف الصحي",
+  "الطاقة والمرافق",
+  "التصنيع",
+  "الإنشاءات والبنية التحتية",
 ];
 
-const tags = ["ASTM D3299", "ASTM D4097", "ASTM D1998", "AS/NZS 4766", "SASO requirements"];
+const tags = ["ASTM D3299", "ASTM D4097", "ASTM D1998", "AS/NZS 4766", "متطلبات SASO"];
 
 const related = [
-  { label: "Tank Solutions", icon: Factory, href: "/ar/services/tank-solutions" },
-  { label: "Thermal Insulation", icon: Flame, href: "/ar/services/thermal-insulation" },
-  { label: "Industrial Services", icon: Wrench, href: "/ar/services/industrial-services" },
-  { label: "Surveying & 3D Scanning", icon: ScanLine, href: "/ar/services/survey-scanning" },
+  { label: "حلول الخزانات", icon: Factory, href: "/ar/services/tank-solutions" },
+  { label: "العزل الحراري", icon: Flame, href: "/ar/services/thermal-insulation" },
+  { label: "الخدمات الصناعية", icon: Wrench, href: "/ar/services/industrial-services" },
+  { label: "المساحة والمسح ثلاثي الأبعاد", icon: ScanLine, href: "/ar/services/survey-scanning" },
 ];
 
 const faqs = [
   {
-    q: "Is it cheaper to restore a tank than replace it?",
-    a: "In most cases restoration and lining cost significantly less than replacement, provided the structural condition allows it. A site inspection confirms whether restoration is the right route for your tank.",
+    q: "هل ترميم الخزان أقل تكلفة من استبداله؟",
+    a: "في معظم الحالات تكون تكلفة الترميم والتبطين أقل بكثير من الاستبدال، شريطة أن تسمح الحالة الإنشائية بذلك. ويؤكد الفحص الميداني ما إذا كان الترميم هو الخيار الصحيح لخزانكم.",
   },
   {
-    q: "What causes tank leaks and cracks?",
-    a: "Common causes include age-related delamination, chemical attack, structural stress and nozzle or manhole seal failure. Our inspection identifies the root cause before recommending a repair method.",
+    q: "ما أسباب تسربات الخزانات وتشققها؟",
+    a: "من الأسباب الشائعة الانفصال الطبقي الناتج عن التقادم، والهجوم الكيميائي، والإجهاد الإنشائي، وتلف موانع التسرب في الفوهات أو فتحات الدخول. ويحدد فحصنا السبب الجذري قبل التوصية بطريقة الإصلاح.",
   },
   {
-    q: "How is the right lining system chosen?",
-    a: "Lining selection depends on the stored product, substrate material, operating temperature and required service life — FRP, chemical-resistant, waterproof and steel lining are each suited to different conditions.",
+    q: "كيف يُختار نظام التبطين المناسب؟",
+    a: "يعتمد اختيار التبطين على المنتج المخزّن ومادة سطح الأساس ودرجة حرارة التشغيل وعمر الخدمة المطلوب — فلكلٍّ من تبطين FRP والتبطين المقاوم للمواد الكيميائية والعازل للماء وتبطين الفولاذ ظروف تناسبه.",
   },
   {
-    q: "Can concrete tanks be rehabilitated?",
-    a: "Yes — Falcon rehabilitates concrete tanks through crack treatment, FRP lining, waterproofing and chemical-resistant lining, restoring them to service without full reconstruction.",
+    q: "هل يمكن إعادة تأهيل الخزانات الخرسانية؟",
+    a: "نعم — تعيد فالكون تأهيل الخزانات الخرسانية من خلال معالجة الشقوق وتبطين FRP والعزل المائي والتبطين المقاوم للمواد الكيميائية، لتعود إلى الخدمة دون الحاجة إلى إعادة بناء كاملة.",
   },
 ];
 
@@ -218,15 +218,15 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      serviceType: "Tank Restoration and Lining",
-      name: "Tank Restoration & Lining",
+      serviceType: "ترميم وتبطين الخزانات",
+      name: "ترميم وتبطين الخزانات",
       description:
-        "FRP tank restoration, concrete rehabilitation and chemical-resistant lining systems.",
-      areaServed: "Saudi Arabia",
-      provider: { "@type": "Organization", name: "Falcon Technologies" },
+        "ترميم خزانات FRP وإعادة تأهيل الخرسانة وأنظمة التبطين المقاوم للمواد الكيميائية.",
+      areaServed: "المملكة العربية السعودية",
+      provider: { "@type": "Organization", name: "فالكون تكنولوجيز" },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Restoration and lining services",
+        name: "خدمات الترميم والتبطين",
         itemListElement: ranges.map((r) => ({
           "@type": "Offer",
           itemOffered: { "@type": "Service", name: r.name, description: r.desc },
@@ -257,12 +257,12 @@ export default function TankRestorationLiningPage() {
       />
 
       <PageHero
-        eyebrow="Services"
-        title="Tank Restoration & Lining"
-        description="Crack rectification, structural reinforcement and lining systems that extend the service life of existing assets."
-        breadcrumb="Tank Restoration & Lining"
+        eyebrow="الخدمات"
+        title="ترميم وتبطين الخزانات"
+        description="معالجة الشقوق والتقوية الإنشائية وأنظمة التبطين التي تُطيل عمر خدمة الأصول القائمة."
+        breadcrumb="ترميم وتبطين الخزانات"
         image={heroImage}
-        imageAlt="FRP storage tank being restored and relined in Saudi Arabia"
+        imageAlt="ترميم خزان تخزين FRP وإعادة تبطينه في المملكة العربية السعودية"
       />
 
       {/* ============ SERVICES — image-led index ============ */}
@@ -270,10 +270,10 @@ export default function TankRestorationLiningPage() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:items-end lg:gap-16">
             <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-              Restore and reline existing tanks instead of replacing them
+              رمّموا خزاناتكم القائمة وأعيدوا تبطينها بدلاً من استبدالها
             </h2>
             <p className="max-w-xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-              Falcon inspects the tank first and finds the cause of the damage, then restores, rehabilitates or relines it to suit the stored product and the substrate — FRP, steel or concrete.
+              تفحص فالكون الخزان أولاً وتحدد سبب التلف، ثم ترمّمه أو تعيد تأهيله أو تعيد تبطينه بما يتلاءم مع المنتج المخزّن وسطح الأساس — FRP أو فولاذ أو خرسانة.
             </p>
           </div>
 
@@ -301,7 +301,7 @@ export default function TankRestorationLiningPage() {
                   {feature.desc}
                 </p>
                 <span className="mt-6 inline-flex items-center gap-1.5 border-b border-white/60 pb-0.5 text-sm font-semibold text-white transition-colors group-hover:border-brand group-hover:text-white">
-                  View {feature.name}
+                  عرض {feature.name}
                   <ArrowUpLeft
                     size={15}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -346,10 +346,10 @@ export default function TankRestorationLiningPage() {
             <div className="flex flex-col justify-between rounded-sm bg-mist p-6 dark:bg-neutral-900 sm:p-8 md:col-span-1 lg:col-span-1">
               <div>
                 <h3 className="text-2xl font-normal tracking-tight text-ink dark:text-white">
-                  Restore or replace?
+                  الترميم أم الاستبدال؟
                 </h3>
                 <p className="mt-3 max-w-lg text-base leading-relaxed text-steel dark:text-white/60">
-                  Send photos, the tank material and what it stores. We&rsquo;ll advise whether restoration, lining or replacement makes sense, then confirm on site.
+                  أرسلوا الصور ومادة الخزان وما يُخزَّن فيه. وسننصحكم ما إذا كان الترميم أو التبطين أو الاستبدال هو الخيار الأنسب، ثم نؤكد ذلك في الموقع.
                 </p>
               </div>
               <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -357,13 +357,13 @@ export default function TankRestorationLiningPage() {
                   href="/ar/request-a-quote"
                   className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
                 >
-                  Request a Quote
+                  اطلب عرض سعر
                 </Link>
                 <Link
                   href="/ar/contact-us"
                   className="border-b border-ink/30 pb-0.5 text-sm font-semibold text-ink transition-colors hover:border-brand hover:text-brand dark:border-white/30 dark:text-white"
                 >
-                  Talk to an engineer
+                  تحدث إلى مهندس
                 </Link>
               </div>
             </div>
@@ -375,10 +375,10 @@ export default function TankRestorationLiningPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Restore, reline or replace?
+            الترميم أم إعادة التبطين أم الاستبدال؟
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-            The inspection decides. This is how the three options usually compare.
+            الفحص هو الفيصل. وهذه مقارنة عامة بين الخيارات الثلاثة.
           </p>
 
           {/* Phones: one stacked block per option */}
@@ -420,7 +420,7 @@ export default function TankRestorationLiningPage() {
               <thead>
                 <tr className="border-b-2 border-ink dark:border-white/40">
                   <th scope="col" className="w-1/4 py-4 pe-6 text-sm font-medium text-steel dark:text-white/50">
-                    <span className="sr-only">Question</span>
+                    <span className="sr-only">السؤال</span>
                   </th>
                   {compareColumns.map((m) => (
                     <th key={m.name} scope="col" className="py-4 pe-6 align-bottom">
@@ -467,7 +467,7 @@ export default function TankRestorationLiningPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            From inspection to handover
+            من الفحص إلى التسليم
           </h2>
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
             {process.map((s, i) => (
@@ -492,7 +492,7 @@ export default function TankRestorationLiningPage() {
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-14 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Industries we restore tanks for
+              القطاعات التي نرمّم خزاناتها
             </h2>
             <ul className="mt-6 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2">
               {industries.map((a) => (
@@ -504,7 +504,7 @@ export default function TankRestorationLiningPage() {
           </div>
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Referenced standards
+              المعايير المرجعية
             </h2>
             <div className="mt-6 flex flex-wrap gap-2">
               {tags.map((s) => (
@@ -514,7 +514,7 @@ export default function TankRestorationLiningPage() {
               ))}
             </div>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/45">
-              Applied as applicable to the substrate, lining system and project specification. A standard reference is not a certification claim.
+              تُطبَّق حسب الاقتضاء وفق سطح الأساس ونظام التبطين ومواصفات المشروع. والإشارة إلى معيار ما لا تُعد ادعاءً بالحصول على شهادة.
             </p>
           </div>
         </div>
@@ -524,7 +524,7 @@ export default function TankRestorationLiningPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Frequently asked questions
+            الأسئلة الشائعة
           </h2>
           <div className="border-t border-neutral-200 dark:border-white/10 lg:col-span-2">
             {faqs.map((f) => (
@@ -549,7 +549,7 @@ export default function TankRestorationLiningPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0">
           <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-            Related services
+            خدمات ذات صلة
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {related.map((r) => {

@@ -46,7 +46,7 @@ export default function Testimonials() {
           className="mx-auto inline-flex h-8 items-center rounded-full border border-neutral-300 px-[17px] dark:border-white/15"
         >
           <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-            Client Feedback
+            آراء العملاء
           </span>
         </motion.div>
 
@@ -57,7 +57,7 @@ export default function Testimonials() {
           transition={{ duration: 0.7, delay: 0.08 }}
           className="mt-5 text-[34px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[40px]"
         >
-          Trusted Across the Kingdom
+          موثوقون في جميع أنحاء المملكة
         </motion.h2>
 
         <div className="relative mt-14">
@@ -98,7 +98,7 @@ export default function Testimonials() {
           <div className="mt-10 flex items-center justify-center gap-3">
             <button
               onClick={prev}
-              aria-label="Previous testimonial"
+              aria-label="الشهادة السابقة"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-300 text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/15 dark:text-white/70"
             >
               <ChevronRight size={18} />
@@ -109,7 +109,7 @@ export default function Testimonials() {
                 <button
                   key={item.id}
                   onClick={() => setIndex(i)}
-                  aria-label={`Go to testimonial ${i + 1}`}
+                  aria-label={`الانتقال إلى الشهادة ${i + 1}`}
                   className={`h-2 rounded-full transition-all ${
                     i === index ? "w-6 bg-brand" : "w-2 bg-neutral-300 dark:bg-white/20"
                   }`}
@@ -119,7 +119,7 @@ export default function Testimonials() {
 
             <button
               onClick={next}
-              aria-label="Next testimonial"
+              aria-label="الشهادة التالية"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-300 text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/15 dark:text-white/70"
             >
               <ChevronLeft size={18} />

@@ -193,7 +193,7 @@ export default function Header() {
           >
             <Image
               src={logoSrc}
-              alt="Falcon Technologies KSA"
+              alt="فالكون تكنولوجيز السعودية"
               // Logo is 2400×417. Intrinsic size just above the largest display
               // size (h-20 = 80px tall) so Next serves a ~640/1080px file, and
               // so CSS changes both width and height (no aspect-ratio warning).
@@ -210,7 +210,7 @@ export default function Header() {
             <button
               onClick={() => setMobileOpen(true)}
               className={`lg:hidden p-1 ${lightSurface ? "text-black" : "text-white"}`}
-              aria-label="Open menu"
+              aria-label="فتح القائمة"
             >
               <Menu size={26} />
             </button>
@@ -334,7 +334,7 @@ export default function Header() {
             <div className="flex items-center justify-between px-6 py-4 border-b border-black/10 dark:border-white/10">
               <Image
                 src={resolvedTheme === "light" ? LOGO_BLACK : LOGO_WHITE}
-                alt="Falcon Technologies KSA"
+                alt="فالكون تكنولوجيز السعودية"
                 // displayed at h-7 (28px tall); same approach as the header logo
                 width={168}
                 height={29}
@@ -344,7 +344,7 @@ export default function Header() {
                 <ThemeToggle onLightSurface={resolvedTheme === "light"} />
                 <button
                   onClick={() => setMobileOpen(false)}
-                  aria-label="Close menu"
+                  aria-label="إغلاق القائمة"
                 >
                   <X size={26} />
                 </button>

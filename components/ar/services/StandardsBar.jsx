@@ -11,8 +11,8 @@ const standards = [
   "ASTM D4097",
   "ASTM D1998",
   "AS/NZS 4766",
-  "Applicable ISO Standards",
-  "SASO Requirements",
+  "معايير ISO المعمول بها",
+  "متطلبات SASO",
 ];
 
 export default function StandardsBar() {
@@ -26,7 +26,7 @@ export default function StandardsBar() {
           transition={{ duration: 0.5 }}
           className="mb-6 text-center text-xs font-semibold uppercase tracking-[0.15em] text-white/40"
         >
-          Engineered to Applicable Standards & Specifications
+          مصمَّمة وفقًا للمعايير والمواصفات المعمول بها
         </motion.p>
         <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
           {standards.map((s, i) => (
@@ -43,10 +43,7 @@ export default function StandardsBar() {
           ))}
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-xs leading-relaxed text-white/35">
-          Testing and checks are performed as applicable to the product,
-          equipment, governing standard, manufacturer requirement and project
-          specification. We display only certifications and service
-          authorizations Falcon actually holds.
+          تُجرى الاختبارات والفحوصات بما يتناسب مع المنتج والمعدات والمعيار الحاكم ومتطلبات الشركة المصنّعة ومواصفات المشروع. ولا نعرض إلا الشهادات وتفويضات الخدمة التي تحملها فالكون فعليًا.
         </p>
       </div>
     </section>

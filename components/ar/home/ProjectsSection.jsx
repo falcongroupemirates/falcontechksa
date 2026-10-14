@@ -9,41 +9,41 @@ import { ArrowUpLeft } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "FRP & Steel Tank Fabrication",
+    title: "تصنيع خزانات FRP والفولاذ",
     description:
-      "Engineered FRP/GRP, polyethylene and steel tank systems for water, diesel and chemical storage across industrial sites.",
+      "أنظمة خزانات هندسية من الألياف الزجاجية FRP/GRP والبولي إيثيلين والفولاذ لتخزين المياه والديزل والمواد الكيميائية في المواقع الصناعية.",
     image: "/assets/images/home/showcase-2.png",
     href: "/ar/projects/tank-fabrication",
   },
   {
     id: 2,
-    title: "Thermal & Aerogel Insulation",
+    title: "العزل الحراري وعزل الأيروجيل",
     description:
-      "Storage tank, pipe, equipment and building insulation systems, including lightweight aerogel solutions for space-constrained sites.",
+      "أنظمة عزل لخزانات التخزين والأنابيب والمعدات والمباني، بما في ذلك حلول الأيروجيل خفيفة الوزن للمواقع محدودة المساحة.",
     image: "/assets/images/home/showcase-2.png",
     href: "/ar/projects/thermal-aerogel-insulation",
   },
   {
     id: 3,
-    title: "Tank Restoration & Rehabilitation",
+    title: "ترميم وإعادة تأهيل الخزانات",
     description:
-      "Crack repair, structural reinforcement and life-extension work for FRP, steel and concrete storage tanks.",
+      "إصلاح التشققات والتدعيم الإنشائي وأعمال إطالة العمر لخزانات التخزين المصنوعة من FRP والفولاذ والخرسانة.",
     image: "/assets/images/home/showcase-2.png",
     href: "/ar/projects/tank-restoration-rehabilitation",
   },
   {
     id: 4,
-    title: "Tank Lining & Corrosion Protection",
+    title: "تبطين الخزانات والحماية من التآكل",
     description:
-      "FRP, chemical-resistant and waterproof lining systems engineered for demanding chemical and process storage applications.",
+      "أنظمة تبطين FRP والتبطين المقاوم للمواد الكيميائية والتبطين العازل للماء، مصمّمة لتطبيقات تخزين المواد الكيميائية ومواد العمليات المتطلبة.",
     image: "/assets/images/home/showcase-2.png",
     href: "/ar/projects/tank-lining-corrosion-protection",
   },
   {
     id: 5,
-    title: "Chiller Installation & Maintenance",
+    title: "تركيب وصيانة المبردات",
     description:
-      "New chiller installation, commissioning, preventive maintenance and troubleshooting for commercial and industrial facilities.",
+      "تركيب المبردات الجديدة والتشغيل التجريبي والصيانة الوقائية وتشخيص الأعطال للمنشآت التجارية والصناعية.",
     image: "/assets/images/home/showcase-2.png",
     href: "/ar/projects/chiller-installation-maintenance",
   },
@@ -163,7 +163,7 @@ export default function ProjectsSection() {
             <button
               key={item.id}
               type="button"
-              aria-label={`Show project ${index + 1}`}
+              aria-label={`عرض المشروع ${index + 1}`}
               onClick={() => setActiveProject(index)}
               className={` h-0.75 transition-all duration-300 ${activeProject === index ? "w-7 bg-brand" : "w-2.5 bg-[#d3d3d3]"} `}
             />

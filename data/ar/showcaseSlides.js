@@ -5,30 +5,30 @@
 const showcaseSlides = [
   {
     id: 1,
-    heading: ["FRP Tanks"],
+    heading: ["خزانات FRP"],
     description:
-      "High-performance FRP tanks engineered for reliable water, chemical and industrial storage, offering excellent corrosion resistance and long service life.",
-    ctaLabel: "Explore FRP Tanks",
+      "خزانات FRP عالية الأداء مصمّمة لتخزين موثوق للمياه والمواد الكيميائية والتطبيقات الصناعية، توفّر مقاومة ممتازة للتآكل وعمرًا تشغيليًا طويلًا.",
+    ctaLabel: "استكشف خزانات FRP",
     ctaHref: "/ar/services/tank-solutions/frp-grp-tanks",
     image: "/assets/images/home/showcase-1.webp",
     thumb: "/assets/images/home/showcase-1.webp",
   },
   {
     id: 2,
-    heading: ["Underground Tanks"],
+    heading: ["الخزانات الأرضية"],
     description:
-      "Durable underground storage tanks designed for space-efficient installation, dependable containment and long-term protection against demanding site conditions.",
-    ctaLabel: "Explore Underground Tanks",
+      "خزانات تخزين أرضية متينة مصمّمة لتركيب موفّر للمساحة واحتواء موثوق وحماية طويلة الأمد في ظروف المواقع الصعبة.",
+    ctaLabel: "استكشف الخزانات الأرضية",
     ctaHref: "/ar/services/tank-solutions/underground-tanks",
     image: "/assets/images/home/showcase-2.webp",
     thumb: "/assets/images/home/showcase-2.webp",
   },
   {
     id: 3,
-    heading: ["Insulated Chilled Water"],
+    heading: ["مياه مبرّدة معزولة"],
     description:
-      "Thermally insulated chilled water storage tanks designed to minimize heat gain, maintain water temperature and support efficient HVAC and cooling operations.",
-    ctaLabel: "Explore Chilled Water Tanks",
+      "خزانات تخزين مياه مبرّدة معزولة حراريًا، مصمّمة للحدّ من اكتساب الحرارة والحفاظ على درجة حرارة المياه ودعم كفاءة أنظمة التكييف والتبريد.",
+    ctaLabel: "استكشف خزانات المياه المبرّدة",
     ctaHref: "/ar/services/thermal-insulation/storage-tank-insulation",
     image: "/assets/images/home/showcase-3.webp",
     thumb: "/assets/images/home/showcase-3.webp",
@@ -36,10 +36,10 @@ const showcaseSlides = [
 
   {
     id: 4,
-    heading: ["Fire Retardant Tanks"],
+    heading: ["خزانات مقاومة للحريق"],
     description:
-      "Fire-retardant storage tanks engineered with enhanced fire resistance and dependable structural performance for applications where safety and protection are critical.",
-    ctaLabel: "Explore Fire Retardant Tanks",
+      "خزانات تخزين مقاومة للحريق مصمّمة بمقاومة معزّزة للحريق وأداء إنشائي موثوق للتطبيقات التي تكون فيها السلامة والحماية أمرًا حاسمًا.",
+    ctaLabel: "استكشف الخزانات المقاومة للحريق",
     ctaHref: "/ar/services/tank-solutions/frp-grp-tanks",
     image: "/assets/images/home/showcase-4.webp",
     thumb: "/assets/images/home/showcase-4.webp",

@@ -13,19 +13,19 @@ export const metadata = {
     canonical: "/ar/technical-library",
     languages: { en: "/technical-library", ar: "/ar/technical-library", "x-default": "/technical-library" },
   },
-  title: "Technical Library | Datasheets, Drawings & Service Documents - Falcon Technologies",
+  title: "المكتبة الفنية | نشرات البيانات الفنية والمخططات ووثائق الخدمات - فالكون تكنولوجيز",
   description:
-    "Download Falcon Technologies datasheets, aerogel insulation documents, chiller service records, engineering drawings, QA/QC formats and chemical compatibility guides, or request project-specific documents.",
+    "حمّل نشرات البيانات الفنية من فالكون تكنولوجيز، ووثائق عزل الأيروجيل، وسجلات خدمة المبردات، والمخططات الهندسية، ونماذج ضمان الجودة / ضبط الجودة (QA/QC)، وأدلة التوافق الكيميائي، أو اطلب وثائق خاصة بمشروعك.",
 };
 
 export default function TechnicalLibrary() {
   return (
     <div className="w-full overflow-hidden">
       <PageHero
-        eyebrow="Technical Library"
-        title="Datasheets, Drawings and Documentation for Every Stage of Your Project"
-        description="Company documents, product datasheets, engineering drawings, QA/QC formats and chemical compatibility guides — organized for quick customer lookup and full engineering review."
-        breadcrumb="Technical Library"
+        eyebrow="المكتبة الفنية"
+        title="نشرات بيانات ومخططات ووثائق لكل مرحلة من مراحل مشروعك"
+        description="وثائق الشركة، ونشرات البيانات الفنية للمنتجات، والمخططات الهندسية، ونماذج QA/QC، وأدلة التوافق الكيميائي — منظّمة لتسهيل وصول العملاء إليها وإتاحة المراجعة الهندسية الكاملة."
+        breadcrumb="المكتبة الفنية"
         image="/assets/images/home/hero-slide-1.png"
       />
       <AudiencePathways />

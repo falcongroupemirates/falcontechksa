@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/ar/services/industrial-services/tank-inspection",
     languages: { en: "/services/industrial-services/tank-inspection", ar: "/ar/services/industrial-services/tank-inspection", "x-default": "/services/industrial-services/tank-inspection" },
   },
-  "title": "Tank Inspection Services in Saudi Arabia",
-  "description": "Visual, dimensional and thickness inspection, leak testing and reporting for FRP, steel, polyethylene and concrete tanks in Saudi Arabia — Falcon Technologies."
+  "title": "خدمات فحص الخزانات في المملكة العربية السعودية",
+  "description": "الفحص البصري وفحص الأبعاد والسماكة واختبار التسرب وإعداد التقارير لخزانات FRP والفولاذ والبولي إيثيلين والخرسانة في المملكة العربية السعودية — فالكون تكنولوجيز."
 };
 
 export default function Page() {
@@ -27,12 +27,12 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Industrial Services"
-        title="Tank Inspection"
-        description="Visual, dimensional and thickness inspection and leak testing to establish the true condition of your tanks."
-        breadcrumb="Tank Inspection"
+        eyebrow="الخدمات الصناعية"
+        title="فحص الخزانات"
+        description="الفحص البصري وفحص الأبعاد والسماكة واختبار التسرب لتحديد الحالة الفعلية لخزاناتك."
+        breadcrumb="فحص الخزانات"
         image="/assets/images/services/tank-inspection.png"
-        imageAlt="Tank Inspection by Falcon Technologies in Saudi Arabia"
+        imageAlt="فحص الخزانات من فالكون تكنولوجيز في المملكة العربية السعودية"
       />
 
       <section className="w-full bg-white dark:bg-neutral-950">
@@ -44,17 +44,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Industrial Services
+                الخدمات الصناعية
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Tank Inspection Services
+                خدمات فحص الخزانات
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Knowing a tank's real condition lets you plan repair, lining or replacement on your terms rather than after a failure. Falcon inspects tanks to establish damage, degradation and remaining service life.
+                معرفة الحالة الفعلية للخزان تتيح لك تخطيط الإصلاح أو التبطين أو الاستبدال وفق شروطك بدلًا من الانتظار حتى وقوع العطل. تفحص فالكون الخزانات لتحديد الأضرار والتدهور والعمر التشغيلي المتبقي.
               </p>
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Findings are documented so they can feed straight into a restoration, lining or replacement decision.
+                يتم توثيق النتائج بحيث تُستخدم مباشرةً في اتخاذ قرار الترميم أو التبطين أو الاستبدال.
               </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -62,21 +62,21 @@ export default function Page() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Request a Quote
+                اطلب عرض سعر
               </a>
               <a
                 href="/ar/technical-library"
                 className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
               >
-                Browse the Technical Library
+                تصفح المكتبة الفنية
               </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
-              <Image loading="eager" src="/assets/images/services/tank-inspection.png" alt="Tank Inspection by Falcon Technologies in Saudi Arabia" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <Image loading="eager" src="/assets/images/services/tank-inspection.png" alt="فحص الخزانات من فالكون تكنولوجيز في المملكة العربية السعودية" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Industrial Services
+                الخدمات الصناعية
               </span>
             </div>
           </div>
@@ -85,37 +85,37 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">What We Offer</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">ما نقدمه</h2>
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Condition assessment</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">A clear picture of the tank's state and remaining life.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">تقييم الحالة</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">صورة واضحة لحالة الخزان وعمره المتبقي.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Damage investigation</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Cause and extent of cracks, leaks and corrosion.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">التحقيق في الأضرار</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تحديد سبب ومدى التشققات والتسربات والتآكل.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Pre-restoration survey</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Inspection that defines the repair or lining scope.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">مسح ما قبل الترميم</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">فحص يحدد نطاق الإصلاح أو التبطين.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Lining integrity checks</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Holiday and thickness checks on existing linings.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">فحص سلامة التبطين</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">فحص الثقوب الدقيقة والسماكة للتبطينات القائمة.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">FRP laminate inspection</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Barcol hardness and laminate checks on FRP tanks.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">فحص رقائق FRP</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">فحص صلادة باركول والرقائق لخزانات FRP.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Inspection report</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Written findings with recommended actions.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">تقرير الفحص</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">نتائج مكتوبة مع الإجراءات الموصى بها.</p>
             </div>
           </div>
         </div>
@@ -125,46 +125,46 @@ export default function Page() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
-              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Inspection Scope</h2>
+              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">نطاق الفحص</h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Visual inspection</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Surface condition, cracks, leaks, corrosion, nozzle and manhole condition</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الفحص البصري</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">حالة السطح والتشققات والتسربات والتآكل وحالة الفوهات وفتحات الدخول</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Dimensional inspection</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Verification of dimensions and deformation</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الفحص البعدي</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">التحقق من الأبعاد والتشوهات</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Thickness inspection</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Wall and laminate thickness measurement</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">فحص السماكة</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">قياس سماكة الجدار والرقائق</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Leak / hydrostatic testing</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Where applicable to the tank and service</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">اختبار التسرب / الاختبار الهيدروستاتيكي</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">حيثما ينطبق على الخزان وطبيعة الخدمة</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Spark / holiday testing</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Lining integrity where applicable</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">اختبار الشرارة / الثقوب الدقيقة</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">سلامة التبطين حيثما ينطبق</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Barcol hardness and laminate inspection</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">For FRP tanks where applicable</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">فحص صلادة باركول والرقائق</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">لخزانات FRP حيثما ينطبق</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Reporting</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Documented findings and recommendations</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التقارير</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">نتائج وتوصيات موثقة</dd>
               </div>
               </dl>
             </div>
             <div>
-              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">Where It&rsquo;s Used</h2>
+              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">مجالات الاستخدام</h2>
               <div className="mt-5 flex flex-wrap gap-2">
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Water &amp; wastewater</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Oil &amp; gas</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Petrochemical &amp; chemical</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Power &amp; utilities</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Manufacturing</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">المياه والصرف الصحي</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">النفط والغاز</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">البتروكيماويات والكيماويات</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">الطاقة والمرافق</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">التصنيع</span>
               </div>
             </div>
           </div>
@@ -173,27 +173,27 @@ export default function Page() {
 
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">How We Inspect a Tank</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">كيف نفحص الخزان</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">01</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Agree scope and access</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Tank details, safe access and inspection methods.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الاتفاق على النطاق وطريقة الوصول</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">بيانات الخزان والوصول الآمن وطرق الفحص.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">02</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Inspect and test</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Visual, dimensional, thickness and testing as applicable.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الفحص والاختبار</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">فحص بصري وبعدي وفحص للسماكة واختبارات حسب الحاجة.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">03</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Analyse findings</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Condition and cause of any defects.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تحليل النتائج</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">حالة أي عيوب وأسبابها.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">04</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Report</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Documented findings with recommended actions.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">التقرير</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">نتائج موثقة مع الإجراءات الموصى بها.</p>
             </li>
           </ol>
         </div>
@@ -201,28 +201,28 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Frequently Asked Questions</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">الأسئلة الشائعة</h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                How often should tanks be inspected?
+                كم مرة يجب فحص الخزانات؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Frequency depends on the tank, stored product, environment and any client or regulatory requirement. We can advise a suitable interval for your assets.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">يعتمد معدل الفحص على نوع الخزان والمادة المخزنة والبيئة وأي متطلبات للعميل أو الجهات التنظيمية. ويمكننا اقتراح فترة مناسبة لأصولكم.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Does the tank need to be empty?
+                هل يجب تفريغ الخزان؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Some checks can be done externally, but internal inspection generally needs the tank emptied and made safe. Scope is agreed in advance.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">يمكن إجراء بعض الفحوصات من الخارج، لكن الفحص الداخلي يتطلب عادةً تفريغ الخزان وتأمينه. ويتم الاتفاق على النطاق مسبقًا.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                What do I get after inspection?
+                ماذا أحصل عليه بعد الفحص؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">A documented report of findings with recommended actions.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">تقرير موثق بالنتائج مع الإجراءات الموصى بها.</p>
             </details>
           </div>
         </div>

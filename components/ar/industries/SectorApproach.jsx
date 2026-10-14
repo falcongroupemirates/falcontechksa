@@ -10,23 +10,23 @@ import { ClipboardList, Cog, ShieldCheck, FileCheck2 } from "lucide-react";
 const steps = [
   {
     icon: ClipboardList,
-    title: "Requirement Review",
-    body: "We review stored liquid, capacity, temperature, site conditions and applicable standards for your sector.",
+    title: "مراجعة المتطلبات",
+    body: "نراجع السائل المخزَّن والسعة ودرجة الحرارة وظروف الموقع والمعايير المعمول بها في قطاعك.",
   },
   {
     icon: Cog,
-    title: "Material & Design Selection",
-    body: "Application engineering determines the right tank, insulation or lining system for the environment.",
+    title: "اختيار المواد والتصميم",
+    body: "تحدّد هندسة التطبيقات نظام الخزان أو العزل أو التبطين المناسب للبيئة.",
   },
   {
     icon: ShieldCheck,
-    title: "Manufacturing & Installation",
-    body: "Controlled manufacturing or on-site installation with in-process inspection at every stage.",
+    title: "التصنيع والتركيب",
+    body: "تصنيع مضبوط أو تركيب في الموقع مع فحص أثناء التنفيذ في كل مرحلة.",
   },
   {
     icon: FileCheck2,
-    title: "Documentation & Handover",
-    body: "Testing, final inspection and full documentation handed over with every project or service.",
+    title: "التوثيق والتسليم",
+    body: "الاختبار والفحص النهائي وتسليم التوثيق الكامل مع كل مشروع أو خدمة.",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function SectorApproach() {
             className="mx-auto inline-flex h-[30px] items-center rounded-full border border-neutral-300 px-[17px] dark:border-white/15"
           >
             <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-              How We Work
+              كيف نعمل
             </span>
           </motion.div>
           <motion.h2
@@ -53,7 +53,7 @@ export default function SectorApproach() {
             transition={{ duration: 0.7, delay: 0.08 }}
             className="mt-5 text-[32px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[40px]"
           >
-            The Same Process, Whatever the Sector
+            العملية نفسها، أيًّا كان القطاع
           </motion.h2>
         </div>
 

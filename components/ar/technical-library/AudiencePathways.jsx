@@ -11,19 +11,19 @@ import { ArrowUpLeft, ClipboardCheck, Users2 } from "lucide-react";
 const pathways = [
   {
     icon: Users2,
-    title: "Choosing a Product",
-    audience: "Simple Customer",
+    title: "اختيار منتج",
+    audience: "عميل عادي",
     description:
-      "Not sure which document you need? Browse products and services first — datasheets and brochures for what you pick are linked right on the page.",
-    cta: { label: "Browse Services", href: "/ar/services" },
+      "لست متأكدًا من الوثيقة التي تحتاجها؟ تصفّح المنتجات والخدمات أولًا — ستجد روابط نشرات البيانات والكتيّبات الخاصة بما تختاره في الصفحة نفسها.",
+    cta: { label: "تصفّح الخدمات", href: "/ar/services" },
   },
   {
     icon: ClipboardCheck,
-    title: "Technical & Project Documents",
-    audience: "Engineer / Consultant / EPC",
+    title: "الوثائق الفنية ووثائق المشاريع",
+    audience: "مهندس / استشاري / مقاول EPC",
     description:
-      "Review drawings, standards, ITP, method statements and service capability records below, then submit a Technical RFQ for project-specific or controlled documents.",
-    cta: { label: "Submit Technical RFQ", href: "/ar/request-a-quote" },
+      "راجع المخططات والمعايير وخطط الفحص والاختبار (ITP) وبيانات طريقة العمل وسجلات قدرات الخدمة أدناه، ثم قدّم طلب عرض سعر فني للحصول على الوثائق الخاصة بالمشروع أو الوثائق المضبوطة.",
+    cta: { label: "تقديم طلب عرض سعر فني", href: "/ar/request-a-quote" },
   },
 ];
 

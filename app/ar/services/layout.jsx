@@ -15,13 +15,13 @@
 */
 export const metadata = {
   title: {
-    template: "%s | Falcon Technologies",
-    default: "Industrial Tank & Service Solutions | Falcon Technologies",
+    template: "%s | فالكون تكنولوجيز",
+    default: "حلول الخزانات والخدمات الصناعية | فالكون تكنولوجيز",
   },
   description:
-    "Engineered tanks, thermal insulation, restoration & lining and industrial services for Saudi Arabia and the GCC.",
+    "خزانات مصممة هندسيًا، وعزل حراري، وترميم وتبطين، وخدمات صناعية في المملكة العربية السعودية ودول الخليج.",
   openGraph: {
-    siteName: "Falcon Technologies",
+    siteName: "فالكون تكنولوجيز",
     type: "website",
     locale: "en_US",
   },

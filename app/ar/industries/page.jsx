@@ -14,19 +14,19 @@ export const metadata = {
     canonical: "/ar/industries",
     languages: { en: "/industries", ar: "/ar/industries", "x-default": "/industries" },
   },
-  title: "Industries We Serve | Falcon Technologies – Saudi Arabia & GCC",
+  title: "القطاعات التي نخدمها | فالكون تكنولوجيز – المملكة العربية السعودية ودول الخليج",
   description:
-    "Falcon Technologies serves Oil & Gas, Petrochemical & Chemical, Water & Wastewater, Power & Utilities, Manufacturing, Commercial & Industrial Buildings, Construction & Infrastructure, and Food & Beverage sectors across Saudi Arabia and the GCC.",
+    "تخدم فالكون تكنولوجيز قطاعات النفط والغاز، والبتروكيماويات والكيماويات، والمياه والصرف الصحي، والطاقة والمرافق، والتصنيع، والمباني التجارية والصناعية، والإنشاءات والبنية التحتية، والأغذية والمشروبات في جميع أنحاء المملكة العربية السعودية ودول الخليج.",
 };
 
 export default function Industries() {
   return (
     <div className="w-full overflow-hidden">
       <PageHero
-        eyebrow="Industries We Serve"
-        title="Engineered for Saudi & GCC Industrial Sectors"
-        description="From oil & gas to food & beverage, we engineer tank, insulation, restoration, lining and chiller solutions around each sector's real operating conditions."
-        breadcrumb="Industries"
+        eyebrow="القطاعات التي نخدمها"
+        title="حلول مصممة للقطاعات الصناعية في السعودية والخليج"
+        description="من النفط والغاز إلى الأغذية والمشروبات، نصمم حلول الخزانات والعزل والترميم والتبطين والمبردات وفق ظروف التشغيل الفعلية لكل قطاع."
+        breadcrumb="القطاعات"
         image="/assets/images/home/hero-slide-2.png"
       />
       <IndustriesList />

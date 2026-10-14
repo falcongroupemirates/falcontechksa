@@ -29,7 +29,7 @@ export default function ScrollToTop() {
     <button
       type="button"
       onClick={toTop}
-      aria-label="Back to top"
+      aria-label="العودة إلى الأعلى"
       className={`fixed bottom-5 end-4 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-ink text-white shadow-lg shadow-black/20 ring-1 ring-black/5 transition-all duration-300 hover:bg-brand sm:bottom-7 sm:end-6 ${
         visible
           ? "translate-y-0 opacity-100"

@@ -10,20 +10,20 @@ import { CheckCircle2 } from "lucide-react";
 
 const capabilities = [
   {
-    title: "Material Control",
-    desc: "Raw material receiving inspection before any layer is laid down.",
+    title: "ضبط المواد",
+    desc: "فحص المواد الخام عند الاستلام قبل وضع أي طبقة.",
   },
   {
-    title: "Layer Construction & Thickness",
-    desc: "Reinforcement and thickness controlled at every stage of fabrication.",
+    title: "بناء الطبقات والسماكة",
+    desc: "ضبط التدعيم والسماكة في كل مرحلة من مراحل التصنيع.",
   },
   {
-    title: "In-Process Inspection",
-    desc: "Checked as work progresses, not only at final handover.",
+    title: "الفحص أثناء التنفيذ",
+    desc: "فحص مستمر مع تقدّم العمل، وليس فقط عند التسليم النهائي.",
   },
   {
-    title: "Traceability",
-    desc: "Material batch and process records kept against each unit produced.",
+    title: "إمكانية التتبّع",
+    desc: "سجلات دفعات المواد والعمليات محفوظة لكل وحدة منتَجة.",
   },
 ];
 
@@ -40,14 +40,14 @@ export default function ManufacturingSection() {
         >
           <Image
             src="/assets/images/home/built.webp"
-            alt="Falcon Technologies manufacturing facility"
+            alt="منشأة التصنيع لدى فالكون تكنولوجيز"
             fill
             sizes="(min-width: 1024px) 50vw, 100vw"
             className="object-cover"
           />
           <div className="absolute bottom-0 start-0 end-0 flex items-center justify-between bg-ink/90 px-6 py-4 backdrop-blur-sm">
             <span className="text-sm text-white/70">
-              Inspected before dispatch
+              يُفحص قبل الشحن
             </span>
             <span className="text-lg font-semibold text-white">100%</span>
           </div>
@@ -60,12 +60,10 @@ export default function ManufacturingSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="max-w-md text-[28px] font-normal leading-[1.15] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[34px]">
-            Built Under Control, Not Just Built
+            تصنيع تحت السيطرة، لا مجرد تصنيع
           </h2>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-            Every tank passes through documented manufacturing engineering —
-            from material receiving to final inspection — before it reaches
-            site.
+            يمر كل خزان بهندسة تصنيع موثّقة — من استلام المواد حتى الفحص النهائي — قبل وصوله إلى الموقع.
           </p>
 
           <ul className="mt-8 space-y-5">

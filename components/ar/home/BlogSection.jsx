@@ -12,31 +12,31 @@ import { ArrowUpLeft, CalendarDays } from "lucide-react";
 const posts = [
   {
     id: 1,
-    category: "Engineering",
-    title: "How Engineering Excellence Drives Reliable Tank Systems",
+    category: "الهندسة",
+    title: "كيف يقود التميّز الهندسي إلى أنظمة خزانات موثوقة",
     excerpt:
-      "Discover how application engineering, material selection and manufacturing quality come together to deliver dependable storage solutions.",
-    date: "August 18, 2026",
+      "اكتشف كيف تتكامل هندسة التطبيقات واختيار المواد وجودة التصنيع لتقديم حلول تخزين يُعتمد عليها.",
+    date: "18 أغسطس 2026",
     image: "/assets/images/blog/blog-1.webp",
     href: "/ar/blog/engineering-excellence-tank-systems",
   },
   {
     id: 2,
-    category: "Industrial Solutions",
-    title: "Choosing the Right Tank System for Your Application",
+    category: "الحلول الصناعية",
+    title: "اختيار نظام الخزانات المناسب لتطبيقك",
     excerpt:
-      "A practical look at the key factors that influence tank selection, including capacity, stored media, temperature and site conditions.",
-    date: "August 10, 2026",
+      "نظرة عملية على العوامل الرئيسية المؤثرة في اختيار الخزان، بما في ذلك السعة والمادة المخزّنة ودرجة الحرارة وظروف الموقع.",
+    date: "10 أغسطس 2026",
     image: "/assets/images/blog/blog-2.webp",
     href: "/ar/blog/choosing-right-tank-system",
   },
   {
     id: 3,
-    category: "Maintenance",
-    title: "Why Tank Inspection and Restoration Matter",
+    category: "الصيانة",
+    title: "لماذا يُعدّ فحص الخزانات وترميمها أمرًا مهمًا",
     excerpt:
-      "Regular inspection and timely restoration can extend service life, protect stored materials and reduce unexpected operational costs.",
-    date: "August 02, 2026",
+      "يمكن للفحص المنتظم والترميم في الوقت المناسب أن يطيلا العمر التشغيلي، ويحميا المواد المخزّنة، ويقلّلا التكاليف التشغيلية غير المتوقعة.",
+    date: "02 أغسطس 2026",
     image: "/assets/images/blog/blog-3.webp",
     href: "/ar/blog/tank-inspection-restoration",
   },
@@ -57,7 +57,7 @@ export default function BlogSection() {
               className="inline-flex h-8 items-center rounded-full border border-neutral-300 px-5 dark:border-white/15"
             >
               <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-                Insights & Updates
+                رؤى ومستجدات
               </span>
             </motion.div>
 
@@ -68,8 +68,8 @@ export default function BlogSection() {
               transition={{ duration: 0.7, delay: 0.08 }}
               className="mt-5 text-[38px] font-normal leading-[1.08] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[46px]"
             >
-              Knowledge That Moves
-              <span className="block">Industry Forward</span>
+              معرفة تدفع
+              <span className="block">الصناعة إلى الأمام</span>
             </motion.h2>
 
             <motion.p
@@ -79,9 +79,7 @@ export default function BlogSection() {
               transition={{ duration: 0.6, delay: 0.15 }}
               className="mt-5 max-w-xl text-sm leading-relaxed text-neutral-500 dark:text-white/55 sm:text-base"
             >
-              Explore engineering insights, project knowledge and practical
-              guidance from our team across storage, fabrication, insulation,
-              restoration and industrial services.
+              استكشف الرؤى الهندسية ومعرفة المشاريع والإرشادات العملية من فريقنا في مجالات التخزين والتصنيع والعزل والترميم والخدمات الصناعية.
             </motion.p>
           </div>
 
@@ -95,7 +93,7 @@ export default function BlogSection() {
               href="/ar/blog"
               className="group inline-flex items-center gap-2 border-b border-neutral-900 pb-1.5 text-sm font-medium text-neutral-900 transition-colors hover:border-brand hover:text-brand dark:border-white dark:text-white"
             >
-              View All Insights
+              عرض كل المقالات
               <ArrowUpLeft
                 size={17}
                 strokeWidth={1.7}
@@ -162,7 +160,7 @@ export default function BlogSection() {
                   </p>
 
                   <div className="mt-5 flex items-center gap-2 text-sm font-medium text-neutral-900 dark:text-white">
-                    Read Article
+                    اقرأ المقال
                     <ArrowUpLeft
                       size={16}
                       strokeWidth={1.7}

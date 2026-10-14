@@ -12,15 +12,15 @@ import { ArrowUpLeft, Cpu, Handshake } from "lucide-react";
 const features = [
   {
     icon: Cpu,
-    title: "Engineering First",
+    title: "الهندسة أولًا",
     description:
-      "Application-based design, material selection and manufacturing engineering behind every tank, insulation and lining system we deliver.",
+      "تصميم قائم على التطبيق، واختيار المواد، وهندسة التصنيع وراء كل نظام خزانات وعزل وتبطين نقدّمه.",
   },
   {
     icon: Handshake,
-    title: "Documented Quality",
+    title: "جودة موثّقة",
     description:
-      "Inspection, traceability and service records at every stage, from receiving to final handover and after-service support.",
+      "سجلات فحص وتتبّع وخدمة في كل مرحلة، من الاستلام حتى التسليم النهائي ودعم ما بعد الخدمة.",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function AboutSection({ eager = false }) {
               className="inline-flex h-7 items-center rounded-full border border-neutral-300 px-4 dark:border-white/15"
             >
               <span className="whitespace-nowrap text-[11px] font-medium leading-none tracking-[0.02em] text-neutral-900 dark:text-white sm:text-[12px]">
-                ABOUT OUR COMPANY
+                عن شركتنا
               </span>
             </motion.div>
             {/* Heading */}{" "}
@@ -60,9 +60,9 @@ export default function AboutSection({ eager = false }) {
               className="mt-5 max-w-4xl text-[34px] font-normal leading-[1.08] tracking-[-0.045em] text-neutral-800 dark:text-white sm:text-[40px] md:text-[46px] lg:text-[48px] xl:text-[56px]"
             >
               {" "}
-              Tank Manufacturing Built Around{" "}
+              تصنيع خزانات قائم على{" "}
               <span className="whitespace-nowrap">
-                Quality & Performance
+                الجودة والأداء
               </span>{" "}
             </motion.h2>{" "}
             {/* Description */}{" "}
@@ -76,20 +76,11 @@ export default function AboutSection({ eager = false }) {
               {" "}
               <p className="text-[15px] leading-[1.65] tracking-[-0.01em] text-neutral-600 dark:text-white/60 sm:text-[16px] lg:text-[17px]">
                 {" "}
-                We manufacture high-performance storage tanks for water,
-                chemicals, chilled water, fire protection and industrial
-                applications. From FRP and GRP tanks to underground and
-                specialized storage systems, every product is manufactured with
-                careful attention to material selection, construction quality
-                and long-term durability.{" "}
+                نصنّع خزانات تخزين عالية الأداء للمياه والمواد الكيميائية والمياه المبرّدة والحماية من الحريق والتطبيقات الصناعية. من خزانات FRP وGRP إلى الخزانات الأرضية وأنظمة التخزين المتخصصة، يُصنَّع كل منتج مع عناية دقيقة باختيار المواد وجودة البناء والمتانة على المدى الطويل.{" "}
               </p>{" "}
               <p className="mt-4 text-[15px] leading-[1.65] tracking-[-0.01em] text-neutral-600 dark:text-white/60 sm:text-[16px] lg:text-[17px]">
                 {" "}
-                Our manufacturing approach combines engineering knowledge,
-                controlled production and quality-focused processes to deliver
-                storage solutions built around the capacity, application and
-                site requirements of customers across Saudi Arabia and the
-                GCC.{" "}
+                يجمع نهجنا في التصنيع بين المعرفة الهندسية والإنتاج المضبوط والعمليات التي تركّز على الجودة، لتقديم حلول تخزين مبنية على السعة والتطبيق ومتطلبات الموقع لعملائنا في المملكة العربية السعودية ودول الخليج.{" "}
               </p>{" "}
             </motion.div>
             {/* FEATURES */}
@@ -151,7 +142,7 @@ export default function AboutSection({ eager = false }) {
                 href="/ar/about-us"
                 className="group inline-flex h-14 items-center rounded-4xl bg-brand ps-6 pe-2 text-[13px] font-medium uppercase tracking-[0.01em] text-white transition-colors duration-300 hover:bg-brand-dark sm:h-15 sm:ps-7"
               >
-                <span>Discover More</span>
+                <span>اكتشف المزيد</span>
 
                 <span className="ms-5 flex h-10 w-10 items-center justify-center rounded-full bg-white/15 transition-transform duration-300 group-hover:rotate-45 sm:h-11 sm:w-11">
                   <ArrowUpLeft
@@ -177,7 +168,7 @@ export default function AboutSection({ eager = false }) {
           >
             <Image
               src="/assets/images/home/about.webp"
-              alt="Falcon engineers on an industrial site"
+              alt="مهندسو فالكون في موقع صناعي"
               fill
               loading={eager ? "eager" : "lazy"}
               fetchPriority={eager ? "high" : "auto"}

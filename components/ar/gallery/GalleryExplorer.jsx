@@ -19,17 +19,17 @@ import { X, ChevronRight, ChevronLeft, ZoomIn } from "lucide-react";
 // `key` builds the image file name — keep it in English.
 // `label` is what visitors see — translate it.
 const CATEGORY_LIST = [
-  { key: "FRP Tanks", label: "FRP Tanks" },
-  { key: "Polyethylene Tanks", label: "Polyethylene Tanks" },
-  { key: "Underground Tanks", label: "Underground Tanks" },
-  { key: "Chemical Tanks", label: "Chemical Tanks" },
-  { key: "Tank Restoration", label: "Tank Restoration" },
-  { key: "Tank Lining", label: "Tank Lining" },
-  { key: "Thermal Insulation", label: "Thermal Insulation" },
-  { key: "Industrial Services", label: "Industrial Services" },
-  { key: "Chiller Installation & Maintenance", label: "Chiller Installation & Maintenance" },
-  { key: "Installation", label: "Installation" },
-  { key: "Manufacturing", label: "Manufacturing" },
+  { key: "FRP Tanks", label: "خزانات FRP" },
+  { key: "Polyethylene Tanks", label: "خزانات البولي إيثيلين" },
+  { key: "Underground Tanks", label: "الخزانات الأرضية" },
+  { key: "Chemical Tanks", label: "خزانات المواد الكيميائية" },
+  { key: "Tank Restoration", label: "ترميم الخزانات" },
+  { key: "Tank Lining", label: "تبطين الخزانات" },
+  { key: "Thermal Insulation", label: "العزل الحراري" },
+  { key: "Industrial Services", label: "الخدمات الصناعية" },
+  { key: "Chiller Installation & Maintenance", label: "تركيب وصيانة المبردات" },
+  { key: "Installation", label: "التركيب" },
+  { key: "Manufacturing", label: "التصنيع" },
 ];
 
 const CATEGORIES = CATEGORY_LIST.map((c) => c.label);
@@ -52,25 +52,25 @@ const GALLERY = CATEGORY_LIST.flatMap(({ key, label: category }) => {
       category,
       title: category,
       image: `/assets/images/gallery/${s}-1.png`,
-      alt: `${category} by Falcon Technologies — Saudi Arabia`,
+      alt: `${category} من فالكون تكنولوجيز — المملكة العربية السعودية`,
     },
     {
       id: `${s}-2`,
       category,
-      title: `${category} — on site`,
+      title: `${category} — في الموقع`,
       image: `/assets/images/gallery/${s}-2.png`,
-      alt: `${category} on site by Falcon Technologies — Saudi Arabia`,
+      alt: `${category} في الموقع من فالكون تكنولوجيز — المملكة العربية السعودية`,
     },
   ];
 });
 
 export default function GalleryExplorer() {
-  const [active, setActive] = useState("All");
+  const [active, setActive] = useState("الكل");
   const [lightbox, setLightbox] = useState(null); // index within `filtered`
 
   const filtered = useMemo(
     () =>
-      active === "All" ? GALLERY : GALLERY.filter((g) => g.category === active),
+      active === "الكل" ? GALLERY : GALLERY.filter((g) => g.category === active),
     [active],
   );
 
@@ -84,7 +84,7 @@ export default function GalleryExplorer() {
       <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
         {/* Category filter bar */}
         <div className="flex flex-wrap gap-2">
-          {["All", ...CATEGORIES].map((cat) => (
+          {["الكل", ...CATEGORIES].map((cat) => (
             <button
               key={cat}
               type="button"
@@ -145,7 +145,7 @@ export default function GalleryExplorer() {
 
         {filtered.length === 0 && (
           <p className="mt-16 text-center text-sm text-neutral-500 dark:text-white/50">
-            No photos in this category yet.
+            لا توجد صور في هذه الفئة حتى الآن.
           </p>
         )}
       </div>
@@ -163,7 +163,7 @@ export default function GalleryExplorer() {
           >
             <button
               type="button"
-              aria-label="Close"
+              aria-label="إغلاق"
               onClick={close}
               className="absolute end-4 top-4 flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
             >
@@ -172,7 +172,7 @@ export default function GalleryExplorer() {
 
             <button
               type="button"
-              aria-label="Previous"
+              aria-label="السابق"
               onClick={(e) => {
                 e.stopPropagation();
                 prev();
@@ -216,7 +216,7 @@ export default function GalleryExplorer() {
 
             <button
               type="button"
-              aria-label="Next"
+              aria-label="التالي"
               onClick={(e) => {
                 e.stopPropagation();
                 next();

@@ -12,19 +12,19 @@ export const metadata = {
     canonical: "/ar/projects",
     languages: { en: "/projects", ar: "/ar/projects", "x-default": "/projects" },
   },
-  title: "Projects | Falcon Technologies – Tanks, Insulation & Industrial Work",
+  title: "المشاريع | فالكون تكنولوجيز – الخزانات والعزل والأعمال الصناعية",
   description:
-    "Browse Falcon Technologies' project portfolio across FRP tanks, polyethylene tanks, underground storage, thermal insulation, tank restoration & lining, and chiller installation & maintenance.",
+    "تصفح محفظة مشاريع فالكون تكنولوجيز في خزانات FRP وخزانات البولي إيثيلين والتخزين تحت الأرض والعزل الحراري وترميم وتبطين الخزانات وتركيب وصيانة المبردات.",
 };
 
 export default function Projects() {
   return (
     <div className="w-full overflow-hidden">
       <PageHero
-        eyebrow="Our Work"
-        title="Explore Recent Projects"
-        description="A selection of tank, insulation, restoration, lining and industrial projects delivered across Saudi Arabia's Eastern Province and beyond."
-        breadcrumb="Projects"
+        eyebrow="أعمالنا"
+        title="استكشف أحدث المشاريع"
+        description="مجموعة مختارة من مشاريع الخزانات والعزل والترميم والتبطين والمشاريع الصناعية المنفذة في المنطقة الشرقية بالمملكة العربية السعودية وخارجها."
+        breadcrumb="المشاريع"
         image="/assets/images/home/hero-slide-1.png"
       />
       <ProjectsGallery />

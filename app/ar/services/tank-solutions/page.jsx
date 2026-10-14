@@ -22,9 +22,9 @@ export const metadata = {
     canonical: "/ar/services/tank-solutions",
     languages: { en: "/services/tank-solutions", ar: "/ar/services/tank-solutions", "x-default": "/services/tank-solutions" },
   },
-  title: "FRP, Polyethylene & Steel Tank Manufacturer in Saudi Arabia",
+  title: "مصنع خزانات FRP والبولي إيثيلين والفولاذ في المملكة العربية السعودية",
   description:
-    "Falcon Technologies designs and fabricates FRP/GRP, polyethylene and steel storage tanks for water, diesel, fuel and chemical applications across Saudi Arabia and the GCC.",
+    "تصمم فالكون تكنولوجيز وتصنع خزانات التخزين من FRP/GRP والبولي إيثيلين والفولاذ لتطبيقات المياه والديزل والوقود والمواد الكيميائية في جميع أنحاء المملكة العربية السعودية ودول الخليج.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -36,60 +36,60 @@ const IMG = "/assets/images/tank-solutions";
 // First item is the large feature tile.
 const ranges = [
   {
-    name: "FRP / GRP Tanks",
+    name: "خزانات FRP / GRP",
     href: "/ar/services/tank-solutions/frp-grp-tanks",
     image: `${IMG}/saudi_industrial_frp_tank_system.png`,
-    alt: "FRP GRP fibreglass storage tank system manufactured by Falcon Technologies in Saudi Arabia",
-    meta: "6 tank types",
-    desc: "Fibreglass tanks made in Falcon's own FRP production — for potable water, wastewater, chemicals and diesel, fabricated by hand lay-up and filament winding.",
+    alt: "نظام خزان تخزين من الألياف الزجاجية FRP GRP من تصنيع فالكون تكنولوجيز في المملكة العربية السعودية",
+    meta: "6 أنواع من الخزانات",
+    desc: "خزانات ألياف زجاجية تُصنع في خطوط إنتاج FRP الخاصة بفالكون — لمياه الشرب ومياه الصرف والمواد الكيميائية والديزل، بطريقتي التشكيل اليدوي ولف الألياف.",
   },
   {
-    name: "Polyethylene Tanks",
+    name: "خزانات البولي إيثيلين",
     href: "/ar/services/tank-solutions/polyethylene-tanks",
     image: `${IMG}/heavy-duty_polyethylene_tanks_in_gulf_facility.png`,
-    alt: "Rotomolded LLDPE HDPE polyethylene storage tanks in a Gulf facility",
-    meta: "4 tank types",
-    desc: "Seamless rotomolded LLDPE / HDPE tanks for small to medium water and chemical storage.",
+    alt: "خزانات تخزين من البولي إيثيلين LLDPE وHDPE مصنعة بالقولبة الدورانية في منشأة خليجية",
+    meta: "4 أنواع من الخزانات",
+    desc: "خزانات LLDPE / HDPE بدون لحامات مصنعة بالقولبة الدورانية لتخزين المياه والمواد الكيميائية بأحجام صغيرة إلى متوسطة.",
   },
   {
-    name: "Steel Tank Systems",
+    name: "أنظمة الخزانات الفولاذية",
     href: "/ar/services/tank-solutions/steel-tank-systems",
     image: `${IMG}/industrial_steel_tank_systems_showcase.png`,
-    alt: "Fabricated steel tank systems with supports and skids",
-    meta: "4 tank types",
-    desc: "Fabricated steel tanks, skids and process vessels for fuel and industrial duty.",
+    alt: "أنظمة خزانات فولاذية مصنعة مع دعامات وقواعد (سكيد)",
+    meta: "4 أنواع من الخزانات",
+    desc: "خزانات فولاذية مصنعة وقواعد (سكيد) وأوعية عمليات للوقود والاستخدامات الصناعية.",
   },
   {
-    name: "Water Tanks",
+    name: "خزانات المياه",
     href: "/ar/services/tank-solutions/water-tanks",
     image: `${IMG}/modern_uae_water_storage_facility.png`,
-    alt: "Water storage tanks for potable, process and fire water",
-    meta: "5 tank types",
-    desc: "Potable, utility, process, fire and irrigation water storage.",
+    alt: "خزانات تخزين المياه لمياه الشرب ومياه العمليات ومياه الحريق",
+    meta: "5 أنواع من الخزانات",
+    desc: "تخزين مياه الشرب ومياه الخدمات ومياه العمليات ومياه الحريق ومياه الري.",
   },
   {
-    name: "Chemical Tanks",
+    name: "خزانات المواد الكيميائية",
     href: "/ar/services/tank-solutions/chemical-tanks",
     image: `${IMG}/chemical_tanks_category.png`,
-    alt: "Chemical-resistant storage tanks",
-    meta: "Selected per chemical",
-    desc: "Construction chosen from your chemical, concentration and temperature.",
+    alt: "خزانات تخزين مقاومة للمواد الكيميائية",
+    meta: "يُختار وفق المادة الكيميائية",
+    desc: "تُختار البنية بناءً على المادة الكيميائية وتركيزها ودرجة حرارتها.",
   },
   {
-    name: "Diesel / Fuel Tanks",
+    name: "خزانات الديزل والوقود",
     href: "/ar/services/tank-solutions/diesel-fuel-tanks",
     image: `${IMG}/fuel_storage_solutions_industrial_yard.png`,
-    alt: "Diesel and fuel storage tanks in an industrial yard",
-    meta: "4 tank types",
-    desc: "Generator day tanks, underground diesel tanks and bulk fuel storage.",
+    alt: "خزانات تخزين الديزل والوقود في ساحة صناعية",
+    meta: "4 أنواع من الخزانات",
+    desc: "خزانات الوقود اليومية للمولدات، وخزانات الديزل الأرضية، وتخزين الوقود بالجملة.",
   },
   {
-    name: "Underground Tanks",
+    name: "الخزانات الأرضية",
     href: "/ar/services/tank-solutions/underground-tanks",
     image: `${IMG}/underground_tank_installation_cutaway.png`,
-    alt: "Underground storage tank installation cutaway",
-    meta: "3 tank types",
-    desc: "Burial-rated FRP, polyethylene and steel tanks, engineered for soil and groundwater.",
+    alt: "مقطع توضيحي لتركيب خزان تخزين تحت الأرض",
+    meta: "3 أنواع من الخزانات",
+    desc: "خزانات FRP وبولي إيثيلين وفولاذ مصنفة للدفن، مصممة لتحمل التربة والمياه الجوفية.",
   },
 ];
 
@@ -99,11 +99,11 @@ const materials = [
     href: "/ar/services/tank-solutions/frp-grp-tanks",
   },
   {
-    name: "Polyethylene",
+    name: "البولي إيثيلين",
     href: "/ar/services/tank-solutions/polyethylene-tanks",
   },
   {
-    name: "Steel",
+    name: "الفولاذ",
     href: "/ar/services/tank-solutions/steel-tank-systems",
   },
 ];
@@ -111,67 +111,67 @@ const materials = [
 // One row per question a buyer asks; one cell per material (same order as `materials`).
 const comparison = [
   [
-    "Best suited to",
-    "Water, wastewater, chemicals and diesel",
-    "Small to medium water and compatible chemicals",
-    "Fuel, larger industrial and process duty",
+    "الأنسب لـ",
+    "المياه ومياه الصرف والمواد الكيميائية والديزل",
+    "المياه والمواد الكيميائية المتوافقة بأحجام صغيرة إلى متوسطة",
+    "الوقود والاستخدامات الصناعية والعمليات الأكبر",
   ],
   [
-    "Corrosion",
-    "Does not rust — resin chosen for the stored liquid",
-    "Does not rust — compatibility checked per model",
-    "Needs a coating or lining, specified per service",
+    "التآكل",
+    "لا يصدأ — يُختار الراتنج وفق السائل المخزن",
+    "لا يصدأ — يُفحص التوافق لكل طراز",
+    "يحتاج إلى طلاء أو تبطين يُحدد وفق الخدمة",
   ],
   [
-    "Sizing",
-    "Fabricated to the project",
-    "Model-based, small to medium volumes",
-    "Fabricated to the project",
+    "تحديد الأحجام",
+    "يُصنع وفق المشروع",
+    "حسب الطراز، أحجام صغيرة إلى متوسطة",
+    "يُصنع وفق المشروع",
   ],
   [
-    "Shapes",
-    "Vertical, horizontal, rectangular and custom",
-    "Vertical, horizontal and multi-layer",
-    "Vertical, horizontal and skid-mounted",
+    "الأشكال",
+    "رأسي وأفقي ومستطيل ومخصص",
+    "رأسي وأفقي ومتعدد الطبقات",
+    "رأسي وأفقي ومثبت على قاعدة (سكيد)",
   ],
   [
-    "Underground",
-    "Burial-rated designs",
-    "Only models documented for burial",
-    "With corrosion protection and listing where required",
+    "تحت الأرض",
+    "تصاميم مصنفة للدفن",
+    "فقط الطرازات الموثقة للدفن",
+    "مع الحماية من التآكل والاعتماد عند الحاجة",
   ],
 ];
 
 const process = [
   {
-    title: "Requirement review",
-    desc: "We start with what you're storing — liquid, concentration, temperature and installation site.",
+    title: "مراجعة المتطلبات",
+    desc: "نبدأ بما تخزنه — السائل وتركيزه ودرجة حرارته وموقع التركيب.",
   },
   {
-    title: "Material selection",
-    desc: "FRP/GRP, polyethylene or steel, matched to the application and expected service life.",
+    title: "اختيار المواد",
+    desc: "FRP/GRP أو البولي إيثيلين أو الفولاذ، بما يلائم التطبيق والعمر التشغيلي المتوقع.",
   },
   {
-    title: "Design and drawings",
-    desc: "GA drawings, nozzle placement, supports and foundation requirements confirmed before fabrication.",
+    title: "التصميم والمخططات",
+    desc: "تأكيد المخططات العامة (GA) ومواقع الفوهات والدعامات ومتطلبات الأساس قبل التصنيع.",
   },
   {
-    title: "Manufacturing and inspection",
-    desc: "Built under controlled conditions with checks at every production stage.",
+    title: "التصنيع والفحص",
+    desc: "يُصنع في ظروف مُحكمة مع فحوصات في كل مرحلة من مراحل الإنتاج.",
   },
   {
-    title: "Testing and handover",
-    desc: "Hydrostatic or dimensional testing as required, followed by documented handover.",
+    title: "الاختبار والتسليم",
+    desc: "اختبار هيدروستاتيكي أو بُعدي حسب الحاجة، يليه تسليم موثق.",
   },
 ];
 
 const industries = [
-  "Oil & Gas",
-  "Petrochemical & Chemical",
-  "Water & Wastewater",
-  "Power & Utilities",
-  "Manufacturing",
-  "Construction & Infrastructure",
+  "النفط والغاز",
+  "البتروكيماويات والكيماويات",
+  "المياه والصرف الصحي",
+  "الطاقة والمرافق",
+  "التصنيع",
+  "الإنشاءات والبنية التحتية",
 ];
 
 const standards = [
@@ -179,32 +179,32 @@ const standards = [
   "ASTM D4097",
   "ASTM D1998",
   "AS/NZS 4766",
-  "SASO requirements",
+  "متطلبات SASO",
 ];
 
 const related = [
-  { label: "Thermal Insulation", icon: Flame, href: "/ar/services/thermal-insulation" },
-  { label: "Tank Restoration & Lining", icon: ShieldCheck, href: "/ar/services/tank-restoration-lining" },
-  { label: "Industrial Services", icon: Wrench, href: "/ar/services/industrial-services" },
-  { label: "Surveying & 3D Scanning", icon: ScanLine, href: "/ar/services/survey-scanning" },
+  { label: "العزل الحراري", icon: Flame, href: "/ar/services/thermal-insulation" },
+  { label: "ترميم وتبطين الخزانات", icon: ShieldCheck, href: "/ar/services/tank-restoration-lining" },
+  { label: "الخدمات الصناعية", icon: Wrench, href: "/ar/services/industrial-services" },
+  { label: "المساحة والمسح ثلاثي الأبعاد", icon: ScanLine, href: "/ar/services/survey-scanning" },
 ];
 
 const faqs = [
   {
-    q: "What size tanks does Falcon Technologies manufacture?",
-    a: "Falcon fabricates tanks from a few hundred litres up to large industrial capacities in FRP/GRP, polyethylene and steel, sized to your site and application rather than a fixed catalogue range.",
+    q: "ما أحجام الخزانات التي تصنعها فالكون تكنولوجيز؟",
+    a: "تصنع فالكون خزانات تبدأ من بضع مئات من اللترات وتصل إلى سعات صناعية كبيرة من FRP/GRP والبولي إيثيلين والفولاذ، بمقاسات تلائم موقعك وتطبيقك بدلًا من نطاق كتالوج ثابت.",
   },
   {
-    q: "Which tank material is best for chemical storage?",
-    a: "FRP/GRP is the most common choice for chemical storage because the resin system can be matched to the chemical, concentration and operating temperature. Our engineers confirm the exact specification before fabrication.",
+    q: "ما أفضل مادة خزانات لتخزين المواد الكيميائية؟",
+    a: "تُعد FRP/GRP الخيار الأكثر شيوعًا لتخزين المواد الكيميائية لأنه يمكن مواءمة نظام الراتنج مع المادة الكيميائية وتركيزها ودرجة حرارة التشغيل. ويؤكد مهندسونا المواصفات الدقيقة قبل التصنيع.",
   },
   {
-    q: "Can tanks be installed underground?",
-    a: "Yes. Falcon supplies underground tanks in FRP/GRP, polyethylene and steel, with foundation and installation guidance provided as part of the design package. Only burial-rated designs are used underground.",
+    q: "هل يمكن تركيب الخزانات تحت الأرض؟",
+    a: "نعم. توفر فالكون خزانات أرضية من FRP/GRP والبولي إيثيلين والفولاذ، مع إرشادات الأساس والتركيب ضمن حزمة التصميم. ولا تُستخدم تحت الأرض إلا التصاميم المصنفة للدفن.",
   },
   {
-    q: "Do you supply tanks for diesel and fuel storage?",
-    a: "Yes — Falcon fabricates aboveground and underground diesel and fuel tanks in steel or FRP/GRP, including generator day tanks and industrial fuel storage.",
+    q: "هل توفرون خزانات لتخزين الديزل والوقود؟",
+    a: "نعم — تصنع فالكون خزانات الديزل والوقود فوق الأرض وتحت الأرض من الفولاذ أو FRP/GRP، بما في ذلك خزانات الوقود اليومية للمولدات وتخزين الوقود الصناعي.",
   },
 ];
 
@@ -213,15 +213,15 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      serviceType: "Tank Manufacturing",
-      name: "Tank Solutions",
+      serviceType: "تصنيع الخزانات",
+      name: "حلول الخزانات",
       description:
-        "FRP/GRP, polyethylene and steel tank manufacturing for water, diesel, fuel and chemical storage.",
-      areaServed: "Saudi Arabia",
-      provider: { "@type": "Organization", name: "Falcon Technologies" },
+        "تصنيع خزانات FRP/GRP والبولي إيثيلين والفولاذ لتخزين المياه والديزل والوقود والمواد الكيميائية.",
+      areaServed: "المملكة العربية السعودية",
+      provider: { "@type": "Organization", name: "فالكون تكنولوجيز" },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Tank ranges",
+        name: "فئات الخزانات",
         itemListElement: ranges.map((r) => ({
           "@type": "Offer",
           itemOffered: { "@type": "Product", name: r.name, description: r.desc },
@@ -252,12 +252,12 @@ export default function TankSolutionsPage() {
       />
 
       <PageHero
-        eyebrow="Services"
-        title="Tank Solutions"
-        description="FRP/GRP, polyethylene and steel tanks engineered around what you store, not a fixed catalogue size."
-        breadcrumb="Tank Solutions"
+        eyebrow="الخدمات"
+        title="حلول الخزانات"
+        description="خزانات FRP/GRP والبولي إيثيلين والفولاذ مصممة وفق ما تخزنه، لا وفق مقاسات كتالوج ثابتة."
+        breadcrumb="حلول الخزانات"
         image={`${IMG}/engineered_frp_tanks_in_saudi_facility.png`}
-        imageAlt="Engineered FRP storage tanks in a Saudi industrial facility"
+        imageAlt="خزانات تخزين FRP مصممة هندسيًا في منشأة صناعية سعودية"
       />
 
       {/* ============ TANK RANGES — image-led index ============ */}
@@ -265,14 +265,10 @@ export default function TankSolutionsPage() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:items-end lg:gap-16">
             <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-              FRP, polyethylene and steel tanks, built for your application
+              خزانات FRP والبولي إيثيلين والفولاذ، مصنعة لتطبيقك
             </h2>
             <p className="max-w-xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-              As an FRP tank manufacturer serving Saudi Arabia and the wider
-              GCC, Falcon reviews the liquid being stored, its concentration and
-              temperature, and the installation site before recommending a
-              material and configuration — rather than starting from a size
-              chart.
+              بصفتها مصنعًا لخزانات FRP يخدم المملكة العربية السعودية ودول الخليج، تراجع فالكون السائل المخزن وتركيزه ودرجة حرارته وموقع التركيب قبل التوصية بالمادة والتكوين — بدلًا من الانطلاق من جدول مقاسات.
             </p>
           </div>
 
@@ -300,7 +296,7 @@ export default function TankSolutionsPage() {
                   {feature.desc}
                 </p>
                 <span className="mt-6 inline-flex items-center gap-1.5 border-b border-white/60 pb-0.5 text-sm font-semibold text-white transition-colors group-hover:border-brand group-hover:text-white">
-                  View the FRP / GRP range
+                  عرض فئة FRP / GRP
                   <ArrowUpLeft
                     size={15}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -344,12 +340,10 @@ export default function TankSolutionsPage() {
             <div className="flex flex-col justify-between rounded-sm bg-mist p-6 dark:bg-neutral-900 sm:p-8 md:col-span-2 lg:col-span-2">
               <div>
                 <h3 className="text-2xl font-normal tracking-tight text-ink dark:text-white">
-                  Not sure which tank you need?
+                  لست متأكدًا من الخزان الذي تحتاجه؟
                 </h3>
                 <p className="mt-3 max-w-lg text-base leading-relaxed text-steel dark:text-white/60">
-                  Tell us what you&rsquo;re storing, roughly how much, and where
-                  the tank will sit. Our engineers recommend the material and
-                  configuration before anything is fabricated.
+                  أخبرنا بما تخزنه والكمية التقريبية ومكان تركيب الخزان. وسيوصي مهندسونا بالمادة والتكوين قبل البدء بأي تصنيع.
                 </p>
               </div>
               <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -357,13 +351,13 @@ export default function TankSolutionsPage() {
                   href="/ar/request-a-quote"
                   className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
                 >
-                  Request a Quote
+                  اطلب عرض سعر
                 </Link>
                 <Link
                   href="/ar/contact-us"
                   className="border-b border-ink/30 pb-0.5 text-sm font-semibold text-ink transition-colors hover:border-brand hover:text-brand dark:border-white/30 dark:text-white"
                 >
-                  Talk to an engineer
+                  تحدث إلى مهندس
                 </Link>
               </div>
             </div>
@@ -375,11 +369,10 @@ export default function TankSolutionsPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            FRP, polyethylene or steel?
+            FRP أم بولي إيثيلين أم فولاذ؟
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-            A starting point, not a specification. The final material is
-            confirmed against your stored liquid, temperature and site.
+            نقطة انطلاق وليست مواصفات نهائية. تُؤكد المادة النهائية وفق السائل المخزن ودرجة الحرارة والموقع.
           </p>
 
           {/* Phones: one stacked block per material */}
@@ -415,7 +408,7 @@ export default function TankSolutionsPage() {
               <thead>
                 <tr className="border-b-2 border-ink dark:border-white/40">
                   <th scope="col" className="w-1/4 py-4 pe-6 text-sm font-medium text-steel dark:text-white/50">
-                    <span className="sr-only">Property</span>
+                    <span className="sr-only">الخاصية</span>
                   </th>
                   {materials.map((m) => (
                     <th key={m.name} scope="col" className="py-4 pe-6 align-bottom">
@@ -456,7 +449,7 @@ export default function TankSolutionsPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            From requirement to handover
+            من المتطلبات حتى التسليم
           </h2>
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
             {process.map((p, i) => (
@@ -481,7 +474,7 @@ export default function TankSolutionsPage() {
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-14 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Industries that rely on Falcon tanks
+              القطاعات التي تعتمد على خزانات فالكون
             </h2>
             <ul className="mt-6 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2">
               {industries.map((a) => (
@@ -493,7 +486,7 @@ export default function TankSolutionsPage() {
           </div>
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Referenced standards
+              المعايير المرجعية
             </h2>
             <div className="mt-6 flex flex-wrap gap-2">
               {standards.map((s) => (
@@ -503,9 +496,7 @@ export default function TankSolutionsPage() {
               ))}
             </div>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/45">
-              Applied as applicable to the product, governing standard and
-              project specification. A standard reference is not a
-              certification claim — see each tank range for detail.
+              تُطبق حسب المنتج والمعيار الحاكم ومواصفات المشروع. والإشارة إلى معيار ما لا تعني ادعاء الحصول على شهادة — راجع كل فئة خزانات للتفاصيل.
             </p>
           </div>
         </div>
@@ -515,7 +506,7 @@ export default function TankSolutionsPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Frequently asked questions
+            الأسئلة الشائعة
           </h2>
           <div className="border-t border-neutral-200 dark:border-white/10 lg:col-span-2">
             {faqs.map((f) => (
@@ -540,7 +531,7 @@ export default function TankSolutionsPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0">
           <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-            Related services
+            خدمات ذات صلة
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {related.map((r) => {

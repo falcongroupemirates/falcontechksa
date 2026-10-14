@@ -14,8 +14,8 @@ export const metadata = {
     canonical: "/ar/services/survey-scanning/bim-modelling",
     languages: { en: "/services/survey-scanning/bim-modelling", ar: "/ar/services/survey-scanning/bim-modelling", "x-default": "/services/survey-scanning/bim-modelling" },
   },
-  title: "BIM Modelling & Clash Detection Services in Saudi Arabia",
-  description: "BIM modelling in Saudi Arabia — architectural, structural and MEP models built from drawings, design intent, vendor data or scans, then coordinated so clashes are resolved in the model, not on site.",
+  title: "خدمات نمذجة BIM وكشف التعارضات في المملكة العربية السعودية",
+  description: "نمذجة BIM في المملكة العربية السعودية — نماذج معمارية وإنشائية وMEP تُبنى من المخططات أو مفهوم التصميم أو بيانات الموردين أو المسوحات، ثم تُنسَّق ليتم حل التعارضات في النموذج لا في الموقع.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -26,67 +26,67 @@ const HUB = "/ar/services/survey-scanning";
 
 const page = {
   "num": "04",
-  "name": "BIM Modelling",
-  "heading": "BIM models built and coordinated before anyone is on site",
-  "tagline": "Models built from drawings, design intent, vendor data or scans — coordinated so clashes surface in the model, not on site.",
+  "name": "نمذجة BIM",
+  "heading": "نماذج BIM تُبنى وتُنسَّق قبل التوجه إلى الموقع",
+  "tagline": "نماذج تُبنى من المخططات أو مفهوم التصميم أو بيانات الموردين أو المسوحات — ومنسّقة لتظهر التعارضات في النموذج لا في الموقع.",
   "image": "/assets/images/services/bim-modelling.jpg",
-  "alt": "Coordinated BIM model with architectural, structural and MEP disciplines"
+  "alt": "نموذج BIM منسّق يشمل التخصصات المعمارية والإنشائية وMEP"
 };
 
 const intro = [
-  "Not every model starts from a scan. We build BIM models from 2D drawings, design intent, vendor data or point clouds — whichever your project has.",
-  "Disciplines are then federated and checked for clashes, so conflicts between structure, services and equipment are resolved in the model, where changes cost the least."
+  "ليس كل نموذج يبدأ من مسح. فنحن نبني نماذج BIM من المخططات ثنائية الأبعاد أو مفهوم التصميم أو بيانات الموردين أو سحابات النقاط — أيًّا كان المتوفر لمشروعكم.",
+  "ثم تُدمج التخصصات ويتم فحصها لكشف التعارضات، فتُحل التعارضات بين الإنشاءات والخدمات والمعدات داخل النموذج، حيث تكون التغييرات في أقل تكلفة."
 ];
 
 const offerings = [
   [
-    "Architecture, structure, MEP",
-    "Discipline models built to your project's level of detail."
+    "المعماري، الإنشائي، MEP",
+    "نماذج للتخصصات تُبنى وفق مستوى التفصيل المطلوب لمشروعكم."
   ],
   [
-    "Federated clash detection",
-    "Disciplines combined and checked so clashes are found and tracked in the model."
+    "كشف التعارضات في النموذج المدمج",
+    "دمج التخصصات وفحصها لاكتشاف التعارضات وتتبعها داخل النموذج."
   ],
   [
-    "Built to your BIM execution plan",
-    "Standards, naming, parameters and handover requirements followed from the start."
+    "وفق خطة تنفيذ BIM الخاصة بكم",
+    "الالتزام بالمعايير والتسمية والمعاملات ومتطلبات التسليم منذ البداية."
   ],
   [
-    "Drawings from the model",
-    "Plans, sections, details and schedules generated from one source."
+    "مخططات من النموذج",
+    "مساقط أفقية وقطاعات وتفاصيل وجداول تُنتج من مصدر واحد."
   ],
   [
-    "Any starting point",
-    "Models created from drawings, design intent, vendor data or scan data."
+    "أي نقطة بداية",
+    "نماذج تُنشأ من المخططات أو مفهوم التصميم أو بيانات الموردين أو بيانات المسح."
   ],
   [
-    "Kept current",
-    "Models updated as the design develops, so drawings stay in step."
+    "تحديث مستمر",
+    "تحديث النماذج مع تطور التصميم، لتبقى المخططات متوافقة معها."
   ]
 ];
 
 const steps = [
   [
-    "Review inputs and BEP",
-    "Drawings, data and your BIM execution plan reviewed; scope agreed."
+    "مراجعة المدخلات وخطة BEP",
+    "مراجعة المخططات والبيانات وخطة تنفيذ BIM الخاصة بكم، والاتفاق على النطاق."
   ],
   [
-    "Build discipline models",
-    "Architectural, structural and MEP models built to the agreed detail."
+    "بناء نماذج التخصصات",
+    "بناء النماذج المعمارية والإنشائية وMEP وفق مستوى التفصيل المتفق عليه."
   ],
   [
-    "Coordinate and resolve clashes",
-    "Models federated, clashes reported and resolved."
+    "التنسيق وحل التعارضات",
+    "دمج النماذج والإبلاغ عن التعارضات وحلها."
   ],
   [
-    "Issue models and drawings",
-    "Models, drawings and schedules issued in the agreed formats."
+    "إصدار النماذج والمخططات",
+    "إصدار النماذج والمخططات والجداول بالصيغ المتفق عليها."
   ]
 ];
 
 const formats = [
   [
-    "Native model",
+    "النموذج الأصلي",
     "RVT (Revit)"
   ],
   [
@@ -94,40 +94,40 @@ const formats = [
     "IFC"
   ],
   [
-    "Coordination",
-    "NWD (Navisworks), clash reports"
+    "التنسيق",
+    "NWD (Navisworks)، تقارير التعارضات"
   ],
   [
-    "Drawings",
-    "DWG, PDF and schedules"
+    "المخططات",
+    "DWG وPDF والجداول"
   ]
 ];
 
 const uses = [
-  "New-build design",
-  "Plant and facility expansion",
-  "MEP coordination",
-  "Construction planning",
-  "Quantity take-off",
-  "Handover and asset data"
+  "تصميم المباني الجديدة",
+  "توسعة المحطات والمنشآت",
+  "تنسيق أعمال MEP",
+  "تخطيط الإنشاء",
+  "حصر الكميات",
+  "التسليم وبيانات الأصول"
 ];
 
 const faqs = [
   {
-    "q": "Can you model from 2D drawings only?",
-    "a": "Yes. Models can be built from 2D drawings, and where the drawings and site may differ we recommend scanning first so the model reflects what is actually built."
+    "q": "هل يمكنكم النمذجة من المخططات ثنائية الأبعاد فقط؟",
+    "a": "نعم. يمكن بناء النماذج من المخططات ثنائية الأبعاد، وحيث قد تختلف المخططات عن الموقع نوصي بالمسح أولًا ليعكس النموذج ما تم بناؤه فعليًا."
   },
   {
-    "q": "Do you carry out clash detection?",
-    "a": "Yes. Discipline models are federated and checked for clashes, with issues reported and tracked until they are resolved."
+    "q": "هل تنفذون كشف التعارضات؟",
+    "a": "نعم. يتم دمج نماذج التخصصات وفحصها لكشف التعارضات، مع الإبلاغ عن المشكلات وتتبعها حتى يتم حلها."
   },
   {
-    "q": "Will you follow our BIM execution plan?",
-    "a": "Yes. Standards, naming, parameters and deliverables are set up to your BEP from the start."
+    "q": "هل ستلتزمون بخطة تنفيذ BIM الخاصة بنا؟",
+    "a": "نعم. يتم إعداد المعايير والتسمية والمعاملات والمخرجات وفق خطة BEP الخاصة بكم منذ البداية."
   },
   {
-    "q": "What is the difference between BIM modelling and Scan to BIM?",
-    "a": "Scan to BIM models an existing asset from a point cloud. BIM modelling can start from any input — drawings, design intent or vendor data — and is often used for new design and coordination."
+    "q": "ما الفرق بين نمذجة BIM والتحويل من المسح إلى BIM؟",
+    "a": "التحويل من المسح إلى BIM ينمذج أصلًا قائمًا من سحابة نقاط. أما نمذجة BIM فيمكن أن تبدأ من أي مدخلات — مخططات أو مفهوم تصميم أو بيانات موردين — وتُستخدم غالبًا للتصميم الجديد والتنسيق."
   }
 ];
 
@@ -135,31 +135,31 @@ const faqs = [
 const otherServices = [
   {
     "num": "01",
-    "name": "3D Laser Scanning",
+    "name": "المسح الليزري ثلاثي الأبعاد",
     "href": "/ar/services/survey-scanning/3d-laser-scanning",
     "image": "/assets/images/services/3d-laser-scanning.jpg",
-    "alt": "3D laser scanner capturing an industrial plant in Saudi Arabia"
+    "alt": "ماسح ليزري ثلاثي الأبعاد يلتقط محطة صناعية في المملكة العربية السعودية"
   },
   {
     "num": "02",
-    "name": "As-Built Survey",
+    "name": "مسح الوضع القائم (As-Built)",
     "href": "/ar/services/survey-scanning/as-built-survey",
     "image": "/assets/images/services/as-built-survey.jpg",
-    "alt": "As-built survey drawings produced from a 3D scan of an existing facility"
+    "alt": "مخططات مسح الوضع القائم المُنتجة من مسح ثلاثي الأبعاد لمنشأة قائمة"
   },
   {
     "num": "03",
-    "name": "Scan to BIM",
+    "name": "التحويل من المسح إلى BIM",
     "href": "/ar/services/survey-scanning/scan-to-bim",
     "image": "/assets/images/services/scan-to-bim.jpg",
-    "alt": "Point cloud converted into a parametric BIM model"
+    "alt": "سحابة نقاط محوّلة إلى نموذج BIM بارامتري"
   },
   {
     "num": "05",
-    "name": "Reverse Engineering",
+    "name": "الهندسة العكسية",
     "href": "/ar/services/survey-scanning/reverse-engineering",
     "image": "/assets/images/services/reverse-engineering-scanning.jpg",
-    "alt": "Industrial component scanned and rebuilt as an editable CAD model"
+    "alt": "مكوّن صناعي ممسوح أُعيد بناؤه كنموذج CAD قابل للتعديل"
   }
 ];
 
@@ -170,9 +170,9 @@ const jsonLd = {
       "@type": "Service",
       name: page.name,
       description: page.tagline,
-      serviceType: "Surveying & 3D Scanning",
-      areaServed: "Saudi Arabia",
-      provider: { "@type": "Organization", name: "Falcon Technologies" },
+      serviceType: "المساحة والمسح ثلاثي الأبعاد",
+      areaServed: "المملكة العربية السعودية",
+      provider: { "@type": "Organization", name: "فالكون تكنولوجيز" },
     },
     {
       "@type": "FAQPage",
@@ -196,7 +196,7 @@ export default function BimModellingPage() {
       />
 
       <PageHero
-        eyebrow="Surveying & 3D Scanning"
+        eyebrow="المساحة والمسح ثلاثي الأبعاد"
         title={page.name}
         description={page.tagline}
         breadcrumb={page.name}
@@ -213,7 +213,7 @@ export default function BimModellingPage() {
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
             >
               <ArrowRight size={14} />
-              All surveying services
+              جميع خدمات المساحة
             </Link>
 
             <h2 className="mt-6 max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
@@ -233,13 +233,13 @@ export default function BimModellingPage() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
               >
-                Request a Quote
+                اطلب عرض سعر
               </Link>
               <Link
                 href="/ar/contact-us"
                 className="border-b border-neutral-300 pb-0.5 text-sm font-semibold text-neutral-800 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/80"
               >
-                Talk to a survey engineer
+                تحدث إلى مهندس مساحة
               </Link>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function BimModellingPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            What you get
+            ما تحصل عليه
           </h2>
           <div className="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
             {offerings.map(([title, desc]) => (
@@ -288,7 +288,7 @@ export default function BimModellingPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            How it works
+            كيف تعمل الخدمة
           </h2>
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             {steps.map(([title, desc], i) => (
@@ -306,7 +306,7 @@ export default function BimModellingPage() {
       <section className="w-full bg-ink">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-white sm:text-4xl">
-            Where it&rsquo;s used
+            مجالات الاستخدام
           </h2>
           <ul className="grid grid-cols-1 gap-x-10 sm:grid-cols-2 lg:col-span-2">
             {uses.map((u) => (
@@ -322,7 +322,7 @@ export default function BimModellingPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Frequently asked questions
+            الأسئلة الشائعة
           </h2>
           <div className="border-t border-neutral-200 dark:border-white/10 lg:col-span-2">
             {faqs.map((f) => (
@@ -342,7 +342,7 @@ export default function BimModellingPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0">
           <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-            Other surveying services
+            خدمات مساحة أخرى
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {otherServices.map((s) => (

@@ -31,11 +31,11 @@ const SKIP_KEYS = new Set([
 
 const CLASS_TOKEN = /^[!-]?[a-z0-9\[][a-zA-Z0-9@\[\]&:/.%_()#,=>*'-]*$/;
 
-export function isText(value) {
+export function isText(value, { jsx = false } = {}) {
   const v = value.trim();
-  if (!v || !/[A-Za-z]/.test(v)) return false;
+  if (!v || !/[A-Za-z\u0600-\u06FF]/.test(v)) return false;
   if (/^(\/|#|https?:|mailto:|tel:|@\/|\.\.?\/|wa\.me)/.test(v)) return false;
-  if (/^[a-z_][A-Za-z0-9_.-]*$/.test(v)) return false; // identifiers: "success", "easeOut", "_blank"
+  if (!jsx && /^[a-z_][A-Za-z0-9_.-]*$/.test(v)) return false; // identifiers: "success", "easeOut", "_blank"
   if (/^\\/.test(v)) return false; // escape sequences
   if (v === "noopener noreferrer") return false;
   if (/^[^\s@]+@[^\s@]+\.[a-z]+$/i.test(v)) return false; // email
@@ -82,7 +82,7 @@ export function* textNodes(ast) {
     }
 
     if (node.type === "JSXText") {
-      if (isText(node.value)) yield { node, kind: "jsx", value: norm(node.value) };
+      if (isText(node.value, { jsx: true })) yield { node, kind: "jsx", value: norm(node.value) };
       return;
     }
     if (node.type === "StringLiteral") {

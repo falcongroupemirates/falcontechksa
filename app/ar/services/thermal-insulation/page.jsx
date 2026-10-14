@@ -22,9 +22,9 @@ export const metadata = {
     canonical: "/ar/services/thermal-insulation",
     languages: { en: "/services/thermal-insulation", ar: "/ar/services/thermal-insulation", "x-default": "/services/thermal-insulation" },
   },
-  title: "Thermal & Aerogel Insulation Services in Saudi Arabia",
+  title: "خدمات العزل الحراري وعزل الأيروجيل في المملكة العربية السعودية",
   description:
-    "Falcon Technologies applies thermal and aerogel insulation to tanks, pipes, buildings and equipment rooms across Saudi Arabia, cutting heat loss and solar gain in demanding industrial environments.",
+    "تطبق فالكون تكنولوجيز العزل الحراري وعزل الأيروجيل على الخزانات والأنابيب والمباني وغرف المعدات في جميع أنحاء المملكة العربية السعودية، للحد من فقدان الحرارة واكتساب الحرارة الشمسية في البيئات الصناعية الصعبة.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -39,144 +39,144 @@ const heroImage = "/assets/images/services/industrial-insulation.png";
 // First item is the large feature tile.
 const ranges = [
   {
-    name: "Storage Tank Insulation",
+    name: "عزل خزانات التخزين",
     href: "/ar/services/thermal-insulation/storage-tank-insulation",
     image: "/assets/images/services/storage-tank-insulation.png",
-    alt: "Insulation and cladding applied to an industrial storage tank",
-    meta: "Steel and FRP/GRP tanks",
-    desc: "Reduces solar gain and heat loss on process, chemical, fuel and water tanks — including tanks already in service.",
+    alt: "عزل وكسوة عزل مطبقة على خزان تخزين صناعي",
+    meta: "الخزانات الفولاذية وخزانات FRP/GRP",
+    desc: "يقلل اكتساب الحرارة الشمسية وفقدان الحرارة في خزانات العمليات والمواد الكيميائية والوقود والمياه — بما في ذلك الخزانات العاملة حاليًا.",
   },
   {
-    name: "Pipe & Equipment Insulation",
+    name: "عزل الأنابيب والمعدات",
     href: "/ar/services/thermal-insulation/pipe-equipment-insulation",
     image: "/assets/images/services/pipe-equipment-insulation.png",
-    alt: "Insulated process pipework and equipment",
-    meta: "Pipes, ducts and vessels",
-    desc: "Hot and cold process lines, ducts, valves and vessels across the site.",
+    alt: "أنابيب ومعدات عمليات معزولة",
+    meta: "الأنابيب والمجاري الهوائية والأوعية",
+    desc: "خطوط العمليات الساخنة والباردة والمجاري الهوائية والصمامات والأوعية في جميع أنحاء الموقع.",
   },
   {
-    name: "Building & Roof Insulation",
+    name: "عزل المباني والأسطح",
     href: "/ar/services/thermal-insulation/building-roof-insulation",
     image: "/assets/images/services/building-roof-insulation.png",
-    alt: "Roof insulation applied to an industrial building",
-    meta: "Roofs and external walls",
-    desc: "Factory roofs, warehouses and external walls kept cooler in Gulf heat.",
+    alt: "عزل أسطح مطبّق على مبنى صناعي",
+    meta: "الأسطح والجدران الخارجية",
+    desc: "أسطح المصانع والمستودعات والجدران الخارجية تبقى أبرد في حرارة الخليج.",
   },
   {
-    name: "Equipment Room Insulation",
+    name: "عزل غرف المعدات",
     href: "/ar/services/thermal-insulation/equipment-room-insulation",
     image: "/assets/images/services/equipment-room-insulation.png",
-    alt: "Insulated plant and equipment room",
-    meta: "Plant and electrical rooms",
-    desc: "Steadier conditions for plant rooms, electrical rooms and enclosures.",
+    alt: "غرفة معدات ومحطة معزولة",
+    meta: "غرف المعدات والغرف الكهربائية",
+    desc: "ظروف أكثر استقرارًا لغرف المعدات والغرف الكهربائية والحاويات.",
   },
   {
-    name: "Aerogel Thermal Insulation",
+    name: "العزل الحراري بالأيروجيل",
     href: "/ar/services/thermal-insulation/aerogel-thermal-insulation",
     image: "/assets/images/services/aerogel-insulation.png",
-    alt: "Aerogel insulation blanket applied to equipment",
-    meta: "Thin, lightweight systems",
-    desc: "Low thermal conductivity in a thin profile, for tight spaces and existing structures.",
+    alt: "بطانية عزل من الأيروجيل مطبقة على المعدات",
+    meta: "أنظمة رقيقة وخفيفة الوزن",
+    desc: "موصلية حرارية منخفضة بسماكة رقيقة، للمساحات الضيقة والمنشآت القائمة.",
   },
 ];
 
 // Comparison table: one column per option, one row per question.
 const compareColumns = [
   {
-    name: "Conventional insulation",
+    name: "العزل التقليدي",
     href: null,
   },
   {
-    name: "Aerogel insulation",
+    name: "عزل الأيروجيل",
     href: "/ar/services/thermal-insulation/aerogel-thermal-insulation",
   },
 ];
 
 const comparison = [
   [
-    "Best suited to",
-    "Tanks, pipework, roofs and walls where there is room for the required thickness",
-    "Tight spaces, existing structures and equipment where thickness or weight is limited",
+    "الأنسب لـ",
+    "الخزانات والأنابيب والأسطح والجدران حيث تتوفر مساحة للسماكة المطلوبة",
+    "المساحات الضيقة والمنشآت القائمة والمعدات حيث تكون السماكة أو الوزن محدودين",
   ],
   [
-    "Thickness",
-    "Thicker build-up for the same performance",
-    "Thin profile for a given performance",
+    "السماكة",
+    "طبقات أسمك للحصول على الأداء نفسه",
+    "سماكة رقيقة لأداء محدد",
   ],
-  ["Weight", "Depends on the material and cladding", "Lightweight"],
+  ["الوزن", "يعتمد على المادة وكسوة العزل", "خفيف الوزن"],
   [
-    "Fire performance",
-    "Depends on the material grade selected",
-    "Fire-retardant systems available",
+    "الأداء في مقاومة الحريق",
+    "يعتمد على درجة المادة المختارة",
+    "تتوفر أنظمة مثبطة للهب",
   ],
   [
-    "Final selection",
-    "Material, thickness and cladding confirmed per project",
-    "Product grade confirmed against approved technical data",
+    "الاختيار النهائي",
+    "يتم تأكيد المادة والسماكة وكسوة العزل لكل مشروع",
+    "يتم تأكيد درجة المنتج وفق البيانات الفنية المعتمدة",
   ],
 ];
 
 const process = [
   {
-    title: "Site and substrate review",
-    desc: "We assess the tank, pipe, roof or equipment surface against your target performance.",
+    title: "مراجعة الموقع والسطح الأساسي",
+    desc: "نقيّم سطح الخزان أو الأنبوب أو السقف أو المعدات وفق الأداء المستهدف لديك.",
   },
   {
-    title: "System selection",
-    desc: "Conventional or aerogel insulation chosen for thickness, weight and fire-rating requirements.",
+    title: "اختيار النظام",
+    desc: "اختيار العزل التقليدي أو عزل الأيروجيل وفق متطلبات السماكة والوزن وتصنيف مقاومة الحريق.",
   },
   {
-    title: "Surface preparation",
-    desc: "The substrate is cleaned and prepared ahead of application.",
+    title: "تجهيز الأسطح",
+    desc: "يتم تنظيف السطح الأساسي وتحضيره قبل التطبيق.",
   },
   {
-    title: "Application",
-    desc: "Insulation is applied following the approved method statement and manufacturer guidance.",
+    title: "التطبيق",
+    desc: "يتم تطبيق العزل وفق بيان طريقة العمل المعتمد وإرشادات الشركة المصنعة.",
   },
   {
-    title: "Inspection and handover",
-    desc: "Thickness and finish are checked and documented before handover.",
+    title: "الفحص والتسليم",
+    desc: "يتم فحص السماكة والتشطيب وتوثيقهما قبل التسليم.",
   },
 ];
 
 const industries = [
-  "Oil & Gas",
-  "Petrochemical & Chemical",
-  "Power & Utilities",
-  "Manufacturing",
-  "Commercial & Industrial Buildings",
-  "Construction & Infrastructure",
+  "النفط والغاز",
+  "البتروكيماويات والكيماويات",
+  "الطاقة والمرافق",
+  "التصنيع",
+  "المباني التجارية والصناعية",
+  "الإنشاءات والبنية التحتية",
 ];
 
 const tags = [
-  "SASO requirements",
-  "Applicable ISO standards",
-  "Client and project specifications",
+  "متطلبات SASO",
+  "معايير ISO المعمول بها",
+  "مواصفات العميل والمشروع",
 ];
 
 const related = [
-  { label: "Tank Solutions", icon: Factory, href: "/ar/services/tank-solutions" },
-  { label: "Tank Restoration & Lining", icon: ShieldCheck, href: "/ar/services/tank-restoration-lining" },
-  { label: "Industrial Services", icon: Wrench, href: "/ar/services/industrial-services" },
-  { label: "Surveying & 3D Scanning", icon: ScanLine, href: "/ar/services/survey-scanning" },
+  { label: "حلول الخزانات", icon: Factory, href: "/ar/services/tank-solutions" },
+  { label: "ترميم وتبطين الخزانات", icon: ShieldCheck, href: "/ar/services/tank-restoration-lining" },
+  { label: "الخدمات الصناعية", icon: Wrench, href: "/ar/services/industrial-services" },
+  { label: "المساحة والمسح ثلاثي الأبعاد", icon: ScanLine, href: "/ar/services/survey-scanning" },
 ];
 
 const faqs = [
   {
-    q: "What is aerogel insulation and how is it different?",
-    a: "Aerogel is a highly porous insulation material that achieves low thermal conductivity in a comparatively thin, lightweight profile — useful where space or weight is limited, such as equipment cabinets or existing structures.",
+    q: "ما هو عزل الأيروجيل وما الذي يميزه؟",
+    a: "الأيروجيل مادة عزل عالية المسامية تحقق موصلية حرارية منخفضة بسماكة رقيقة ووزن خفيف نسبيًا — وهو مفيد حيث تكون المساحة أو الوزن محدودين، مثل خزائن المعدات أو المنشآت القائمة.",
   },
   {
-    q: "Can insulation be applied to tanks that are already in service?",
-    a: "In most cases, yes. Storage tank insulation can be retrofitted to reduce solar heat gain and product temperature fluctuation without taking the tank fully out of operation, subject to a site assessment.",
+    q: "هل يمكن تطبيق العزل على خزانات قيد التشغيل؟",
+    a: "نعم في معظم الحالات. يمكن تركيب عزل خزانات التخزين لاحقًا لتقليل اكتساب الحرارة الشمسية وتقلب درجة حرارة المنتج دون إيقاف الخزان عن التشغيل بالكامل، وذلك بعد تقييم الموقع.",
   },
   {
-    q: "Does insulation performance depend on the surface it's applied to?",
-    a: "Yes. Actual thermal performance depends on product grade, substrate condition, thickness, ambient conditions and surface preparation — final figures are always confirmed against approved technical data for the specific project.",
+    q: "هل يعتمد أداء العزل على السطح الذي يُطبق عليه؟",
+    a: "نعم. يعتمد الأداء الحراري الفعلي على درجة المنتج وحالة السطح الأساسي والسماكة والظروف المحيطة وتحضير السطح — ويتم دائمًا تأكيد الأرقام النهائية وفق البيانات الفنية المعتمدة للمشروع المحدد.",
   },
   {
-    q: "Do you insulate buildings as well as tanks?",
-    a: "Yes — Falcon insulates factory roofs, warehouses, external walls and equipment rooms in addition to tanks, pipes and process equipment.",
+    q: "هل تعزلون المباني إلى جانب الخزانات؟",
+    a: "نعم — تعزل فالكون أسطح المصانع والمستودعات والجدران الخارجية وغرف المعدات، إضافة إلى الخزانات والأنابيب ومعدات العمليات.",
   },
 ];
 
@@ -185,15 +185,15 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Service",
-      serviceType: "Thermal Insulation",
-      name: "Thermal Insulation",
+      serviceType: "العزل الحراري",
+      name: "العزل الحراري",
       description:
-        "Thermal and aerogel insulation for storage tanks, pipes, equipment and buildings.",
-      areaServed: "Saudi Arabia",
-      provider: { "@type": "Organization", name: "Falcon Technologies" },
+        "العزل الحراري وعزل الأيروجيل لخزانات التخزين والأنابيب والمعدات والمباني.",
+      areaServed: "المملكة العربية السعودية",
+      provider: { "@type": "Organization", name: "فالكون تكنولوجيز" },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Insulation services",
+        name: "خدمات العزل",
         itemListElement: ranges.map((r) => ({
           "@type": "Offer",
           itemOffered: { "@type": "Service", name: r.name, description: r.desc },
@@ -224,12 +224,12 @@ export default function ThermalInsulationPage() {
       />
 
       <PageHero
-        eyebrow="Services"
-        title="Thermal Insulation"
-        description="Insulation systems, including aerogel, that reduce heat loss, solar gain and temperature fluctuation."
-        breadcrumb="Thermal Insulation"
+        eyebrow="الخدمات"
+        title="العزل الحراري"
+        description="أنظمة عزل، بما فيها الأيروجيل، تقلل فقدان الحرارة واكتساب الحرارة الشمسية وتقلبات درجات الحرارة."
+        breadcrumb="العزل الحراري"
         image={heroImage}
-        imageAlt="Industrial thermal insulation applied to tanks and pipework in Saudi Arabia"
+        imageAlt="عزل حراري صناعي مطبق على الخزانات وشبكات الأنابيب في المملكة العربية السعودية"
       />
 
       {/* ============ SERVICES — image-led index ============ */}
@@ -237,10 +237,10 @@ export default function ThermalInsulationPage() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:items-end lg:gap-16">
             <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-              Insulation for tanks, pipework, buildings and equipment rooms
+              عزل للخزانات وشبكات الأنابيب والمباني وغرف المعدات
             </h2>
             <p className="max-w-xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-              Gulf heat drives solar gain into tanks, roofs and equipment. Falcon reviews the surface, its operating temperature and the space available, then applies conventional or aerogel insulation to suit — rather than one system for every job.
+              تتسبب حرارة الخليج في اكتساب الخزانات والأسطح والمعدات للحرارة الشمسية. وتراجع فالكون السطح ودرجة حرارة تشغيله والمساحة المتاحة، ثم تطبق العزل التقليدي أو عزل الأيروجيل بما يناسبه — بدلًا من نظام واحد لكل الأعمال.
             </p>
           </div>
 
@@ -268,7 +268,7 @@ export default function ThermalInsulationPage() {
                   {feature.desc}
                 </p>
                 <span className="mt-6 inline-flex items-center gap-1.5 border-b border-white/60 pb-0.5 text-sm font-semibold text-white transition-colors group-hover:border-brand group-hover:text-white">
-                  View {feature.name}
+                  عرض {feature.name}
                   <ArrowUpLeft
                     size={15}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -313,10 +313,10 @@ export default function ThermalInsulationPage() {
             <div className="flex flex-col justify-between rounded-sm bg-mist p-6 dark:bg-neutral-900 sm:p-8 md:col-span-2 lg:col-span-1">
               <div>
                 <h3 className="text-2xl font-normal tracking-tight text-ink dark:text-white">
-                  Not sure which insulation you need?
+                  لست متأكدًا من نوع العزل الذي تحتاجه؟
                 </h3>
                 <p className="mt-3 max-w-lg text-base leading-relaxed text-steel dark:text-white/60">
-                  Tell us the surface, its operating temperature and how much space there is. Our engineers recommend a system before anything is applied.
+                  أخبرنا بنوع السطح ودرجة حرارة تشغيله والمساحة المتاحة. وسيوصي مهندسونا بالنظام المناسب قبل البدء بأي تطبيق.
                 </p>
               </div>
               <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -324,13 +324,13 @@ export default function ThermalInsulationPage() {
                   href="/ar/request-a-quote"
                   className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
                 >
-                  Request a Quote
+                  اطلب عرض سعر
                 </Link>
                 <Link
                   href="/ar/contact-us"
                   className="border-b border-ink/30 pb-0.5 text-sm font-semibold text-ink transition-colors hover:border-brand hover:text-brand dark:border-white/30 dark:text-white"
                 >
-                  Talk to an engineer
+                  تحدث إلى مهندس
                 </Link>
               </div>
             </div>
@@ -342,10 +342,10 @@ export default function ThermalInsulationPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Conventional or aerogel insulation?
+            العزل التقليدي أم عزل الأيروجيل؟
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-neutral-600 dark:text-white/60">
-            A starting point, not a specification. The system is confirmed against the surface, temperature and space on your site.
+            نقطة انطلاق وليست مواصفات نهائية. يتم تأكيد النظام وفق السطح ودرجة الحرارة والمساحة في موقعك.
           </p>
 
           {/* Phones: one stacked block per option */}
@@ -387,7 +387,7 @@ export default function ThermalInsulationPage() {
               <thead>
                 <tr className="border-b-2 border-ink dark:border-white/40">
                   <th scope="col" className="w-1/4 py-4 pe-6 text-sm font-medium text-steel dark:text-white/50">
-                    <span className="sr-only">Question</span>
+                    <span className="sr-only">السؤال</span>
                   </th>
                   {compareColumns.map((m) => (
                     <th key={m.name} scope="col" className="py-4 pe-6 align-bottom">
@@ -434,7 +434,7 @@ export default function ThermalInsulationPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            From site review to handover
+            من مراجعة الموقع إلى التسليم
           </h2>
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
             {process.map((s, i) => (
@@ -459,7 +459,7 @@ export default function ThermalInsulationPage() {
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-14 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Industries we insulate for
+              القطاعات التي نقدم لها خدمات العزل
             </h2>
             <ul className="mt-6 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2">
               {industries.map((a) => (
@@ -471,7 +471,7 @@ export default function ThermalInsulationPage() {
           </div>
           <div>
             <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-              Referenced standards
+              المعايير المرجعية
             </h2>
             <div className="mt-6 flex flex-wrap gap-2">
               {tags.map((s) => (
@@ -481,7 +481,7 @@ export default function ThermalInsulationPage() {
               ))}
             </div>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/45">
-              Applied as applicable to the product and project specification. Final thermal performance is confirmed against approved technical data for each project.
+              يُطبق حسب ما ينطبق على المنتج ومواصفات المشروع. ويتم تأكيد الأداء الحراري النهائي وفق البيانات الفنية المعتمدة لكل مشروع.
             </p>
           </div>
         </div>
@@ -491,7 +491,7 @@ export default function ThermalInsulationPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Frequently asked questions
+            الأسئلة الشائعة
           </h2>
           <div className="border-t border-neutral-200 dark:border-white/10 lg:col-span-2">
             {faqs.map((f) => (
@@ -516,7 +516,7 @@ export default function ThermalInsulationPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0">
           <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-            Related services
+            خدمات ذات صلة
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {related.map((r) => {

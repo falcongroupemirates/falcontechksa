@@ -14,8 +14,8 @@ export const metadata = {
     canonical: "/ar/services/survey-scanning/scan-to-bim",
     languages: { en: "/services/survey-scanning/scan-to-bim", ar: "/ar/services/survey-scanning/scan-to-bim", "x-default": "/services/survey-scanning/scan-to-bim" },
   },
-  title: "Scan to BIM Services in Saudi Arabia",
-  description: "Scan to BIM in Saudi Arabia — point clouds converted into intelligent parametric BIM models in Revit and IFC, at a level of detail agreed element by element and deviation-checked against the scan.",
+  title: "خدمات التحويل من المسح إلى BIM في المملكة العربية السعودية",
+  description: "التحويل من المسح إلى BIM في المملكة العربية السعودية — تحويل سحابات النقاط إلى نماذج BIM بارامترية ذكية بصيغتي Revit وIFC، بمستوى تفاصيل يُتفق عليه لكل عنصر على حدة مع التحقق من الانحرافات مقارنةً بالمسح.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -26,67 +26,67 @@ const HUB = "/ar/services/survey-scanning";
 
 const page = {
   "num": "03",
-  "name": "Scan to BIM",
-  "heading": "From point cloud to an intelligent BIM model",
-  "tagline": "Point cloud converted into an intelligent parametric model, at a level of detail agreed element by element.",
+  "name": "التحويل من المسح إلى BIM",
+  "heading": "من سحابة النقاط إلى نموذج BIM ذكي",
+  "tagline": "تحويل سحابة النقاط إلى نموذج بارامتري ذكي، بمستوى تفاصيل يُتفق عليه لكل عنصر على حدة.",
   "image": "/assets/images/services/scan-to-bim.jpg",
-  "alt": "Point cloud converted into a parametric BIM model"
+  "alt": "سحابة نقاط محوّلة إلى نموذج BIM بارامتري"
 };
 
 const intro = [
-  "Scan to BIM turns a registered point cloud into a parametric model — real walls, floors, structure and MEP objects with data attached, not a heavy mesh that nobody can edit.",
-  "Level of detail is agreed element by element rather than applied across the board, so effort goes where your project needs it. The finished model is checked for deviation against the cloud before it is issued."
+  "يحوّل التحويل من المسح إلى BIM سحابة النقاط المسجّلة إلى نموذج بارامتري — جدران وأرضيات وعناصر إنشائية وعناصر MEP حقيقية مرفقة ببياناتها، لا شبكة مضلعات ثقيلة لا يمكن لأحد تعديلها.",
+  "يُتفق على مستوى التفاصيل لكل عنصر على حدة بدلاً من تطبيقه على الجميع، بحيث يُوجَّه الجهد حيث يحتاجه مشروعكم. ويُتحقق من انحرافات النموذج النهائي مقارنةً بالسحابة قبل إصداره."
 ];
 
 const offerings = [
   [
-    "Level of detail by element",
-    "Detail agreed per element and discipline — structure modelled more precisely than finishes, for example."
+    "مستوى التفاصيل حسب العنصر",
+    "تفاصيل يُتفق عليها لكل عنصر وتخصص — فمثلاً تُنمذج العناصر الإنشائية بدقة أعلى من التشطيبات."
   ],
   [
-    "Real parametric objects",
-    "Native walls, slabs, beams, columns, ducts and pipes you can edit, schedule and reuse."
+    "عناصر بارامترية حقيقية",
+    "جدران وبلاطات وكمرات وأعمدة ومجاري هواء وأنابيب أصلية يمكنكم تعديلها وجدولتها وإعادة استخدامها."
   ],
   [
-    "Architecture, structure, MEP",
-    "Disciplines modelled as scoped, from a single building element to a whole facility."
+    "المعماري، الإنشائي، MEP",
+    "نمذجة التخصصات وفق النطاق المحدد، من عنصر واحد في المبنى إلى منشأة كاملة."
   ],
   [
-    "Deviation checking",
-    "The model compared against the point cloud so you know how closely it follows reality."
+    "التحقق من الانحرافات",
+    "مقارنة النموذج بسحابة النقاط لتعرفوا مدى مطابقته للواقع."
   ],
   [
-    "Built to your standards",
-    "Naming, families and parameters set up to your BIM execution plan."
+    "مُعدّ وفق معاييركم",
+    "إعداد التسميات والعائلات والمعاملات وفق خطة تنفيذ BIM الخاصة بكم."
   ],
   [
-    "Ready for coordination",
-    "Models prepared for federation, clash detection and design work."
+    "جاهز للتنسيق",
+    "نماذج مُعدّة للدمج وكشف التعارضات وأعمال التصميم."
   ]
 ];
 
 const steps = [
   [
-    "Agree scope and detail",
-    "Disciplines, areas and level of detail agreed per element."
+    "الاتفاق على النطاق والتفاصيل",
+    "الاتفاق على التخصصات والمناطق ومستوى التفاصيل لكل عنصر."
   ],
   [
-    "Scan the site",
-    "A registered point cloud captured for modelling."
+    "مسح الموقع",
+    "سحابة نقاط مسجّلة ملتقطة لأغراض النمذجة."
   ],
   [
-    "Model from the cloud",
-    "Parametric objects modelled against the measured geometry."
+    "النمذجة من السحابة",
+    "نمذجة عناصر بارامترية وفق الهندسة المقاسة."
   ],
   [
-    "Deviation check and issue",
-    "Model checked against the cloud and issued in the agreed formats."
+    "التحقق من الانحرافات والإصدار",
+    "التحقق من النموذج مقارنةً بالسحابة وإصداره بالصيغ المتفق عليها."
   ]
 ];
 
 const formats = [
   [
-    "Native model",
+    "النموذج الأصلي",
     "RVT (Revit)"
   ],
   [
@@ -94,40 +94,40 @@ const formats = [
     "IFC"
   ],
   [
-    "Coordination",
+    "التنسيق",
     "NWC / NWD (Navisworks)"
   ],
   [
-    "Quality record",
-    "Deviation check against the cloud"
+    "سجل الجودة",
+    "التحقق من الانحرافات مقارنةً بالسحابة"
   ]
 ];
 
 const uses = [
-  "Retrofit and renovation design",
-  "MEP upgrades",
-  "Facility and asset management",
-  "Brownfield plant expansion",
-  "Digital twin foundations",
-  "Design coordination"
+  "تصميم التحديث والتجديد",
+  "ترقيات أنظمة MEP",
+  "إدارة المرافق والأصول",
+  "توسعة المصانع القائمة",
+  "أسس التوأم الرقمي",
+  "تنسيق التصميم"
 ];
 
 const faqs = [
   {
-    "q": "What level of detail do you model to?",
-    "a": "It is agreed element by element. Structural members might be modelled precisely while finishes are kept simple — so you get the detail you need without paying for detail you don't."
+    "q": "ما مستوى التفاصيل الذي تعتمدونه في النمذجة؟",
+    "a": "يُتفق عليه لكل عنصر على حدة. فقد تُنمذج العناصر الإنشائية بدقة بينما تبقى التشطيبات مبسطة — لتحصلوا على التفاصيل التي تحتاجونها دون دفع تكلفة تفاصيل لا تحتاجونها."
   },
   {
-    "q": "Which software and formats do you deliver?",
-    "a": "Models are typically delivered as Revit (RVT) with IFC for open BIM workflows and NWC / NWD for coordination. Other formats can be agreed in the scope."
+    "q": "ما البرامج والصيغ التي تسلّمونها؟",
+    "a": "تُسلَّم النماذج عادةً بصيغة Revit (RVT) مع IFC لسير عمل BIM المفتوح وNWC / NWD للتنسيق. ويمكن الاتفاق على صيغ أخرى ضمن نطاق العمل."
   },
   {
-    "q": "Can you model only part of a building or plant?",
-    "a": "Yes. Scope can be a single plant room, one discipline or a whole facility."
+    "q": "هل يمكنكم نمذجة جزء فقط من مبنى أو مصنع؟",
+    "a": "نعم. يمكن أن يكون النطاق غرفة معدات واحدة، أو تخصصاً واحداً، أو منشأة كاملة."
   },
   {
-    "q": "How do I know the model matches the site?",
-    "a": "Each model is checked for deviation against the point cloud before it is issued, so you can see how closely it follows the measured geometry."
+    "q": "كيف أتأكد من أن النموذج مطابق للموقع؟",
+    "a": "يُتحقق من انحرافات كل نموذج مقارنةً بسحابة النقاط قبل إصداره، لتروا مدى مطابقته للهندسة المقاسة."
   }
 ];
 
@@ -135,31 +135,31 @@ const faqs = [
 const otherServices = [
   {
     "num": "01",
-    "name": "3D Laser Scanning",
+    "name": "المسح الليزري ثلاثي الأبعاد",
     "href": "/ar/services/survey-scanning/3d-laser-scanning",
     "image": "/assets/images/services/3d-laser-scanning.jpg",
-    "alt": "3D laser scanner capturing an industrial plant in Saudi Arabia"
+    "alt": "ماسح ليزري ثلاثي الأبعاد يلتقط محطة صناعية في المملكة العربية السعودية"
   },
   {
     "num": "02",
-    "name": "As-Built Survey",
+    "name": "مسح الوضع القائم (As-Built)",
     "href": "/ar/services/survey-scanning/as-built-survey",
     "image": "/assets/images/services/as-built-survey.jpg",
-    "alt": "As-built survey drawings produced from a 3D scan of an existing facility"
+    "alt": "مخططات مسح الوضع القائم المُنتجة من مسح ثلاثي الأبعاد لمنشأة قائمة"
   },
   {
     "num": "04",
-    "name": "BIM Modelling",
+    "name": "نمذجة BIM",
     "href": "/ar/services/survey-scanning/bim-modelling",
     "image": "/assets/images/services/bim-modelling.jpg",
-    "alt": "Coordinated BIM model with architectural, structural and MEP disciplines"
+    "alt": "نموذج BIM منسّق يشمل التخصصات المعمارية والإنشائية وMEP"
   },
   {
     "num": "05",
-    "name": "Reverse Engineering",
+    "name": "الهندسة العكسية",
     "href": "/ar/services/survey-scanning/reverse-engineering",
     "image": "/assets/images/services/reverse-engineering-scanning.jpg",
-    "alt": "Industrial component scanned and rebuilt as an editable CAD model"
+    "alt": "مكوّن صناعي ممسوح أُعيد بناؤه كنموذج CAD قابل للتعديل"
   }
 ];
 
@@ -170,9 +170,9 @@ const jsonLd = {
       "@type": "Service",
       name: page.name,
       description: page.tagline,
-      serviceType: "Surveying & 3D Scanning",
-      areaServed: "Saudi Arabia",
-      provider: { "@type": "Organization", name: "Falcon Technologies" },
+      serviceType: "المساحة والمسح ثلاثي الأبعاد",
+      areaServed: "المملكة العربية السعودية",
+      provider: { "@type": "Organization", name: "فالكون تكنولوجيز" },
     },
     {
       "@type": "FAQPage",
@@ -196,7 +196,7 @@ export default function ScanToBimPage() {
       />
 
       <PageHero
-        eyebrow="Surveying & 3D Scanning"
+        eyebrow="المساحة والمسح ثلاثي الأبعاد"
         title={page.name}
         description={page.tagline}
         breadcrumb={page.name}
@@ -213,7 +213,7 @@ export default function ScanToBimPage() {
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
             >
               <ArrowRight size={14} />
-              All surveying services
+              جميع خدمات المساحة
             </Link>
 
             <h2 className="mt-6 max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
@@ -233,13 +233,13 @@ export default function ScanToBimPage() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
               >
-                Request a Quote
+                اطلب عرض سعر
               </Link>
               <Link
                 href="/ar/contact-us"
                 className="border-b border-neutral-300 pb-0.5 text-sm font-semibold text-neutral-800 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/80"
               >
-                Talk to a survey engineer
+                تحدث إلى مهندس مساحة
               </Link>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function ScanToBimPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            What you get
+            ما تحصل عليه
           </h2>
           <div className="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-sm border border-neutral-200 bg-neutral-200 dark:border-white/10 dark:bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
             {offerings.map(([title, desc]) => (
@@ -288,7 +288,7 @@ export default function ScanToBimPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            How it works
+            كيف تعمل الخدمة
           </h2>
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             {steps.map(([title, desc], i) => (
@@ -306,7 +306,7 @@ export default function ScanToBimPage() {
       <section className="w-full bg-ink">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-white sm:text-4xl">
-            Where it&rsquo;s used
+            مجالات الاستخدام
           </h2>
           <ul className="grid grid-cols-1 gap-x-10 sm:grid-cols-2 lg:col-span-2">
             {uses.map((u) => (
@@ -322,7 +322,7 @@ export default function ScanToBimPage() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-3 lg:gap-16 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="text-3xl font-normal leading-tight tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
-            Frequently asked questions
+            الأسئلة الشائعة
           </h2>
           <div className="border-t border-neutral-200 dark:border-white/10 lg:col-span-2">
             {faqs.map((f) => (
@@ -342,7 +342,7 @@ export default function ScanToBimPage() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0">
           <h2 className="text-2xl font-normal tracking-tight text-neutral-900 dark:text-white">
-            Other surveying services
+            خدمات مساحة أخرى
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {otherServices.map((s) => (

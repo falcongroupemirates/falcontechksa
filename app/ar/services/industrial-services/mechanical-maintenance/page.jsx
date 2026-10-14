@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/ar/services/industrial-services/mechanical-maintenance",
     languages: { en: "/services/industrial-services/mechanical-maintenance", ar: "/ar/services/industrial-services/mechanical-maintenance", "x-default": "/services/industrial-services/mechanical-maintenance" },
   },
-  "title": "Industrial Mechanical Maintenance in Saudi Arabia",
-  "description": "Preventive and corrective mechanical maintenance for industrial equipment and site utilities in Saudi Arabia, within Falcon's approved scope — Falcon Technologies."
+  "title": "الصيانة الميكانيكية الصناعية في المملكة العربية السعودية",
+  "description": "صيانة ميكانيكية وقائية وتصحيحية للمعدات الصناعية ومرافق المواقع في المملكة العربية السعودية، ضمن النطاق المعتمد لفالكون — فالكون تكنولوجيز."
 };
 
 export default function Page() {
@@ -27,12 +27,12 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Industrial Services"
-        title="Mechanical Maintenance"
-        description="Mechanical maintenance and corrective work to keep site utilities and equipment running."
-        breadcrumb="Mechanical Maintenance"
+        eyebrow="الخدمات الصناعية"
+        title="الصيانة الميكانيكية"
+        description="صيانة ميكانيكية وأعمال تصحيحية للحفاظ على تشغيل مرافق الموقع والمعدات."
+        breadcrumb="الصيانة الميكانيكية"
         image="/assets/images/services/mechanical-maintenance.png"
-        imageAlt="Mechanical Maintenance by Falcon Technologies in Saudi Arabia"
+        imageAlt="الصيانة الميكانيكية من فالكون تكنولوجيز في المملكة العربية السعودية"
       />
 
       <section className="w-full bg-white dark:bg-neutral-950">
@@ -44,17 +44,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Industrial Services
+                الخدمات الصناعية
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Mechanical Maintenance for Industrial Sites
+                الصيانة الميكانيكية للمواقع الصناعية
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Well-maintained mechanical equipment fails less and costs less to run. Falcon provides mechanical maintenance and equipment support across site utilities, covering scheduled servicing and corrective work.
+                المعدات الميكانيكية التي تحظى بصيانة جيدة تتعطل أقل وتكلف أقل في التشغيل. تقدم فالكون الصيانة الميكانيكية ودعم المعدات عبر مرافق الموقع، بما يشمل الخدمة الدورية المجدولة والأعمال التصحيحية.
               </p>
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Services are delivered within the scope Falcon is technically equipped, licensed and authorized to execute, following manufacturer requirements where they apply.
+                تُقدم الخدمات ضمن النطاق الذي تمتلك فالكون التجهيزات الفنية والترخيص والتفويض لتنفيذه، مع اتباع متطلبات الشركة المصنعة حيثما تنطبق.
               </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -62,21 +62,21 @@ export default function Page() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Request a Quote
+                اطلب عرض سعر
               </a>
               <a
                 href="/ar/technical-library"
                 className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
               >
-                Browse the Technical Library
+                تصفح المكتبة الفنية
               </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
-              <Image loading="eager" src="/assets/images/services/mechanical-maintenance.png" alt="Mechanical Maintenance by Falcon Technologies in Saudi Arabia" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <Image loading="eager" src="/assets/images/services/mechanical-maintenance.png" alt="الصيانة الميكانيكية من فالكون تكنولوجيز في المملكة العربية السعودية" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Industrial Services
+                الخدمات الصناعية
               </span>
             </div>
           </div>
@@ -85,37 +85,37 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">What We Offer</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">ما نقدمه</h2>
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Scheduled servicing</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Planned maintenance to reduce unplanned downtime.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">الخدمة الدورية المجدولة</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">صيانة مخططة لتقليل التوقفات غير المخطط لها.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Troubleshooting</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Faults identified and diagnosed.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">تشخيص الأعطال</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تحديد الأعطال وتشخيصها.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Corrective repair</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Repair and replacement of mechanical components.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">الإصلاح التصحيحي</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">إصلاح المكونات الميكانيكية واستبدالها.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Utility support</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Mechanical support for site utility systems.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">دعم المرافق</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">دعم ميكانيكي لأنظمة مرافق الموقع.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Approved procedures</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Work carried out to manufacturer and approved procedures.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">إجراءات معتمدة</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تنفيذ الأعمال وفق إجراءات الشركة المصنعة والإجراءات المعتمدة.</p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
-              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">Service reports</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Records of work carried out and condition found.</p>
+              <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">تقارير الخدمة</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">سجلات الأعمال المنفذة والحالة التي وُجدت عليها المعدات.</p>
             </div>
           </div>
         </div>
@@ -125,42 +125,42 @@ export default function Page() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
-              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Maintenance Scope</h2>
+              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">نطاق الصيانة</h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Preventive maintenance</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Scheduled inspection and servicing</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الصيانة الوقائية</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">الفحص والخدمة الدورية المجدولة</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Corrective maintenance</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Fault identification and repair</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الصيانة التصحيحية</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">تحديد الأعطال وإصلاحها</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Component replacement</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Mechanical components replaced as applicable</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">استبدال المكونات</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">استبدال المكونات الميكانيكية حسب الحاجة</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Site utilities</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Mechanical support across plant and building utilities</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">مرافق الموقع</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">دعم ميكانيكي لمرافق المصانع والمباني</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Procedures</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Manufacturer requirements and approved service procedures</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الإجراءات</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">متطلبات الشركة المصنعة وإجراءات الخدمة المعتمدة</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Reporting</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Service records and after-service support</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التقارير</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">سجلات الخدمة ودعم ما بعد الخدمة</dd>
               </div>
               </dl>
             </div>
             <div>
-              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">Where It&rsquo;s Used</h2>
+              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">مجالات الاستخدام</h2>
               <div className="mt-5 flex flex-wrap gap-2">
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Manufacturing</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Commercial &amp; industrial buildings</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Oil &amp; gas</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Power &amp; utilities</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Construction &amp; infrastructure</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">التصنيع</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">المباني التجارية والصناعية</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">النفط والغاز</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">الطاقة والمرافق</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">الإنشاءات والبنية التحتية</span>
               </div>
             </div>
           </div>
@@ -169,27 +169,27 @@ export default function Page() {
 
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">How We Deliver Maintenance</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">كيف نقدم الصيانة</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">01</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Review equipment and scope</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Equipment, condition, history and requirements.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">مراجعة المعدات والنطاق</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">المعدات والحالة والسجل والمتطلبات.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">02</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Plan the work</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Maintenance plan agreed against manufacturer requirements.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تخطيط العمل</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">الاتفاق على خطة الصيانة وفق متطلبات الشركة المصنعة.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">03</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Carry out the work</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Executed within Falcon's approved scope.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تنفيذ العمل</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">التنفيذ ضمن النطاق المعتمد لفالكون.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">04</span>
-              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Report</p>
-              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Service record and any recommendations.</p>
+              <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">التقرير</p>
+              <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">سجل الخدمة وأي توصيات.</p>
             </li>
           </ol>
         </div>
@@ -197,28 +197,28 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Frequently Asked Questions</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">الأسئلة الشائعة</h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                What is the difference between preventive and corrective maintenance?
+                ما الفرق بين الصيانة الوقائية والصيانة التصحيحية؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Preventive maintenance is planned servicing to avoid failures; corrective maintenance repairs a fault after it occurs. Most sites need both.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">الصيانة الوقائية خدمة مخططة لتجنب الأعطال؛ أما الصيانة التصحيحية فتعالج العطل بعد وقوعه. تحتاج معظم المواقع إلى كليهما.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Do you maintain all types of equipment?
+                هل تقومون بصيانة جميع أنواع المعدات؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Scope depends on the equipment and on Falcon's approved and authorized scope. Send the details and we confirm what we can support.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">يعتمد النطاق على المعدات وعلى النطاق المعتمد والمصرح به لفالكون. أرسل لنا التفاصيل وسنؤكد ما يمكننا دعمه.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Do you follow manufacturer requirements?
+                هل تتبعون متطلبات الشركة المصنعة؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Yes. Where manufacturer manuals and procedures apply, work follows them.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">نعم. حيثما تنطبق أدلة الشركة المصنعة وإجراءاتها، يُنفذ العمل وفقًا لها.</p>
             </details>
           </div>
         </div>

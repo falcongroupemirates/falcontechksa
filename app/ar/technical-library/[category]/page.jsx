@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
   if (!cat) return {};
 
   return {
-    title: `${cat.label} | Technical Library - Falcon Technologies`,
+    title: `${cat.label} | المكتبة الفنية - فالكون تكنولوجيز`,
     description: cat.description,
     alternates: {
       canonical: `/ar/technical-library/${category}`,
@@ -41,7 +41,7 @@ export default async function TechnicalLibraryCategory({ params }) {
   return (
     <div className="w-full overflow-hidden">
       <PageHero
-        eyebrow="Technical Library"
+        eyebrow="المكتبة الفنية"
         title={cat.label}
         description={cat.description}
         breadcrumb={cat.label}
@@ -54,7 +54,7 @@ export default async function TechnicalLibraryCategory({ params }) {
           className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
         >
           <ArrowRight size={13} />
-          All Technical Library Categories
+          جميع فئات المكتبة الفنية
         </Link>
       </div>
 

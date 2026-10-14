@@ -2,9 +2,9 @@
 // Placeholder metadata — replace with the Arabic title/description.
 export const metadata = {
   title:
-    "Falcon Technologies | Tanks, Insulation & Industrial Solutions - Saudi Arabia",
+    "فالكون تكنولوجيز | الخزانات والعزل والحلول الصناعية - المملكة العربية السعودية",
   description:
-    "Falcon Technologies delivers engineered tank systems, thermal insulation, tank lining and restoration, and chiller installation and maintenance for industrial clients across Saudi Arabia and the GCC.",
+    "تقدم فالكون تكنولوجيز أنظمة خزانات مصممة هندسيًا، والعزل الحراري، وتبطين الخزانات وترميمها، وتركيب وصيانة المبردات لعملاء القطاع الصناعي في جميع أنحاء المملكة العربية السعودية ودول الخليج.",
   alternates: {
     canonical: "/ar",
     languages: { en: "/", ar: "/ar", "x-default": "/" },

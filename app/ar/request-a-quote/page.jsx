@@ -10,19 +10,19 @@ export const metadata = {
     canonical: "/ar/request-a-quote",
     languages: { en: "/request-a-quote", ar: "/ar/request-a-quote", "x-default": "/request-a-quote" },
   },
-  title: "Request a Quote | Falcon Technologies - Saudi Arabia",
+  title: "اطلب عرض سعر | فالكون تكنولوجيز - المملكة العربية السعودية",
   description:
-    "Request a quotation for tanks, thermal insulation, tank restoration & lining, or chiller installation & maintenance from Falcon Technologies. Engineers and consultants can also submit technical RFQs.",
+    "اطلب عرض سعر للخزانات أو العزل الحراري أو ترميم وتبطين الخزانات أو تركيب وصيانة المبردات من فالكون تكنولوجيز. يمكن للمهندسين والاستشاريين أيضًا تقديم طلبات عروض أسعار فنية.",
 };
 
 export default function RequestAQuote() {
   return (
     <div className="w-full overflow-hidden">
       <PageHero
-        eyebrow="Get Started"
-        title="Request a Quote"
-        description="Tell us what you need — water, diesel or chemical tanks, thermal insulation, tank restoration & lining, or chiller installation & maintenance — and our engineers will follow up with a tailored quotation."
-        breadcrumb="Request a Quote"
+        eyebrow="ابدأ الآن"
+        title="اطلب عرض سعر"
+        description="أخبرنا بما تحتاجه — خزانات المياه أو الديزل أو المواد الكيميائية، أو العزل الحراري، أو ترميم وتبطين الخزانات، أو تركيب وصيانة المبردات — وسيتابع مهندسونا معك بعرض سعر مخصص."
+        breadcrumb="اطلب عرض سعر"
         image="/assets/images/home/hero-slide-1.png"
       />
 
@@ -31,40 +31,37 @@ export default function RequestAQuote() {
           <div>
             <div className="inline-flex h-7.5 items-center rounded-full border border-neutral-300 px-4.25 dark:border-white/15">
               <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-                How It Works
+                كيف يعمل
               </span>
             </div>
             <h2 className="mt-5 text-[30px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[36px]">
-              Simple Customer or Engineer — Either Way, We've Got You
+              عميل أو مهندس — في الحالتين نحن في خدمتك
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-              Choose what you need, add the basics, and tell us where it's
-              going. Include capacity, standards or technical details if you
-              have them — if not, our engineers will follow up to confirm
-              requirements before quoting.
+              اختر ما تحتاجه، وأضف المعلومات الأساسية، وأخبرنا بموقع التركيب. أضف السعة أو المعايير أو التفاصيل الفنية إن توفرت — وإن لم تتوفر، سيتواصل معك مهندسونا لتأكيد المتطلبات قبل تقديم العرض.
             </p>
 
             <ol className="mt-8 space-y-5">
               {[
                 {
                   step: "01",
-                  title: "What Do You Need?",
-                  desc: "Tank, insulation, restoration, lining, industrial service or chiller work.",
+                  title: "ما الذي تحتاجه؟",
+                  desc: "أعمال الخزانات أو العزل أو الترميم أو التبطين أو الخدمات الصناعية أو المبردات.",
                 },
                 {
                   step: "02",
-                  title: "Basic Requirement",
-                  desc: "Capacity for tanks, or make/model and issue for chiller service.",
+                  title: "المتطلب الأساسي",
+                  desc: "السعة للخزانات، أو الطراز/الموديل والمشكلة لخدمة المبردات.",
                 },
                 {
                   step: "03",
-                  title: "Installation / Site",
-                  desc: "Aboveground, underground, rooftop, plant room or not sure yet.",
+                  title: "التركيب / الموقع",
+                  desc: "فوق الأرض، أو تحت الأرض، أو على السطح، أو في غرفة المعدات، أو لم يُحدد بعد.",
                 },
                 {
                   step: "04",
-                  title: "Your Details",
-                  desc: "Name, company, mobile/WhatsApp and project location.",
+                  title: "بياناتك",
+                  desc: "الاسم والشركة ورقم الجوال/واتساب وموقع المشروع.",
                 },
               ].map((s) => (
                 <li key={s.step} className="flex gap-4">
@@ -84,30 +81,28 @@ export default function RequestAQuote() {
             </ol>
 
             <p className="mt-8 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-              Prefer to just talk it through, or have a general question? Use
-              our{" "}
+              تفضّل مناقشة الأمر مباشرة، أو لديك سؤال عام؟ استخدم{" "}
               <a
                 href="/ar/contact-us"
                 className="text-brand underline underline-offset-2 hover:text-brand-dark"
               >
-                Contact page
+                صفحة الاتصال
               </a>{" "}
-              instead.
+              بدلًا من ذلك.
             </p>
           </div>
 
           <div>
             <div className="inline-flex h-7.5 items-center rounded-full border border-neutral-300 px-4.25 dark:border-white/15">
               <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-                Request a Quote
+                اطلب عرض سعر
               </span>
             </div>
             <h2 className="mt-5 text-[30px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[36px]">
-              Tell Us What You Need
+              أخبرنا بما تحتاجه
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-              Engineers and consultants can share technical details below —
-              standards, drawings and data sheets can follow by email.
+              يمكن للمهندسين والاستشاريين مشاركة التفاصيل الفنية أدناه — ويمكن إرسال المعايير والمخططات ونشرات البيانات الفنية لاحقًا عبر البريد الإلكتروني.
             </p>
             <div className="mt-8">
               <RfqForm />

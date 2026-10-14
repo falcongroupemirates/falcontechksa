@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/ar/services/tank-solutions/underground-tanks/steel-underground-tank",
     languages: { en: "/services/tank-solutions/underground-tanks/steel-underground-tank", ar: "/ar/services/tank-solutions/underground-tanks/steel-underground-tank", "x-default": "/services/tank-solutions/underground-tanks/steel-underground-tank" },
   },
-  "title": "Steel Underground Tank | Underground Tanks",
-  "description": "Buried steel storage, typically coated or lined for corrosion protection."
+  "title": "خزان فولاذي أرضي | الخزانات الأرضية",
+  "description": "تخزين فولاذي مدفون، يكون عادةً مطليًا أو مبطنًا للحماية من التآكل."
 };
 
 export default function Page() {
@@ -27,12 +27,12 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Tank Solutions — Underground Tanks"
-        title="Steel Underground Tank"
-        description="Buried steel storage, typically coated or lined for corrosion protection."
-        breadcrumb="Steel Underground Tank"
+        eyebrow="حلول الخزانات — الخزانات الأرضية"
+        title="خزان فولاذي أرضي"
+        description="تخزين فولاذي مدفون، يكون عادةً مطليًا أو مبطنًا للحماية من التآكل."
+        breadcrumb="خزان فولاذي أرضي"
         image="/assets/images/tank-solutions/silver_steel_tank_installation.png"
-        imageAlt="Steel Underground Tank by Falcon Technologies in Saudi Arabia"
+        imageAlt="خزان فولاذي أرضي من فالكون تكنولوجيز في المملكة العربية السعودية"
       />
 
       <section className="w-full bg-white dark:bg-neutral-950">
@@ -44,17 +44,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Underground Tanks
+                الخزانات الأرضية
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Steel Underground Tank
+                خزان فولاذي أرضي
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                A buried steel tank system with a defined coating/lining and corrosion-protection design, inspection and leak-monitoring basis.
+                نظام خزان فولاذي مدفون بطلاء/تبطين محدد وتصميم للحماية من التآكل وأساس للفحص ومراقبة التسرب.
               </p>
               <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                UL 58 or another required listing is confirmed, with cathodic protection where specified, along with installation controls and local environmental and fire requirements.
+                يتم تأكيد UL 58 أو أي إدراج آخر مطلوب، مع الحماية الكاثودية حيثما يُشترط، إلى جانب ضوابط التركيب والمتطلبات البيئية ومتطلبات الحريق المحلية.
               </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -62,21 +62,21 @@ export default function Page() {
                 href="/ar/request-a-quote"
                 className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Request a Quote
+                اطلب عرض سعر
               </a>
               <a
                 href="/ar/services/tank-solutions/underground-tanks"
                 className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
               >
-                See all Underground Tanks
+                عرض كل الخزانات الأرضية
               </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
-              <Image loading="eager" src="/assets/images/tank-solutions/silver_steel_tank_installation.png" alt="Steel Underground Tank by Falcon Technologies in Saudi Arabia" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+              <Image loading="eager" src="/assets/images/tank-solutions/silver_steel_tank_installation.png" alt="خزان فولاذي أرضي من فالكون تكنولوجيز في المملكة العربية السعودية" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Underground Tanks
+                الخزانات الأرضية
               </span>
             </div>
           </div>
@@ -87,36 +87,36 @@ export default function Page() {
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
-              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Specification</h2>
+              <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">المواصفات</h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Construction</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Steel with defined coating/lining and corrosion-protection design</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">التصنيع</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">فولاذ بطلاء/تبطين محدد وتصميم للحماية من التآكل</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Confirm</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">UL 58 or other required listing, inspection and leak-monitoring basis</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">يُؤكَّد</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">UL 58 أو أي إدراج آخر مطلوب، وأساس للفحص ومراقبة التسرب</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Protection</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Cathodic protection where specified</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الحماية</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">الحماية الكاثودية حيثما يُشترط</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">Compliance</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Installation controls, local environmental &amp; fire requirements</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">الامتثال</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">ضوابط التركيب، والمتطلبات البيئية ومتطلبات الحريق المحلية</dd>
               </div>
               <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
-                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">To confirm per project</dt>
-                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Listing evidence, site geotechnical &amp; groundwater data</dd>
+                <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">يُؤكَّد لكل مشروع</dt>
+                <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">أدلة الإدراج، والبيانات الجيوتقنية والمياه الجوفية للموقع</dd>
               </div>
               </dl>
             </div>
             <div>
-              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">Where It&rsquo;s Used</h2>
+              <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">مجالات الاستخدام</h2>
               <div className="mt-5 flex flex-wrap gap-2">
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Buried fuel storage</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Larger-volume underground storage</span>
-              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Power &amp; utilities</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">تخزين الوقود المدفون</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">تخزين أرضي للأحجام الأكبر</span>
+              <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">الطاقة والمرافق</span>
               </div>
             </div>
           </div>
@@ -125,21 +125,21 @@ export default function Page() {
 
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Frequently Asked Questions</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">الأسئلة الشائعة</h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Does buried steel need extra protection?
+                هل يحتاج الفولاذ المدفون إلى حماية إضافية؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">Yes — a defined coating/lining, corrosion-protection design and often cathodic protection and leak monitoring, confirmed per project.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">نعم — طلاء/تبطين محدد، وتصميم للحماية من التآكل، وغالبًا حماية كاثودية ومراقبة للتسرب، ويُؤكَّد ذلك لكل مشروع.</p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Which listing applies to underground steel fuel tanks?
+                أي إدراج ينطبق على خزانات الوقود الفولاذية الأرضية؟
                 <Plus size={16} className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45" />
               </summary>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">UL 58 covers steel underground tanks for flammable/combustible liquids; the exact model's listing is confirmed before marketing.</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">يغطي UL 58 الخزانات الفولاذية الأرضية للسوائل القابلة للاشتعال/الاحتراق؛ ويُؤكَّد إدراج الطراز بعينه قبل التسويق.</p>
             </details>
           </div>
         </div>
@@ -147,14 +147,14 @@ export default function Page() {
 
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
-          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">Other Underground Tanks Types</h2>
+          <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">أنواع أخرى من الخزانات الأرضية</h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             <a href="/ar/services/tank-solutions/underground-tanks/frp-underground-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">FRP Underground Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان FRP أرضي</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
             <a href="/ar/services/tank-solutions/underground-tanks/pe-underground-tank" className="group flex items-center justify-between border border-neutral-200 bg-white p-6 transition-colors hover:border-brand dark:border-white/10 dark:bg-neutral-950">
-              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">Polyethylene Underground Tank</span>
+              <span className="text-sm font-medium text-neutral-800 dark:text-white/80">خزان بولي إيثيلين أرضي</span>
               <ArrowUpLeft size={16} className="shrink-0 text-neutral-300 transition-all group-hover:-translate-y-0.5 group-hover:-translate-x-0.5 group-hover:text-brand dark:text-white/25" />
             </a>
           </div>

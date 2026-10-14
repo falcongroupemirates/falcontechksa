@@ -32,7 +32,7 @@ export default function ThemeToggle({ onLightSurface = false, className = "" }) 
     <button
       type="button"
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
+      aria-label={`التبديل إلى ${isDark ? "light" : "dark"} mode`}
       className={`relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-full border transition-colors duration-300 ${
         onLightSurface
           ? "border-black/15 text-black hover:border-black/30 hover:bg-black/5"

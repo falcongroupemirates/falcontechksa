@@ -11,26 +11,26 @@ const steps = [
   {
     number: "01",
     icon: PhoneCall,
-    title: "Initial Consultation",
-    description: "We assess your project scope and requirements to recommend the right solution.",
+    title: "الاستشارة الأولية",
+    description: "نقيّم نطاق مشروعك ومتطلباته لنوصي بالحل المناسب.",
   },
   {
     number: "02",
     icon: ClipboardList,
-    title: "Planning & Scheduling",
-    description: "A tailored service plan is scheduled around your site and operational needs.",
+    title: "التخطيط والجدولة",
+    description: "تتم جدولة خطة خدمة مخصّصة وفقًا لموقعك واحتياجاتك التشغيلية.",
   },
   {
     number: "03",
     icon: Wrench,
-    title: "On-Site Execution",
-    description: "Qualified engineers carry out fabrication, installation or maintenance work using industry-grade equipment.",
+    title: "التنفيذ في الموقع",
+    description: "ينفّذ مهندسون مؤهلون أعمال التصنيع أو التركيب أو الصيانة باستخدام معدات بمستوى صناعي.",
   },
   {
     number: "04",
     icon: FileCheck2,
-    title: "Report & Certification",
-    description: "You receive a fully traceable report with certification, ready for audit or use.",
+    title: "التقرير والشهادات",
+    description: "تتسلّم تقريرًا قابلًا للتتبّع بالكامل مع الشهادات، جاهزًا للتدقيق أو الاستخدام.",
   },
 ];
 
@@ -47,7 +47,7 @@ export default function ProcessSteps() {
             className="inline-flex h-7 items-center rounded-full border border-neutral-300 px-4 dark:border-white/15"
           >
             <span className="text-[12px] font-medium uppercase tracking-[-0.01em] text-neutral-900 dark:text-white">
-              How We Work
+              كيف نعمل
             </span>
           </motion.div>
 
@@ -58,7 +58,7 @@ export default function ProcessSteps() {
             transition={{ duration: 0.7, delay: 0.08 }}
             className="mt-5 text-[36px] font-normal leading-[1.1] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[44px]"
           >
-            A Simple, Transparent Process
+            عملية بسيطة وشفافة
           </motion.h2>
         </div>
 
@@ -81,7 +81,7 @@ export default function ProcessSteps() {
                   <Icon size={28} strokeWidth={1.5} className="text-brand" />
                 </div>
                 <span className="mt-5 text-xs font-semibold uppercase tracking-[0.15em] text-brand">
-                  Step {step.number}
+                  الخطوة {step.number}
                 </span>
                 <h3 className="mt-2 text-lg font-semibold text-neutral-900 dark:text-white">
                   {step.title}

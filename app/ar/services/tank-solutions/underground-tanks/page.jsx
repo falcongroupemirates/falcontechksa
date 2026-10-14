@@ -12,9 +12,9 @@ export const metadata = {
     canonical: "/ar/services/tank-solutions/underground-tanks",
     languages: { en: "/services/tank-solutions/underground-tanks", ar: "/ar/services/tank-solutions/underground-tanks", "x-default": "/services/tank-solutions/underground-tanks" },
   },
-  title: "Underground Tanks in Saudi Arabia — FRP, Polyethylene & Steel",
+  title: "الخزانات الأرضية في المملكة العربية السعودية — FRP والبولي إيثيلين والفولاذ",
   description:
-    "Underground water, diesel and chemical storage tanks in FRP/GRP, polyethylene and steel, engineered for soil loads and groundwater — Falcon Technologies, Saudi Arabia.",
+    "خزانات أرضية لتخزين المياه والديزل والمواد الكيميائية من FRP/GRP والبولي إيثيلين والفولاذ، مُهندَسة لأحمال التربة والمياه الجوفية — فالكون تكنولوجيز، المملكة العربية السعودية.",
 };
 
 export default function Page() {
@@ -73,10 +73,10 @@ export default function Page() {
       />
 
       <PageHero
-        eyebrow="Tank Solutions"
-        title="Underground Tanks"
-        description="Underground water, diesel and chemical tanks engineered for soil loads, groundwater and safe installation."
-        breadcrumb="Underground Tanks"
+        eyebrow="حلول الخزانات"
+        title="الخزانات الأرضية"
+        description="خزانات أرضية للمياه والديزل والمواد الكيميائية مُهندَسة لأحمال التربة والمياه الجوفية والتركيب الآمن."
+        breadcrumb="الخزانات الأرضية"
         image="/assets/images/tank-solutions/underground_tank_installation_cutaway.png"
       />
 
@@ -89,23 +89,17 @@ export default function Page() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-500 transition-colors hover:text-brand dark:text-white/50"
               >
                 <ArrowRight size={13} />
-                Tank Solutions
+                حلول الخزانات
               </a>
               <h2 className="mt-6 max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Underground Storage Tanks Engineered for the Ground They Sit In
+                خزانات تخزين أرضية مُهندَسة للتربة التي تُدفن فيها
               </h2>
               <div className="mt-5 max-w-xl space-y-4">
                 <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  An underground tank has to resist soil pressure, traffic and
-                  groundwater buoyancy as well as the stored liquid. Falcon
-                  designs underground tanks in FRP/GRP, polyethylene and steel
-                  with the anchoring, foundation and installation details that
-                  keep them stable for their service life.
+                  يجب أن يقاوم الخزان الأرضي ضغط التربة والمرور وطفو المياه الجوفية إلى جانب السائل المخزَّن. وتصمم فالكون الخزانات الأرضية من FRP/GRP والبولي إيثيلين والفولاذ مع تفاصيل التثبيت والأساسات والتركيب التي تحافظ على استقرارها طوال عمر خدمتها.
                 </p>
                 <p className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  We review depth, soil and groundwater conditions, external
-                  loads and access with you before fabrication, so what arrives
-                  on site matches the excavation, bedding and backfill plan.
+                  نراجع معك العمق وظروف التربة والمياه الجوفية والأحمال الخارجية والوصول قبل التصنيع، ليتطابق ما يصل إلى الموقع مع خطة الحفر وطبقة الفرش والردم.
                 </p>
               </div>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -113,27 +107,27 @@ export default function Page() {
                   href="/ar/request-a-quote"
                   className="inline-flex h-12 items-center rounded-sm bg-brand px-7 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
                 >
-                  Request a Quote
+                  اطلب عرض سعر
                 </a>
                 <a
                   href="/ar/technical-library"
                   className="inline-block border-b border-neutral-300 text-sm font-semibold text-neutral-700 transition-colors hover:border-brand hover:text-brand dark:border-white/25 dark:text-white/75"
                 >
-                  Browse the Technical Library
+                  تصفح المكتبة الفنية
                 </a>
               </div>
             </div>
             <div className="relative aspect-4/3 overflow-hidden rounded-sm border border-neutral-200 bg-neutral-100 dark:border-white/10 dark:bg-neutral-900">
               <Image loading="eager"
                 src="/assets/images/tank-solutions/underground_tank_installation_cutaway.png"
-                alt="Underground Tanks by Falcon Technologies in Saudi Arabia"
+                alt="الخزانات الأرضية من فالكون تكنولوجيز في المملكة العربية السعودية"
                 fill
                 sizes="(min-width: 1024px) 45vw, 100vw"
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-linear-to-t from-ink/70 via-ink/0 to-transparent" />
               <span className="absolute bottom-4 start-4 rounded-sm bg-ink/90 px-3 py-1.5 text-xs font-medium text-white">
-                Tank Solutions
+                حلول الخزانات
               </span>
             </div>
           </div>
@@ -143,64 +137,61 @@ export default function Page() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            What We Offer
+            ما نقدمه
           </h2>
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Buoyancy and anchoring design
+                تصميم مقاومة الطفو والتثبيت
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Anchoring arrangements to resist groundwater uplift.
+                ترتيبات تثبيت لمقاومة الرفع الناتج عن المياه الجوفية.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Foundation and installation drawings
+                مخططات الأساسات والتركيب
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Bedding, foundation and installation details supplied with the
-                tank.
+                تفاصيل طبقة الفرش والأساسات والتركيب تُورَّد مع الخزان.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Underground diesel tanks
+                خزانات ديزل تحت الأرض
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Buried fuel storage for generators and industrial sites.
+                تخزين وقود مدفون للمولدات والمواقع الصناعية.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Underground water and wastewater
+                المياه ومياه الصرف تحت الأرض
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Corrosion-resistant tanks for buried water and effluent duty.
+                خزانات مقاومة للتآكل لخدمة المياه والمياه المصرَّفة المدفونة.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Chemical-service tanks
+                خزانات خدمة المواد الكيميائية
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Underground tanks with resin and material selected for the
-                chemical.
+                خزانات أرضية يُختار راتنجها ومادتها وفق المادة الكيميائية.
               </p>
             </div>
             <div className="border border-neutral-200 bg-white p-7 dark:border-white/10 dark:bg-neutral-950">
               <span className="block h-0.5 w-8 bg-brand" />
               <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
-                Restoration of existing tanks
+                ترميم الخزانات القائمة
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Inspection and restoration where a buried tank is already in
-                service.
+                الفحص والترميم حيثما يكون الخزان المدفون قيد الخدمة بالفعل.
               </p>
             </div>
           </div>
@@ -210,11 +201,10 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Types of Underground Tanks
+            أنواع الخزانات الأرضية
           </h2>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-            Each configuration has its own page with the detail relevant to that
-            type.
+            لكل نوع صفحة خاصة تتضمن التفاصيل المتعلقة به.
           </p>
           <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <a
@@ -224,7 +214,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/underground_frp_storage_tank_installation.png"
-                  alt="FRP Underground Tank"
+                  alt="خزان FRP أرضي"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -233,14 +223,13 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  FRP Underground Tank
+                  خزان FRP أرضي
                 </h3>
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Corrosion-resistant buried storage, a common choice for
-                  underground duty.
+                  تخزين مدفون مقاوم للتآكل، وخيار شائع للخدمة تحت الأرض.
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
-                  View type
+                  عرض النوع
                   <ArrowUpLeft
                     size={14}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -255,7 +244,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/engineered_underground_pe_tank_installation.png"
-                  alt="Polyethylene Underground Tank"
+                  alt="خزان بولي إيثيلين أرضي"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -264,14 +253,13 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  Polyethylene Underground Tank
+                  خزان بولي إيثيلين أرضي
                 </h3>
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Buried storage for smaller volumes where polyethylene suits
-                  the duty.
+                  تخزين مدفون للأحجام الأصغر حيث يناسب البولي إيثيلين الخدمة.
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
-                  View type
+                  عرض النوع
                   <ArrowUpLeft
                     size={14}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -286,7 +274,7 @@ export default function Page() {
               <div className="relative aspect-4/3 overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                 <Image
                   src="/assets/images/tank-solutions/silver_steel_tank_installation.png"
-                  alt="Steel Underground Tank"
+                  alt="خزان فولاذي أرضي"
                   fill
                   sizes="(min-width: 1024px) 33vw, 100vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -295,14 +283,13 @@ export default function Page() {
               </div>
               <div className="p-5">
                 <h3 className="text-base font-semibold text-neutral-900 dark:text-white">
-                  Steel Underground Tank
+                  خزان فولاذي أرضي
                 </h3>
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                  Buried steel storage, typically coated or lined for corrosion
-                  protection.
+                  تخزين فولاذي مدفون، يكون عادةً مطليًا أو مبطنًا للحماية من التآكل.
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
-                  View type
+                  عرض النوع
                   <ArrowUpLeft
                     size={14}
                     className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
@@ -319,83 +306,81 @@ export default function Page() {
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
             <div>
               <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-                Technical Snapshot
+                لمحة فنية
               </h2>
               <dl className="mt-8 divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Materials
+                    المواد
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    FRP/GRP, polyethylene and steel
+                    FRP/GRP والبولي إيثيلين والفولاذ
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Stored liquids
+                    السوائل المخزنة
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Water, wastewater, diesel, chemicals and industrial liquids
+                    المياه ومياه الصرف والديزل والمواد الكيميائية والسوائل الصناعية
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Design review
+                    مراجعة التصميم
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Burial depth, soil and groundwater conditions, external and
-                    traffic loads
+                    عمق الدفن، وظروف التربة والمياه الجوفية، والأحمال الخارجية وأحمال المرور
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Site details
+                    تفاصيل الموقع
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Foundation, anchoring, lifting arrangements and installation
-                    details
+                    الأساسات، والتثبيت، وترتيبات الرفع، وتفاصيل التركيب
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Access
+                    الوصول
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Manholes and nozzles positioned for inspection and service
+                    فتحات التفتيش والفوهات موضوعة للفحص والصيانة
                   </dd>
                 </div>
                 <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
                   <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                    Shapes
+                    الأشكال
                   </dt>
                   <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                    Horizontal cylindrical, rectangular and custom tanks
+                    خزانات أسطوانية أفقية ومستطيلة ومخصصة
                   </dd>
                 </div>
               </dl>
             </div>
             <div>
               <h2 className="text-lg font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">
-                Where It&rsquo;s Used
+                مجالات الاستخدام
               </h2>
               <div className="mt-5 flex flex-wrap gap-2">
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Water &amp; wastewater
+                  المياه والصرف الصحي
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Oil &amp; gas
+                  النفط والغاز
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Power &amp; utilities
+                  الطاقة والمرافق
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Construction &amp; infrastructure
+                  الإنشاءات والبنية التحتية
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Manufacturing
+                  التصنيع
                 </span>
                 <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-                  Commercial developments
+                  المشاريع التجارية
                 </span>
               </div>
             </div>
@@ -406,43 +391,43 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            From Site Review to Installation
+            من مراجعة الموقع إلى التركيب
           </h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Review site and loads
+                مراجعة الموقع والأحمال
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Depth, soil, groundwater, traffic and access.
+                العمق، والتربة، والمياه الجوفية، والمرور، والوصول.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Design anchoring and foundation
+                تصميم التثبيت والأساسات
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Drawings covering anchoring, bedding and lifting.
+                مخططات تغطي التثبيت وطبقة الفرش والرفع.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Fabricate and inspect
+                التصنيع والفحص
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Tank built and inspected to the approved design.
+                تصنيع الخزان وفحصه وفق التصميم المعتمد.
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
               <span className="text-sm font-semibold text-brand">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
-                Support installation
+                دعم التركيب
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Installation instructions and foundation requirements provided.
+                توفير تعليمات التركيب ومتطلبات الأساسات.
               </p>
             </li>
           </ol>
@@ -452,33 +437,27 @@ export default function Page() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Reference Sizes
+            أحجام مرجعية
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-            Documented configurations we can reference as a starting point —
-            confirmed per project, not a committed availability.
+            تكوينات موثقة يمكن الرجوع إليها كنقطة انطلاق — تُؤكَّد لكل مشروع، وليست التزامًا بالتوفر.
           </p>
 
           <dl className="mt-8 max-w-3xl divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
               <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                Underground diesel (FRP)
+                ديزل تحت الأرض (FRP)
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                20,000 L — Ø2,500 mm × 4,350 mm long; 30,000 L — Ø2,500 mm ×
-                6,400 mm long.
+                20,000 L — Ø2,500 mm × طول 4,350 mm؛ 30,000 L — Ø2,500 mm × طول 6,400 mm.
               </dd>
             </div>
           </dl>
           <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
-            Indicative reference configurations from prior project and design
-            context — not a committed catalogue range or current availability.
-            Final capacity and dimensions are confirmed against the approved
-            drawing and QA file for each project.
+            تكوينات مرجعية استرشادية من مشاريع وسياقات تصميم سابقة — وليست نطاق كتالوج ملزمًا أو توفرًا حاليًا. وتُؤكَّد السعة والأبعاد النهائية وفق المخطط المعتمد وملف ضمان الجودة لكل مشروع.
           </p>
           <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
-            These references do not define the capacity range for other
-            underground materials or services.
+            لا تحدد هذه المراجع نطاق السعات للمواد أو الخدمات الأرضية الأخرى.
           </p>
         </div>
       </section>
@@ -486,7 +465,7 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Standards &amp; Compliance
+            المعايير والامتثال
           </h2>
           <dl className="mt-8 max-w-3xl divide-y divide-neutral-200 border-t border-neutral-200 dark:divide-white/10 dark:border-white/10">
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
@@ -494,8 +473,7 @@ export default function Page() {
                 UL 1316
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Fibre-reinforced underground tanks for flammable/combustible
-                liquids — confirm the certified model and service.
+                خزانات أرضية مقواة بالألياف للسوائل القابلة للاشتعال/الاحتراق — تأكد من الطراز المعتمد والخدمة.
               </dd>
             </div>
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
@@ -503,28 +481,20 @@ export default function Page() {
                 UL 58
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Steel underground tanks for flammable/combustible liquids.
+                خزانات فولاذية تحت الأرض للسوائل القابلة للاشتعال/الاحتراق.
               </dd>
             </div>
             <div className="grid grid-cols-1 gap-1 py-4 sm:grid-cols-[1fr_1.8fr] sm:gap-6">
               <dt className="text-sm font-medium text-neutral-800 dark:text-white/85">
-                ASTM D1998 (burial note)
+                ASTM D1998 (ملاحظة الدفن)
               </dt>
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                D1998 is scoped to upright rotomolded PE tanks — not a generic
-                PE burial approval; use manufacturer model-specific burial
-                evidence.
+                يقتصر نطاق D1998 على خزانات PE القائمة المصبوبة بالقولبة الدورانية — وليس اعتمادًا عامًا لدفن خزانات PE؛ استخدم أدلة الدفن الخاصة بطراز الشركة المصنعة.
               </dd>
             </div>
           </dl>
           <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
-            A standard reference is not proof of third-party certification.
-            Falcon states “designed and manufactured to” a standard only when it
-            is backed by the controlled design and QA file; chemical,
-            potable-water and underground suitability require separate
-            product-specific evidence. Saudi/GCC approvals (SASO/SABER, Civil
-            Defense, environmental, municipal, utility and owner approvals) are
-            project- and product-specific.
+            الإشارة إلى معيار ما ليست دليلًا على اعتماد من طرف ثالث. لا تذكر فالكون عبارة “مصمم ومصنّع وفق” معيار ما إلا عندما يدعمها ملف تصميم وضمان جودة مضبوط؛ وتتطلب الملاءمة للمواد الكيميائية ومياه الشرب والتركيب تحت الأرض أدلة منفصلة خاصة بالمنتج. أما الاعتمادات في المملكة العربية السعودية ودول الخليج (SASO/SABER، والدفاع المدني، والبيئة، والبلديات، وشركات المرافق، والمالك) فهي خاصة بكل مشروع ومنتج.
           </p>
         </div>
       </section>
@@ -532,62 +502,60 @@ export default function Page() {
       <section className="w-full bg-neutral-50 dark:bg-neutral-900">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Accessories &amp; Fittings
+            الملحقات والتجهيزات
           </h2>
           <div className="mt-6 flex flex-wrap gap-2">
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Access / manway
+              فتحة الوصول / فتحة الدخول
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Inlet / outlet
+              المدخل / المخرج
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Overflow
+              الفائض
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Vent
+              فتحة التهوية
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Drain
+              التصريف
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Level gauge / transmitter
+              مقياس / مرسل المستوى
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Ladder, platform &amp; handrails
+              سلم ومنصة ودرابزين
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Lifting lugs
+              عُرى الرفع
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Hold-downs / anchors
+              مثبتات / مراسي
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Baffles
+              حواجز داخلية
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Sample point
+              نقطة أخذ العينات
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Instrument ports
+              منافذ الأجهزة
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Pump / filter / skid
+              مضخة / فلتر / قاعدة (سكيد)
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Leak monitoring
+              مراقبة التسرب
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Grounding / instrumentation
+              التأريض / الأجهزة
             </span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">
-              Interstitial monitoring (double-wall)
+              مراقبة الفراغ البيني (الجدار المزدوج)
             </span>
           </div>
           <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">
-            Nozzle size, material, reinforcement and orientation are set in the
-            nozzle schedule for each tank. Accessories are fitted as the service
-            requires.
+            يُحدَّد مقاس الفوهة ومادتها وتدعيمها واتجاهها في جدول الفوهات لكل خزان. وتُركَّب الملحقات وفق متطلبات الخدمة.
           </p>
         </div>
       </section>
@@ -595,51 +563,43 @@ export default function Page() {
       <section className="w-full bg-white dark:bg-neutral-950">
         <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">
-            Frequently Asked Questions
+            الأسئلة الشائعة
           </h2>
           <div className="mt-8 max-w-3xl border-t border-neutral-200 dark:border-white/10">
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                How do you stop an underground tank floating when groundwater is
-                high?
+                كيف تمنعون طفو الخزان الأرضي عند ارتفاع منسوب المياه الجوفية؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Tanks are designed with anchoring and foundation details that
-                resist buoyancy. Share ground and groundwater information and
-                our engineers include the anchoring arrangement in the drawings.
+                تُصمَّم الخزانات بتفاصيل تثبيت وأساسات تقاوم الطفو. شاركنا معلومات التربة والمياه الجوفية وسيُضمِّن مهندسونا ترتيبات التثبيت في المخططات.
               </p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Which material is best for an underground tank?
+                ما أفضل مادة للخزان الأرضي؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                FRP/GRP is a common choice for corrosion resistance,
-                polyethylene suits smaller volumes, and steel is used where
-                specified, with protective coating. We recommend based on
-                liquid, size and ground conditions.
+                يُعد FRP/GRP خيارًا شائعًا لمقاومته للتآكل، ويناسب البولي إيثيلين الأحجام الأصغر، ويُستخدم الفولاذ حيثما يُشترط مع طلاء واقٍ. ونقدم توصيتنا بناءً على السائل والحجم وظروف التربة.
               </p>
             </details>
             <details className="group border-b border-neutral-200 py-5 dark:border-white/10">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-sm font-medium text-neutral-900 dark:text-white [&::-webkit-details-marker]:hidden">
-                Do you provide installation guidance?
+                هل تقدمون إرشادات التركيب؟
                 <Plus
                   size={16}
                   className="shrink-0 text-neutral-400 transition-transform duration-300 group-open:rotate-45"
                 />
               </summary>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-neutral-500 dark:text-white/55">
-                Yes. Installation instructions and foundation requirements are
-                provided with the design, and standard details are also
-                available through our Technical Library.
+                نعم. تُقدَّم تعليمات التركيب ومتطلبات الأساسات مع التصميم، كما تتوفر التفاصيل القياسية عبر المكتبة الفنية لدينا.
               </p>
             </details>
           </div>

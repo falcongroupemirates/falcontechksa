@@ -16,58 +16,58 @@ import Image from "next/image";
 
 const services = [
   {
-    name: "Tank Solutions",
+    name: "حلول الخزانات",
     href: "/ar/services/tank-solutions",
   },
   {
-    name: "Thermal Insulation",
+    name: "العزل الحراري",
     href: "/ar/services/thermal-insulation",
   },
   {
-    name: "Tank Restoration & Lining",
+    name: "ترميم وتبطين الخزانات",
     href: "/ar/services/tank-restoration-lining",
   },
   {
-    name: "Industrial Services",
+    name: "الخدمات الصناعية",
     href: "/ar/services/industrial-services",
   },
   {
-    name: "Chiller Installation & Maintenance",
+    name: "تركيب وصيانة المبردات",
     href: "/ar/services/industrial-services/chiller-installation-maintenance",
   },
   {
-    name: "Surveying & 3D Scanning",
+    name: "المساحة والمسح ثلاثي الأبعاد",
     href: "/ar/services/survey-scanning",
   },
   {
-    name: "Tank Inspection",
+    name: "فحص الخزانات",
     href: "/ar/services/industrial-services/tank-inspection",
   },
 ];
 
 const quickLinks = [
   {
-    name: "About Falcon",
+    name: "عن فالكون",
     href: "/ar/about-us",
   },
   {
-    name: "Our Services",
+    name: "خدماتنا",
     href: "/ar/services",
   },
   {
-    name: "Our Projects",
+    name: "مشاريعنا",
     href: "/ar/projects",
   },
   {
-    name: "Gallery",
+    name: "معرض الصور",
     href: "/ar/gallery",
   },
   {
-    name: "Technical Library",
+    name: "المكتبة الفنية",
     href: "/ar/technical-library",
   },
   {
-    name: "Contact Us",
+    name: "اتصل بنا",
     href: "/ar/contact-us",
   },
 ];
@@ -129,7 +129,7 @@ export default function Footer() {
                   width (height follows the aspect ratio). */}
               <Image
                 src="/assets/logos/falcon-tech-ksa-white-logo.png"
-                alt="Falcon Technologies KSA"
+                alt="فالكون تكنولوجيز السعودية"
                 // displayed at max-w-sm (384px wide → 67px tall)
                 width={384}
                 height={67}
@@ -145,10 +145,7 @@ export default function Footer() {
                 text-white/55
               "
             >
-              Falcon Technologies delivers engineered tank systems, thermal
-              insulation, tank lining and restoration, and chiller and
-              industrial services for demanding projects across the Kingdom of
-              Saudi Arabia.
+              تقدّم فالكون تكنولوجيز أنظمة خزانات هندسية، والعزل الحراري، وتبطين الخزانات وترميمها، وخدمات المبردات والخدمات الصناعية للمشاريع المتطلبة في جميع أنحاء المملكة العربية السعودية.
             </p>
 
             <Link
@@ -172,7 +169,7 @@ export default function Footer() {
                 hover:bg-brand-dark
               "
             >
-              <span>Get a Quote</span>
+              <span>اطلب عرض سعر</span>
 
               <span
                 className="
@@ -198,7 +195,7 @@ export default function Footer() {
           ================================================== */}
 
           <div>
-            <FooterHeading title="Services" />
+            <FooterHeading title="الخدمات" />
 
             <ul className="mt-7 space-y-4">
               {services.map((service) => (
@@ -245,7 +242,7 @@ export default function Footer() {
           ================================================== */}
 
           <div>
-            <FooterHeading title="Quick Links" />
+            <FooterHeading title="روابط سريعة" />
 
             <ul className="mt-7 space-y-4">
               {quickLinks.map((link) => (
@@ -287,13 +284,13 @@ export default function Footer() {
           ================================================== */}
 
           <div>
-            <FooterHeading title="Contact Us" />
+            <FooterHeading title="اتصل بنا" />
 
             <div className="mt-6">
               <ContactItem icon={MapPin}>
                 <span>
-                  Building 7850/3308, Street 9, Al Sinaiyyah,
-                  <br /> Zip Code 32624, Saudi Arabia
+                  مبنى 7850/3308، شارع 9، الصناعية،
+                  <br /> الرمز البريدي 32624، المملكة العربية السعودية
                 </span>
               </ContactItem>
 
@@ -317,8 +314,8 @@ export default function Footer() {
 
               <ContactItem icon={Clock3} last>
                 <div>
-                  <div>Monday - Friday</div>
-                  <div className="mt-1">08:00 AM - 06:00 PM</div>
+                  <div>الاثنين - الجمعة</div>
+                  <div className="mt-1">08:00 ص - 06:00 م</div>
                 </div>
               </ContactItem>
             </div>
@@ -336,7 +333,7 @@ export default function Footer() {
                 hover:text-white
               "
             >
-              Send us a message and we&apos;ll get in touch shortly
+              أرسل لنا رسالة وسنتواصل معك قريبًا
             </Link>
           </div>
         </div>
@@ -360,18 +357,17 @@ export default function Footer() {
         >
           <p className="text-xs leading-5 text-white/40">
             © {new Date().getFullYear()}{" "}
-            <span className="text-white/65">Falcon Technologies KSA</span>. All
-            Rights Reserved.
+            <span className="text-white/65">فالكون تكنولوجيز السعودية</span>. جميع الحقوق محفوظة.
           </p>
 
           <div className="flex items-center gap-4">
-            <SocialLink href="#" label="Facebook" icon={FaFacebookF} />
+            <SocialLink href="#" label="فيسبوك" icon={FaFacebookF} />
 
-            <SocialLink href="#" label="Instagram" icon={FaInstagram} />
+            <SocialLink href="#" label="إنستغرام" icon={FaInstagram} />
 
-            <SocialLink href="#" label="LinkedIn" icon={FaLinkedinIn} />
+            <SocialLink href="#" label="لينكدإن" icon={FaLinkedinIn} />
 
-            <SocialLink href="#" label="YouTube" icon={FaYoutube} />
+            <SocialLink href="#" label="يوتيوب" icon={FaYoutube} />
           </div>
         </div>
       </div>

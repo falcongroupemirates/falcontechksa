@@ -12,45 +12,45 @@
 export const libraryCategories = [
   {
     id: "company-documents",
-    label: "Company Documents",
+    label: "وثائق الشركة",
     description:
-      "Company profile, organization chart, business licenses and certificates.",
+      "ملف الشركة، والهيكل التنظيمي، والتراخيص التجارية، والشهادات.",
   },
   {
     id: "product-datasheets",
-    label: "Product Datasheets",
+    label: "نشرات البيانات الفنية للمنتجات",
     description:
-      "FRP, polyethylene, steel, underground and chemical tank data sheets.",
+      "نشرات البيانات الفنية لخزانات FRP والبولي إيثيلين والفولاذ والخزانات الأرضية وخزانات المواد الكيميائية.",
   },
   {
     id: "thermal-insulation",
-    label: "Thermal Insulation",
+    label: "العزل الحراري",
     description:
-      "Aerogel technical data sheet, brochure, application procedure, SDS and thermal conductivity information.",
+      "نشرة البيانات الفنية للأيروجيل، والكتيّب، وإجراءات التطبيق، وصحيفة بيانات السلامة (SDS)، ومعلومات الموصلية الحرارية.",
   },
   {
     id: "chiller-services",
-    label: "Chiller Service Documents",
+    label: "وثائق خدمة المبردات",
     description:
-      "Service capability statement, preventive maintenance scope, maintenance checklist and supported equipment information.",
+      "بيان قدرات الخدمة، ونطاق الصيانة الوقائية، وقائمة فحص الصيانة، ومعلومات المعدات المدعومة.",
   },
   {
     id: "engineering",
-    label: "Engineering Documents",
+    label: "الوثائق الهندسية",
     description:
-      "Standard drawings, nozzle details, installation instructions and foundation requirements.",
+      "المخططات القياسية، وتفاصيل الفوهات، وتعليمات التركيب، ومتطلبات الأساسات.",
   },
   {
     id: "qa-qc",
-    label: "QA / QC Documents",
+    label: "وثائق QA / QC",
     description:
-      "ITP, method statements, QA/QC procedures, inspection, maintenance and testing formats.",
+      "خطط الفحص والاختبار (ITP)، وبيانات طريقة العمل، وإجراءات QA/QC، ونماذج الفحص والصيانة والاختبار.",
   },
   {
     id: "chemical-compatibility",
-    label: "Chemical Compatibility",
+    label: "التوافق الكيميائي",
     description:
-      "FRP resin, polyethylene and lining compatibility information.",
+      "معلومات التوافق الكيميائي لراتنجات FRP والبولي إيثيلين وأنظمة التبطين.",
   },
 ];
 
@@ -67,7 +67,7 @@ const libraryDocuments = [
   {
     id: "company-profile",
     category: "company-documents",
-    title: "Falcon Technologies Company Profile",
+    title: "ملف شركة فالكون تكنولوجيز",
     type: "PDF",
     size: "4.8 MB",
     updated: "2026-06",
@@ -77,7 +77,7 @@ const libraryDocuments = [
   {
     id: "org-chart",
     category: "company-documents",
-    title: "Organization Chart",
+    title: "الهيكل التنظيمي",
     type: "PDF",
     size: "0.6 MB",
     updated: "2026-03",
@@ -87,7 +87,7 @@ const libraryDocuments = [
   {
     id: "commercial-registration",
     category: "company-documents",
-    title: "Commercial Registration & Business Licenses",
+    title: "السجل التجاري والتراخيص التجارية",
     type: "PDF",
     size: "2.1 MB",
     updated: "2026-01",
@@ -98,7 +98,7 @@ const libraryDocuments = [
   {
     id: "frp-vertical-tank-capacity-height-chart",
     category: "product-datasheets",
-    title: "FRP Vertical Tank Capacity Height Chart",
+    title: "جدول السعة والارتفاع لخزانات FRP الرأسية",
     type: "PDF",
     size: "11.6 KB",
     updated: "2026-05",
@@ -108,7 +108,7 @@ const libraryDocuments = [
   {
     id: "frp-horizontal-above-ground-tanks-chart",
     category: "product-datasheets",
-    title: "FRP Horizontal Above Ground Tanks Chart",
+    title: "جدول خزانات FRP الأفقية فوق الأرض",
     type: "PDF",
     size: "27.8 KB",
     updated: "2026-05",
@@ -118,7 +118,7 @@ const libraryDocuments = [
   {
     id: "frp-horizontal-underground-tanks-chart",
     category: "product-datasheets",
-    title: "FRP Horizontal Underground Tanks Chart",
+    title: "جدول خزانات FRP الأفقية تحت الأرض",
     type: "PDF",
     size: "27.8 KB",
     updated: "2026-05",
@@ -179,7 +179,7 @@ const libraryDocuments = [
   {
     id: "aerogel-tds",
     category: "thermal-insulation",
-    title: "Aerogel Insulation — Technical Data Sheet",
+    title: "عزل الأيروجيل — نشرة البيانات الفنية",
     type: "PDF",
     size: "1.8 MB",
     updated: "2026-06",
@@ -189,7 +189,7 @@ const libraryDocuments = [
   {
     id: "aerogel-brochure",
     category: "thermal-insulation",
-    title: "Aerogel Insulation — Product Brochure",
+    title: "عزل الأيروجيل — كتيّب المنتج",
     type: "PDF",
     size: "5.4 MB",
     updated: "2026-06",
@@ -199,7 +199,7 @@ const libraryDocuments = [
   {
     id: "aerogel-sds",
     category: "thermal-insulation",
-    title: "Aerogel — Safety Data Sheet (SDS)",
+    title: "الأيروجيل — صحيفة بيانات السلامة (SDS)",
     type: "PDF",
     size: "0.9 MB",
     updated: "2026-06",
@@ -209,7 +209,7 @@ const libraryDocuments = [
   {
     id: "insulation-application-procedure",
     category: "thermal-insulation",
-    title: "Thermal Insulation Application Procedure",
+    title: "إجراءات تطبيق العزل الحراري",
     type: "PDF",
     size: "2.2 MB",
     updated: "2026-05",
@@ -220,7 +220,7 @@ const libraryDocuments = [
   {
     id: "chiller-capability-statement",
     category: "chiller-services",
-    title: "Chiller Service Capability Statement",
+    title: "بيان قدرات خدمة المبردات",
     type: "PDF",
     size: "1.6 MB",
     updated: "2026-05",
@@ -230,7 +230,7 @@ const libraryDocuments = [
   {
     id: "chiller-pm-scope",
     category: "chiller-services",
-    title: "Preventive Maintenance Scope",
+    title: "نطاق الصيانة الوقائية",
     type: "PDF",
     size: "1.1 MB",
     updated: "2026-05",
@@ -240,7 +240,7 @@ const libraryDocuments = [
   {
     id: "chiller-maintenance-checklist",
     category: "chiller-services",
-    title: "Chiller Maintenance Checklist",
+    title: "قائمة فحص صيانة المبردات",
     type: "XLSX",
     size: "0.4 MB",
     updated: "2026-05",
@@ -250,7 +250,7 @@ const libraryDocuments = [
   {
     id: "supported-equipment-list",
     category: "chiller-services",
-    title: "Supported Equipment / Manufacturer Coverage",
+    title: "المعدات المدعومة / الشركات المصنّعة المشمولة",
     type: "PDF",
     size: "0.8 MB",
     updated: "2026-04",
@@ -259,7 +259,7 @@ const libraryDocuments = [
   {
     id: "sample-service-report",
     category: "chiller-services",
-    title: "Sample Service / Inspection Report",
+    title: "نموذج تقرير خدمة / فحص",
     type: "PDF",
     size: "1.3 MB",
     updated: "2026-04",
@@ -270,7 +270,7 @@ const libraryDocuments = [
   {
     id: "standard-drawings",
     category: "engineering",
-    title: "Standard Tank Drawings — GA / Shop Drawings",
+    title: "المخططات القياسية للخزانات — مخططات الترتيب العام / المخططات التنفيذية",
     type: "PDF",
     size: "6.1 MB",
     updated: "2026-03",
@@ -279,7 +279,7 @@ const libraryDocuments = [
   {
     id: "nozzle-details",
     category: "engineering",
-    title: "Standard Nozzle Details",
+    title: "التفاصيل القياسية للفوهات",
     type: "PDF",
     size: "1.4 MB",
     updated: "2026-03",
@@ -289,7 +289,7 @@ const libraryDocuments = [
   {
     id: "installation-instructions",
     category: "engineering",
-    title: "Tank Installation Instructions",
+    title: "تعليمات تركيب الخزانات",
     type: "PDF",
     size: "2.5 MB",
     updated: "2026-03",
@@ -299,7 +299,7 @@ const libraryDocuments = [
   {
     id: "foundation-requirements",
     category: "engineering",
-    title: "Foundation Requirements Guide",
+    title: "دليل متطلبات الأساسات",
     type: "PDF",
     size: "1.9 MB",
     updated: "2026-02",
@@ -311,7 +311,7 @@ const libraryDocuments = [
   {
     id: "itp-template",
     category: "qa-qc",
-    title: "Inspection & Test Plan (ITP) — Sample",
+    title: "خطة الفحص والاختبار (ITP) — نموذج",
     type: "PDF",
     size: "1.0 MB",
     updated: "2026-05",
@@ -320,7 +320,7 @@ const libraryDocuments = [
   {
     id: "method-statements",
     category: "qa-qc",
-    title: "Method Statements — Index",
+    title: "بيانات طريقة العمل — الفهرس",
     type: "PDF",
     size: "0.7 MB",
     updated: "2026-05",
@@ -330,7 +330,7 @@ const libraryDocuments = [
   {
     id: "qaqc-procedures",
     category: "qa-qc",
-    title: "QA / QC Procedures Overview",
+    title: "نظرة عامة على إجراءات QA / QC",
     type: "PDF",
     size: "1.7 MB",
     updated: "2026-04",
@@ -340,7 +340,7 @@ const libraryDocuments = [
   {
     id: "testing-formats",
     category: "qa-qc",
-    title: "Inspection & Testing Report Formats",
+    title: "نماذج تقارير الفحص والاختبار",
     type: "DOCX",
     size: "0.3 MB",
     updated: "2026-04",
@@ -352,7 +352,7 @@ const libraryDocuments = [
   {
     id: "frp-resin-compatibility",
     category: "chemical-compatibility",
-    title: "FRP Resin Chemical Compatibility Chart",
+    title: "جدول التوافق الكيميائي لراتنجات FRP",
     type: "PDF",
     size: "2.0 MB",
     updated: "2026-05",
@@ -362,7 +362,7 @@ const libraryDocuments = [
   {
     id: "polyethylene-compatibility",
     category: "chemical-compatibility",
-    title: "Polyethylene Chemical Compatibility Chart",
+    title: "جدول التوافق الكيميائي للبولي إيثيلين",
     type: "PDF",
     size: "1.6 MB",
     updated: "2026-05",
@@ -372,7 +372,7 @@ const libraryDocuments = [
   {
     id: "lining-compatibility",
     category: "chemical-compatibility",
-    title: "Lining System Chemical Compatibility Guide",
+    title: "دليل التوافق الكيميائي لأنظمة التبطين",
     type: "PDF",
     size: "2.3 MB",
     updated: "2026-04",

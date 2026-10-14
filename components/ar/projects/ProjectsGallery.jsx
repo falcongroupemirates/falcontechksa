@@ -11,12 +11,12 @@ import { MapPin, Building2, Calendar, X } from "lucide-react";
 import projectsData, { projectCategories } from "@/data/ar/projectsData";
 
 export default function ProjectsGallery() {
-  const [active, setActive] = useState("All");
+  const [active, setActive] = useState("الكل");
   const [selected, setSelected] = useState(null);
 
   const filtered = useMemo(
     () =>
-      active === "All"
+      active === "الكل"
         ? projectsData
         : projectsData.filter((p) => p.category === active),
     [active],
@@ -96,7 +96,7 @@ export default function ProjectsGallery() {
 
         {filtered.length === 0 && (
           <p className="mt-16 text-center text-sm text-neutral-500 dark:text-white/50">
-            No projects in this category yet.
+            لا توجد مشاريع في هذه الفئة حتى الآن.
           </p>
         )}
       </div>
@@ -121,7 +121,7 @@ export default function ProjectsGallery() {
             >
               <button
                 onClick={() => setSelected(null)}
-                aria-label="Close"
+                aria-label="إغلاق"
                 className="absolute end-4 top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-black/60 text-white"
               >
                 <X size={16} />
@@ -145,22 +145,22 @@ export default function ProjectsGallery() {
                 <dl className="mt-6 grid grid-cols-2 gap-4 border-t border-neutral-200 pt-6 text-sm dark:border-white/10">
                   <Detail
                     icon={Building2}
-                    label="Client"
+                    label="العميل"
                     value={selected.client}
                   />
                   <Detail
                     icon={MapPin}
-                    label="Location"
+                    label="الموقع"
                     value={selected.location}
                   />
                   <Detail
                     icon={Building2}
-                    label="Industry"
+                    label="القطاع"
                     value={selected.industry}
                   />
                   <Detail
                     icon={Calendar}
-                    label="Completion"
+                    label="الإنجاز"
                     value={selected.completion}
                   />
                 </dl>
