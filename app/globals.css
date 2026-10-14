@@ -53,3 +53,17 @@ body {
   background-color: var(--background);
   color: var(--foreground);
 }
+
+/* ---------------------------------------------------------------
+   Arabic site (/ar/...): IBM Plex Sans Arabic and no letter-spacing
+   (tracking breaks the joins between Arabic letters).
+--------------------------------------------------------------- */
+@layer base {
+  :lang(ar) {
+    font-family: "IBM Plex Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+:lang(ar) {
+  letter-spacing: normal;
+}

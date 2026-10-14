@@ -8,6 +8,7 @@ import { useTheme } from "next-themes";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, Menu, X, Globe } from "lucide-react";
 import navData from "@/data/navData";
+import { localeOf, localePath } from "@/lib/locale";
 import ThemeToggle from "@/components/common/ThemeToggle";
 
 const LANGS = [
@@ -29,11 +30,12 @@ export default function Header() {
   const [hoveredIdx, setHoveredIdx] = useState(null);
 
   const [langOpen, setLangOpen] = useState(false);
-  const [lang, setLang] = useState("en");
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileSubOpen, setMobileSubOpen] = useState(null);
   const closeTimer = useRef(null);
   const pathname = usePathname();
+  // Current language comes from the URL (/ar/... = Arabic)
+  const lang = localeOf(pathname);
 
   useEffect(() => setMounted(true), []);
 
@@ -133,7 +135,7 @@ export default function Header() {
             ? lightSurface
               ? "bg-white/90 backdrop-blur-md border-b border-black/10"
               : "bg-black/80 backdrop-blur-md border-b border-white/10"
-            : "bg-linear-to-b from-black/70 via-black/50 via-30% to-black/30"
+            : "bg-linear-to-b from-black/80 via-black/55 via-70% to-transparent"
         }`}
       >
         {/* Top row: lang | logo | theme toggle */}
@@ -161,17 +163,17 @@ export default function Header() {
                   className="absolute left-0 mt-3 w-40 rounded-lg bg-white shadow-xl overflow-hidden"
                 >
                   {LANGS.map((l) => (
-                    <button
+                    <Link
                       key={l.code}
-                      onClick={() => {
-                        setLang(l.code);
-                        setLangOpen(false);
-                      }}
+                      href={localePath(pathname, l.code)}
+                      hrefLang={l.code}
+                      lang={l.code}
+                      onClick={() => setLangOpen(false)}
                       className="flex w-full items-center justify-between px-4 py-2.5 text-sm text-gray-800 hover:bg-gray-50"
                     >
                       {l.label}
                       {lang === l.code && <span className="text-xs">✓</span>}
-                    </button>
+                    </Link>
                   ))}
                 </motion.div>
               )}
@@ -192,7 +194,7 @@ export default function Header() {
               width={480}
               height={83}
               loading="eager"
-              className="h-12 md:h-20 w-auto object-contain transition-opacity duration-300"
+              className="h-8 w-auto object-contain transition-opacity duration-300 sm:h-12 md:h-20"
             />
           </Link>
 
@@ -400,15 +402,18 @@ export default function Header() {
 
             <div className="px-6 py-4 border-t border-black/10 dark:border-white/10 flex items-center gap-4 text-sm text-black/60 dark:text-white/70">
               {LANGS.map((l) => (
-                <button
+                <Link
                   key={l.code}
-                  onClick={() => setLang(l.code)}
+                  href={localePath(pathname, l.code)}
+                  hrefLang={l.code}
+                  lang={l.code}
+                  onClick={() => setMobileOpen(false)}
                   className={
                     lang === l.code ? "text-black dark:text-white" : ""
                   }
                 >
                   {l.label}
-                </button>
+                </Link>
               ))}
             </div>
           </motion.div>

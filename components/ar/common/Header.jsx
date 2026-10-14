@@ -1,0 +1,430 @@
+"use client";
+
+// ARABIC (RTL) VERSION — generated from the English file of the same path.
+// Text is still the English placeholder: replace each English string with Arabic.
+// Layout is already right-to-left. Keep links starting with /ar.
+
+import { useState, useEffect, useRef, useCallback } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import Image from "next/image";
+import { useTheme } from "next-themes";
+import { AnimatePresence, motion } from "framer-motion";
+import { ChevronDown, Menu, X, Globe } from "lucide-react";
+import navData from "@/data/ar/navData";
+import { localeOf, localePath } from "@/lib/locale";
+import ThemeToggle from "@/components/ar/common/ThemeToggle";
+
+const LANGS = [
+  { code: "en", label: "English" },
+  { code: "ar", label: "العربية" },
+];
+
+const LOGO_BLACK = "/assets/logos/falcon-tech-ksa-black-logo.png";
+const LOGO_WHITE = "/assets/logos/falcon-tech-ksa-white-logo.png";
+
+export default function Header() {
+  const { resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  // activeMenu -> which submenu PANEL is shown (only ever set to an idx that has a submenu)
+  // hoveredIdx -> which nav item the mouse is currently over (drives the underline, for ALL items)
+  const [activeMenu, setActiveMenu] = useState(null);
+  const [hoveredIdx, setHoveredIdx] = useState(null);
+
+  const [langOpen, setLangOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileSubOpen, setMobileSubOpen] = useState(null);
+  const closeTimer = useRef(null);
+  const pathname = usePathname();
+  // Current language comes from the URL (/ar/... = Arabic)
+  const lang = localeOf(pathname);
+
+  useEffect(() => setMounted(true), []);
+
+  // Solid bg once the hero has been scrolled past
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 60);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // Lock body scroll when mobile drawer is open
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    return () => (document.body.style.overflow = "");
+  }, [mobileOpen]);
+
+  // Re-entering an already-open submenu panel keeps it open (cancels the close timer)
+  const openMenu = useCallback((idx) => {
+    clearTimeout(closeTimer.current);
+    setActiveMenu(idx);
+  }, []);
+
+  // Fires on hover for EVERY nav item.
+  // - Always updates hoveredIdx so the underline follows the cursor.
+  // - Only updates activeMenu (the submenu panel) when the item actually has a submenu,
+  //   so hovering a plain link leaves whatever submenu was last open still visible.
+  const handleItemEnter = useCallback((idx, hasSubmenu) => {
+    clearTimeout(closeTimer.current);
+    setHoveredIdx(idx);
+    if (hasSubmenu) setActiveMenu(idx);
+  }, []);
+
+  // Leaving the header entirely closes the panel and clears the hover state together
+  const scheduleClose = useCallback(() => {
+    closeTimer.current = setTimeout(() => {
+      setActiveMenu(null);
+      setHoveredIdx(null);
+    }, 150);
+  }, []);
+
+  // Close the submenu immediately (used when a link inside it is clicked,
+  // so the user sees the new page instead of a menu that stays open).
+  const closeMenu = useCallback(() => {
+    clearTimeout(closeTimer.current);
+    setActiveMenu(null);
+    setHoveredIdx(null);
+  }, []);
+
+  // Any click on a link inside the nav row or submenu panel closes the panel
+  const closeOnLinkClick = useCallback(
+    (e) => {
+      if (e.target.closest("a")) closeMenu();
+    },
+    [closeMenu],
+  );
+
+  // Safety net: whenever the route changes, close every open menu
+  useEffect(() => {
+    closeMenu();
+    setMobileOpen(false);
+    setMobileSubOpen(null);
+  }, [pathname, closeMenu]);
+
+  const solid = scrolled || activeMenu !== null;
+  // At the top of the page the header is transparent and its text/logo are
+  // white, sitting on the dark top-gradient below. Dark text/logo only kick in
+  // once the bar turns solid (scrolled or a submenu open) in light theme.
+  const lightSurface = mounted && solid && resolvedTheme === "light";
+
+  const logoSrc = lightSurface ? LOGO_BLACK : LOGO_WHITE;
+  const textClass = lightSurface
+    ? "text-black hover:text-black"
+    : "text-white hover:text-white";
+  const underlineClass = lightSurface ? "after:bg-black" : "after:bg-white";
+
+  return (
+    <>
+      {/* Backdrop dim/blur behind open submenu */}
+      <AnimatePresence>
+        {activeMenu !== null && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.25 }}
+            className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm"
+            onClick={() => setActiveMenu(null)}
+          />
+        )}
+      </AnimatePresence>
+
+      <header
+        lang="ar"
+        dir="rtl"
+        onMouseLeave={scheduleClose}
+        className={`fixed top-0 start-0 w-full z-50 transition-colors duration-500 ${
+          solid
+            ? lightSurface
+              ? "bg-white/90 backdrop-blur-md border-b border-black/10"
+              : "bg-black/80 backdrop-blur-md border-b border-white/10"
+            : "bg-linear-to-b from-black/80 via-black/55 via-70% to-transparent"
+        }`}
+      >
+        {/* Top row: lang | logo | theme toggle */}
+        <div className="relative flex items-center justify-between px-6 lg:px-12 py-8">
+          {/* Language switcher */}
+          <div className="relative hidden md:block">
+            <button
+              onClick={() => setLangOpen((v) => !v)}
+              className={`flex items-center gap-1.5 text-sm transition-colors ${textClass}`}
+            >
+              <Globe size={15} />
+              {LANGS.find((l) => l.code === lang)?.label}
+              <ChevronDown
+                size={14}
+                className={`transition-transform ${langOpen ? "rotate-180" : ""}`}
+              />
+            </button>
+            <AnimatePresence>
+              {langOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: -8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -8 }}
+                  transition={{ duration: 0.18 }}
+                  className="absolute start-0 mt-3 w-40 rounded-lg bg-white shadow-xl overflow-hidden"
+                >
+                  {LANGS.map((l) => (
+                    <Link
+                      key={l.code}
+                      href={localePath(pathname, l.code)}
+                      hrefLang={l.code}
+                      lang={l.code}
+                      onClick={() => setLangOpen(false)}
+                      className="flex w-full items-center justify-between px-4 py-2.5 text-sm text-gray-800 hover:bg-gray-50"
+                    >
+                      {l.label}
+                      {lang === l.code && <span className="text-xs">✓</span>}
+                    </Link>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
+          {/* Logo — centered, swaps black/white based on current header surface */}
+          <Link
+            href="/ar"
+            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+          >
+            <Image
+              src={logoSrc}
+              alt="Falcon Technologies KSA"
+              // Logo is 2400×417. Intrinsic size just above the largest display
+              // size (h-20 = 80px tall) so Next serves a ~640/1080px file, and
+              // so CSS changes both width and height (no aspect-ratio warning).
+              width={480}
+              height={83}
+              loading="eager"
+              className="h-8 w-auto object-contain transition-opacity duration-300 sm:h-12 md:h-20"
+            />
+          </Link>
+
+          {/* Theme toggle + mobile menu button */}
+          <div className="flex items-center gap-3 ms-auto">
+            <ThemeToggle onLightSurface={lightSurface} />
+            <button
+              onClick={() => setMobileOpen(true)}
+              className={`lg:hidden p-1 ${lightSurface ? "text-black" : "text-white"}`}
+              aria-label="Open menu"
+            >
+              <Menu size={26} />
+            </button>
+          </div>
+        </div>
+
+        {/* Main nav row */}
+        <nav
+          onClick={closeOnLinkClick}
+          className={`hidden lg:flex items-center justify-center gap-4 xl:gap-5 2xl:gap-9 border-t py-3 ${
+            lightSurface ? "border-black/5" : "border-white/5"
+          }`}
+        >
+          {navData.map((item, idx) => (
+            <div
+              key={item.label}
+              onMouseEnter={() => handleItemEnter(idx, !!item.submenu)}
+            >
+              <Link
+                href={item.href}
+                className={`relative whitespace-nowrap text-sm xl:text-lg font-medium tracking-wide transition-colors after:absolute after:start-0 after:-bottom-1 after:h-[1.5px] after:transition-all after:duration-300 ${textClass} ${underlineClass} ${
+                  hoveredIdx === idx ? "after:w-full" : "after:w-0"
+                }`}
+              >
+                {item.label}
+              </Link>
+            </div>
+          ))}
+        </nav>
+
+        {/* Submenu (mega menu) row */}
+        <AnimatePresence>
+          {activeMenu !== null && navData[activeMenu]?.submenu && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.25, ease: "easeOut" }}
+              onMouseEnter={() => openMenu(activeMenu)}
+              onClick={closeOnLinkClick}
+              className={`hidden lg:block border-t overflow-hidden ${
+                lightSurface
+                  ? "border-black/10 bg-white/70"
+                  : "border-white/10 bg-black/40"
+              }`}
+            >
+              {/* Up to 6 items sit on one centred row; longer menus
+                  (Industries) become a left-aligned grid, 5 per row
+                  (4 per row below 1280px). */}
+              <div
+                className={`px-12 py-6 ${
+                  navData[activeMenu].submenu.length > 6
+                    ? "mx-auto grid w-fit grid-cols-4 gap-x-8 gap-y-6 xl:grid-cols-5"
+                    : "flex justify-center gap-10"
+                }`}
+              >
+                {navData[activeMenu].submenu.map((sub) =>
+                  navData[activeMenu].variant === "cards" ? (
+                    <div key={sub.label} className="w-44">
+                      <Link href={sub.href} className="group block">
+                        <div className="relative h-28 w-full overflow-hidden rounded-lg bg-black/5">
+                          <Image
+                            src={sub.image}
+                            alt={sub.label}
+                            fill
+                            sizes="176px"
+                            className="object-cover transition-transform duration-500 group-hover:scale-110"
+                          />
+                        </div>
+                        <p className={`mt-2 text-sm font-medium ${textClass}`}>
+                          {sub.label}
+                        </p>
+                      </Link>
+
+                      {/* Sub-services under the card (Services menu) */}
+                      {sub.children && (
+                        <ul className="mt-2 space-y-1.5">
+                          {sub.children.map((child) => (
+                            <li key={child.href}>
+                              <Link
+                                href={child.href}
+                                className={`block text-xs leading-snug transition-opacity ${
+                                  lightSurface
+                                    ? "text-black/60 hover:text-black"
+                                    : "text-white/60 hover:text-white"
+                                }`}
+                              >
+                                {child.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  ) : (
+                    <Link
+                      key={sub.label}
+                      href={sub.href}
+                      className={`text-sm transition-colors ${textClass}`}
+                    >
+                      {sub.label}
+                    </Link>
+                  ),
+                )}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </header>
+
+      {/* Mobile drawer — follows the site theme directly (not scroll state) */}
+      <AnimatePresence>
+        {mobileOpen && (
+          <motion.div
+            initial={{ x: "-100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "-100%" }}
+            transition={{ type: "tween", duration: 0.3 }}
+            className="fixed inset-0 z-60 flex flex-col lg:hidden bg-white text-black dark:bg-black dark:text-white"
+          >
+            <div className="flex items-center justify-between px-6 py-4 border-b border-black/10 dark:border-white/10">
+              <Image
+                src={resolvedTheme === "light" ? LOGO_BLACK : LOGO_WHITE}
+                alt="Falcon Technologies KSA"
+                // displayed at h-7 (28px tall); same approach as the header logo
+                width={168}
+                height={29}
+                className="h-7 w-auto object-contain"
+              />
+              <div className="flex items-center gap-3">
+                <ThemeToggle onLightSurface={resolvedTheme === "light"} />
+                <button
+                  onClick={() => setMobileOpen(false)}
+                  aria-label="Close menu"
+                >
+                  <X size={26} />
+                </button>
+              </div>
+            </div>
+
+            <div className="flex-1 overflow-y-auto px-6 py-6 space-y-1">
+              {navData.map((item, idx) => (
+                <div
+                  key={item.label}
+                  className="border-b border-black/10 dark:border-white/10"
+                >
+                  <button
+                    onClick={() =>
+                      item.submenu
+                        ? setMobileSubOpen(mobileSubOpen === idx ? null : idx)
+                        : setMobileOpen(false)
+                    }
+                    className="flex w-full items-center justify-between py-4 text-start text-base font-medium"
+                  >
+                    <Link
+                      href={item.href}
+                      onClick={() => !item.submenu && setMobileOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                    {item.submenu && (
+                      <ChevronDown
+                        size={18}
+                        className={`transition-transform ${
+                          mobileSubOpen === idx ? "rotate-180" : ""
+                        }`}
+                      />
+                    )}
+                  </button>
+                  <AnimatePresence>
+                    {item.submenu && mobileSubOpen === idx && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="overflow-hidden ps-4 pb-3 space-y-3"
+                      >
+                        {item.submenu.map((sub) => (
+                          <Link
+                            key={sub.label}
+                            href={sub.href}
+                            onClick={() => setMobileOpen(false)}
+                            className="block text-sm text-black/60 dark:text-white/70 hover:text-black dark:hover:text-white"
+                          >
+                            {sub.label}
+                          </Link>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ))}
+            </div>
+
+            <div className="px-6 py-4 border-t border-black/10 dark:border-white/10 flex items-center gap-4 text-sm text-black/60 dark:text-white/70">
+              {LANGS.map((l) => (
+                <Link
+                  key={l.code}
+                  href={localePath(pathname, l.code)}
+                  hrefLang={l.code}
+                  lang={l.code}
+                  onClick={() => setMobileOpen(false)}
+                  className={
+                    lang === l.code ? "text-black dark:text-white" : ""
+                  }
+                >
+                  {l.label}
+                </Link>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
+  );
+}

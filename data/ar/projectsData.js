@@ -1,0 +1,112 @@
+// ARABIC (RTL) VERSION — generated from the English file of the same path.
+// Text is still the English placeholder: replace each English string with Arabic.
+// Layout is already right-to-left. Keep links starting with /ar.
+
+// data/projectsData.js
+// Placeholder project entries following the brief's card structure
+// (client, location, industry, scope, completion date). Replace image
+// paths and details with verified project data and photography.
+const projectsData = [
+  {
+    id: 1,
+    title: "50,000L FRP Water Storage Tanks",
+    category: "FRP Tanks",
+    client: "Major Industrial Facility",
+    location: "Dammam, Eastern Province",
+    industry: "Manufacturing",
+    scope: "Design, fabrication and installation of vertical FRP potable water storage tanks.",
+    completion: "2025",
+    image: "/assets/images/projects/project-frp-water-storage-tanks.png",
+  },
+  {
+    id: 2,
+    title: "Underground Diesel Storage System",
+    category: "Underground Tanks",
+    client: "Confidential — EPC Contractor",
+    location: "Jubail Industrial City",
+    industry: "Oil & Gas",
+    scope: "Underground diesel tank supply with associated fittings and installation support.",
+    completion: "2024",
+    image: "/assets/images/projects/project-underground-diesel-storage.png",
+  },
+  {
+    id: 3,
+    title: "Chemical-Resistant Tank Lining",
+    category: "Tank Lining",
+    client: "Major Petrochemical Client — Eastern Province",
+    location: "Eastern Province",
+    industry: "Petrochemical & Chemical",
+    scope: "FRP chemical-resistant lining and corrosion protection for process storage tanks.",
+    completion: "2024",
+    image: "/assets/images/projects/project-chemical-resistant-tank-lining.png",
+  },
+  {
+    id: 4,
+    title: "Storage Tank Thermal Insulation",
+    category: "Thermal Insulation",
+    client: "Industrial Plant Operator",
+    location: "Dammam Second Industrial City",
+    industry: "Manufacturing",
+    scope: "Insulation system for steel process tanks to reduce heat loss and temperature fluctuation.",
+    completion: "2023",
+    image: "/assets/images/projects/project-storage-tank-thermal-insulation.png",
+  },
+  {
+    id: 5,
+    title: "FRP Tank Crack Restoration",
+    category: "Tank Restoration",
+    client: "Water Utility Contractor",
+    location: "Al Khobar",
+    industry: "Water & Wastewater",
+    scope: "Structural reinforcement, crack rectification and nozzle restoration on FRP storage tanks.",
+    completion: "2023",
+    image: "/assets/images/projects/project-frp-tank-crack-restoration.png",
+  },
+  {
+    id: 6,
+    title: "Polyethylene Chemical Tank Installation",
+    category: "Polyethylene Tanks",
+    client: "Confidential — Chemical Processor",
+    location: "Jubail",
+    industry: "Petrochemical & Chemical",
+    scope: "Supply and installation of HDPE chemical storage tanks with secondary containment.",
+    completion: "2025",
+    image: "/assets/images/projects/project-polyethylene-chemical-tank-install.png",
+  },
+  {
+    id: 7,
+    title: "Chiller Installation & Commissioning",
+    category: "Chiller Installation & Maintenance",
+    client: "Commercial Facility Owner",
+    location: "Dammam",
+    industry: "Commercial & Industrial Buildings",
+    scope: "New chiller installation, mechanical piping support, commissioning and start-up assistance.",
+    completion: "2025",
+    image: "/assets/images/projects/project-chiller-installation-commissioning.png",
+  },
+  {
+    id: 8,
+    title: "Preventive Maintenance Program",
+    category: "Industrial Services",
+    client: "Manufacturing Facility",
+    location: "Dammam Third Industrial City",
+    industry: "Manufacturing",
+    scope: "Scheduled tank inspection, mechanical maintenance and industrial coating support.",
+    completion: "Ongoing",
+    image: "/assets/images/projects/project-preventive-maintenance-program.png",
+  },
+];
+
+export const projectCategories = [
+  "All",
+  "FRP Tanks",
+  "Polyethylene Tanks",
+  "Underground Tanks",
+  "Tank Restoration",
+  "Tank Lining",
+  "Thermal Insulation",
+  "Industrial Services",
+  "Chiller Installation & Maintenance",
+];
+
+export default projectsData;

@@ -5,9 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "i18n:export": "node scripts/i18n/export-ar.mjs",
+    "i18n:import": "node scripts/i18n/import-ar.mjs"
   },
   "dependencies": {
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
     "framer-motion": "^13.1.0",
     "lucide-react": "^1.31.0",
     "next": "16.3.0",
@@ -17,6 +20,7 @@
     "react-icons": "^5.7.0"
   },
   "devDependencies": {
+    "@babel/parser": "^7.28.4",
     "@tailwindcss/postcss": "^4",
     "babel-plugin-react-compiler": "1.0.0",
     "tailwindcss": "^4"
