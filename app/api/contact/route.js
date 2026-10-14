@@ -79,6 +79,7 @@ export async function POST(request) {
 
   const sent = await deliver({
     to: emailConfig.rfqTo,
+    cc: emailConfig.rfqCc,
     subject: `RFQ: ${data.need} — ${data.name}${data.company ? `, ${data.company}` : ""}`,
     replyTo: data.email,
     team,
