@@ -70,6 +70,7 @@ export async function POST(request) {
 
   const sent = await deliver({
     to: emailConfig.enquiryTo,
+    cc: emailConfig.enquiryCc,
     subject: `Website enquiry: ${data.subject || "General"} — ${data.name}`,
     replyTo: data.email,
     team,
