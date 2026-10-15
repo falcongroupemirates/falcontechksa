@@ -450,7 +450,7 @@ export default function ServicesSection() {
 
                     <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
                       <div>
-                        <span className="text-xs font-semibold uppercase tracking-[0.08em] text-neutral-400 dark:text-white/40">
+                        <span className="text-xs font-semibold uppercase tracking-[0.08em] text-neutral-500 dark:text-white/50">
                           مجالات التميّز
                         </span>
                         <div className="mt-3 flex flex-wrap gap-2">
@@ -465,7 +465,7 @@ export default function ServicesSection() {
                         </div>
                       </div>
                       <div>
-                        <span className="text-xs font-semibold uppercase tracking-[0.08em] text-neutral-400 dark:text-white/40">
+                        <span className="text-xs font-semibold uppercase tracking-[0.08em] text-neutral-500 dark:text-white/50">
                           التطبيقات
                         </span>
                         <div className="mt-3 flex flex-wrap gap-2">
@@ -481,7 +481,7 @@ export default function ServicesSection() {
                       </div>
                     </div>
 
-                    <p className="mt-6 max-w-lg text-xs leading-relaxed text-neutral-400 dark:text-white/35">
+                    <p className="mt-6 max-w-lg text-xs leading-relaxed text-neutral-500 dark:text-white/50">
                       {division.single.disclaimer}
                     </p>
 

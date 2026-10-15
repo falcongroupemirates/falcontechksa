@@ -231,7 +231,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   Storage built with materials suitable for potable contact.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -261,7 +261,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   Storage for non-potable utility and general-purpose water use.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -291,7 +291,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   Storage sized and fitted for industrial process water supply.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -322,7 +322,7 @@ export default function Page() {
                   Dedicated storage sized and fitted for fire protection
                   systems.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -352,7 +352,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   Storage for landscape and agricultural irrigation supply.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -463,7 +463,7 @@ export default function Page() {
           </h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Confirm volume and water type
               </p>
@@ -472,7 +472,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Choose material and layout
               </p>
@@ -482,7 +482,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Fabricate and inspect
               </p>
@@ -491,7 +491,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Support and hand over
               </p>
@@ -559,7 +559,7 @@ export default function Page() {
               </dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             A standard reference is not proof of third-party certification.
             Falcon states “designed and manufactured to” a standard only when it
             is backed by the controlled design and QA file; chemical,
@@ -626,7 +626,7 @@ export default function Page() {
               Interstitial monitoring (double-wall)
             </span>
           </div>
-          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             Nozzle size, material, reinforcement and orientation are set in the
             nozzle schedule for each tank. Accessories are fitted as the service
             requires.

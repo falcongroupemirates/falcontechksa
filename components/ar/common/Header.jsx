@@ -8,12 +8,11 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { useTheme } from "next-themes";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, Menu, X, Globe } from "lucide-react";
 import navData from "@/data/ar/navData";
-import { localeOf, localePath } from "@/lib/locale";
 import ThemeToggle from "@/components/ar/common/ThemeToggle";
+import { localeOf, localePath } from "@/lib/locale";
 
 const LANGS = [
   { code: "en", label: "English" },
@@ -24,8 +23,6 @@ const LOGO_BLACK = "/assets/logos/falcon-tech-ksa-black-logo.png";
 const LOGO_WHITE = "/assets/logos/falcon-tech-ksa-white-logo.png";
 
 export default function Header() {
-  const { resolvedTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   // activeMenu -> which submenu PANEL is shown (only ever set to an idx that has a submenu)
@@ -40,8 +37,6 @@ export default function Header() {
   const pathname = usePathname();
   // Current language comes from the URL (/ar/... = Arabic)
   const lang = localeOf(pathname);
-
-  useEffect(() => setMounted(true), []);
 
   // Solid bg once the hero has been scrolled past
   useEffect(() => {
@@ -105,16 +100,19 @@ export default function Header() {
   }, [pathname, closeMenu]);
 
   const solid = scrolled || activeMenu !== null;
-  // At the top of the page the header is transparent and its text/logo are
-  // white, sitting on the dark top-gradient below. Dark text/logo only kick in
-  // once the bar turns solid (scrolled or a submenu open) in light theme.
-  const lightSurface = mounted && solid && resolvedTheme === "light";
+  // At the top of every page the header is transparent with white text/logo
+  // over the dark hero. Once the bar turns solid (scrolled or a submenu open)
+  // it follows the theme: white bar + dark text in light mode, dark bar +
+  // white text in dark mode. Colours use Tailwind's dark: variant (no JS theme
+  // lookup), so there is no light/dark flash on load.
+  const themed = solid;
 
-  const logoSrc = lightSurface ? LOGO_BLACK : LOGO_WHITE;
-  const textClass = lightSurface
-    ? "text-black hover:text-black"
+  const textClass = themed
+    ? "text-black hover:text-black dark:text-white dark:hover:text-white"
     : "text-white hover:text-white";
-  const underlineClass = lightSurface ? "after:bg-black" : "after:bg-white";
+  const underlineClass = themed
+    ? "after:bg-black dark:after:bg-white"
+    : "after:bg-white";
 
   return (
     <>
@@ -138,9 +136,7 @@ export default function Header() {
         onMouseLeave={scheduleClose}
         className={`fixed top-0 start-0 w-full z-50 transition-colors duration-500 ${
           solid
-            ? lightSurface
-              ? "bg-white/90 backdrop-blur-md border-b border-black/10"
-              : "bg-black/80 backdrop-blur-md border-b border-white/10"
+            ? "bg-white/90 backdrop-blur-md border-b border-black/10 dark:bg-black/80 dark:border-white/10"
             : "bg-linear-to-b from-black/80 via-black/55 via-70% to-transparent"
         }`}
       >
@@ -166,7 +162,7 @@ export default function Header() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -8 }}
                   transition={{ duration: 0.18 }}
-                  className="absolute start-0 mt-3 w-40 rounded-lg bg-white shadow-xl overflow-hidden"
+                  className="absolute start-0 mt-3 w-40 overflow-hidden rounded-lg bg-white shadow-xl ring-1 ring-black/5 dark:bg-neutral-900 dark:ring-white/10"
                 >
                   {LANGS.map((l) => (
                     <Link
@@ -175,7 +171,7 @@ export default function Header() {
                       hrefLang={l.code}
                       lang={l.code}
                       onClick={() => setLangOpen(false)}
-                      className="flex w-full items-center justify-between px-4 py-2.5 text-sm text-gray-800 hover:bg-gray-50"
+                      className="flex w-full items-center justify-between px-4 py-2.5 text-sm text-neutral-800 hover:bg-neutral-50 dark:text-white/85 dark:hover:bg-white/5"
                     >
                       {l.label}
                       {lang === l.code && <span className="text-xs">✓</span>}
@@ -186,13 +182,13 @@ export default function Header() {
             </AnimatePresence>
           </div>
 
-          {/* Logo — centered, swaps black/white based on current header surface */}
+          {/* Logo — centered; black on light surfaces, white on dark ones */}
           <Link
             href="/ar"
             className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
           >
             <Image
-              src={logoSrc}
+              src={LOGO_WHITE}
               alt="فالكون تكنولوجيز السعودية"
               // Logo is 2400×417. Intrinsic size just above the largest display
               // size (h-20 = 80px tall) so Next serves a ~640/1080px file, and
@@ -200,16 +196,26 @@ export default function Header() {
               width={480}
               height={83}
               loading="eager"
-              className="h-8 w-auto object-contain transition-opacity duration-300 sm:h-12 md:h-20"
+              className={`h-8 w-auto object-contain sm:h-12 md:h-20 ${themed ? "hidden dark:block" : ""}`}
             />
+            {themed && (
+              <Image
+                src={LOGO_BLACK}
+                alt="فالكون تكنولوجيز السعودية"
+                width={480}
+                height={83}
+                loading="eager"
+                className="h-8 w-auto object-contain sm:h-12 md:h-20 dark:hidden"
+              />
+            )}
           </Link>
 
           {/* Theme toggle + mobile menu button */}
           <div className="flex items-center gap-3 ms-auto">
-            <ThemeToggle onLightSurface={lightSurface} />
+            <ThemeToggle onLightSurface={themed} />
             <button
               onClick={() => setMobileOpen(true)}
-              className={`lg:hidden p-1 ${lightSurface ? "text-black" : "text-white"}`}
+              className={`lg:hidden p-1 ${themed ? "text-black dark:text-white" : "text-white"}`}
               aria-label="فتح القائمة"
             >
               <Menu size={26} />
@@ -221,7 +227,7 @@ export default function Header() {
         <nav
           onClick={closeOnLinkClick}
           className={`hidden lg:flex items-center justify-center gap-4 xl:gap-5 2xl:gap-9 border-t py-3 ${
-            lightSurface ? "border-black/5" : "border-white/5"
+            themed ? "border-black/5 dark:border-white/5" : "border-white/5"
           }`}
         >
           {navData.map((item, idx) => (
@@ -252,9 +258,7 @@ export default function Header() {
               onMouseEnter={() => openMenu(activeMenu)}
               onClick={closeOnLinkClick}
               className={`hidden lg:block border-t overflow-hidden ${
-                lightSurface
-                  ? "border-black/10 bg-white/70"
-                  : "border-white/10 bg-black/40"
+                "border-black/10 bg-white/70 dark:border-white/10 dark:bg-black/40"
               }`}
             >
               {/* Up to 6 items sit on one centred row; longer menus
@@ -293,9 +297,7 @@ export default function Header() {
                               <Link
                                 href={child.href}
                                 className={`block text-xs leading-snug transition-opacity ${
-                                  lightSurface
-                                    ? "text-black/60 hover:text-black"
-                                    : "text-white/60 hover:text-white"
+                                  "text-black/60 hover:text-black dark:text-white/60 dark:hover:text-white"
                                 }`}
                               >
                                 {child.label}
@@ -333,15 +335,22 @@ export default function Header() {
           >
             <div className="flex items-center justify-between px-6 py-4 border-b border-black/10 dark:border-white/10">
               <Image
-                src={resolvedTheme === "light" ? LOGO_BLACK : LOGO_WHITE}
+                src={LOGO_BLACK}
                 alt="فالكون تكنولوجيز السعودية"
                 // displayed at h-7 (28px tall); same approach as the header logo
                 width={168}
                 height={29}
-                className="h-7 w-auto object-contain"
+                className="h-7 w-auto object-contain dark:hidden"
+              />
+              <Image
+                src={LOGO_WHITE}
+                alt="فالكون تكنولوجيز السعودية"
+                width={168}
+                height={29}
+                className="hidden h-7 w-auto object-contain dark:block"
               />
               <div className="flex items-center gap-3">
-                <ThemeToggle onLightSurface={resolvedTheme === "light"} />
+                <ThemeToggle onLightSurface />
                 <button
                   onClick={() => setMobileOpen(false)}
                   aria-label="إغلاق القائمة"

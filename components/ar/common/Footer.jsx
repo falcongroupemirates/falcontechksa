@@ -314,7 +314,7 @@ export default function Footer() {
 
               <ContactItem icon={Clock3} last>
                 <div>
-                  <div>الاثنين - الجمعة</div>
+                  <div>السبت - الخميس</div>
                   <div className="mt-1">08:00 ص - 06:00 م</div>
                 </div>
               </ContactItem>

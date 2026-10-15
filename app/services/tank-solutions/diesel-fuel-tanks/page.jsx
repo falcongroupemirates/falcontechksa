@@ -125,7 +125,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Generator Diesel Tank</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Sized and fitted for standby generator fuel supply.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -139,7 +139,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Underground Diesel Tank</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Buried fuel storage engineered for soil and groundwater conditions.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -153,7 +153,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Aboveground Fuel Tank</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Surface-mounted fuel storage for straightforward access and maintenance.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -167,7 +167,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Industrial Fuel Storage Tank</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Larger-volume fuel storage for plant and fleet operations.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -228,22 +228,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">From Duty Review to Delivery</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Confirm capacity and duty</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Fuel type, volume, location and requirements.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Engineer and specify</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Material, fittings and drawings agreed before fabrication.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Fabricate and inspect</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Built and inspected to the approved drawing.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Test and deliver</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Leak or hydrostatic testing as applicable, then documented delivery.</p>
             </li>
@@ -262,7 +262,7 @@ export default function Page() {
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">20,000 L — Ø2,500 mm × 4,350 mm long; 30,000 L — Ø2,500 mm × 6,400 mm long.</dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">Indicative reference configurations from prior project and design context — not a committed catalogue range or current availability. Final capacity and dimensions are confirmed against the approved drawing and QA file for each project.</p>
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">Indicative reference configurations from prior project and design context — not a committed catalogue range or current availability. Final capacity and dimensions are confirmed against the approved drawing and QA file for each project.</p>
         </div>
       </section>
 
@@ -291,7 +291,7 @@ export default function Page() {
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Venting of atmospheric and low-pressure petroleum storage tanks — confirm current edition and project basis.</dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">A standard reference is not proof of third-party certification. Falcon states “designed and manufactured to” a standard only when it is backed by the controlled design and QA file; chemical, potable-water and underground suitability require separate product-specific evidence. Saudi/GCC approvals (SASO/SABER, Civil Defense, environmental, municipal, utility and owner approvals) are project- and product-specific.</p>
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">A standard reference is not proof of third-party certification. Falcon states “designed and manufactured to” a standard only when it is backed by the controlled design and QA file; chemical, potable-water and underground suitability require separate product-specific evidence. Saudi/GCC approvals (SASO/SABER, Civil Defense, environmental, municipal, utility and owner approvals) are project- and product-specific.</p>
         </div>
       </section>
 
@@ -316,7 +316,7 @@ export default function Page() {
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Grounding / instrumentation</span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Interstitial monitoring (double-wall)</span>
           </div>
-          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">Nozzle size, material, reinforcement and orientation are set in the nozzle schedule for each tank. Accessories are fitted as the service requires.</p>
+          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-500 dark:text-white/50">Nozzle size, material, reinforcement and orientation are set in the nozzle schedule for each tank. Accessories are fitted as the service requires.</p>
         </div>
       </section>
 

@@ -62,7 +62,7 @@ export default function IndustriesGrid() {
                 transition={{ duration: 0.5, delay: i * 0.05 }}
                 className="flex flex-col items-center gap-3 rounded-sm border border-neutral-200 bg-white p-6 text-center transition-colors hover:border-brand/40 dark:border-white/10 dark:bg-neutral-900"
               >
-                <Icon size={26} strokeWidth={1.4} className="text-brand" />
+                <Icon size={26} strokeWidth={1.4} className="text-brand dark:text-brand-light" />
                 <p className="text-sm font-medium leading-snug text-neutral-800 dark:text-white/85">
                   {ind.title}
                 </p>

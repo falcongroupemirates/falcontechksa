@@ -82,7 +82,7 @@ export default function ProductsSection() {
           </div>
           <Link
             href="/ar/services/tank-solutions"
-            className="inline-block border-b border-brand text-sm font-semibold text-brand transition-colors hover:border-brand-dark hover:text-brand-dark"
+            className="inline-block border-b border-brand text-sm font-semibold text-brand dark:text-brand-light transition-colors hover:border-brand-dark hover:text-brand-dark"
           >
             عرض كل حلول الخزانات
           </Link>

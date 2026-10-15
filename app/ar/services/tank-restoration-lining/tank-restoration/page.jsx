@@ -134,7 +134,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">ترميم خزانات FRP</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">ترميم الشقوق والتسربات والترميم الإنشائي لخزانات الألياف الزجاجية FRP/GRP.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -148,7 +148,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">ترميم الخزانات الفولاذية</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">ترميم الخزانات الفولاذية ضمن قدرات فالكون في التصنيع والطلاء.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -162,7 +162,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">ترميم خزانات البولي إيثيلين</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">ترميم خزانات البولي إيثيلين متى كان ذلك ممكنًا من الناحية الفنية.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -218,7 +218,7 @@ export default function Page() {
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">ASTM D3299</span>
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">ASTM D4097</span>
             </div>
-            <p className="mt-3 text-xs leading-relaxed text-neutral-400 dark:text-white/35">
+            <p className="mt-3 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
               تُطبق حسب ما ينطبق على المنتج والمعيار الحاكم ومواصفات المشروع.
             </p>
             </div>
@@ -231,22 +231,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">كيف نرمم الخزان</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الفحص والتقييم</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">فحص بصري وأبعادي وفحص للسماكة لتحديد السبب والمدى.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">اختيار طريقة الإصلاح</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">الاتفاق على خطة الإصلاح والتدعيم قبل بدء العمل.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">التحضير والإصلاح</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تحضير السطح، ثم إصلاح الطبقات وتدعيمها.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الاختبار والتسليم</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">اختبار التسرب أو الاختبار الهيدروستاتيكي وفحوصات الطبقات حسب الاقتضاء.</p>
             </li>

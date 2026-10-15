@@ -92,7 +92,7 @@ export default function IndustriesList() {
                 >
                   <div className="flex items-center justify-between">
                     <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand/10">
-                      <Icon size={22} strokeWidth={1.5} className="text-brand" />
+                      <Icon size={22} strokeWidth={1.5} className="text-brand dark:text-brand-light" />
                     </div>
                     <ArrowUpLeft
                       size={17}

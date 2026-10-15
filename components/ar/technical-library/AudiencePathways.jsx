@@ -47,9 +47,9 @@ export default function AudiencePathways() {
               className="flex flex-col rounded-sm border border-neutral-200 p-7 dark:border-white/10 sm:p-9"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand/10">
-                <Icon size={22} strokeWidth={1.4} className="text-brand" />
+                <Icon size={22} strokeWidth={1.4} className="text-brand dark:text-brand-light" />
               </div>
-              <span className="mt-5 text-xs font-semibold uppercase tracking-[0.12em] text-neutral-400 dark:text-white/40">
+              <span className="mt-5 text-xs font-semibold uppercase tracking-[0.12em] text-neutral-500 dark:text-white/50">
                 {p.audience}
               </span>
               <h3 className="mt-2 text-xl font-normal tracking-[-0.02em] text-neutral-900 dark:text-white sm:text-2xl">
@@ -60,7 +60,7 @@ export default function AudiencePathways() {
               </p>
               <Link
                 href={p.cta.href}
-                className="group mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand transition-colors hover:text-brand-dark"
+                className="group mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand dark:text-brand-light transition-colors hover:text-brand-dark"
               >
                 {p.cta.label}
                 <ArrowUpLeft

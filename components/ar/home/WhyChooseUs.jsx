@@ -73,13 +73,13 @@ export default function WhyChooseUs() {
           {/* floating stat card */}
           <div className="absolute bottom-6 start-6 end-6 flex items-center gap-4 rounded-sm bg-white/95 p-5 backdrop-blur dark:bg-neutral-900/95 sm:end-auto sm:w-72">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-brand/10">
-              <ShieldCheck size={22} className="text-brand" />
+              <ShieldCheck size={22} className="text-brand dark:text-brand-light" />
             </div>
             <div>
               <p className="text-sm font-semibold text-neutral-900 dark:text-white">
                 جودة موثّقة
               </p>
-              <p className="text-xs text-neutral-500 dark:text-white/50">
+              <p className="text-xs text-neutral-600 dark:text-white/50">
                 قابل للتتبّع وفق معايير ASTM وISO وSASO
               </p>
             </div>
@@ -126,7 +126,7 @@ export default function WhyChooseUs() {
                   className="flex gap-4"
                 >
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand/10">
-                    <Icon size={20} className="text-brand" />
+                    <Icon size={20} className="text-brand dark:text-brand-light" />
                   </div>
                   <div>
                     <h3 className="text-base font-semibold text-neutral-900 dark:text-white">

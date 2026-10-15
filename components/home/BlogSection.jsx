@@ -144,7 +144,7 @@ export default function BlogSection() {
 
                 {/* Content */}
                 <div className="pt-5">
-                  <div className="flex items-center gap-2 text-xs text-neutral-400 dark:text-white/40">
+                  <div className="flex items-center gap-2 text-xs text-neutral-500 dark:text-white/50">
                     <CalendarDays size={14} strokeWidth={1.5} />
                     <span>{post.date}</span>
                   </div>

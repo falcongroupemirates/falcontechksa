@@ -126,7 +126,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">FRP Tank Restoration</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Crack, leak and structural restoration for FRP/GRP tanks.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -140,7 +140,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Steel Tank Restoration</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Restoration of steel tanks within Falcon's fabrication and coating capability.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -154,7 +154,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Polyethylene Tank Restoration</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Restoration of polyethylene tanks where technically feasible.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -210,7 +210,7 @@ export default function Page() {
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">ASTM D3299</span>
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">ASTM D4097</span>
             </div>
-            <p className="mt-3 text-xs leading-relaxed text-neutral-400 dark:text-white/35">
+            <p className="mt-3 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
               Applied as applicable to the product, governing standard and project specification.
             </p>
             </div>
@@ -223,22 +223,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">How We Restore a Tank</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Inspect and assess</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Visual, dimensional and thickness inspection to find cause and extent.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Select the repair method</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Repair and reinforcement scheme agreed before work starts.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Prepare and repair</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Surface preparation, then laminate repair and reinforcement.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Test and hand over</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Leak or hydrostatic testing and laminate checks as applicable.</p>
             </li>

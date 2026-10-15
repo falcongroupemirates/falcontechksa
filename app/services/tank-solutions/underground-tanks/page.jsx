@@ -231,7 +231,7 @@ export default function Page() {
                   Corrosion-resistant buried storage, a common choice for
                   underground duty.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -262,7 +262,7 @@ export default function Page() {
                   Buried storage for smaller volumes where polyethylene suits
                   the duty.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -293,7 +293,7 @@ export default function Page() {
                   Buried steel storage, typically coated or lined for corrosion
                   protection.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -402,7 +402,7 @@ export default function Page() {
           </h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Review site and loads
               </p>
@@ -411,7 +411,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Design anchoring and foundation
               </p>
@@ -420,7 +420,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Fabricate and inspect
               </p>
@@ -429,7 +429,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Support installation
               </p>
@@ -462,13 +462,13 @@ export default function Page() {
               </dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             Indicative reference configurations from prior project and design
             context — not a committed catalogue range or current availability.
             Final capacity and dimensions are confirmed against the approved
             drawing and QA file for each project.
           </p>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             These references do not define the capacity range for other
             underground materials or services.
           </p>
@@ -509,7 +509,7 @@ export default function Page() {
               </dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             A standard reference is not proof of third-party certification.
             Falcon states “designed and manufactured to” a standard only when it
             is backed by the controlled design and QA file; chemical,
@@ -576,7 +576,7 @@ export default function Page() {
               Interstitial monitoring (double-wall)
             </span>
           </div>
-          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             Nozzle size, material, reinforcement and orientation are set in the
             nozzle schedule for each tank. Accessories are fitted as the service
             requires.

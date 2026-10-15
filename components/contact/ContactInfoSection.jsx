@@ -25,7 +25,7 @@ const items = [
   {
     icon: Clock3,
     label: "Working Hours",
-    value: "Monday – Friday, 08:00 AM – 06:00 PM",
+    value: "Saturday – Thursday, 08:00 AM – 06:00 PM",
   },
 ];
 
@@ -37,10 +37,10 @@ export default function ContactInfoSection() {
         const content = (
           <div className="flex items-start gap-4 rounded-sm border border-neutral-200 bg-white p-5 transition-colors hover:border-brand/40 dark:border-white/10 dark:bg-neutral-900">
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand/10">
-              <Icon size={19} className="text-brand" />
+              <Icon size={19} className="text-brand dark:text-brand-light" />
             </div>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-neutral-400 dark:text-white/40">
+              <p className="text-xs font-semibold uppercase tracking-widest text-neutral-500 dark:text-white/50">
                 {item.label}
               </p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-800 dark:text-white/85">

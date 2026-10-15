@@ -164,22 +164,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">How We Apply an FRP Lining</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Assess the substrate</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Condition, defects and moisture of the steel or concrete.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Prepare the surface</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Cleaning, profiling and repair to the system requirement.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Apply the lining</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Laminate built up to the specified thickness.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Inspect and test</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Thickness, hardness and holiday testing as applicable.</p>
             </li>

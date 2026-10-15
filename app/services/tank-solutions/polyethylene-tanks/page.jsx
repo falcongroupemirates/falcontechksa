@@ -125,7 +125,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Vertical PE Tank</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">The standard rotomolded polyethylene tank shape for water and chemical storage.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -139,7 +139,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Horizontal PE Tank</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">A lower-profile rotomolded tank for restricted-height installations or skid mounting.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -153,7 +153,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Underground PE Tank</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Buried polyethylene storage for smaller water and chemical volumes.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -167,7 +167,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Multi-Layer Rotomolded PE Tank</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">A multi-layer construction for applications needing extra barrier or UV protection.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -229,22 +229,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">From Enquiry to Supply</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Confirm liquid and capacity</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">What is stored, how much, at what temperature.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Check compatibility</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Polyethylene suitability confirmed, or an alternative material proposed.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Select model and fittings</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Orientation, outlets and accessories matched to the installation.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Supply and support</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Delivery with installation guidance and after-supply support.</p>
             </li>
@@ -267,7 +267,7 @@ export default function Page() {
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">15,000 L and 32,000 L references.</dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">Indicative reference configurations from prior project and design context — not a committed catalogue range or current availability. Final capacity and dimensions are confirmed against the approved drawing and QA file for each project.</p>
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">Indicative reference configurations from prior project and design context — not a committed catalogue range or current availability. Final capacity and dimensions are confirmed against the approved drawing and QA file for each project.</p>
         </div>
       </section>
 
@@ -284,7 +284,7 @@ export default function Page() {
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">Health-effects criteria for materials in contact with drinking water — product-specific certification confirmed separately.</dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">A standard reference is not proof of third-party certification. Falcon states “designed and manufactured to” a standard only when it is backed by the controlled design and QA file; chemical, potable-water and underground suitability require separate product-specific evidence. Saudi/GCC approvals (SASO/SABER, Civil Defense, environmental, municipal, utility and owner approvals) are project- and product-specific.</p>
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">A standard reference is not proof of third-party certification. Falcon states “designed and manufactured to” a standard only when it is backed by the controlled design and QA file; chemical, potable-water and underground suitability require separate product-specific evidence. Saudi/GCC approvals (SASO/SABER, Civil Defense, environmental, municipal, utility and owner approvals) are project- and product-specific.</p>
         </div>
       </section>
 
@@ -309,7 +309,7 @@ export default function Page() {
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Grounding / instrumentation</span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">Interstitial monitoring (double-wall)</span>
           </div>
-          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">Nozzle size, material, reinforcement and orientation are set in the nozzle schedule for each tank. Accessories are fitted as the service requires.</p>
+          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-500 dark:text-white/50">Nozzle size, material, reinforcement and orientation are set in the nozzle schedule for each tank. Accessories are fitted as the service requires.</p>
         </div>
       </section>
 

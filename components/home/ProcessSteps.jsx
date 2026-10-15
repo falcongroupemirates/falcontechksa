@@ -74,9 +74,9 @@ export default function ProcessSteps() {
                 className="relative flex flex-col items-center text-center"
               >
                 <div className="relative z-10 flex h-20 w-20 items-center justify-center rounded-full border-2 border-brand bg-white dark:bg-neutral-950">
-                  <Icon size={28} strokeWidth={1.5} className="text-brand" />
+                  <Icon size={28} strokeWidth={1.5} className="text-brand dark:text-brand-light" />
                 </div>
-                <span className="mt-5 text-xs font-semibold uppercase tracking-[0.15em] text-brand">
+                <span className="mt-5 text-xs font-semibold uppercase tracking-[0.15em] text-brand dark:text-brand-light">
                   Step {step.number}
                 </span>
                 <h3 className="mt-2 text-lg font-semibold text-neutral-900 dark:text-white">

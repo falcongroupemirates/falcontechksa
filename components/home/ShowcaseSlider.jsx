@@ -22,7 +22,7 @@ function RevealMask({ children, delay = 0, as: Tag = "div", className = "" }) {
         animate={{ scaleX: 0 }}
         transition={{ duration: 0.5, delay, ease: [0.77, 0, 0.18, 1] }}
         style={{ originX: 1 }}
-        className="absolute inset-0 bg-neutral-100"
+        className="absolute inset-0 bg-neutral-100 dark:bg-neutral-900"
       />
     </Tag>
   );
@@ -53,7 +53,7 @@ export default function ShowcaseSlider() {
     <section
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
-      className="relative h-screen min-h-144 w-full overflow-hidden bg-neutral-100"
+      className="relative h-screen min-h-144 w-full overflow-hidden bg-neutral-100 dark:bg-neutral-900"
     >
       {/* ---------- Background photo, desaturated, with a left-to-right
            wipe curtain that reveals each incoming slide ---------- */}
@@ -76,7 +76,7 @@ export default function ShowcaseSlider() {
             />
             {/* fade the image into the page background on the left so text
                 stays readable, matching the reference's soft left edge */}
-            <div className="absolute inset-0 bg-linear-to-r from-neutral-100 via-neutral-100/40 to-transparent lg:via-neutral-100/10" />
+            <div className="absolute inset-0 bg-linear-to-r from-neutral-100 via-neutral-100/40 to-transparent lg:via-neutral-100/10 dark:from-neutral-900 dark:via-neutral-900/40 lg:dark:via-neutral-900/10" />
           </motion.div>
         </AnimatePresence>
 
@@ -87,7 +87,7 @@ export default function ShowcaseSlider() {
           animate={{ scaleX: 0 }}
           transition={{ duration: 0.65, ease: [0.77, 0, 0.18, 1] }}
           style={{ originX: 0 }}
-          className="absolute inset-0 z-10 bg-neutral-100"
+          className="absolute inset-0 z-10 bg-neutral-100 dark:bg-neutral-900"
         />
       </div>
 
@@ -152,21 +152,21 @@ export default function ShowcaseSlider() {
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.15 }}
-              className="absolute left-9 top-10 h-2.5 w-2.5 bg-neutral-900"
+              className="absolute left-9 top-10 h-2.5 w-2.5 bg-neutral-900 dark:bg-white"
             />
             <motion.span
               key={`dot2-${slide.id}`}
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.2 }}
-              className="absolute -right-32 top-10 hidden h-2.5 w-2.5 bg-neutral-900 lg:block"
+              className="absolute -right-32 top-10 hidden h-2.5 w-2.5 bg-neutral-900 lg:block dark:bg-white"
             />
             <motion.span
               key={`dot3-${slide.id}`}
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.25 }}
-              className="absolute -right-10 bottom-20 hidden h-2.5 w-2.5 bg-neutral-900 lg:block"
+              className="absolute -right-10 bottom-20 hidden h-2.5 w-2.5 bg-neutral-900 lg:block dark:bg-white"
             />
 
             {/* text content */}
@@ -175,7 +175,7 @@ export default function ShowcaseSlider() {
                 <RevealMask
                   as="h2"
                   delay={0.55}
-                  className="text-3xl font-extrabold uppercase leading-[1.15] text-neutral-900 sm:text-3xl lg:text-4xl"
+                  className="text-3xl font-extrabold uppercase leading-[1.15] text-neutral-900 sm:text-3xl dark:text-white lg:text-4xl"
                 >
                   {slide.heading.map((line) => (
                     <span key={line} className="block">
@@ -197,11 +197,11 @@ export default function ShowcaseSlider() {
                   className="relative mt-8 inline-block"
                 >
                   {/* small corner brackets decorating the button, top-left + bottom-right */}
-                  <span className="pointer-events-none absolute -left-2 -top-2 h-3 w-3 border-l-2 border-t-2 border-neutral-900" />
-                  <span className="pointer-events-none absolute -bottom-2 -right-2 h-3 w-3 border-b-2 border-r-2 border-neutral-900" />
+                  <span className="pointer-events-none absolute -left-2 -top-2 h-3 w-3 border-l-2 border-t-2 border-neutral-900 dark:border-white" />
+                  <span className="pointer-events-none absolute -bottom-2 -right-2 h-3 w-3 border-b-2 border-r-2 border-neutral-900 dark:border-white" />
                   <Link
                     href={slide.ctaHref}
-                    className="inline-block bg-neutral-900 px-7 py-3 text-xs font-semibold uppercase tracking-[0.15em] text-white transition-colors hover:bg-red-600"
+                    className="inline-block bg-neutral-900 px-7 py-3 text-xs font-semibold uppercase tracking-[0.15em] text-white transition-colors hover:bg-red-600 dark:bg-white dark:text-neutral-900 dark:hover:bg-red-600 dark:hover:text-white"
                   >
                     {slide.ctaLabel}
                   </Link>

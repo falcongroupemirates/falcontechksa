@@ -172,22 +172,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">كيف نعزل المنشأة ضد الماء</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">مسح التسربات</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تحديد مواقع التسربات والشقوق ومسارات الرطوبة.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تحضير السطح الأساسي</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">معالجة الشقوق والفواصل، ثم تحضير السطح.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تطبيق العزل المائي</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تطبيق الغشاء أو الطلاء وفق المواصفات.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الاختبار والتسليم</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">اختبار الثقوب والتسرب حسب الاقتضاء.</p>
             </li>

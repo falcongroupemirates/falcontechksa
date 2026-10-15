@@ -34,7 +34,7 @@ export default function ContactUs() {
               below. Looking for a formal quotation instead? Use{" "}
               <a
                 href="/request-a-quote"
-                className="text-brand underline underline-offset-2 hover:text-brand-dark"
+                className="text-brand dark:text-brand-light underline underline-offset-2 hover:text-brand-dark"
               >
                 Request a Quote
               </a>

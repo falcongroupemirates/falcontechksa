@@ -72,7 +72,7 @@ export default function Hero() {
            plain stacked layout instead, see the dark overlay further down) ---------- */}
       <div className="pointer-events-none absolute inset-0 hidden lg:block">
         <div
-          className="absolute inset-0 bg-white/90"
+          className="absolute inset-0 bg-white/90 dark:bg-neutral-950/90"
           style={{ clipPath: CLIP.whiteHex }}
         />
         <div
@@ -108,12 +108,12 @@ export default function Hero() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             className="max-w-lg"
           >
-            <p className="mb-4 flex items-center gap-2 text-sm font-semibold text-red-500 lg:text-red-600">
-              <span className="h-0.5 w-6 bg-red-500 lg:bg-red-600" />
+            <p className="mb-4 flex items-center gap-2 text-sm font-semibold text-red-500 lg:text-red-600 lg:dark:text-red-500">
+              <span className="h-0.5 w-6 bg-red-500 lg:bg-red-600 lg:dark:bg-red-500" />
               {slide.eyebrow}
             </p>
 
-            <h1 className="text-3xl font-bold leading-[1.15] text-white sm:text-4xl lg:text-[2.75rem] lg:text-neutral-900">
+            <h1 className="text-3xl font-bold leading-[1.15] text-white sm:text-4xl lg:text-[2.75rem] lg:text-neutral-900 lg:dark:text-white">
               {slide.heading.map((line) => (
                 <span key={line} className="block">
                   {line}
@@ -121,7 +121,7 @@ export default function Hero() {
               ))}
             </h1>
 
-            <p className="mt-5 text-base leading-relaxed text-white/85 lg:text-neutral-600">
+            <p className="mt-5 text-base leading-relaxed text-white/85 lg:text-neutral-600 lg:dark:text-white/70">
               {slide.description}
             </p>
 
@@ -155,7 +155,7 @@ export default function Hero() {
         <button
           onClick={next}
           aria-label="Next slide"
-          className="flex h-11 w-11 skew-x-12 items-center justify-center rounded-sm bg-white text-neutral-900 transition-colors hover:bg-red-600 hover:text-white"
+          className="flex h-11 w-11 skew-x-12 items-center justify-center rounded-sm bg-white text-neutral-900 transition-colors hover:bg-red-600 hover:text-white dark:bg-neutral-900 dark:text-white dark:ring-1 dark:ring-white/15 dark:hover:bg-red-600 dark:hover:ring-red-600"
         >
           <ArrowDownRight size={18} />
         </button>
@@ -172,7 +172,7 @@ export default function Hero() {
         <button
           onClick={next}
           aria-label="Next slide"
-          className="flex h-10 w-10 items-center justify-center rounded-sm bg-white text-neutral-900"
+          className="flex h-10 w-10 items-center justify-center rounded-sm bg-white text-neutral-900 dark:bg-neutral-900 dark:text-white dark:ring-1 dark:ring-white/15"
         >
           <ArrowDownRight size={16} />
         </button>

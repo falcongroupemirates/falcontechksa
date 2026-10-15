@@ -79,7 +79,7 @@ export default function ProductsSection() {
           </div>
           <Link
             href="/services/tank-solutions"
-            className="inline-block border-b border-brand text-sm font-semibold text-brand transition-colors hover:border-brand-dark hover:text-brand-dark"
+            className="inline-block border-b border-brand text-sm font-semibold text-brand dark:text-brand-light transition-colors hover:border-brand-dark hover:text-brand-dark"
           >
             View all tank solutions
           </Link>

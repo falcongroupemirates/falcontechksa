@@ -75,7 +75,7 @@ export default function ProjectsGallery() {
                     <p className="mt-1 text-xs text-neutral-500 dark:text-white/45">
                       {p.client}
                     </p>
-                    <div className="mt-4 flex items-center gap-4 text-xs text-neutral-400 dark:text-white/40">
+                    <div className="mt-4 flex items-center gap-4 text-xs text-neutral-500 dark:text-white/50">
                       <span className="flex items-center gap-1">
                         <MapPin size={12} /> {p.location}
                       </span>
@@ -132,7 +132,7 @@ export default function ProjectsGallery() {
                 />
               </div>
               <div className="p-6 sm:p-8">
-                <span className="text-xs font-semibold uppercase tracking-widest text-brand">
+                <span className="text-xs font-semibold uppercase tracking-widest text-brand dark:text-brand-light">
                   {selected.category}
                 </span>
                 <h3 className="mt-2 text-2xl font-normal tracking-[-0.02em] text-neutral-900 dark:text-white">
@@ -175,7 +175,7 @@ export default function ProjectsGallery() {
 function Detail({ icon: Icon, label, value }) {
   return (
     <div>
-      <dt className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.08em] text-neutral-400 dark:text-white/40">
+      <dt className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.08em] text-neutral-500 dark:text-white/50">
         <Icon size={13} /> {label}
       </dt>
       <dd className="mt-1 text-neutral-800 dark:text-white/85">{value}</dd>

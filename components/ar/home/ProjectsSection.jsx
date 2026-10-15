@@ -73,7 +73,7 @@ export default function ProjectsSection() {
           className="text-center"
         >
           {/* EYEBROW */}
-          <div className=" text-[11px] font-medium uppercase tracking-[0.18em] text-brand sm:text-[12px] "></div>
+          <div className=" text-[11px] font-medium uppercase tracking-[0.18em] text-brand dark:text-brand-light sm:text-[12px] "></div>
           {/* MAIN HEADING */}
           {/* <h2 className=" mt-4 text-4xl font-normal leading-[1.08] tracking-[-0.045em] text-[#242424] sm:text-2xl lg:text-6xl ">
             Explore Recent Projects
@@ -107,7 +107,7 @@ export default function ProjectsSection() {
                     </div>
 
                     <div
-                      className={` min-w-0 pe-5 text-5xl font-medium leading-tight tracking-tight transition-colors duration-300 sm:text-4xl ${isActive ? "text-brand" : "text-[#252525] group-hover:text-brand"} `}
+                      className={` min-w-0 pe-5 text-5xl font-medium leading-tight tracking-tight transition-colors duration-300 sm:text-4xl ${isActive ? "text-brand dark:text-brand-light" : "text-[#252525] group-hover:text-brand"} `}
                     >
                       {item.title}
                     </div>
@@ -118,7 +118,7 @@ export default function ProjectsSection() {
                     </div> */}
 
                     <div
-                      className={` flex h-full w-13 shrink-0 items-center justify-center transition-colors duration-300 ${isActive ? "text-brand" : "text-[#555555]"} `}
+                      className={` flex h-full w-13 shrink-0 items-center justify-center transition-colors duration-300 ${isActive ? "text-brand dark:text-brand-light" : "text-[#555555]"} `}
                     >
                       <ArrowUpLeft
                         size={18}

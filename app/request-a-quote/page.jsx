@@ -60,7 +60,7 @@ export default function RequestAQuote() {
                 },
               ].map((s) => (
                 <li key={s.step} className="flex gap-4">
-                  <span className="text-sm font-semibold text-brand">
+                  <span className="text-sm font-semibold text-brand dark:text-brand-light">
                     {s.step}
                   </span>
                   <div>
@@ -80,7 +80,7 @@ export default function RequestAQuote() {
               our{" "}
               <a
                 href="/contact-us"
-                className="text-brand underline underline-offset-2 hover:text-brand-dark"
+                className="text-brand dark:text-brand-light underline underline-offset-2 hover:text-brand-dark"
               >
                 Contact page
               </a>{" "}

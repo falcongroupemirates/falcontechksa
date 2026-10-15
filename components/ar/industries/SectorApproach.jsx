@@ -69,10 +69,10 @@ export default function SectorApproach() {
                 transition={{ duration: 0.5, delay: i * 0.06 }}
                 className="relative bg-white p-7 dark:bg-neutral-900"
               >
-                <span className="text-xs font-semibold text-brand">
+                <span className="text-xs font-semibold text-brand dark:text-brand-light">
                   0{i + 1}
                 </span>
-                <Icon size={26} strokeWidth={1.4} className="mt-3 text-brand" />
+                <Icon size={26} strokeWidth={1.4} className="mt-3 text-brand dark:text-brand-light" />
                 <h3 className="mt-4 text-sm font-semibold text-neutral-900 dark:text-white">
                   {s.title}
                 </h3>

@@ -126,7 +126,7 @@ export default function CapacityEstimator() {
 
               <Link
                 href="/request-a-quote"
-                className="group mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand"
+                className="group mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand dark:text-brand-light"
               >
                 Get an Exact Quote
                 <ArrowRight

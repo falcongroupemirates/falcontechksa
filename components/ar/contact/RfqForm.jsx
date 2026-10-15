@@ -96,7 +96,7 @@ export default function RfqForm() {
   if (status === "success") {
     return (
       <div className="flex flex-col items-center justify-center rounded-sm border border-neutral-200 bg-white p-12 text-center dark:border-white/10 dark:bg-neutral-900">
-        <CheckCircle2 size={44} className="text-brand" />
+        <CheckCircle2 size={44} className="text-brand dark:text-brand-light" />
         <h3 className="mt-5 text-xl font-semibold text-neutral-900 dark:text-white">
           تم استلام الطلب
         </h3>
@@ -119,7 +119,7 @@ export default function RfqForm() {
             });
             setStatus("idle");
           }}
-          className="mt-6 text-sm font-semibold text-brand hover:text-brand-dark"
+          className="mt-6 text-sm font-semibold text-brand dark:text-brand-light hover:text-brand-dark"
         >
           إرسال طلب آخر
         </button>

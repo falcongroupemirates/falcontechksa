@@ -110,7 +110,7 @@ export default function Footer() {
             sm:grid-cols-2
             sm:gap-x-10
             sm:gap-y-14
-            lg:grid-cols-[2.5fr_1fr_.8fr_1.5fr]
+            lg:grid-cols-[1.45fr_1fr_0.9fr_1.15fr]
             lg:gap-14
             lg:py-16
           "
@@ -135,6 +135,7 @@ export default function Footer() {
 
             <p
               className="
+                max-w-xs
                 text-sm
                 leading-[1.75]
                 text-white/55
@@ -312,7 +313,7 @@ export default function Footer() {
 
               <ContactItem icon={Clock3} last>
                 <div>
-                  <div>Monday - Friday</div>
+                  <div>Saturday - Thursday</div>
                   <div className="mt-1">08:00 AM - 06:00 PM</div>
                 </div>
               </ContactItem>
