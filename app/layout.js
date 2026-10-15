@@ -40,8 +40,13 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col bg-white text-black dark:bg-[#0a0a0a] dark:text-white transition-colors duration-300">
         <ThemeProvider
           attribute="class"
+          // Every visitor starts in light, whatever their OS/browser uses.
+          // The header toggle switches to dark; the choice is remembered.
           defaultTheme="light"
           enableSystem={false}
+          // New key so themes saved by earlier builds (e.g. "system"/"dark")
+          // don't override the light default.
+          storageKey="falcon-theme"
           disableTransitionOnChange
         >
           <HtmlLangSync />

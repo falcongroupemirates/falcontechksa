@@ -31,9 +31,9 @@ export default function DocumentCard({ doc, categoryLabel, index = 0 }) {
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand/10">
-          <Icon size={19} strokeWidth={1.5} className="text-brand" />
+          <Icon size={19} strokeWidth={1.5} className="text-brand dark:text-brand-light" />
         </div>
-        <span className="rounded-full border border-neutral-200 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.08em] text-neutral-400 dark:border-white/15 dark:text-white/40">
+        <span className="rounded-full border border-neutral-200 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.08em] text-neutral-500 dark:border-white/15 dark:text-white/50">
           {doc.type}
         </span>
       </div>
@@ -41,11 +41,11 @@ export default function DocumentCard({ doc, categoryLabel, index = 0 }) {
       <h3 className="mt-4 text-sm font-semibold leading-snug text-neutral-900 dark:text-white">
         {doc.title}
       </h3>
-      <p className="mt-1 text-xs text-neutral-400 dark:text-white/40">
+      <p className="mt-1 text-xs text-neutral-500 dark:text-white/50">
         {categoryLabel}
       </p>
 
-      <div className="mt-4 flex items-center gap-3 text-[11px] text-neutral-400 dark:text-white/35">
+      <div className="mt-4 flex items-center gap-3 text-[11px] text-neutral-500 dark:text-white/50">
         <span>{doc.size}</span>
         <span className="h-1 w-1 rounded-full bg-neutral-300 dark:bg-white/20" />
         <span>Updated {doc.updated}</span>
@@ -79,7 +79,7 @@ export default function DocumentCard({ doc, categoryLabel, index = 0 }) {
             <a
               href={doc.file}
               download
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand transition-colors hover:text-brand-dark"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand dark:text-brand-light transition-colors hover:text-brand-dark"
             >
               <Download size={13} />
               Download

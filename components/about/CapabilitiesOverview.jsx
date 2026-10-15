@@ -82,7 +82,7 @@ export default function CapabilitiesOverview() {
                 transition={{ duration: 0.5, delay: i * 0.05 }}
                 className="bg-white p-8 dark:bg-neutral-950"
               >
-                <Icon size={30} strokeWidth={1.4} className="text-brand" />
+                <Icon size={30} strokeWidth={1.4} className="text-brand dark:text-brand-light" />
                 <h3 className="mt-5 text-base font-semibold text-neutral-900 dark:text-white">
                   {c.title}
                 </h3>

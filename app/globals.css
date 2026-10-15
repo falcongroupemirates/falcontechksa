@@ -10,6 +10,9 @@
 @theme {
   --color-brand: #e31b23;
   --color-brand-dark: #c9141c;
+  /* Brand red for text on dark surfaces (dark theme): plain brand red is
+     below 4.5:1 there. Use as `dark:text-brand-light`. */
+  --color-brand-light: #f5656c;
 
   --color-ink: #0b2a45;
   --color-steel: #4c5b6b;
@@ -42,11 +45,14 @@
 :root {
   --background: #ffffff;
   --foreground: #0a0a0a;
+  /* Native controls/scrollbars follow the site theme, not the OS. */
+  color-scheme: light;
 }
 
 .dark {
   --background: #0a0a0a;
   --foreground: #ffffff;
+  color-scheme: dark;
 }
 
 body {

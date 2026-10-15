@@ -126,7 +126,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">New Chiller Installation</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Positioning, piping, commissioning and start-up for new or replacement chillers.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -140,7 +140,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Preventive Maintenance</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Scheduled servicing to keep chillers running reliably and catch issues early.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -154,7 +154,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">Troubleshooting &amp; Repair</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Fault diagnosis, corrective maintenance and component replacement.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 View type
                 <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>
@@ -217,7 +217,7 @@ export default function Page() {
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">Project specifications</span>
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">Relevant regulatory requirements</span>
             </div>
-            <p className="mt-3 text-xs leading-relaxed text-neutral-400 dark:text-white/35">
+            <p className="mt-3 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
               Applied as applicable to the product, governing standard and project specification.
             </p>
             </div>
@@ -230,22 +230,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">How We Deliver Chiller Service</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Review equipment and scope</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Make and model, capacity, condition, service history and requirements.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Plan to manufacturer requirements</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Service or installation scope confirmed before execution.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Carry out the work</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Installation, maintenance or repair within approved scope.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Check and report</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Operating parameters checked, then a service report issued.</p>
             </li>

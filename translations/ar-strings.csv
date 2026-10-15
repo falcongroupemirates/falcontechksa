@@ -2529,7 +2529,7 @@ Falcon Technologies KSA,فالكون تكنولوجيز السعودية,compone
 Quick Links,روابط سريعة,components/ar/common/Footer.jsx
 "Building 7850/3308, Street 9, Al Sinaiyyah,",مبنى 7850/3308، شارع 9، الصناعية،,components/ar/common/Footer.jsx
 "Zip Code 32624, Saudi Arabia",الرمز البريدي 32624، المملكة العربية السعودية,components/ar/common/Footer.jsx
-Monday - Friday,الاثنين - الجمعة,components/ar/common/Footer.jsx
+Saturday - Thursday,السبت - الخميس,components/ar/common/Footer.jsx
 08:00 AM - 06:00 PM,08:00 ص - 06:00 م,components/ar/common/Footer.jsx
 Send us a message and we'll get in touch shortly,أرسل لنا رسالة وسنتواصل معك قريبًا,components/ar/common/Footer.jsx
 . All Rights Reserved.,. جميع الحقوق محفوظة.,components/ar/common/Footer.jsx
@@ -2567,7 +2567,7 @@ Address,العنوان,components/ar/contact/ContactInfoSection.jsx
 "Building 7850/3308, Street 9, Al Sinaiyyah, Zip Code 32624, Dammam, Saudi Arabia",مبنى 7850/3308، شارع 9، الصناعية، الرمز البريدي 32624، الدمام، المملكة العربية السعودية,components/ar/contact/ContactInfoSection.jsx
 Email Us,راسلنا عبر البريد الإلكتروني,components/ar/contact/ContactInfoSection.jsx
 Working Hours,ساعات العمل,components/ar/contact/ContactInfoSection.jsx
-"Monday – Friday, 08:00 AM – 06:00 PM",الاثنين – الجمعة، 08:00 ص – 06:00 م,components/ar/contact/ContactInfoSection.jsx
+"Saturday – Thursday, 08:00 AM – 06:00 PM",السبت – الخميس، 08:00 ص – 06:00 م,components/ar/contact/ContactInfoSection.jsx
 Water Tank,خزان مياه,components/ar/contact/RfqForm.jsx
 Diesel Tank,خزان ديزل,components/ar/contact/RfqForm.jsx
 Chemical Tank,خزان مواد كيميائية,components/ar/contact/RfqForm.jsx

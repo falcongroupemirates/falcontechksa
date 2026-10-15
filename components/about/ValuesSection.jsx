@@ -78,7 +78,7 @@ export default function ValuesSection() {
                 className="rounded-sm border border-neutral-200 bg-white p-7 transition-colors hover:border-brand/40 dark:border-white/10 dark:bg-neutral-900"
               >
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand/10">
-                  <Icon size={22} className="text-brand" />
+                  <Icon size={22} className="text-brand dark:text-brand-light" />
                 </div>
                 <h3 className="mt-5 text-lg font-semibold text-neutral-900 dark:text-white">
                   {c.title}

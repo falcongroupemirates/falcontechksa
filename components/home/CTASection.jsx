@@ -5,8 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
-// On the homepage it's further down the page, so it stays lazy.
-export default function CTASection({ eager = false }) {
+export default function CTASection() {
   return (
     <section className="relative w-full overflow-hidden bg-neutral-900">
       <div className="absolute inset-0">
@@ -14,8 +13,6 @@ export default function CTASection({ eager = false }) {
           src="/assets/images/home/cta-background.png"
           alt="Falcon Technologies industrial tank and service facility"
           fill
-          loading={eager ? "eager" : "lazy"}
-          fetchPriority={eager ? "high" : "auto"}
           sizes="100vw"
           className="object-cover opacity-40"
         />

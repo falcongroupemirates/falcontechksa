@@ -70,7 +70,7 @@ export default function ManufacturingSection() {
                 <CheckCircle2
                   size={18}
                   strokeWidth={1.6}
-                  className="mt-0.5 shrink-0 text-brand"
+                  className="mt-0.5 shrink-0 text-brand dark:text-brand-light"
                 />
                 <div>
                   <p className="text-sm font-medium text-neutral-900 dark:text-white">

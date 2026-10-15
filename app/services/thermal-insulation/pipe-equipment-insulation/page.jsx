@@ -49,7 +49,7 @@ export default function Page() {
                 Systems are selected for the operating temperature, environment and available space, including thin aerogel options where space is tight.
               </p>
               </div>
-            <p className="mt-6 max-w-xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+            <p className="mt-6 max-w-xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
               Actual insulation performance depends on product grade, substrate, thickness, ambient conditions, surface preparation and application conditions. Final performance shall be based on approved technical data and project requirements.
             </p>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -164,7 +164,7 @@ export default function Page() {
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">Applicable ISO standards</span>
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">Client &amp; project specifications</span>
             </div>
-            <p className="mt-3 text-xs leading-relaxed text-neutral-400 dark:text-white/35">
+            <p className="mt-3 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
               Applied as applicable to the product, governing standard and project specification.
             </p>
             </div>
@@ -177,22 +177,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">How We Insulate Pipework</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Survey the surfaces</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Pipe sizes, temperatures, access and environment.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Select the system</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Material, thickness and finish for the duty.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Apply the insulation</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Applied per approved method statement.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">Inspect and record</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">Thickness and finish checked, then documented.</p>
             </li>

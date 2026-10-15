@@ -133,7 +133,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">خزان PE رأسي</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">الشكل القياسي لخزانات البولي إيثيلين المصنعة بالقولبة الدورانية لتخزين المياه والمواد الكيميائية.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -147,7 +147,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">خزان PE أفقي</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">خزان منخفض الارتفاع مصنع بالقولبة الدورانية للتركيبات محدودة الارتفاع أو التركيب على قاعدة (سكيد).</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -161,7 +161,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">خزان PE أرضي</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تخزين مدفون من البولي إيثيلين لأحجام أصغر من المياه والمواد الكيميائية.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -175,7 +175,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">خزان PE متعدد الطبقات مصنع بالقولبة الدورانية</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">بنية متعددة الطبقات للتطبيقات التي تحتاج إلى حاجز إضافي أو حماية من الأشعة فوق البنفسجية.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -237,22 +237,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">من الاستفسار إلى التوريد</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تأكيد نوع السائل والسعة</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">ما الذي يُخزَّن، وما كميته، وعند أي درجة حرارة.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">التحقق من التوافق</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تأكيد ملاءمة البولي إيثيلين، أو اقتراح مادة بديلة.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">اختيار الطراز والتجهيزات</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">مطابقة الاتجاه والمخارج والملحقات مع التركيب.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">التوريد والدعم</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">التسليم مع إرشادات التركيب والدعم بعد التوريد.</p>
             </li>
@@ -275,7 +275,7 @@ export default function Page() {
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">مرجعا 15,000 L و32,000 L.</dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">تكوينات مرجعية استرشادية من مشاريع وسياقات تصميم سابقة — وليست نطاق كتالوج ملزمًا أو توفرًا حاليًا. وتُؤكَّد السعة والأبعاد النهائية وفق المخطط المعتمد وملف ضمان الجودة لكل مشروع.</p>
+          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">تكوينات مرجعية استرشادية من مشاريع وسياقات تصميم سابقة — وليست نطاق كتالوج ملزمًا أو توفرًا حاليًا. وتُؤكَّد السعة والأبعاد النهائية وفق المخطط المعتمد وملف ضمان الجودة لكل مشروع.</p>
         </div>
       </section>
 
@@ -292,7 +292,7 @@ export default function Page() {
               <dd className="text-sm leading-relaxed text-neutral-500 dark:text-white/55">معايير التأثيرات الصحية للمواد الملامسة لمياه الشرب — ويُؤكَّد اعتماد كل منتج على حدة.</dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">الإشارة إلى معيار ما ليست دليلًا على اعتماد من طرف ثالث. لا تذكر فالكون عبارة “مصمم ومصنّع وفق” معيار ما إلا عندما يدعمها ملف تصميم وضمان جودة مضبوط؛ وتتطلب الملاءمة للمواد الكيميائية ومياه الشرب والتركيب تحت الأرض أدلة منفصلة خاصة بالمنتج. أما الاعتمادات في المملكة العربية السعودية ودول الخليج (SASO/SABER، والدفاع المدني، والبيئة، والبلديات، وشركات المرافق، والمالك) فهي خاصة بكل مشروع ومنتج.</p>
+          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">الإشارة إلى معيار ما ليست دليلًا على اعتماد من طرف ثالث. لا تذكر فالكون عبارة “مصمم ومصنّع وفق” معيار ما إلا عندما يدعمها ملف تصميم وضمان جودة مضبوط؛ وتتطلب الملاءمة للمواد الكيميائية ومياه الشرب والتركيب تحت الأرض أدلة منفصلة خاصة بالمنتج. أما الاعتمادات في المملكة العربية السعودية ودول الخليج (SASO/SABER، والدفاع المدني، والبيئة، والبلديات، وشركات المرافق، والمالك) فهي خاصة بكل مشروع ومنتج.</p>
         </div>
       </section>
 
@@ -317,7 +317,7 @@ export default function Page() {
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">التأريض / الأجهزة</span>
             <span className="border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-600 dark:border-white/15 dark:text-white/60">مراقبة الفراغ البيني (الجدار المزدوج)</span>
           </div>
-          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">يُحدَّد مقاس الفوهة ومادتها وتدعيمها واتجاهها في جدول الفوهات لكل خزان. وتُركَّب الملحقات وفق متطلبات الخدمة.</p>
+          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-500 dark:text-white/50">يُحدَّد مقاس الفوهة ومادتها وتدعيمها واتجاهها في جدول الفوهات لكل خزان. وتُركَّب الملحقات وفق متطلبات الخدمة.</p>
         </div>
       </section>
 

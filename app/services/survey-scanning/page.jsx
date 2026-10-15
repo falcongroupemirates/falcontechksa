@@ -423,7 +423,7 @@ export default function SurveyScanningPage() {
           <ol className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
             {process.map((s, i) => (
               <li key={s.title} className="border-t-2 border-ink pt-5 dark:border-white/30">
-                <span className="text-sm font-semibold text-brand">
+                <span className="text-sm font-semibold text-brand dark:text-brand-light">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <p className="mt-2 text-base font-medium text-neutral-900 dark:text-white">

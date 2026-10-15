@@ -51,7 +51,7 @@ export default function LocationMap() {
               duration: 0.6,
               delay: 0.15,
             }}
-            className="max-w-md text-sm leading-relaxed text-neutral-500 dark:text-white/50 sm:text-base"
+            className="max-w-md text-sm leading-relaxed text-neutral-600 dark:text-white/60 sm:text-base"
           >
             Based in Dammam, we support clients across Saudi Arabia and the GCC
             with reliable engineering, industrial and technical solutions.
@@ -96,7 +96,7 @@ export default function LocationMap() {
           >
             <div>
               {/* Small label */}
-              <p className="text-xs font-medium uppercase tracking-[0.14em] text-brand">
+              <p className="text-xs font-medium uppercase tracking-[0.14em] text-brand dark:text-brand-light">
                 Falcon Technologies
               </p>
 
@@ -119,11 +119,11 @@ export default function LocationMap() {
               {/* LOCATION */}
               <div className="flex gap-4">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand/10">
-                  <MapPin size={18} strokeWidth={1.7} className="text-brand" />
+                  <MapPin size={18} strokeWidth={1.7} className="text-brand dark:text-brand-light" />
                 </div>
 
                 <div>
-                  <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-400">
+                  <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-500 dark:text-white/50">
                     Location
                   </p>
 
@@ -137,11 +137,11 @@ export default function LocationMap() {
               {/* REGION */}
               <div className="flex gap-4">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand/10">
-                  <Globe2 size={18} strokeWidth={1.7} className="text-brand" />
+                  <Globe2 size={18} strokeWidth={1.7} className="text-brand dark:text-brand-light" />
                 </div>
 
                 <div>
-                  <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-400">
+                  <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-500 dark:text-white/50">
                     Coverage
                   </p>
 
@@ -154,11 +154,11 @@ export default function LocationMap() {
               {/* PHONE */}
               <div className="flex gap-4">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand/10">
-                  <Phone size={18} strokeWidth={1.7} className="text-brand" />
+                  <Phone size={18} strokeWidth={1.7} className="text-brand dark:text-brand-light" />
                 </div>
 
                 <div>
-                  <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-400">
+                  <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-500 dark:text-white/50">
                     Phone
                   </p>
 
@@ -174,11 +174,11 @@ export default function LocationMap() {
               {/* EMAIL */}
               <div className="flex gap-4">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand/10">
-                  <Mail size={18} strokeWidth={1.7} className="text-brand" />
+                  <Mail size={18} strokeWidth={1.7} className="text-brand dark:text-brand-light" />
                 </div>
 
                 <div>
-                  <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-400">
+                  <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-neutral-500 dark:text-white/50">
                     Email
                   </p>
 

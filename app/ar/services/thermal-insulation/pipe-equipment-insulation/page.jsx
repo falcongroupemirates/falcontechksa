@@ -57,7 +57,7 @@ export default function Page() {
                 يتم اختيار الأنظمة وفق درجة حرارة التشغيل والبيئة والمساحة المتاحة، بما في ذلك خيارات الأيروجيل الرقيقة حيث تكون المساحة ضيقة.
               </p>
               </div>
-            <p className="mt-6 max-w-xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+            <p className="mt-6 max-w-xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
               يعتمد أداء العزل الفعلي على درجة المنتج والسطح الأساسي والسماكة والظروف المحيطة وتحضير السطح وظروف التطبيق. ويجب أن يستند الأداء النهائي إلى البيانات الفنية المعتمدة ومتطلبات المشروع.
             </p>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -172,7 +172,7 @@ export default function Page() {
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">معايير ISO المعمول بها</span>
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">مواصفات العميل والمشروع</span>
             </div>
-            <p className="mt-3 text-xs leading-relaxed text-neutral-400 dark:text-white/35">
+            <p className="mt-3 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
               تُطبق حسب ما ينطبق على المنتج والمعيار الحاكم ومواصفات المشروع.
             </p>
             </div>
@@ -185,22 +185,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">كيف نعزل شبكات الأنابيب</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">معاينة الأسطح</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">أقطار الأنابيب ودرجات الحرارة وإمكانية الوصول والبيئة.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">اختيار النظام</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">المادة والسماكة والتشطيب وفق ظروف التشغيل.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تطبيق العزل</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">التطبيق وفق بيان طريقة العمل المعتمد.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الفحص والتوثيق</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">فحص السماكة والتشطيب ثم توثيقهما.</p>
             </li>

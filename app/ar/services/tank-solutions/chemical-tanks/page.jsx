@@ -110,7 +110,7 @@ export default function Page() {
                   تشمل الأنظمة المرشحة FRP براتنج وحاجز تآكل مختارَين، أو PE / XLPE، أو الفولاذ المبطَّن والسبائكي. ويُقيَّم التوافق على مستوى النظام بأكمله — الهيكل وحيّز الأبخرة والفوهات وموانع التسرب والحشوات وفتحات التهوية وعملية التنظيف — لأن أيًّا منها قد يكون نقطة الضعف.
                 </p>
               </div>
-              <p className="mt-6 max-w-xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+              <p className="mt-6 max-w-xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
                 ملاءمة المواد الكيميائية خاصة بكل خدمة، ويجب تأكيدها بأدلة مكتوبة من المورد أو الشركة المصنّعة لنظام الخزان والاستخدام المحددين قبل طلب أي خزان أو تركيبه. ولا تُعد سجلات الاستفسارات السابقة اعتمادات للتوافق.
               </p>
               <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4">
@@ -373,7 +373,7 @@ export default function Page() {
           </h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 جمع بيانات الاستخدام
               </p>
@@ -382,7 +382,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 تأكيد التوافق
               </p>
@@ -391,7 +391,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 اختيار طريقة التصنيع
               </p>
@@ -400,7 +400,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 التصنيع والفحص
               </p>
@@ -409,7 +409,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">05</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">05</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 التوثيق والتسليم
               </p>
@@ -455,7 +455,7 @@ export default function Page() {
               </dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             الإشارة إلى معيار ما ليست دليلًا على اعتماد من طرف ثالث. لا تذكر فالكون عبارة “مصمم ومصنّع وفق” معيار ما إلا عندما يدعمها ملف تصميم وضمان جودة مضبوط؛ وتتطلب الملاءمة للمواد الكيميائية ومياه الشرب والتركيب تحت الأرض أدلة منفصلة خاصة بالمنتج. أما الاعتمادات في المملكة العربية السعودية ودول الخليج (SASO/SABER، والدفاع المدني، والبيئة، والبلديات، وشركات المرافق، والمالك) فهي خاصة بكل مشروع ومنتج.
           </p>
         </div>
@@ -516,7 +516,7 @@ export default function Page() {
               مراقبة الفراغ البيني (الجدار المزدوج)
             </span>
           </div>
-          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             يُحدَّد مقاس الفوهة ومادتها وتدعيمها واتجاهها في جدول الفوهات لكل خزان. وتُركَّب الملحقات وفق متطلبات الخدمة.
           </p>
         </div>

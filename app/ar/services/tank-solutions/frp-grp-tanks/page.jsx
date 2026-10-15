@@ -228,7 +228,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   الاتجاه القياسي لمعظم تطبيقات تخزين المياه والعمليات والمواد الكيميائية حيث تكون المساحة محدودة.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   عرض النوع
                   <ArrowUpLeft
                     size={14}
@@ -258,7 +258,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   ارتفاع أقل للمواقع ذات الارتفاع المحدود أو حيث يُركب الخزان على قاعدة (سكيد) أو مقطورة.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   عرض النوع
                   <ArrowUpLeft
                     size={14}
@@ -288,7 +288,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   تخزين مدفون مصمم لمقاومة أحمال التربة وطفو المياه الجوفية.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   عرض النوع
                   <ArrowUpLeft
                     size={14}
@@ -318,7 +318,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   الشكل الأكثر كفاءة إنشائيًا لخزانات FRP، ويُستخدم في التكوينات الرأسية والأفقية.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   عرض النوع
                   <ArrowUpLeft
                     size={14}
@@ -348,7 +348,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   مساحة مربعة أو مستطيلة للمواقع التي يكون فيها شكل قطعة الأرض أهم من الكفاءة الإنشائية.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   عرض النوع
                   <ArrowUpLeft
                     size={14}
@@ -378,7 +378,7 @@ export default function Page() {
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">
                   تصنيع مخصص لكل مشروع للخزانات التي لا تناسب شكلًا أو مساحة قياسية.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   عرض النوع
                   <ArrowUpLeft
                     size={14}
@@ -485,7 +485,7 @@ export default function Page() {
           </h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 مراجعة التطبيق
               </p>
@@ -494,7 +494,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 اختيار الراتنج والطبقات
               </p>
@@ -503,7 +503,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 التصنيع والفحص
               </p>
@@ -512,7 +512,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 الاختبار والتسليم
               </p>
@@ -551,7 +551,7 @@ export default function Page() {
               </dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             تكوينات مرجعية استرشادية من مشاريع وسياقات تصميم سابقة — وليست نطاق كتالوج ملزمًا أو توفرًا حاليًا. وتُؤكَّد السعة والأبعاد النهائية وفق المخطط المعتمد وملف ضمان الجودة لكل مشروع.
           </p>
         </div>
@@ -596,7 +596,7 @@ export default function Page() {
               </dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-3xl border-s-2 border-brand ps-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             الإشارة إلى معيار ما ليست دليلًا على اعتماد من طرف ثالث. لا تذكر فالكون عبارة “مصمم ومصنّع وفق” معيار ما إلا عندما يدعمها ملف تصميم وضمان جودة مضبوط؛ وتتطلب الملاءمة للمواد الكيميائية ومياه الشرب والتركيب تحت الأرض أدلة منفصلة خاصة بالمنتج. أما الاعتمادات في المملكة العربية السعودية ودول الخليج (SASO/SABER، والدفاع المدني، والبيئة، والبلديات، وشركات المرافق، والمالك) فهي خاصة بكل مشروع ومنتج.
           </p>
         </div>
@@ -657,7 +657,7 @@ export default function Page() {
               مراقبة الفراغ البيني (الجدار المزدوج)
             </span>
           </div>
-          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             يُحدَّد مقاس الفوهة ومادتها وتدعيمها واتجاهها في جدول الفوهات لكل خزان. وتُركَّب الملحقات وفق متطلبات الخدمة.
           </p>
         </div>

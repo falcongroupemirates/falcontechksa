@@ -79,7 +79,7 @@ export default function ServiceCategories() {
             >
               <div>
                 <div className="flex h-14 w-14 items-center justify-center rounded-full bg-brand/10">
-                  <Icon size={26} strokeWidth={1.4} className="text-brand" />
+                  <Icon size={26} strokeWidth={1.4} className="text-brand dark:text-brand-light" />
                 </div>
                 <h2 className="mt-6 text-[28px] font-normal leading-[1.15] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[34px]">
                   {cat.title}
@@ -89,7 +89,7 @@ export default function ServiceCategories() {
                 </p>
                 <Link
                   href={cat.href}
-                  className="group mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand transition-colors hover:text-brand-dark"
+                  className="group mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand dark:text-brand-light transition-colors hover:text-brand-dark"
                 >
                   Learn More
                   <ArrowUpRight

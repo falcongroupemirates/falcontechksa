@@ -36,7 +36,7 @@ export default function LibraryExplorer({ initialCategory = "all" }) {
       <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-8 xl:px-0 lg:py-24">
         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <span className="text-xs font-semibold uppercase tracking-[0.15em] text-brand">
+            <span className="text-xs font-semibold uppercase tracking-[0.15em] text-brand dark:text-brand-light">
               الوثائق والتحميلات
             </span>
             <h2 className="mt-3 max-w-lg text-[28px] font-normal leading-[1.15] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[34px]">

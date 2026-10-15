@@ -236,7 +236,7 @@ export default function Page() {
                   The standard orientation for most water, process and chemical
                   storage where floor space is limited.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -267,7 +267,7 @@ export default function Page() {
                   Lower profile for sites with restricted height or where the
                   tank sits on a skid or trailer.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -298,7 +298,7 @@ export default function Page() {
                   Buried storage engineered to resist soil load and groundwater
                   buoyancy.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -329,7 +329,7 @@ export default function Page() {
                   The most structurally efficient FRP shape, used across
                   vertical and horizontal configurations.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -360,7 +360,7 @@ export default function Page() {
                   A square or rectangular footprint for sites where plot shape
                   matters more than structural efficiency.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -391,7 +391,7 @@ export default function Page() {
                   Project-specific fabrication for tanks that don't fit a
                   standard shape or footprint.
                 </p>
-                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                   View type
                   <ArrowUpRight
                     size={14}
@@ -502,7 +502,7 @@ export default function Page() {
           </h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Review the application
               </p>
@@ -512,7 +512,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Select resin and laminate
               </p>
@@ -522,7 +522,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Fabricate and inspect
               </p>
@@ -532,7 +532,7 @@ export default function Page() {
               </p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
                 Test and hand over
               </p>
@@ -574,7 +574,7 @@ export default function Page() {
               </dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             Indicative reference configurations from prior project and design
             context — not a committed catalogue range or current availability.
             Final capacity and dimensions are confirmed against the approved
@@ -626,7 +626,7 @@ export default function Page() {
               </dd>
             </div>
           </dl>
-          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-3xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             A standard reference is not proof of third-party certification.
             Falcon states “designed and manufactured to” a standard only when it
             is backed by the controlled design and QA file; chemical,
@@ -693,7 +693,7 @@ export default function Page() {
               Interstitial monitoring (double-wall)
             </span>
           </div>
-          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-neutral-500 dark:text-white/50">
             Nozzle size, material, reinforcement and orientation are set in the
             nozzle schedule for each tank. Accessories are fitted as the service
             requires.

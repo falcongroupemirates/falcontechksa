@@ -134,7 +134,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">تركيب مبردات جديدة</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">التموضع ومد الأنابيب والتشغيل التجريبي وبدء التشغيل للمبردات الجديدة أو البديلة.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -148,7 +148,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">الصيانة الوقائية</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">خدمة دورية مجدولة للحفاظ على تشغيل المبردات بموثوقية واكتشاف المشكلات مبكرًا.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -162,7 +162,7 @@ export default function Page() {
             <div className="p-5">
               <h3 className="text-base font-semibold text-neutral-900 dark:text-white">تشخيص الأعطال والإصلاح</h3>
               <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تشخيص الأعطال والصيانة التصحيحية واستبدال المكونات.</p>
-              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                 عرض النوع
                 <ArrowUpLeft size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5" />
               </span>
@@ -225,7 +225,7 @@ export default function Page() {
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">مواصفات المشروع</span>
               <span className="rounded-sm bg-ink px-3 py-1.5 text-xs font-medium text-white">المتطلبات التنظيمية ذات الصلة</span>
             </div>
-            <p className="mt-3 text-xs leading-relaxed text-neutral-400 dark:text-white/35">
+            <p className="mt-3 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
               تُطبق حسب ما ينطبق على المنتج والمعيار الحاكم ومواصفات المشروع.
             </p>
             </div>
@@ -238,22 +238,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">كيف نقدم خدمة المبردات</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">مراجعة المعدات والنطاق</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">الطراز والموديل، والسعة، والحالة، وسجل الخدمة، والمتطلبات.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">التخطيط وفق متطلبات الشركة المصنعة</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تأكيد نطاق الخدمة أو التركيب قبل التنفيذ.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تنفيذ العمل</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">التركيب أو الصيانة أو الإصلاح ضمن النطاق المعتمد.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الفحص وإعداد التقرير</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">فحص معايير التشغيل، ثم إصدار تقرير الخدمة.</p>
             </li>

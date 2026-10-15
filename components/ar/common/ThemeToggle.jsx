@@ -11,9 +11,10 @@ import { AnimatePresence, motion } from "framer-motion";
 
 /**
  * Theme toggle button.
- * `onLightSurface` — pass true when the button sits on a light-colored
- * background (so its border/icon flip to dark) e.g. header once scrolled
- * in light theme. Defaults to false (dark surface / light icon).
+ * `onLightSurface` — pass true when the button sits on a surface that follows
+ * the theme (light in light mode, dark in dark mode): the icon is then dark in
+ * light mode and white in dark mode. Defaults to false (always on a dark
+ * surface, e.g. over the home hero → white icon).
  */
 export default function ThemeToggle({ onLightSurface = false, className = "" }) {
   const { resolvedTheme, setTheme } = useTheme();
@@ -32,10 +33,10 @@ export default function ThemeToggle({ onLightSurface = false, className = "" }) 
     <button
       type="button"
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      aria-label={`التبديل إلى ${isDark ? "light" : "dark"} mode`}
+      aria-label={`التبديل إلى الوضع ${isDark ? "الفاتح" : "الداكن"}`}
       className={`relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-full border transition-colors duration-300 ${
         onLightSurface
-          ? "border-black/15 text-black hover:border-black/30 hover:bg-black/5"
+          ? "border-black/15 text-black hover:border-black/30 hover:bg-black/5 dark:border-white/20 dark:text-white dark:hover:border-white/40 dark:hover:bg-white/5"
           : "border-white/20 text-white hover:border-white/40 hover:bg-white/5"
       } ${className}`}
     >

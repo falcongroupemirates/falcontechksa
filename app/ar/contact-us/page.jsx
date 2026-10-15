@@ -41,7 +41,7 @@ export default function ContactUs() {
               تواصل مع مكتبنا في الدمام مباشرة، أو أرسل لنا استفسارًا عامًا أدناه. هل تبحث عن عرض سعر رسمي بدلًا من ذلك؟ استخدم{" "}
               <a
                 href="/ar/request-a-quote"
-                className="text-brand underline underline-offset-2 hover:text-brand-dark"
+                className="text-brand dark:text-brand-light underline underline-offset-2 hover:text-brand-dark"
               >
                 اطلب عرض سعر
               </a>

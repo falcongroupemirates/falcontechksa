@@ -172,22 +172,22 @@ export default function Page() {
           <h2 className="max-w-xl text-[26px] font-normal leading-[1.2] tracking-[-0.03em] text-neutral-900 dark:text-white sm:text-[30px]">كيف نبطّن الخزان الفولاذي</h2>
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">01</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">01</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">فحص الفولاذ</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">السماكة ومدى التآكل والحالة الداخلية.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">02</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">02</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تجهيز السطح</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">السفع والتنظيف وفق المعيار المحدد.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">03</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">03</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">تطبيق التبطين</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">تطبيق التبطين بالسماكة المطلوبة.</p>
             </li>
             <li className="border-t border-neutral-200 pt-4 dark:border-white/10">
-              <span className="text-sm font-semibold text-brand">04</span>
+              <span className="text-sm font-semibold text-brand dark:text-brand-light">04</span>
               <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">الفحص والاختبار</p>
               <p className="mt-1 text-sm leading-relaxed text-neutral-500 dark:text-white/55">اختبار الثقوب والسماكة، ثم إصدار السجلات.</p>
             </li>

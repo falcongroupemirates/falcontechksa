@@ -170,7 +170,7 @@ export default function ServiceDetail({
             </div>
 
             {note && (
-              <p className="mt-6 max-w-xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-400 dark:text-white/40">
+              <p className="mt-6 max-w-xl border-l-2 border-brand pl-4 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
                 {note}
               </p>
             )}
@@ -264,7 +264,7 @@ export default function ServiceDetail({
                         {t.blurb}
                       </p>
                       {t.slug && (
-                        <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand">
+                        <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand dark:text-brand-light">
                           View type
                           <ArrowUpRight
                             size={14}
@@ -350,7 +350,7 @@ export default function ServiceDetail({
                     </span>
                   ))}
                 </div>
-                <p className="mt-3 text-xs leading-relaxed text-neutral-400 dark:text-white/35">
+                <p className="mt-3 text-xs leading-relaxed text-neutral-500 dark:text-white/50">
                   Applied as applicable to the product, governing standard and
                   project specification.
                 </p>
@@ -374,7 +374,7 @@ export default function ServiceDetail({
                 key={s.title}
                 className="border-t border-neutral-300 pt-4 dark:border-white/15"
               >
-                <span className="text-sm font-semibold text-brand">
+                <span className="text-sm font-semibold text-brand dark:text-brand-light">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <p className="mt-2 text-sm font-medium text-neutral-900 dark:text-white">
