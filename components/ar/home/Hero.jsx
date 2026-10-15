@@ -167,7 +167,7 @@ export default function Hero() {
         </button>
       </div>
 
-      <div className="absolute bottom-6 start-6 z-30 flex gap-2 lg:hidden">
+      <div className="absolute bottom-6 inset-s-6 z-30 flex gap-2 lg:hidden">
         <button
           onClick={prev}
           aria-label="الشريحة السابقة"
@@ -185,7 +185,7 @@ export default function Hero() {
       </div>
 
       {/* ---------- Slide dots (mobile only) ---------- */}
-      <div className="absolute bottom-6 end-6 z-30 flex gap-2 lg:hidden">
+      <div className="absolute bottom-6 inset-e-6 z-30 flex gap-2 lg:hidden">
         {heroSlides.map((s, i) => (
           <button
             key={s.id}

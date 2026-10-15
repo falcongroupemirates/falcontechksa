@@ -131,7 +131,7 @@ export default function Header() {
         className={`fixed top-0 left-0 w-full z-50 transition-colors duration-500 ${
           solid
             ? "bg-white/90 backdrop-blur-md border-b border-black/10 dark:bg-black/80 dark:border-white/10"
-            : "bg-linear-to-b from-black/80 via-black/55 via-70% to-transparent"
+            : "bg-linear-to-b from-black/80 via-black/60 via-40% to-black/20"
         }`}
       >
         {/* Top row: lang | logo | theme toggle */}
@@ -251,9 +251,7 @@ export default function Header() {
               transition={{ duration: 0.25, ease: "easeOut" }}
               onMouseEnter={() => openMenu(activeMenu)}
               onClick={closeOnLinkClick}
-              className={`hidden lg:block border-t overflow-hidden ${
-                "border-black/10 bg-white/70 dark:border-white/10 dark:bg-black/40"
-              }`}
+              className={`hidden lg:block border-t overflow-hidden ${"border-black/10 bg-white/70 dark:border-white/10 dark:bg-black/40"}`}
             >
               {/* Up to 6 items sit on one centred row; longer menus
                   (Industries) become a left-aligned grid, 5 per row
@@ -290,9 +288,7 @@ export default function Header() {
                             <li key={child.href}>
                               <Link
                                 href={child.href}
-                                className={`block text-xs leading-snug transition-opacity ${
-                                  "text-black/60 hover:text-black dark:text-white/60 dark:hover:text-white"
-                                }`}
+                                className={`block text-xs leading-snug transition-opacity ${"text-black/60 hover:text-black dark:text-white/60 dark:hover:text-white"}`}
                               >
                                 {child.label}
                               </Link>
