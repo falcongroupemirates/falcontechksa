@@ -101,14 +101,14 @@ export default function ShowcaseSlider() {
       <button
         onClick={prev}
         aria-label="الشريحة السابقة"
-        className="absolute start-0 top-1/2 z-30 flex h-16 w-8 -translate-y-1/2 items-center justify-center bg-black/20 text-white transition-colors hover:bg-red-600/70"
+        className="absolute inset-s-0 top-1/2 z-30 flex h-16 w-8 -translate-y-1/2 items-center justify-center bg-black/20 text-white transition-colors hover:bg-red-600/70"
       >
         <ChevronRight size={20} />
       </button>
       <button
         onClick={next}
         aria-label="الشريحة التالية"
-        className="absolute end-0 top-1/2 z-30 flex h-16 w-8 -translate-y-1/2 items-center justify-center bg-black/20 text-white transition-colors hover:bg-red-600/70"
+        className="absolute inset-e-0 top-1/2 z-30 flex h-16 w-8 -translate-y-1/2 items-center justify-center bg-black/20 text-white transition-colors hover:bg-red-600/70"
       >
         <ChevronLeft size={20} />
       </button>
@@ -124,7 +124,7 @@ export default function ShowcaseSlider() {
               animate={{ scaleX: 1 }}
               transition={{ duration: 0.45, delay: 0.05 }}
               style={{ originX: 1 }} // RTL: draws from the right
-              className="absolute start-0 top-0 h-2 w-full bg-red-600"
+              className="absolute inset-s-0 top-0 h-2 w-full bg-red-600"
             />
             <motion.span
               key={`b-${slide.id}`}
@@ -132,7 +132,7 @@ export default function ShowcaseSlider() {
               animate={{ scaleX: 1 }}
               transition={{ duration: 0.45, delay: 0.05 }}
               style={{ originX: 1 }} // RTL: draws from the right
-              className="absolute bottom-0 start-0 h-2 w-full bg-red-600"
+              className="absolute bottom-0 inset-s-0 h-2 w-full bg-red-600"
             />
             <motion.span
               key={`l-${slide.id}`}
@@ -140,7 +140,7 @@ export default function ShowcaseSlider() {
               animate={{ scaleY: 1 }}
               transition={{ duration: 0.4, delay: 0.4 }}
               style={{ originY: 0 }}
-              className="absolute start-0 top-0 h-full w-2 bg-red-600"
+              className="absolute inset-s-0 top-0 h-full w-2 bg-red-600"
             />
             <motion.span
               key={`r-${slide.id}`}
@@ -148,7 +148,7 @@ export default function ShowcaseSlider() {
               animate={{ scaleY: 1 }}
               transition={{ duration: 0.4, delay: 0.4 }}
               style={{ originY: 0 }}
-              className="absolute end-0 top-0 h-full w-2 bg-red-600"
+              className="absolute inset-e-0 top-0 h-full w-2 bg-red-600"
             />
 
             {/* decorative square dots — one inside the frame's empty top
@@ -158,21 +158,21 @@ export default function ShowcaseSlider() {
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.15 }}
-              className="absolute start-9 top-10 h-2.5 w-2.5 bg-neutral-900 dark:bg-white"
+              className="absolute inset-s-9 top-10 h-2.5 w-2.5 bg-neutral-900 dark:bg-white"
             />
             <motion.span
               key={`dot2-${slide.id}`}
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.2 }}
-              className="absolute -end-32 top-10 hidden h-2.5 w-2.5 bg-neutral-900 lg:block dark:bg-white"
+              className="absolute -inset-e-32 top-10 hidden h-2.5 w-2.5 bg-neutral-900 lg:block dark:bg-white"
             />
             <motion.span
               key={`dot3-${slide.id}`}
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.25 }}
-              className="absolute -end-10 bottom-20 hidden h-2.5 w-2.5 bg-neutral-900 lg:block dark:bg-white"
+              className="absolute -inset-e-10 bottom-20 hidden h-2.5 w-2.5 bg-neutral-900 lg:block dark:bg-white"
             />
 
             {/* text content */}
@@ -203,8 +203,8 @@ export default function ShowcaseSlider() {
                   className="relative mt-8 inline-block"
                 >
                   {/* small corner brackets decorating the button, top-left + bottom-right */}
-                  <span className="pointer-events-none absolute -start-2 -top-2 h-3 w-3 border-s-2 border-t-2 border-neutral-900 dark:border-white" />
-                  <span className="pointer-events-none absolute -bottom-2 -end-2 h-3 w-3 border-b-2 border-e-2 border-neutral-900 dark:border-white" />
+                  <span className="pointer-events-none absolute -inset-s-2 -top-2 h-3 w-3 border-s-2 border-t-2 border-neutral-900 dark:border-white" />
+                  <span className="pointer-events-none absolute -bottom-2 -inset-e-2 h-3 w-3 border-b-2 border-e-2 border-neutral-900 dark:border-white" />
                   <Link
                     href={slide.ctaHref}
                     className="inline-block bg-neutral-900 px-7 py-3 text-xs font-semibold uppercase tracking-[0.15em] text-white transition-colors hover:bg-red-600 dark:bg-white dark:text-neutral-900 dark:hover:bg-red-600 dark:hover:text-white"

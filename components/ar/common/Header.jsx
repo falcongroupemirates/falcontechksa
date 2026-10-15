@@ -134,10 +134,10 @@ export default function Header() {
         lang="ar"
         dir="rtl"
         onMouseLeave={scheduleClose}
-        className={`fixed top-0 start-0 w-full z-50 transition-colors duration-500 ${
+        className={`fixed top-0 inset-s-0 w-full z-50 transition-colors duration-500 ${
           solid
             ? "bg-white/90 backdrop-blur-md border-b border-black/10 dark:bg-black/80 dark:border-white/10"
-            : "bg-linear-to-b from-black/80 via-black/55 via-70% to-transparent"
+            : "bg-linear-to-b from-black/80 via-black/60 via-40% to-black/20"
         }`}
       >
         {/* Top row: lang | logo | theme toggle */}
@@ -162,7 +162,7 @@ export default function Header() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -8 }}
                   transition={{ duration: 0.18 }}
-                  className="absolute start-0 mt-3 w-40 overflow-hidden rounded-lg bg-white shadow-xl ring-1 ring-black/5 dark:bg-neutral-900 dark:ring-white/10"
+                  className="absolute inset-s-0 mt-3 w-40 overflow-hidden rounded-lg bg-white shadow-xl ring-1 ring-black/5 dark:bg-neutral-900 dark:ring-white/10"
                 >
                   {LANGS.map((l) => (
                     <Link
@@ -237,7 +237,7 @@ export default function Header() {
             >
               <Link
                 href={item.href}
-                className={`relative whitespace-nowrap text-sm xl:text-lg font-medium tracking-wide transition-colors after:absolute after:start-0 after:-bottom-1 after:h-[1.5px] after:transition-all after:duration-300 ${textClass} ${underlineClass} ${
+                className={`relative whitespace-nowrap text-sm xl:text-lg font-medium tracking-wide transition-colors after:absolute after:inset-s-0 after:-bottom-1 after:h-[1.5px] after:transition-all after:duration-300 ${textClass} ${underlineClass} ${
                   hoveredIdx === idx ? "after:w-full" : "after:w-0"
                 }`}
               >
@@ -257,9 +257,7 @@ export default function Header() {
               transition={{ duration: 0.25, ease: "easeOut" }}
               onMouseEnter={() => openMenu(activeMenu)}
               onClick={closeOnLinkClick}
-              className={`hidden lg:block border-t overflow-hidden ${
-                "border-black/10 bg-white/70 dark:border-white/10 dark:bg-black/40"
-              }`}
+              className={`hidden lg:block border-t overflow-hidden ${"border-black/10 bg-white/70 dark:border-white/10 dark:bg-black/40"}`}
             >
               {/* Up to 6 items sit on one centred row; longer menus
                   (Industries) become a left-aligned grid, 5 per row
@@ -296,9 +294,7 @@ export default function Header() {
                             <li key={child.href}>
                               <Link
                                 href={child.href}
-                                className={`block text-xs leading-snug transition-opacity ${
-                                  "text-black/60 hover:text-black dark:text-white/60 dark:hover:text-white"
-                                }`}
+                                className={`block text-xs leading-snug transition-opacity ${"text-black/60 hover:text-black dark:text-white/60 dark:hover:text-white"}`}
                               >
                                 {child.label}
                               </Link>
