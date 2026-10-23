@@ -73,3 +73,73 @@ body {
 :lang(ar) {
   letter-spacing: normal;
 }
+
+
+/* ============================================================
+   Blog article content (HTML from the Blog CMS)
+   CMS HTML has no classes, so the article body is styled here.
+   Plain CSS (not text-* utilities) so the shifted type scale
+   above doesn't change article sizing. Dark mode via .dark.
+   ============================================================ */
+.blog-content {
+  --bc-text: #3f3f46;
+  --bc-heading: #0a0a0a;
+  --bc-muted: #71717a;
+  --bc-border: #e5e5e5;
+  --bc-soft: #f5f5f5;
+  --bc-link: var(--color-brand);
+  color: var(--bc-text);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.dark .blog-content {
+  --bc-link: var(--color-brand-light);
+  --bc-text: rgba(255, 255, 255, 0.75);
+  --bc-heading: #ffffff;
+  --bc-muted: rgba(255, 255, 255, 0.5);
+  --bc-border: rgba(255, 255, 255, 0.12);
+  --bc-soft: rgba(255, 255, 255, 0.05);
+}
+.blog-content > * + * { margin-top: 1.25em; }
+.blog-content h2,
+.blog-content h3,
+.blog-content h4 {
+  color: var(--bc-heading);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+.blog-content h2 { font-size: 1.75rem; line-height: 1.2; margin-top: 2.2em; }
+.blog-content h3 { font-size: 1.35rem; line-height: 1.3; margin-top: 1.8em; }
+.blog-content h4 { font-size: 1.125rem; line-height: 1.4; margin-top: 1.6em; }
+.blog-content h2 + *,
+.blog-content h3 + *,
+.blog-content h4 + * { margin-top: 0.7em; }
+.blog-content a {
+  color: var(--bc-link);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.blog-content a:hover { text-decoration-thickness: 2px; }
+.blog-content strong { color: var(--bc-heading); font-weight: 600; }
+.blog-content ul { list-style: disc; padding-left: 1.4em; }
+.blog-content ol { list-style: decimal; padding-left: 1.4em; }
+.blog-content li + li { margin-top: 0.45em; }
+.blog-content li::marker { color: var(--bc-link); }
+.blog-content img { display: block; width: 100%; height: auto; margin: 2em 0; }
+.blog-content figure figcaption { margin-top: 0.6em; font-size: 0.875rem; color: var(--bc-muted); text-align: center; }
+.blog-content blockquote {
+  border-left: 2px solid var(--color-brand);
+  padding: 0.2em 0 0.2em 1.25em;
+  color: var(--bc-heading);
+  font-size: 1.2rem;
+  letter-spacing: -0.01em;
+}
+.blog-content hr { border: 0; border-top: 1px solid var(--bc-border); margin: 2.5em 0; }
+.blog-content table { display: block; width: 100%; overflow-x: auto; border-collapse: collapse; font-size: 0.95rem; }
+.blog-content th,
+.blog-content td { border: 1px solid var(--bc-border); padding: 0.6em 0.85em; text-align: left; }
+.blog-content th { background: var(--bc-soft); color: var(--bc-heading); font-weight: 500; }
+.blog-content iframe { width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; }
+.blog-content code { background: var(--bc-soft); padding: 0.1em 0.35em; border-radius: 0.25rem; font-size: 0.9em; }

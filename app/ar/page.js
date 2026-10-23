@@ -18,8 +18,11 @@ import ProjectsSection from "@/components/ar/home/ProjectsSection";
 import BlogSection from "@/components/ar/home/BlogSection";
 import LocationMap from "@/components/ar/home/LocationMap";
 import SurveyScanningSection from "@/components/ar/home/SurveyScanningSection";
+import { getRecentBlogs } from "@/lib/blog";
 
-export default function Home() {
+export default async function Home() {
+  const latestPosts = await getRecentBlogs(null, 3);
+
   return (
     <HomeLayout>
       <Hero />
@@ -35,7 +38,7 @@ export default function Home() {
       <WhyChooseUs />
       <Testimonials />
       <CTASection />
-      <BlogSection />
+      <BlogSection posts={latestPosts} />
       <LocationMap />
     </HomeLayout>
   );
