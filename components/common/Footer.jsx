@@ -307,7 +307,7 @@ export default function Footer() {
                   href="mailto:info@falcontechksa.com"
                   className="transition-colors hover:text-white"
                 >
-                  info@falcontecksa.com
+                  info@falcontechksa.com
                 </Link>
               </ContactItem>
 
